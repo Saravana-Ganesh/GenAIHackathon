@@ -1,0 +1,30 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav [opened]="true" #patientDetails mode="side" class="sidenav-panel">
+        <app-sidebar-nav></app-sidebar-nav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar>
+            <button (click)="patientDetails.toggle();" mat-icon-button><i class="material-icons">menu</i></button>
+            <span>Patient Details</span>
+            <span class="example-fill-remaining-space"></span>
+
+            <button mat-button [matMenuTriggerFor]="menu"><img src="../../../assets/images/user.jfif"
+                    class="profile-picture" /></button>
+            <mat-menu #menu="matMenu">
+
+                <button mat-menu-item (click)="changePassword()">
+                    <mat-icon>edit</mat-icon>
+                    <span>Change Password</span>
+                </button>
+                <button mat-menu-item (click)="logout()">
+                    <mat-icon>exit_to_app</mat-icon>
+                    <span>Logout</span>
+                </button>
+            </mat-menu>
+            <!-- <button mat-button (click)="logout()">Log Out</button> -->
+        </mat-toolbar>
+        <div class="main-count">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

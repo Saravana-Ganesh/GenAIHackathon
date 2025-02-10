@@ -1,0 +1,29 @@
+<div class="registerBody">
+    <mat-card class="matCardProperty">
+        <mat-card-content class="matContent">
+            <form class="procedureForm" [formGroup]="procedureForm" (ngSubmit)="addProcedureData()">
+                <mat-form-field class="matFormField">
+                    <mat-label>Procedure Code</mat-label>
+                    <input formControlName="procedureCode" matInput matInput name="procedureCode" required>
+                    <mat-error>
+                        Please provide Diagnosis Code
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="matFormField">
+                    <mat-label>Procedure Description</mat-label>
+                    <input formControlName="procedureDescription" matInput matInput name="procedureDescription"
+                        required>
+                    <mat-error>
+                        Please enter Diagnosis description
+                    </mat-error>
+                </mat-form-field>
+
+                <div mat-dialog-action [align]="'end'">
+                    <button mat-raised-button class="matFormField matRegisterButton">{{actionBtn}}</button>
+                    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -1,0 +1,161 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none !important;
+margin: 0 !important;
+}
+
+
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield !important;
+}
+:host {
+display: flex;
+justify-content: center;
+margin: 100px 0px;
+}
+.formBody{
+width: 100% !important;
+height: 100% !important;
+}
+.mat-radio-button{
+margin: 4%;
+}
+.diagnosisForm{
+width: 100%;
+padding-bottom: 1.0em;
+}
+
+
+
+.mat-form-field-infix{
+width: 399px;
+}
+
+
+
+
+::ng-deep .mat-dialog-container {
+/*padding:0% !important;*/
+overflow: auto;
+padding:10px;
+/* overflow-x: hidden;
+overflow-y: hidden; */
+}
+
+
+
+/* ::ng-deep .mat-form-field-wrapper {
+padding-bottom: 5% !important;
+} */
+
+
+
+/* .app-full-bleed-dialog .mat-dialog-container {
+padding: 0;
+} */
+.mat-card {
+/* height: 100% !important;
+width: 100% !important; */
+}
+.mat-card-content{
+height: 100% !important;
+width: 100% !important;
+}
+
+
+
+.mat-card>:last-child:not(.mat-card-footer), .mat-card-content>:last-child:not(.mat-card-footer){
+margin-bottom: -11% !important;
+}
+/* ::ng-deep .modal-content{
+width: 200% !important;
+margin-left: -50% !important;
+} */
+/* .example-full-width {
+width: 100%;
+} */
+.example-full-width {
+width: 100%;
+}
+.example-half-width1{
+width: 100%;
+}
+.example-half-width2{
+width: 100%;
+/* margin-left: -21%; */
+}
+
+td {
+padding-right: 8px;
+}
+a{
+cursor: pointer;
+color:#0d6efd !important;
+}
+mat-card {
+max-width: 400px;
+margin: 2em auto;
+text-align: center;
+padding-bottom: 36px;
+}
+
+mat-form-field {
+display: block;
+}
+.cdk-overlay-pane.my-dialog {
+position: relative!important;
+}
+.close.mat-button {
+position: absolute;
+top: 0;
+right: 0;
+padding: 5px;
+line-height: 14px;
+min-width: auto;
+font-size: 155%;
+font-weight:bold;
+margin-top: 3%;
+margin-right: 4%;
+/* border: 1px solid black; */
+color: rgb(125 176 209);
+background-color: transparent;
+box-shadow: none;
+
+}
+
+.matCardProperty.mat-card{
+width: 100%;
+height: 100%;
+margin-bottom: -18%;
+margin-top: -17%;
+
+
+
+}
+
+.mat-card{
+width: 100%;
+height: 100%;
+}
+.matRegisterButton.mat-raised-button{
+background-color: rgb(125 176 209);
+color: white;
+/* margin-top: 5%; */
+margin-bottom:10% ;
+}
+.matFormField.mat-form-field{
+padding-bottom: 1.0em;
+width:299px
+}
+::ng-deep .cdk-overlay-container {
+z-index: 1200 !important;
+}
+
+
+
+.mat-flat-button{
+margin-left: 85px
+}

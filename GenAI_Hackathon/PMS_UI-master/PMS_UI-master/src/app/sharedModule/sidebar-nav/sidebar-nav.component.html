@@ -1,0 +1,63 @@
+<div class="profile-info">
+    <!-- <div><img src="../../../assets/images/profilepictrans.png" class="profile-picture" /></div> -->
+    <p>Hello, {{userName}}</p>
+</div>
+<mat-nav-list>
+    <div *ngIf="role=='ROLE_PATIENT'">
+        <a mat-list-item [routerLink]="[ 'patientDetails' ]" routerLinkActive="active">My Details</a>
+        <a mat-list-item [routerLink]="[ 'patientVisit' ]" routerLinkActive="active">My Visit History</a>
+        <a mat-list-item [routerLink]="[ 'physicianSchedule' ]" routerLinkActive="active">Schedule Appointment</a>
+    </div>
+    <div *ngIf="role=='ROLE_PHYSICIAN'">
+        <a mat-list-item [routerLink]="[ 'patientVisit' ]" routerLinkActive="active">Patient Visit</a>
+        <a mat-list-item [routerLink]="[ 'physicianSchedule' ]" routerLinkActive="active">Schedule Appointment</a>
+        <!-- <a mat-list-item [routerLink]="[ 'declineAppointments' ]" routerLinkActive="active">Declined Appointment</a> -->
+        <!-- <a mat-list-item [routerLink]="[ 'inbox' ]" routerLinkActive="active">Inbox</a> -->
+    </div>
+    <div *ngIf="role=='ROLE_NURSE'">
+        <a mat-list-item [routerLink]="[ 'patientDetails' ]" routerLinkActive="active">All Patient Details</a>
+        <a mat-list-item [routerLink]="[ 'patientVisit' ]" routerLinkActive="active">Patient Visit</a>
+        <a mat-list-item [routerLink]="[ 'physicianSchedule' ]" routerLinkActive="active">Schedule Appointment</a>
+        <a mat-list-item [routerLink]="[ 'inbox' ]" routerLinkActive="active">Inbox</a>
+    </div>
+
+    <mat-expansion-panel [class.mat-elevation-z0]="true">
+    <!-- <mat-expansion-panel [class.mat-elevation-z0]="true" *ngIf="role!='ROLE_PATIENT'"> -->
+        <mat-expansion-panel-header>
+            Inbox
+        </mat-expansion-panel-header>
+
+        <mat-nav-list dense>
+            <a mat-list-item [routerLink]="['inbox']" routerLinkActive="active">
+                <mat-icon>calendar_today</mat-icon>Upcoming Appointments
+            </a>
+            <div *ngIf="role=='ROLE_PATIENT'">
+                <a mat-list-item [routerLink]="['declineAppointments']" routerLinkActive="active">
+                    <mat-icon>cancel_presentation</mat-icon>Declined Appointments
+                </a>
+            </div>
+
+        </mat-nav-list>
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel [class.mat-elevation-z0]="true" *ngIf="role!='ROLE_PATIENT'">
+        <mat-expansion-panel-header>
+            Notes
+        </mat-expansion-panel-header>
+
+        <mat-nav-list dense>
+            <a mat-list-item [routerLink]="['dashboard/send-notes']" routerLinkActive="active">
+                <mat-icon>send</mat-icon>Send Notes
+            </a>
+            <a mat-list-item [routerLink]="['received-notes']" routerLinkActive="active">
+                <mat-icon>inbox</mat-icon>Received Notes
+            </a>
+            <a mat-list-item [routerLink]="['sent-notes']" routerLinkActive="active">
+                <mat-icon>call_made</mat-icon>Sent Notes
+            </a>
+
+        </mat-nav-list>
+
+    </mat-expansion-panel>
+</mat-nav-list>

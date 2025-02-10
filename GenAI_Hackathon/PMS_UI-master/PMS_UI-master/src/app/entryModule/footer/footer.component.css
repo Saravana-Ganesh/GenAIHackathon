@@ -1,0 +1,37 @@
+/*
+    Author:NayanaDK
+*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: rgb(25, 19, 75);
+}
+
+.custom-toolbar {
+    background-color: rgb(125 176 209);
+    padding: 0 5px;
+  }
+
+.img-logo{
+    width:48px;
+    height:48px
+}
+
+.navigation-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+mat-toolbar{
+    border-radius: 3px;
+}
+
+@media(max-width: 959px){
+    mat-toolbar{
+        border-radius: 0px;
+    }
+}

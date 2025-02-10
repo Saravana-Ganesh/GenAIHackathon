@@ -1,0 +1,34 @@
+/* Structure */
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field{
+    width:30% !important;
+    float:left;
+ }
+
+ .mat-flat-button{
+   float: right;
+   /* background-color: #2a2a72;
+   background-image: linear-gradient(151deg, #2b31f2 0%, #0f1751 66%); */
+
+   background-color: #2a2a72;
+   background-image: linear-gradient(315deg, #19194a 0%, #009ffd 74%);
+ }
+
+ .app-full-bleed-dialog .mat-dialog-container {
+  padding: 0;
+}
+
+th.mat-header-cell {
+  background: #089cf4;
+  
+   /* background-image: linear-gradient(315deg, #19194a 0%, #009ffd 74%); */
+}
+
+
+:host ::ng-deep .mat-sort-header-content {
+ color: white;
+}
+

@@ -1,0 +1,31 @@
+.sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  .sidenav-panel{
+  border-right: none;
+  /* background: rgb(125 176 209); */
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #19194a 0%, #009ffd 74%);
+  color:#fff;
+  min-width: 20%;  
+  box-shadow: 5px 10px 8px #797b9b;
+  font-family: fangsong;
+  font-size: 22px;  
+  }
+
+  .main-count{
+      padding: 20px;
+  }
+  .example-fill-remaining-space{
+      flex: 1 1 auto;
+  }
+
+  .profile-picture {
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,131 @@
+<form class="d-flex p-1" [formGroup]="filterForm" *ngIf="loggedInUser != 'ROLE_PHYSICIAN'">
+    <div class="row">
+        <div class=col-sm-6>
+            <mat-form-field>
+                <mat-select formControlName="physician" placeholder="Select Physcian" (selectionChange)="getPhysicianId($event)">
+                    <mat-option *ngFor="let phy of listOfPhysicians" [value]="phy.emp_id">
+                        {{phy.first_name + " "+ phy.last_name}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class=col-sm-6>
+            <mat-form-field>
+                <input formControlName="physicianId" matInput placeholder="Physcian Id" readonly>
+            </mat-form-field>
+        </div>
+
+    </div>
+</form>
+<!-- (actionComplete)="onActionBegin($event)" -->
+<div class="control-section">
+    <ejs-schedule #scheduleObj width='100%' [readonly]="isPhysicanSelected" height='550px' [selectedDate]="selectedDate" [eventSettings]="eventSettings" (actionBegin)="onActionBegin($event)" (eventRendered)="onEventRendered($event)" (popupClose)="onPopupClose($event)"
+        (popupOpen)='onPopupOpen($event)' [showQuickInfo]="showQuickInfo">
+        <e-views>
+            <e-view option="Day"></e-view>
+            <e-view option="Week"></e-view>
+            <e-view option="WorkWeek"></e-view>
+            <e-view option="Month"></e-view>
+        </e-views>
+        <ng-template #editorTemplate let-data>
+            <table *ngIf="data != undefined" class="custom-event-editor" width="100%" cellpadding="5">
+                <tbody>
+                    <tr>
+                        <td class="e-textlabel">Meetting Title</td>
+                        <td colspan="4">
+                            <input id="title" class="e-field e-input" [(ngModel)]="appoint.title" type="text" value="{{data.title}}" name="title" style="width: 100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="e-textlabel">Patient Id</td>
+                        <td colspan="4">
+                            <input id="patient" class="e-field e-input" [(ngModel)]="appoint.patient" type="text" value="{{data.patient}}" (blur)="getPatientData()" name="patient" style="width: 100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="e-textlabel ">Description</td>
+                        <td colspan="4">
+                            <textarea id="description" class="e-field e-input " [(ngModel)]="appoint.description" type="text" value="{{data.description}}" name="description" style="width: 100% "></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="e-textlabel ">Status</td>
+                        <td colspan="4">
+                            <ejs-dropdownlist [readonly]="loggedInUser != 'ROLE_PHYSICIAN'" id='status' value="{{data.status}}" [(ngModel)]="appoint.status" class="e-field" data-name="status" placeholder='Choose status' [dataSource]='statusData'>
+                            </ejs-dropdownlist>
+                        </td>
+                    </tr>
+                    <tr *ngIf="loggedInUser != 'ROLE_PHYSICIAN'">
+                        <td class="e-textlabel ">Physcian</td>
+                        <td colspan="4">
+                            <ejs-dropdownlist id='physician' [(ngModel)]="appoint.physician" class="e-field" data-name="physician" placeholder='Choose Physcian' [fields]='fields' [dataSource]='physicians'>
+                            </ejs-dropdownlist>
+                        </td>
+                    </tr>
+                    <tr *ngIf="loggedInUser == 'ROLE_PHYSICIAN'">
+                        <td class="e-textlabel ">Physcian</td>
+                        <td colspan="4">
+                            <ejs-dropdownlist id='physician' [(ngModel)]="appoint.physician" class="e-field" data-name="physician" placeholder='Choose Physcian' [fields]='fields2' [dataSource]='physicianLoginDropDown'>
+                            </ejs-dropdownlist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="e-textlabel">Date</td>
+                        <td colspan="4">
+                            <ejs-datepicker class="e-field" id="date" data-name="date" [(ngModel)]="appoint.date" format="M/dd/yy" (change)="($event)"></ejs-datepicker>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="e-textlabel">From</td>
+                        <td colspan="4">
+                            <ejs-timepicker id="fromTime" #ejTimePickers [(ngModel)]="appoint.fromTime" class="e-field" data-name="fromTime" format="h:mm a">
+                            </ejs-timepicker>
+                        </td>
+                    </tr>
+                    <tr *ngIf="false">
+                        <td class="e-textlabel ">Description</td>
+                        <td colspan="4">
+                            <textarea id="RecurrenceEditor" class="e-field e-input " type="text" value="RecurrenceEditor" name="RecurrenceEditor" style="width: 100% "></textarea>
+                        </td>
+                    </tr>
+                    <tr *ngIf="false">
+                        <td colspan="4">
+                            <div id='RecurrenceEditor'></div>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                        <td class="e-textlabel">To</td>
+                        <td colspan="4">
+                            <ejs-datetimepicker id="dateee" class="e-field" data-name="dateee" [(ngModel)]="appoint.fromTime" format="M/dd/yy h:mm a" (change)="onDateChange($event)" [value]="endDateParser(data.dateee || data.dateee)">
+                            </ejs-datetimepicker>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="e-textlabel">To</td>
+                        <td colspan="4">
+                            <ejs-datetimepicker id="EndTime" class="e-field" data-name="EndTime" [(ngModel)]="appoint.toTime" format="yyyy-MM-dd h:mm:ss a" (change)="onDateChange($event)" [value]="endDateParser(data.endTime || data.EndTime)">
+                            </ejs-datetimepicker>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="e-textlabel">To</td>
+                        <td colspan="4">
+                            <ejs-timepicker id="toTime" class="e-field" [(ngModel)]="appoint.toTime" data-name="toTime" format="h:mm a">
+                            </ejs-timepicker>
+                        </td>
+                    </tr>
+                    <tr *ngIf="showReason">
+                        <td class="e-textlabel">Reason</td>
+                        <td colspan="4">
+                            <textarea id="reason" class="e-field e-input " [(ngModel)]="appoint.reason" type="text" value="{{data.reason}}" name="reason" style="width: 100% "></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <div><button mat-button (click)="getDialogBoxData()">Edit History</button> </div>
+                    </tr>
+                </tbody>
+            </table>
+        </ng-template>
+    </ejs-schedule>
+
+</div>

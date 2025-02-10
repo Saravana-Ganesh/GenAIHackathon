@@ -1,0 +1,205 @@
+{
+  "hospitaluser": [
+    {
+      "firstName": "Nayana",
+      "lastName": "D K",
+      "emailId": "nayana@gmail.com",
+      "dob": "2022-01-31T18:30:00.000Z",
+      "phoneNumber": 1233223222,
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "employeeId": 2222,
+      "id": 1
+    },
+    {
+      "firstName": "Nithya",
+      "lastName": "Gupta",
+      "emailId": "abc@gmail.com",
+      "dob": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 2343243243,
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "employeeId": 1022,
+      "dateOfJoining": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "firstName": "Saravana",
+      "lastName": "Dinesh",
+      "emailId": "saravana@gmail.com",
+      "dob": "2022-01-31T18:30:00.000Z",
+      "phoneNumber": 4422322121,
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "employeeId": 10222,
+      "status": "active",
+      "id": 3
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Phill",
+      "emailId": "jack@gmail.com",
+      "dob": "2022-01-31T18:30:00.000Z",
+      "phoneNumber": 2345678900,
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "employeeId": 1222,
+      "id": 4
+    },
+    {
+      "firstName": "Priya",
+      "lastName": "Mani",
+      "emailId": "priya@gmail.com",
+      "dob": "2022-01-31T18:30:00.000Z",
+      "phoneNumber": "",
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "employeeId": 1233,
+      "id": 5
+    },
+    {
+      "firstName": "Karan",
+      "lastName": "Johnnn",
+      "emailId": "karan@gmail.com",
+      "dob": "2022-02-04T18:30:00.000Z",
+      "phoneNumber": "",
+      "countryCode": "3",
+      "title": "3",
+      "role": "2",
+      "employeeId": 1022,
+      "id": 7
+    },
+    {
+      "firstName": "Hari",
+      "lastName": "Kumar",
+      "emailId": "hari@gmail.com",
+      "dob": "2022-02-03T18:30:00.000Z",
+      "phoneNumber": 2345678901,
+      "countryCode": "3",
+      "title": "2",
+      "role": "1",
+      "employeeId": 10223,
+      "dateOfJoining": "2022-02-06T16:51:50.288Z",
+      "status": "active",
+      "id": 8
+    },
+    {
+      "firstName": "Praveen",
+      "lastName": "H",
+      "emailId": "praveenn@gmail.com",
+      "dob": "2022-02-01T18:30:00.000Z",
+      "phoneNumber": "5678909089",
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "spcialization": "Cardiologist",
+      "employeeId": 1022,
+      "status": "active",
+      "id": 9
+    },
+    {
+      "firstName": "Harish",
+      "lastName": "S",
+      "emailId": "harish@gmail.com",
+      "dob": "2022-01-31T18:30:00.000Z",
+      "phoneNumber": "8908908900",
+      "countryCode": "3",
+      "title": "1",
+      "role": "1",
+      "spcialization": "Nuclear medicine",
+      "employeeId": 10445,
+      "status": "active",
+      "id": 10
+    }
+  ],
+  "patientuser": [
+    {
+      "firstName": "Rahul",
+      "lastName": "Singh",
+      "emailId": "rahul@gmail.com",
+      "dateOfBirth": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 8908907689,
+      "countryCode": "3",
+      "title": "Mr",
+      "dateOfRegistration": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "patientId": 1011
+    },
+    {
+      "firstName": "Meera",
+      "lastName": "Bhat",
+      "emailId": "meera@gmail.com",
+      "dateOfBirth": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 8908907689,
+      "countryCode": "3",
+      "title": "Ms",
+      "dateOfRegistration": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "patientId": 1012
+    },
+    {
+      "firstName": "Sanjay",
+      "lastName": "Popuri",
+      "emailId": "sanjay@gmail.com",
+      "dateOfBirth": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 8908907689,
+      "countryCode": "3",
+      "title": "Mr",
+      "dateOfRegistration": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "patientId": 1013
+    },
+    {
+      "firstName": "Kannan",
+      "lastName": "P K",
+      "emailId": "kannan@gmail.com",
+      "dateOfBirth": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 8908907689,
+      "countryCode": "3",
+      "title": "Mr",
+      "dateOfRegistration": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "patientId": 1014
+    },
+    {
+      "firstName": "Roja",
+      "lastName": "Shetty",
+      "emailId": "roja@gmail.com",
+      "dateOfBirth": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 8908907689,
+      "countryCode": "3",
+      "title": "Mr",
+      "dateOfRegistration": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "patientId": 1015
+    },
+    {
+      "firstName": "Preethi",
+      "lastName": "Shenoy",
+      "emailId": "preethi@gmail.com",
+      "dateOfBirth": "2022-01-05T18:30:00.000Z",
+      "phoneNumber": 8908907689,
+      "countryCode": "3",
+      "title": "Mrs",
+      "dateOfRegistration": "2022-02-06T07:18:01.775Z",
+      "status": "active",
+      "patientId": 1016
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

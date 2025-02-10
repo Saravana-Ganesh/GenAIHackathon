@@ -1,0 +1,33 @@
+<!--
+    Author:Nayana DK
+-->
+<mat-toolbar class="custom-toolbar">
+    <div fxHide.gt-xs>
+        <button mat-icon-button (click)="onToggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div>
+        <a routerLink="/home"><img src="../assets/images/logo.png" class="img-logo"> CT General Hospital</a>
+    </div>
+    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+            <li>
+                <button mat-button (click)="openLogin()">Login</button>
+                <!-- <mat-menu #menu="matMenu">
+                    <button mat-menu-item (click)="openLogin(0)" >Patient</button>
+                    <button mat-menu-item (click)="openLogin(1)">Hospital User</button>
+                </mat-menu> -->
+            </li>
+            <!-- <li>
+                <button mat-button (click)="openRegister()">Register</button>
+            </li> -->
+            <li>
+                <a  routerLink="/aboutus"><button mat-button>About Us</button></a>
+            </li>
+            <li>
+                <button mat-button routerLink="/aboutus">Contact Us</button>
+            </li>
+        </ul>
+    </div>
+</mat-toolbar>

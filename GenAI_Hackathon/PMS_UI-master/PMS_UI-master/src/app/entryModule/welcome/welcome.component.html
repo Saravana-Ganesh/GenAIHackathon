@@ -1,0 +1,20 @@
+<!-- 
+    Author: Nayana DK
+ -->
+<div class="welcome-body" #myIdentifier id="myIdentifier">
+    <mat-sidenav-container id="sidenavContainer">
+        <mat-sidenav #sidenav role="navigation">
+            <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
+          </mat-sidenav>
+        <mat-sidenav-content id="sidenavContent">
+            <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+            <div class="imageResponsive">
+                <img class="responsive" src="../assets/images/welcome_new.png" >     
+                <app-register-new></app-register-new> 
+            </div>
+            <main>
+                <router-outlet></router-outlet>
+            </main>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

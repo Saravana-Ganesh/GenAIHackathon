@@ -1,0 +1,78 @@
+.styleDiv {
+    background-color: #dadfec;
+    padding: 140px;
+}
+
+.form-container {
+    margin-right: 300px;
+    margin-top: 23px;
+    margin-bottom: 501px;
+    margin-left: 300px;
+    overflow: hidden;
+}
+
+.mat-radio-button {
+    margin-left: 10px;
+}
+
+.mat-card-actions button:hover {
+    background-color: rgb(220, 247, 255);
+}
+
+.mat-elevation-z8 {
+    background-color: rgb(170, 210, 255);
+    position: relative;
+}
+
+
+/* .d-flex {
+    position: absolute;
+    margin-right: 300px;
+    margin-top: 23px;
+    margin-bottom: 501px;
+    margin-left: 300px;
+} */
+
+
+/* .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+    background-color: rgb(220, 247, 255);
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+    background-color: rgb(220, 247, 255);
+} */
+
+
+/* .mat-slide-toggle-checked .mat-slide-toggle-bar {
+    background-color: #49c5b6;
+    color: cornsilk;
+}
+
+.mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+    background-color: #28ffe6;
+} */
+
+.mat-slide-toggle:checked {
+    position: relative;
+    width: 36px;
+    height: 14px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #08070a;
+}
+
+.mat-slide-toggle-bar {
+    background-color: rgba(10, 9, 9, 0.38);
+}
+
+.mat-drawer-content {
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: 10050%;
+    overflow: auto;
+}
+
+.example-chip-list {
+    width: 100%;
+}

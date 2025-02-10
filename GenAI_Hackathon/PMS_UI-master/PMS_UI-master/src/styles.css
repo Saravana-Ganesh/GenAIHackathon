@@ -1,0 +1,23 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+@import '../node_modules/@syncfusion/ej2-material-theme/styles/material.css';
+html{
+  width: 100% !important;
+  height: 100% !important;
+}
+body {
+     margin: 0; 
+     font-family: Roboto, "Helvetica Neue", sans-serif;   
+     width: 100% !important;
+     height: 100% !important;
+   
+}
+/*Remove CDK focus on buttons after click*/
+  .mat-button-focus-overlay { 
+    background-color: transparent!important; 
+   }
+   .close-focus-overlay{
+    background-color: transparent!important; 
+   }
+
+   

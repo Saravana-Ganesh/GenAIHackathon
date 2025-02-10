@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+  .mat-form-field{
+    width:100% !important;
+    float:left;
+ }
+
+ .example-full-width {
+    width: 100%;
+  }
+
+  .mat-flat-button{
+    margin-left: 633px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #19194a 0%, #009ffd 74%);
+  }
+  
+  th.mat-header-cell {
+    background: #089cf4;
+    
+     /* background-image: linear-gradient(315deg, #19194a 0%, #009ffd 74%); */
+  }
+  
+  
+  :host ::ng-deep .mat-sort-header-content {
+   color: white;
+  }

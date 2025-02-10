@@ -1,0 +1,155 @@
+/*
+Author:Saravana
+*/
+:host {
+    display: flex;
+    justify-content: center;
+    margin: -2px 0px;
+    margin-left: -75px;
+    margin-right: -55px;
+  }
+  
+  mat-card {
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  mat-form-field {
+    display: block;
+  }
+  
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+  
+  .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+    border-color:rgb(66, 134, 244) !important; 
+  }
+  
+  .mat-radio-button.mat-accent .mat-radio-inner-circle{
+    color:rgb(66, 134, 244);
+    background-color:rgb(66, 134, 244) ;
+  }
+  
+  .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
+      background-color:rgb(255, 37, 37,.26);
+  }
+  
+  .cdk-overlay-pane.my-dialog {
+    position: relative!important;
+  }
+  .close.mat-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 14px;
+    min-width: auto;
+    font-size: 155%;
+    font-weight:bold;
+    margin-top: 3%;
+    margin-right: 4%;
+    /* border: 1px solid black; */
+    color: rgb(125 176 209);
+    box-shadow: none;
+  }
+  /* .closeButtonColor{
+    background-color: rgb(125 176 209);
+    color: white;
+  } */
+  .matCardProperty.mat-card{
+    width: 70%;
+  }
+  .matLoginButton.mat-raised-button{
+    background-color: rgb(125 176 209);
+    color: white;
+    margin-top: 5%; 
+    margin-bottom:3% ;
+  
+  }
+
+  
+  .matFormField.mat-form-field{
+    padding-bottom: 1.50em; 
+  }
+ a{
+  text-decoration:none !important;
+ }
+  .signupLink{
+    float: left; text-decoration-color: blue; cursor: pointer; 
+  }
+  .forgetPasswordLink{
+    float: right; text-decoration-color: blue; cursor: pointer; 
+  }
+  .forgotPasswordText{
+    text-decoration: underline; color:#0d6efd; 
+  }
+  .hospitalUserForgetPasswordLink{
+    text-align: center;
+    text-decoration-color: blue; cursor: pointer; 
+  }
+  .matForgotPasswordButton{
+    background-color: rgb(125 176 209);
+    color: white;
+    margin-top: 0%; 
+    margin-bottom:0% ;
+    
+  }
+  .matHospitalUserForgotPasswordButton{
+    background-color: rgb(125 176 209);
+    color: white;
+    margin: 5%; 
+  }
+  .inValid{
+    color: red;
+  }
+
+
+   /* ::ng-deep .modal-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    margin-left: 0% !important;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+  }  */
+
+  ::ng-deep svg{
+    width: 50% !important;
+    height: 50% !important;
+  }
+  
+  .example-h2 {
+    margin-left: 40% !important;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .example-margin {
+    margin: 0 10px;
+  }
+  
+  .login-heading{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: -9%;
+    color: #2c79c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+ 
+
+
+ 

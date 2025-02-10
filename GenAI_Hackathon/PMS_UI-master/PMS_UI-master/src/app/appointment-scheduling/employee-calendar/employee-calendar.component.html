@@ -1,0 +1,87 @@
+  
+  <mat-dialog-content class="mat-dialog-content-form" [formGroup]="userForm">
+    <mat-form-field appearance="fill">
+      <mat-label>Select Role</mat-label>
+      <select matNativeControl formControlName="role">
+          <option value="Doctor">Doctor</option>
+          <option value="Nurse">Nurse</option>
+          <option value="Patient">Patient</option>
+      </select>
+      <!-- <mat-error *ngIf="errorHandling('type', 'required')">
+          You must provide a <strong>physician type</strong>
+       </mat-error> -->
+  </mat-form-field>
+  </mat-dialog-content>
+  
+  <div class="col-12" style="width: 100%;">
+    <div class="calendar-header">
+      <div class="row calendar-month" style="width: 101%;">
+        <div class="col-2" (click)="goToLastMonth()">
+            <!-- <ion-icon name="arrow-back"></ion-icon> -->
+            <i class="fa fa-backward" aria-hidden="true"></i>
+        </div>
+        <div class="col-8 current-month">{{currentMonth}} {{currentYear}}</div>
+        <div class="col-2 next-month-fa" (click)="goToNextMonth()">
+            <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+            <i class="fa fa-forward" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="calendar-body">
+      <div>
+        <div class="row calendar-weekday">
+          <div class="col">Su</div>
+          <div class="col">Mo</div>
+          <div class="col">Tu</div>
+          <div class="col">We</div>
+          <div class="col">Th</div>
+          <div class="col">Fr</div>
+          <div class="col">Sa</div>
+        </div>
+        <div class="row calendar-date">
+          <div *ngFor="let lastDay of daysInLastMonth" class="col-1 last-month">{{lastDay}}</div>
+          <div class="col-1" *ngFor="let appointment of daysInThisMonth" (click)="openDialog(appointment)">
+            <span class="currentDate" *ngIf="currentDate === appointment.day; else otherDate">{{appointment.day}}
+            </span>
+            <ng-template #otherDate class="otherDate">{{appointment.day}}
+            </ng-template>
+            <div *ngIf="appointment.title">
+              <br>
+              <span class="appointment-day" *ngIf="appointment.title">{{appointment.time}}</span>
+              <br>
+              <span class="appointment-day" *ngIf="appointment.title">{{appointment.title}}</span>
+            </div>
+
+          </div>
+          <div *ngFor="let nextDay of daysInNextMonth" class="col-1 next-month">{{nextDay}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div> -->
+    <!-- <button mat-raised-button color="primary" (click)="openDialog()">pop-up</button> -->
+    <!-- <button mat-button (click)="openDialog()">Open dialog</button>
+  </div> -->
+
+
+  <!-- <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell">A</div>
+      <div class="mdc-layout-grid__cell">S</div>
+      <div class="mdc-layout-grid__cell">D</div>
+    </div>
+  </div>
+
+
+  <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell"><span>Second level</span></div>
+          <div class="mdc-layout-grid__cell"><span>Second level</span></div>
+        </div>
+      </div>
+      <div class="mdc-layout-grid__cell">First level</div>
+      <div class="mdc-layout-grid__cell">First level</div>
+    </div>
+  </div> -->

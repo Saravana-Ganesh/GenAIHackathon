@@ -1,0 +1,11 @@
+table {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    table {
+        overflow-x: scroll;
+        display: block;
+        white-space: nowrap;
+    }
+}

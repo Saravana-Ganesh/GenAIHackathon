@@ -1,0 +1,112 @@
+<div class="registerBody">
+  <!-- <button type="button" class="close btn" mat-button (click)="activeModal.close('Close click')">X</button> -->
+  <mat-card class="matCardProperty">
+    <span *ngIf="isSpinnerEnabled">
+      <mat-progress-spinner
+        class="example-h2"
+        [color]="color"
+        [mode]="mode"
+        [value]="value">
+      </mat-progress-spinner>
+      </span>
+    <mat-card-content class="matContent">
+      <form class="registerForm" [formGroup]="registerForm" (ngSubmit)="registerUser()">
+
+
+        <mat-radio-group formControlName="title" class="matFormField">
+          <span class="matFormField patientTitle">Title</span>
+          <span>
+            <mat-radio-button [checked]="true" class="matFormField patientTitleRadioButton" value="1">Mr
+            </mat-radio-button>
+          </span>
+          <span>
+            <mat-radio-button class="matFormField patientTitleRadioButton" value="2">Mrs</mat-radio-button>
+          </span>
+          <span>
+            <mat-radio-button class="matFormField patientTitleRadioButton" value="3">Ms</mat-radio-button>
+          </span>
+        </mat-radio-group>
+
+        <table class="matFormField example-full-width" cellspacing="0">
+          <tr>
+            <td>
+              <mat-form-field class="matFormField example-half-width1">
+                <mat-label>First Name</mat-label>
+                <input formControlName="firstName" matInput>
+              </mat-form-field>
+            </td>
+            <td>
+              <mat-form-field class="matFormField example-half-width2">
+                <mat-label>Last Name</mat-label>
+                <input formControlName="lastName" matInput>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+
+        <mat-form-field class="matFormField">
+          <input formControlName="emailId" matInput placeholder="Email" name="emailId" required
+            pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+          <mat-error>
+            Please provide a valid email address
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="matFormField datePicker">
+          <mat-label>Date Of Birth</mat-label>
+          <input formControlName="dateOfBirth" matInput [matDatepicker]="picker" [max]="maxDate">
+          <mat-datepicker-toggle matSuffix [for]="picker">
+            <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+          </mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <mat-form-field class="matFormField mobileNumber">
+          <input [(ngModel)]="mobileNumberValue" type="text" pattern="[0.-9]{10}" required class="mobileNumberInput"
+            (focus)="mobileNumberfocusFunction()" (focusout)="mobileNumberfocusOutFunction()"
+            formControlName="phoneNumber" matInput name="phoneNumber" ng2TelInput>
+          <span class="placeholderz">{{mobilePlaceHolder}}</span>
+          <mat-error>
+            Please enter valid phone number
+          </mat-error>
+        </mat-form-field>
+
+        <mat-radio-group formControlName="roleId" class="matFormField">
+          <span class="matFormField patientTitle">Select Role</span>
+          <span>
+            <mat-radio-button [checked]="true" class="matFormField patientTitleRadioButton" value="1">Physician
+            </mat-radio-button>
+          </span>
+          <span>
+            <mat-radio-button class="matFormField patientTitleRadioButton" value="2">Nurse</mat-radio-button>
+          </span>
+        </mat-radio-group>
+
+        <mat-form-field *ngIf="registerForm.controls['roleId'].value==1">
+          <mat-label>Specialization</mat-label>
+          <mat-select formControlName="specialization">
+            
+            <mat-option>--</mat-option>
+            <mat-option *ngFor="let item of specialization" [value]="item">
+              {{item}}
+            </mat-option>
+          </mat-select>
+          <mat-error>Please choose spcialization</mat-error>
+        </mat-form-field>
+
+        <!-- <mat-form-field class="matFormField">
+          <input formControlName="employeeId" type="number" matInput placeholder="Employee Id" name="employeeId"
+            required>
+          <mat-error>
+            Please provide a valid Employee Id
+          </mat-error>
+        </mat-form-field> -->
+        <div mat-dialog-action [align]="'end'">
+          <button mat-raised-button class="matFormField matRegisterButton">{{actionBtn}}</button>
+          <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+        </div>
+        <!-- <button mat-raised-button class="matFormField matRegisterButton">Register User</button> -->
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

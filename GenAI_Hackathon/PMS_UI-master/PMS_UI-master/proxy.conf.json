@@ -1,0 +1,83 @@
+{
+    "/pms/masterdata/*": {
+        "target": "http://localhost:8084",
+        "secure": false,
+        "logLevel": "debug"
+    },
+
+    "/pms/hospitaluser/*": {
+        "target": "http://localhost:8084",
+        "secure": false,
+        "logLevel": "debug"
+    },
+
+    "/pms/patientuser/*": {
+        "target": "http://localhost:8084",
+        "secure": false,
+        "logLevel": "debug"
+    },
+
+    "/pmsvisit/api/v1/*": {
+        "target": "http://localhost:8082",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/pms/*": {
+        "target": "http://localhost:8000",
+        "secure": false,
+        "logLevel": "debug"
+    },
+
+    "/patients/*": {
+        "target": "http://localhost:8086",
+        "secure": false,
+        "logLevel": "debug"
+    },
+
+    "/scheduler/*": {
+      "target": "http://localhost:8072",
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/scheduling-service/*": {
+        "target": "http://localhost:8072",
+        "secure": false,
+        "logLevel": "debug"
+    },
+
+     "/visit-service/*":{
+      "target": "http://localhost:8072",  
+      "secure": false,  
+      "logLevel": "debug"  
+    },
+
+    "/entry-service/*":{
+      "target": "http://localhost:8072",  
+      "secure": false,  
+      "logLevel": "debug"  
+    },
+    
+    "/admin-service/*":{
+      "target": "http://localhost:8072",  
+      "secure": false,  
+      "logLevel": "debug"  
+
+    },
+
+    "/patient-details/api/v1/*":{
+      "target": "http://localhost:8072",  
+      "secure": false,  
+      "logLevel": "debug"  
+    },
+    
+    "/inbox/*":{
+        "target": "http://localhost:8072",  
+        "secure": false,  
+        "logLevel": "debug"  
+      }
+          
+
+ 
+
+ } 
+

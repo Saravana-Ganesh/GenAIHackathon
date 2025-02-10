@@ -1,0 +1,116 @@
+<div class="content">
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4">
+            <div class="dash-widget">
+                <span class="dash-widget-bg1"><img src="../../../assets/images/doctorLogo.jfif"
+                    class="profile-picture" /></span>
+                <div class="dash-widget-info text-right">
+                    <h3>{{doctorCount}}</h3>
+                    <span class="widget-title1">Doctors <i class="fa fa-check" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4">
+            <div class="dash-widget">
+                <span class="dash-widget-bg2"><img src="../../../assets/images/nurseLogo.jfif"
+                    class="profile-picture" /></span>
+                <div class="dash-widget-info text-right">
+                    <h3>{{nurseCount}}</h3>
+                    <span class="widget-title2">Nurse <i class="fa fa-check" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-4">
+            <div class="dash-widget">
+                <span class="dash-widget-bg2"><img src="../../../assets/images/patienttuser.jfif"
+                    class="profile-picture" /></span>
+                <div class="dash-widget-info text-right">
+                    <h3>{{patientCount}}</h3>
+                    <span class="widget-title2">Patients <i class="fa fa-check" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">        
+        <div class="col-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="chart-title">
+                        <h4>Users Account Info</h4>
+                        <div class="float-right">                           
+                        </div>
+                    </div>	
+                    <div>
+                        <div class="myChart">
+                            <div *ngIf="true" style="display: block" baseChart  id="pdfTable" #pdfTable>
+                                <canvas baseChart
+                                        [datasets]="pieChartData"
+                                        [labels]="pieChartLabels"
+                                        [options]="pieChartOptions"
+                                        [legend]="pieChartLegend"
+                                        [type]="pieChartType">
+                                </canvas>
+                              </div>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+        </div>       
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-2">
+                <div class="dash-widget">
+                    <span class="dash-widget-bg3"><span class="dash-widget-bg2"><img src="../../../assets/images/activeusers.jfif"
+                        class="profile-picture" /></span></span>
+                    <div class="dash-widget-info text-right">
+                        <h3>{{activeUserCount}}</h3>
+                        <span class="widget-title3">Active Users <i class="fa fa-check" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-2">
+            <div class="dash-widget">
+                <span class="dash-widget-bg3"><span class="dash-widget-bg2"><img src="../../../assets/images/inactiveuser.jfif"
+                    class="profile-picture" /></span></span>
+                <div class="dash-widget-info text-right">
+                    <h3>{{inActiveUserCount}}</h3>
+                    <span class="widget-title3">Inactive Users <i class="fa fa-check" aria-hidden="true"></i></span>
+                </div>
+            </div>
+         </div>
+         <div class="col-md-6 col-sm-6 col-lg-6 col-xl-2">
+            <div class="dash-widget">
+                <span class="dash-widget-bg3"><span class="dash-widget-bg2"><img src="../../../assets/images/lockedusers.jfif"
+                    class="blocked-picture" /></span></span>
+                <div class="dash-widget-info text-right"> 
+                    <h3>{{lockedUserCount}}</h3>
+                    <span class="widget-title3">Locked Users <i class="fa fa-check" aria-hidden="true"></i></span>
+                </div>
+            </div>
+         </div>         
+        </div>
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="chart-title">
+                        <h4>Users Count Info</h4>
+                        <div class="float-right">                           
+                        </div>
+                    </div>	
+                    <div>                       
+                        <div class="myBarChart">
+                            <div *ngIf="true" style="display: block" baseChart  id="pdfTable" #pdfTable>
+                                <canvas baseChart
+                                        [datasets]="barChartData"
+                                        [labels]="barChartLabels"
+                                        [options]="barChartOptions"
+                                        [legend]="barChartLegend"
+                                        [type]="barChartType">
+                                </canvas>
+                              </div>
+                        </div>                        
+                      </div>
+                </div>
+            </div>
+        </div>
+</div>
+

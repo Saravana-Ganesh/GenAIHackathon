@@ -1,0 +1,65 @@
+<div class="registerBody">
+    <mat-card class="matCardProperty">
+        <mat-card-content class="matContent">
+            <form class="medicationForm" [formGroup]="medicationForm" (ngSubmit)="addMedicationData()">
+                <mat-form-field class="matFormField">
+                    <mat-label>Drug Id</mat-label>
+                    <input formControlName="drugId" matInput matInput name="drugId" required>
+                    <mat-error>
+                        Please provide Drug Id
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="matFormField">
+                    <mat-label>Drug Name</mat-label>
+                    <input formControlName="drugName" matInput matInput name="drugName"
+                        required>
+                    <mat-error>
+                        Please enter Drug Name
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="matFormField">
+                    <mat-label>Drug Generic Name</mat-label>
+                    <input formControlName="drugGenericName" matInput matInput name="drugGenericName"
+                        required>
+                    <mat-error>
+                        Please enter Drug Generic Name
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="matFormField">
+                    <mat-label>Drug Brand Name</mat-label>
+                    <input formControlName="drugBrandName" matInput matInput name="drugBrandName"
+                        required>
+                    <mat-error>
+                        Please enter Drug Brand Name
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="matFormField">
+                    <mat-label>Drug Form Name</mat-label>
+                    <input formControlName="drugForm" matInput matInput name="drugForm"
+                        required>
+                    <mat-error>
+                        Please enter Drug Form Name
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="matFormField">
+                    <mat-label>Drug Strength</mat-label>
+                    <input formControlName="drugStrength" matInput matInput name="drugStrength"
+                        required>
+                    <mat-error>
+                        Please enter Drug Strength
+                    </mat-error>
+                </mat-form-field>
+
+                <div mat-dialog-action [align]="'end'">
+                    <button mat-raised-button class="matFormField matRegisterButton">{{actionBtn}}</button>
+                    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

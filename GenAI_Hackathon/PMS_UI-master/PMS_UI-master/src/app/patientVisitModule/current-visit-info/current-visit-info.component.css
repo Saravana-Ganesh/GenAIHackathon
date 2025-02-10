@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  th {
+    width: 5%;
+  }
+  td{
+    width: 5%;
+    cursor: pointer; 
+  }
+
+  th.mat-header-cell {
+    background: #089cf4;
+  }
+  
+  :host ::ng-deep .mat-sort-header-content {
+   color: white;
+  }
+  .showPatientInfo{
+    color: blue;
+  }

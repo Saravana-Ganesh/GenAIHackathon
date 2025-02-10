@@ -1,0 +1,43 @@
+<div class="profile-info">
+    <!-- <div><img src="../../../assets/images/profilepictrans.png" class="profile-picture" /></div> -->
+    <p>Hello, Admin</p>
+</div>
+
+<div>
+    <mat-nav-list>
+        <a mat-list-item [routerLink]="['dashboard']" routerLinkActive="active">Dashboard</a> 
+        <mat-expansion-panel [class.mat-elevation-z0]="true">
+            <mat-expansion-panel-header>
+                User Management
+            </mat-expansion-panel-header>
+
+            <mat-nav-list dense>
+                <a mat-list-item [routerLink]="['hospitaluser']" routerLinkActive="active" (click)="changeTitle('Hospital User Management')">
+                    <mat-icon>business</mat-icon>Hospital User Management
+                </a>
+                <a mat-list-item [routerLink]="['patientuser']" routerLinkActive="active" (click)="changeTitle('Patient User Management')">
+                    <mat-icon>supervised_user_circle</mat-icon>Patient User Management
+                </a>
+            </mat-nav-list>
+
+        </mat-expansion-panel>
+        <mat-expansion-panel [class.mat-elevation-z0]="true">
+            <mat-expansion-panel-header>
+                Master Data Management
+            </mat-expansion-panel-header>
+
+            <mat-nav-list dense>
+                <a mat-list-item [routerLink]="['diagnosisdata']" routerLinkActive="active" (click)="changeTitle('Diagnosis Data')">
+                    <mat-icon>dvr</mat-icon>Diagnosis Data
+                </a>
+                <a mat-list-item [routerLink]="['medicationdata']" routerLinkActive="active" (click)="changeTitle('Medication Data')">
+                    <mat-icon>insert_drive_file</mat-icon>Medication Data
+                </a>
+                <a mat-list-item [routerLink]="['proceduredata']" routerLinkActive="active" (click)="changeTitle('Procedure Data')">
+                    <mat-icon>folder_open</mat-icon>Procedure Data
+                </a>
+            </mat-nav-list>
+
+        </mat-expansion-panel>
+    </mat-nav-list>
+</div>

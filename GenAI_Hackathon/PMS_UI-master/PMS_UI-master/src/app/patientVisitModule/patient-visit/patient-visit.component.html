@@ -1,0 +1,47 @@
+<mat-horizontal-stepper [linear]="true"   #stepper>
+
+  <mat-step label="Form-0">
+    <ng-template matStepLabel>Patient Yet To Visit Physician</ng-template>
+    <current-visit-info [stepper]="stepper" [nextComponent]="patientVitalSignsComponent"></current-visit-info>
+  </mat-step>
+
+  <mat-step label="Form-1">
+      <ng-template matStepLabel>Vital Signs</ng-template> 
+      <ng-template matStepContent>
+        <patient-vital-signs [stepper]="stepper" #PatientVitalSignsComponent
+        [nextComponent]="diagnosisDetailsComponent"></patient-vital-signs>
+      </ng-template>
+  </mat-step>   
+
+  <mat-step label="Form-2">
+    <ng-template matStepLabel>Diagnosis Details</ng-template>
+    <ng-template matStepContent>
+      <diagnosis-details [stepper]="stepper" #DiagnosisDetailsComponent
+      [nextComponent]="procedureDetailsComponent"></diagnosis-details>
+    </ng-template>
+  </mat-step>
+    
+  <mat-step label="Form-3">    
+    <ng-template matStepLabel>Procedure</ng-template>  
+    <ng-template matStepContent>
+      <procedure-input-form [stepper]="stepper" #ProcedureDetailsComponent></procedure-input-form>
+    </ng-template>
+  </mat-step>  
+
+  <mat-step label="Form-4">    
+    <ng-template matStepLabel>Medication</ng-template>  
+    <ng-template matStepContent>
+      <medication-details [stepper]="stepper" #MedicationDetailsComponent></medication-details>
+    </ng-template>
+  </mat-step> 
+
+  <mat-step>
+    <ng-template matStepLabel>Done</ng-template>
+    <p>You are now done.</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-button (click)="stepper.reset()">Reset</button>
+    </div>
+  </mat-step>
+
+</mat-horizontal-stepper>

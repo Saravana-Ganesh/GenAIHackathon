@@ -1,0 +1,56 @@
+<form [formGroup]="procedureFormGroup">
+      <div formArrayName="procedureForm" *ngFor="let procedure of procedureForm.controls; let j=index">
+        <div [formGroupName]="j">
+
+          <mat-form-field>
+            <mat-label>Procedure description</mat-label>
+  
+            <input matInput #textInput2 formControlName="procedureDescription" [matAutocomplete]="auto"    
+             (input)="filter(textInput2.value,'procedureDescription')">
+  
+            <mat-autocomplete #auto="matAutocomplete" (optionSelected)='selectProcedureDescription($event.option.value,j)'>
+              <mat-option *ngFor="let option of procedureDescriptionfilteredOptions " [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+            <mat-error>
+              Please provide procedure description
+            </mat-error>           
+          </mat-form-field>
+          
+          <!--Second Section-->
+          <mat-form-field>
+            <mat-label>Procedure code</mat-label>
+  
+            <input matInput #textInput1 formControlName="procedureCode" [matAutocomplete]="auto1"           
+            (input)="filter(textInput1.value,'procedureCode')">
+  
+            <mat-autocomplete #auto1="matAutocomplete" (optionSelected)='selectProcedureCode($event.option.value,j)'>
+              <mat-option *ngFor="let option of procedureCodefilteredOptions " [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+            <mat-error>
+              Please provide procedure code
+            </mat-error>           
+          </mat-form-field>
+          
+          
+          <!-- <div class="isDeprecatedDropDown">
+            <span class="sideMargin"> Deprecated?</span>
+            <mat-radio-group  formControlName="isDeprecatedProcedure">
+              <mat-radio-button value="1">Yes</mat-radio-button>
+              <mat-radio-button value="0" [checked]="true">No</mat-radio-button>       
+            </mat-radio-group>
+          </div>
+           -->
+
+          <div class="margin-top1">
+            <button type="button" *ngIf="(j+1)==procedureForm?.controls?.length && disable==false" mat-raised-button class="sideMargin" color="primary" (click)="addProcedure()">Add</button>
+            <button type="button" *ngIf="j!=0 && (j+1)==procedureForm?.controls?.length && disable==false" mat-raised-button class="sideMargin" color="warn" (click)="deleteProcedure(j)">Delete</button>
+            <button type="button" *ngIf="(j+1)==procedureForm?.controls?.length" mat-raised-button class="sideMargin"  matStepperPrevious>Back</button>&nbsp;
+            <button type="button" *ngIf="(j+1)==procedureForm?.controls?.length" mat-raised-button class="sideMargin" color="accent" (click)="moveNextOnclick()">Next</button>
+          </div> 
+          </div>
+      </div>
+    </form>

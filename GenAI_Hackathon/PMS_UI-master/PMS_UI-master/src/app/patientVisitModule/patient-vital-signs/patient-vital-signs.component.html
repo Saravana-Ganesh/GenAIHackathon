@@ -1,0 +1,50 @@
+    <div>
+      <form [formGroup]="vitalFormGroup">
+        <!--First Section-->
+        <mat-form-field>
+          <mat-label>Height</mat-label>
+          <input matInput formControlName="height" placeholder="In Cm">
+          <mat-error>
+            Invalid height
+          </mat-error>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Weight</mat-label>
+          <input matInput formControlName="weight" placeholder="In Kg">    
+            <mat-error>
+              Please provide a valid Height
+            </mat-error>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Blood Pressure</mat-label>
+          <input matInput formControlName="bloodPressure" placeholder="In mm hg">
+         <mat-error>
+              Please enter Blood Pressure
+            </mat-error>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Body Temprature</mat-label>
+          <input matInput formControlName="bodyTemperature" placeholder="In Fahrenheit">
+          <mat-error>
+                Please enter Body Temprature
+            </mat-error>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Respiration Rate</mat-label>
+          <input matInput formControlName="respirationRate" placeholder="In BPM">
+         <mat-error>
+               Please enter Respiration rate
+            </mat-error>
+        </mat-form-field>
+        <div>
+          <button type="button" mat-raised-button   (click)="moveprevious()">Back</button>
+          <button type="button" mat-raised-button class="sideMargin" color="accent" (click)="moveNextOnclick()">Next</button>
+
+        </div>
+      </form>
+    </div>
+    

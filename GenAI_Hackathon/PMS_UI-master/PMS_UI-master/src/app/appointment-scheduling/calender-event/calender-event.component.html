@@ -1,0 +1,147 @@
+<div class="container row">
+    <h2 mat-dialog-title style="float: left">CT General Hospital</h2>
+    <mat-dialog-content class="mat-dialog-content-form" [formGroup]="userForm">
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Select physician</mat-label>
+            <select matNativeControl formControlName="physicianId">
+                <option value="Psychiatrists">Psychiatrists</option>
+                <option value="Neurologists">Neurologists</option>
+                <option value="Radiologists">Radiologists</option>
+                <option value="Anesthesiologists">Anesthesiologists</option>
+            </select>
+            <mat-error *ngIf="errorHandling('physicianId', 'required')">
+                You must provide a <strong>physician Id</strong>
+             </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" *ngIf="userForm.value.physicianId">
+            <mat-label>Employee Id</mat-label>
+            <input matInput placeholder="empId" formControlName="empId" readonly>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Available Slots</mat-label>
+            <select matNativeControl formControlName="slots">
+                <option value="12 AM">12 AM</option>
+                <option value="1 PM">1 PM</option>
+                <option value="4 PM">4 PM</option>
+                <option value="11 AM">11 AM</option>
+            </select>
+            <mat-error *ngIf="errorHandling('slots', 'required')">
+                You must provide a <strong>slot</strong>
+             </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" *ngIf="this.data.role =='Patient'">
+            <mat-label>Patient Data Staus</mat-label>
+            <input matInput placeholder="dataStatus" formControlName="dataStatus" readonly>
+        </mat-form-field>
+
+        <button *ngIf="!this.data.appointment.title" mat-button (click)="addAppointmentClick()">Add Appointment</button>
+        <button *ngIf="this.data.appointment.title" mat-button (click)="editAppointment()">Edit Appointment</button>
+        <button *ngIf="this.data.appointment.title" mat-button matDialogClose="yes" (click)="deleteAppointment()">Delete Appointment</button>
+    </div>
+    <br>
+    <div *ngIf="editOrAddAppointment">
+        <mat-form-field appearance="fill">
+
+            <input matInput placeholder="Add a title" formControlName="title">
+            <mat-error *ngIf="errorHandling('title', 'required')">
+                You must provide a <strong>title</strong>
+             </mat-error>
+        </mat-form-field>
+        description:
+
+        <mat-form-field appearance="fill">
+            <mat-label>Select Patient</mat-label>
+            <select matNativeControl formControlName="patient">
+                <option value="abc">abc</option>
+                <option value="def">def</option>
+                <option value="ghi">ghi</option>
+                <option value="jkl">jkl</option>
+            </select>
+            <mat-error *ngIf="errorHandling('patient', 'required')">
+                You must provide a <strong>patient</strong>
+             </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            
+            <input matInput type="text" class="input-block-level" placeholder="Add a description"
+                formControlName="description">
+                <mat-error *ngIf="errorHandling('description', 'required')">
+                    You must provide a <strong>description</strong>
+                 </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+
+            <input matInput placeholder="Add a patient info" formControlName="ptInfo">
+            <mat-error *ngIf="errorHandling('ptInfo', 'required')">
+                You must provide a <strong>ptInfo</strong>
+             </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Select physician</mat-label>
+            <select matNativeControl formControlName="type">
+                <option value="Psychiatrists">Psychiatrists</option>
+                <option value="Neurologists">Neurologists</option>
+                <option value="Radiologists">Radiologists</option>
+                <option value="Anesthesiologists">Anesthesiologists</option>
+            </select>
+            <mat-error *ngIf="errorHandling('type', 'required')">
+                You must provide a <strong>physician type</strong>
+             </mat-error>
+        </mat-form-field>
+
+        
+<mat-form-field appearance="fill">
+    <mat-label>Select Date</mat-label>
+    <input matInput [matDatepicker]="picker3" [value]="date.value" formControlName="date">
+    <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+    <mat-datepicker #picker3></mat-datepicker>
+    <mat-error *ngIf="errorHandling('date', 'required')">
+        You must provide a <strong>date</strong>
+     </mat-error>
+  </mat-form-field>
+  <!-- <mat-form-field appearance="fill"> -->
+  <!-- <div class="12hr-example">
+    <input placeholder="12hr format (default settings)" aria-label="12hr format" [ngxTimepicker]="default" readonly>
+    <ngx-material-timepicker #default></ngx-material-timepicker>
+</div> -->
+<!-- </mat-form-field> -->
+
+<mat-form-field appearance="fill">
+
+    <input matInput placeholder="please type time here" formControlName="time">
+    <mat-error *ngIf="errorHandling('time', 'required')">
+        You must provide a <strong>time</strong>
+     </mat-error>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+
+    <input matInput placeholder="patient details" formControlName="ptDetails" [disabled]="true">
+    <!-- <mat-error *ngIf="errorHandling('ptDetails', 'required')">
+        You must provide a <strong>patient details</strong>
+     </mat-error> -->
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+
+    <input matInput placeholder="edit history" formControlName="editHistory" readonly>
+    <!-- <mat-error *ngIf="errorHandling('editHistory', 'required')">
+        You must provide a <strong>editHistory</strong>
+     </mat-error> -->
+</mat-form-field>
+        <!-- <mat-grid-list> -->
+
+            <mat-dialog-actions>
+                <button *ngIf="!isEdit" type="submit" [disabled]="!userForm.valid" mat-button matDialogClose="yes" (click)="addAppointment()">Submit</button>
+                <button *ngIf="isEdit" type="submit" [disabled]="!userForm.valid" mat-button matDialogClose="yes" (click)="addAppointment()">Update</button>
+                <button mat-button mat-dialog-close>close</button>
+            </mat-dialog-actions>
+        <!-- </mat-grid-list> -->
+    </div>
+            </mat-dialog-content>
+            </div>

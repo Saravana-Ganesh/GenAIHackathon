@@ -1,0 +1,317 @@
+<html>
+
+<head>
+    <title>HMS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css"> -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <style>
+        .form-control {
+            border-radius: 0.75rem;
+        }
+    </style>
+
+</head>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+    <div class="container register" style="font-family: 'IBM Plex Sans', sans-serif;">
+        <div class="row">
+            <!-- <div class="col-md-3 register-left" style="margin-top: 10%;right: 5%">
+                <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+                <h3>Welcome</h3>
+
+            </div> -->
+            <div class="col-md-7 register-right">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Register as Patient</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <mat-card-content class="matContent">
+                                    <form class="registerForm" [formGroup]="registerForm"
+                                        (ngSubmit)="registerPatient()">
+
+
+                                        <mat-radio-group formControlName="title" class="matFormField">
+                                            <!-- <span class="matFormField patientTitle">Title</span> -->
+                                            <table class="matFormField example-full-width" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <span>
+                                                            <mat-radio-button [checked]="true"
+                                                                class="matFormField patientTitleRadioButton" value="Mr">
+                                                                Mr
+                                                            </mat-radio-button>
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span>
+                                                            <mat-radio-button
+                                                                class="matFormField patientTitleRadioButton"
+                                                                value="Mrs">Mrs</mat-radio-button>
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span>
+                                                            <mat-radio-button
+                                                                class="matFormField patientTitleRadioButton" value="Ms">
+                                                                Ms</mat-radio-button>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </mat-radio-group>
+
+
+                                        <table class="matFormField example-full-width"  cellspacing="0" >
+                                            <tr>
+                                                <td>
+                                                    <mat-form-field class="matFormField example-half-width1">
+                                                        <mat-label>First Name</mat-label>
+                                                        <input formControlName="firstName" matInput>
+                                                        <mat-error>
+                                                            Please provide a valid firstName
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </td>
+                                                <td>
+                                                    <mat-form-field class="matFormField example-half-width2">
+                                                        <mat-label>Last Name</mat-label>
+                                                        <input formControlName="lastName" matInput>
+                                                        <mat-error>
+                                                            Please provide a valid lastName
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="matFormField example-full-width" cellspacing="0">
+                                            <tr>
+                                                <td>
+                                                    <mat-form-field class="matFormField example-half-width1">
+                                                        <input formControlName="emailId" matInput placeholder="Email"
+                                                            name="emailId" required
+                                                            type="email">
+                                                        <mat-error>
+                                                            Please provide a valid email address
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </td>
+                                                <td>
+                                                    <mat-form-field class="matFormField datePicker  example-half-width2">
+                                                        <mat-label>Date Of Birth</mat-label>
+                                                        <input formControlName="dateOfBirth" matInput
+                                                            [matDatepicker]="picker" [max]="maxDate">
+                                                        <mat-datepicker-toggle matSuffix [for]="picker">
+                                                            <mat-icon matDatepickerToggleIcon>keyboard_arrow_down
+                                                            </mat-icon>
+                                                        </mat-datepicker-toggle>
+                                                        <mat-datepicker #picker></mat-datepicker>
+                                                    </mat-form-field>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="matFormField example-full-width" cellspacing="0">
+                                            <tr>
+                                                <td>
+                                                    <mat-form-field class="matFormField example-half-width1">
+                                                        <mat-label>User Name</mat-label>
+                                                        <input formControlName="username" matInput required>
+                                                        <mat-error>
+                                                            Please enter valid username
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </td>
+                                                <td>
+                                                    <mat-form-field class="matFormField mobileNumber example-half-width2">
+                                                        <input [(ngModel)]="mobileNumberValue" type="number"
+                                                            pattern="[0.-9]{10}" required class="mobileNumberInput"
+                                                            (focus)="mobileNumberfocusFunction()"
+                                                            (focusout)="mobileNumberfocusOutFunction()"
+                                                            formControlName="phoneNumber" matInput name="mobileNumber"
+                                                            ng2TelInput>
+                                                        <span class="placeholderz">{{mobilePlaceHolder}}</span>
+                                                        <mat-error>
+                                                            Please enter valid phone number
+                                                        </mat-error>
+                                                    </mat-form-field>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="matFormField example-full-width" cellspacing="0">
+                                            <tr>
+                                                <div formGroupName="passwords">
+                                                    <td>
+                                                        <mat-form-field class="matFormField example-half-width1">
+                                                            <input formControlName="password" matInput [type]="passwordInputType"
+                                                                placeholder="Password" name="password" required>
+                                                            <mat-error>
+                                                                Please provide a valid password
+                                                            </mat-error>
+                                                        </mat-form-field>
+                                                    </td>
+                                                    <td>
+                                                        <mat-form-field class="matFormField example-half-width2">
+                                                            <input formControlName="confirmPassword" matInput
+                                                            [type]="passwordInputType" placeholder="Re-enter password"
+                                                                name="confirmPassword" required>
+                                                            <mat-error>
+                                                                Please provide a valid password
+                                                            </mat-error>
+                                                        </mat-form-field>
+                                                        <mat-error
+                                                            *ngIf="registerForm?.get(['passwords','password'])?.value != registerForm?.get(['passwords','confirmPassword'])?.value
+                                                          && registerForm?.get(['passwords','confirmPassword'])?.value != null
+                                                          && !registerForm?.get(['passwords','password'])?.pristine
+                                                          && !registerForm?.get(['passwords','confirmPassword'])?.pristine">
+                                                            Password does not match
+                                                        </mat-error>
+                                                    </td>
+                                                     <mat-checkbox class="example-margin" (click)="showOrHidePassword()" [(ngModel)]="checked">Show Password</mat-checkbox>
+                                                </div>
+                                            </tr>
+                                        </table>
+                                        <table class="example-full-width" cellspacing="0">
+                                            <tr>
+                                                <td>
+                                                    <button mat-raised-button
+                                                        class="matFormField matRegisterButton">SignUp</button>
+                                                </td>
+                                                <td class="logintd" (click)="openPatientLogin()">
+                                                    <a class="loginRedirect">Already registered? Click here to login</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </mat-card-content>
+
+                            </div>
+
+                            <!-- <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="First Name *" name="fname"
+                                            onkeydown="return alphaOnly(event);" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Your Email *"
+                                            name="email" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password *"
+                                            id="password" name="password" onkeyup='check();' required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="maxl">
+                                            <label class="radio inline">
+                                                <input type="radio" name="gender" value="Male" checked>
+                                                <span> Male </span>
+                                            </label>
+                                            <label class="radio inline">
+                                                <input type="radio" name="gender" value="Female">
+                                                <span>Female </span>
+                                            </label>
+                                        </div>
+                                        <a href="index1.php">Already have an account?</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Last Name *" name="lname"
+                                            onkeydown="return alphaOnly(event);" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="tel" minlength="10" maxlength="10" name="contact"
+                                            class="form-control" placeholder="Your Phone *" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="cpassword"
+                                            placeholder="Confirm Password *" name="cpassword" onkeyup='check();'
+                                            required /><span id='message'></span>
+                                    </div> -->
+
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3 class="register-heading">Login as Doctor</h3>
+                        <form method="post" action="func1.php">
+                            <div class="row register-form">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="User Name *"
+                                            name="username3" onkeydown="return alphaOnly(event);" required />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password *"
+                                            name="password3" required />
+                                    </div>
+
+                                    <input type="submit" class="btnRegister" name="docsub1" value="Login" />
+                                </div>
+                            </div>
+                        </form>
+                    </div> -->
+
+
+                    <!-- <div class="tab-pane fade show" id="admin" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3 class="register-heading">Login as Admin</h3>
+                        <form method="post" action="func3.php">
+                            <div class="row register-form">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="User Name *"
+                                            name="username1" onkeydown="return alphaOnly(event);" required />
+                                    </div>
+
+
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password *"
+                                            name="password2" required />
+                                    </div>
+
+                                    <input type="submit" class="btnRegister" name="adsub" value="Login" />
+                                </div>
+                            </div>
+                        </form>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+
+</html>

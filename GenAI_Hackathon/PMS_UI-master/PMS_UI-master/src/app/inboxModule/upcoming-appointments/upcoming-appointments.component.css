@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .mat-paginator {
+        /* visibility: hidden; */
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    table {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+}
+
+
+/* .mat-paginator {
+    background-color: coral;
+} */
+
+.mat-paginator {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,55 @@
+<form [formGroup]="diagnosisFormGroup">
+    <div formArrayName="diagnosisForm"  *ngFor="let diagnosis of diagnosisForm.controls; let i=index">  
+      <div [formGroupName]="i">
+        <ng-template matStepLabel>Diagnosis</ng-template>
+        <mat-form-field>
+          <mat-label>Diagnosis description</mat-label>
+
+          <input matInput #textInput2 formControlName="diagnosisDescription" [matAutocomplete]="auto"    
+           (input)="filter(textInput2.value,'diagnosisDescription')">
+
+          <mat-autocomplete #auto="matAutocomplete" (optionSelected)='selectDiagnosisDescription($event.option.value,i)'>
+            <mat-option *ngFor="let option of diagnosisDescriptionfilteredOptions " [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+          <mat-error>
+            Please provide diagnosis description
+          </mat-error>           
+        </mat-form-field>
+        
+        <!--Second Section-->
+        <mat-form-field>
+          <mat-label>Diagnosis code</mat-label>
+
+          <input matInput #textInput1 formControlName="diagnosisCode" [matAutocomplete]="auto1"           
+          (input)="filter(textInput1.value,'diagnosisCode')">
+
+          <mat-autocomplete #auto1="matAutocomplete" (optionSelected)='selectDiagnosisCode($event.option.value,i)'>
+            <mat-option *ngFor="let option of diagnosisCodefilteredOptions " [value]="option">
+              {{option}}
+            </mat-option>
+          </mat-autocomplete>
+          <mat-error>
+            Please provide diagnosis code
+          </mat-error>           
+        </mat-form-field>               
+        
+        <!-- <div class="isDeprecatedDropDown">
+          <span class="sideMargin"> Deprecated?</span>
+          <mat-radio-group  formControlName="isDeprecated">
+            <mat-radio-button value="1" [checked]="diagnosis.value.isDeprecated==1">Yes</mat-radio-button>
+            <mat-radio-button value="0" [checked]="diagnosis.value.isDeprecated==0">No</mat-radio-button>       
+          </mat-radio-group>
+        </div> -->
+        
+        <div class="margin-top1">
+          <button type="button" *ngIf="(i+1)==diagnosisForm?.controls?.length && disable==false" mat-raised-button class="sideMargin" color="primary" (click)="addDiagnosis()">Add</button>
+          <button type="button" *ngIf="i!=0 && (i+1)==diagnosisForm?.controls?.length && disable==false" mat-raised-button class="sideMargin" color="warn" (click)="deleteDiagnosis(i)">Delete</button>
+          <button type="button" *ngIf="(i+1)==diagnosisForm?.controls?.length" mat-raised-button class="sideMargin"  (click)="movePrevious()">Back</button>&nbsp;
+          <button type="button" *ngIf="(i+1)==diagnosisForm?.controls?.length" mat-raised-button class="sideMargin" color="accent" (click)="moveNextOnclick()" >{{nextButton}}</button>
+        </div>
+        </div>
+    </div>
+
+</form>

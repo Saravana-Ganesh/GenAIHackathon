@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Proceed to Visit page?</h1>
+<div mat-dialog-content>
+  <p>Patient Name: {{data.patientName}}</p>
+  <p>Patient Id: {{data.patientId}}</p>
+  <p>Physician Name: {{data.physicianName}}</p>
+  <p>Physician Id: {{data.empId}}</p>
+ </div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Proceed</button>
+</div>

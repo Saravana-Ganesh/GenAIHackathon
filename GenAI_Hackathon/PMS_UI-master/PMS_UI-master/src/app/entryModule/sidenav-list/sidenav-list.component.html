@@ -1,0 +1,19 @@
+<!-- 
+    Author: Nayana DK
+ -->
+<mat-nav-list>
+    <mat-list-item [matMenuTriggerFor]="login">
+        <mat-icon>home</mat-icon>
+        <a matline>Login</a>
+    </mat-list-item>
+    <a mat-list-item routerLink="#" (click)="openRegister()">
+        <mat-icon>assignment_ind</mat-icon> <span class="nav-caption">Register</span>   
+    </a>
+    <a mat-list-item routerLink="#" (click)="onSidenavClose()">
+        <mat-icon>account_balance</mat-icon><span class="nav-caption">About US</span>
+    </a>
+    <mat-menu #login="matMenu">
+      <button mat-menu-item (click)="openLogin(0)">Patient</button>
+      <button mat-menu-item (click)="openLogin(1)">Hospital user</button>
+    </mat-menu>
+  </mat-nav-list>

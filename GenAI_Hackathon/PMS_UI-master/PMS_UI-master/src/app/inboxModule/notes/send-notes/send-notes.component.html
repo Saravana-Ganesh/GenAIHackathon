@@ -1,0 +1,76 @@
+<!-- <div class="mat-elevation-z8"> -->
+<form class="d-flex p-1" [formGroup]="sendNotesForm">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title> Send Notes</mat-card-title>
+        </mat-card-header>
+        <mat-card-content style="margin:30px">
+
+            <div class="row">
+                <div class=col-sm-6>
+                    <mat-form-field class="example-chip-list">
+                        <mat-chip-list #chipList>
+                            <mat-chip *ngFor="let item of intialListOfReceivers;let i= index" formControlName="receiverName" (removed)="remove(i)">
+                                {{item.firstName}}
+                                <button matChipRemove>
+                                <mat-icon>cancel</mat-icon>
+                              </button>
+                            </mat-chip>
+                            <input placeholder="Receiver Names" #receiverInput [formControl]="receiverControl" [matAutocomplete]="auto" [matChipInputFor]="chipList" [matChipInputSeparatorKeyCodes]="separatorKeysCodes">
+                        </mat-chip-list>
+                        <!-- [displayWith]="displayFn" -->
+                        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" (optionSelected)="selected($event.option.value)">
+                            <mat-option *ngFor="let items of filteredReceiver | async" [value]="items">
+                                {{items.firstName}}
+                            </mat-option>
+                        </mat-autocomplete>
+                        <!-- <mat-chip-list>
+                            <mat-chip [selectable]="true" (click)="chip.select()" #chip="matChip">selected on click</mat-chip>
+                            <mat-chip *ngFor="let item of listOfReceivers">{{item.firstName}} </mat-chip>
+                        </mat-chip-list> -->
+                    </mat-form-field>
+                </div>
+                <div class=col-sm-6>
+                    <mat-form-field>
+                        <mat-select formControlName="receiverDesignation" placeholder="Receiver's Designation">
+                            <mat-option value="yang">Doctor</mat-option>
+                            <mat-option value="grey">Orthodonthist</mat-option>
+                            <mat-option value="mark">Cardio</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+
+                <div class=col-sm-6>
+                    <mat-form-field>
+                        <textarea formControlName="content" #txtMessage matInput rows="5" cols="50" placeholder="Type your Message here.."></textarea>
+                    </mat-form-field>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <mat-slide-toggle formControlName="isUrgent" [checked]="checked" [disabled]="disabled">Urgent</mat-slide-toggle>
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+        <mat-card-actions style="margin:30px">
+            <button (click)="sendNoteTo()" mat-raised-button>Send</button>
+        </mat-card-actions>
+    </mat-card>
+
+</form>
+<!-- x -->
+<!-- 
+        <div class="styleDiv">
+            <mat-form-field appearance="fill">
+                <mat-label>Select</mat-label>
+                <mat-select>
+                    <mat-option value="one">First option</mat-option>
+                    <mat-option value="two">Second option</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Input</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </div> -->

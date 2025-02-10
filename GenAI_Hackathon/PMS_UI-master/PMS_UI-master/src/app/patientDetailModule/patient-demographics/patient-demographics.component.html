@@ -1,0 +1,452 @@
+<mat-stepper linear #stepper>
+  <mat-step [stepControl]="demographicFormGroup">
+    <form [formGroup]="demographicFormGroup">
+      <ng-template matStepLabel>Demographic Details</ng-template>
+      <div>
+        <mat-label>Title</mat-label>&nbsp;
+        <mat-radio-group matRadio aria-label="Title" [(ngModel)]="titleCtrl" formControlName="titleCtrl">
+          <mat-radio-button value="Mr">Mr. </mat-radio-button>
+          <mat-radio-button value="Mrs">Mrs.</mat-radio-button>
+          <mat-radio-button value="Miss">Miss. </mat-radio-button>
+        </mat-radio-group><br>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['titleCtrl'].invalid && demographicFormGroup.controls['titleCtrl'].touched && demographicFormGroup.controls['titleCtrl'].hasError('required') ">
+          Please select title</mat-hint>
+      </div>
+      <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput formControlName="firstNameCtrl" required [(ngModel)]="firstNameCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['firstNameCtrl'].invalid && demographicFormGroup.controls['firstNameCtrl'].touched && demographicFormGroup.controls['firstNameCtrl'].hasError('required') ">
+          First name field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['firstNameCtrl'].invalid && demographicFormGroup.controls['firstNameCtrl'].touched && demographicFormGroup.controls['firstNameCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput formControlName="lastNameCtrl" [(ngModel)]="lastNameCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['lastNameCtrl'].invalid && demographicFormGroup.controls['lastNameCtrl'].touched && demographicFormGroup.controls['lastNameCtrl'].hasError('required') ">
+          Last name field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['lastNameCtrl'].invalid && demographicFormGroup.controls['lastNameCtrl'].touched && demographicFormGroup.controls['lastNameCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Date Of Birth</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="dobCtrl" [(ngModel)]="dobCtrl">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['dobCtrl'].invalid && demographicFormGroup.controls['dobCtrl'].touched && demographicFormGroup.controls['dobCtrl'].hasError('required') ">
+          DOB field cannot be empty</mat-hint>
+      </mat-form-field>
+      <div class="radio-margin">
+        <mat-label>Gender</mat-label>&nbsp;
+        <mat-radio-group matRadio aria-label="Gender" formControlName="genderCtrl" [(ngModel)]="genderCtrl">
+          <mat-radio-button value="Male">Male </mat-radio-button>
+          <mat-radio-button value="Female">Female</mat-radio-button>
+        </mat-radio-group><br>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['genderCtrl'].invalid && demographicFormGroup.controls['genderCtrl'].touched && demographicFormGroup.controls['genderCtrl'].hasError('required') ">
+          Please select gender</mat-hint>
+      </div>
+      <mat-form-field>
+        <mat-label>Race</mat-label>
+        <input matInput formControlName="raceCtrl" [(ngModel)]="raceCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['raceCtrl'].invalid && demographicFormGroup.controls['raceCtrl'].touched && demographicFormGroup.controls['raceCtrl'].hasError('required') ">
+          Race field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['raceCtrl'].invalid && demographicFormGroup.controls['raceCtrl'].touched && demographicFormGroup.controls['raceCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Ethnicity</mat-label>
+        <input matInput formControlName="ethinicityCtrl" [(ngModel)]="ethinicityCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['ethinicityCtrl'].invalid && demographicFormGroup.controls['ethinicityCtrl'].touched && demographicFormGroup.controls['ethinicityCtrl'].hasError('required') ">
+          Ethnicity field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['ethinicityCtrl'].invalid && demographicFormGroup.controls['ethinicityCtrl'].touched && demographicFormGroup.controls['ethinicityCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Language Known</mat-label>
+        <input matInput formControlName="languageCtrl" [(ngModel)]="languageCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['languageCtrl'].invalid && demographicFormGroup.controls['languageCtrl'].touched && demographicFormGroup.controls['languageCtrl'].hasError('required') ">
+          Language field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['languageCtrl'].invalid && demographicFormGroup.controls['languageCtrl'].touched && demographicFormGroup.controls['languageCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="emailCtrl" [(ngModel)]="emailCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['emailCtrl'].invalid && demographicFormGroup.controls['emailCtrl'].touched && demographicFormGroup.controls['emailCtrl'].hasError('required') ">
+          Email field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['emailCtrl'].invalid && demographicFormGroup.controls['emailCtrl'].touched && demographicFormGroup.controls['emailCtrl'].hasError('email') ">
+          Please enter your email address e.g. exampleusername@xyzdomain,com</mat-hint>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Address</mat-label>
+        <textarea matInput formControlName="addressCtrl" [(ngModel)]="addressCtrl"></textarea>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['addressCtrl'].invalid && demographicFormGroup.controls['addressCtrl'].touched && demographicFormGroup.controls['addressCtrl'].hasError('required') ">
+          Please provide the postal address</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['addressCtrl'].invalid && demographicFormGroup.controls['addressCtrl'].touched && demographicFormGroup.controls['addressCtrl'].hasError('pattern') ">
+          Please provide valid postal address</mat-hint>
+      </mat-form-field>
+      <mat-form-field class="displayBlock">
+        <mat-label class="conatctLabel">Conatct No</mat-label>
+        <input type="tel" pattern="[0.-9]{10}" required class="mobileNumberInput" formControlName="conatctCtrl"
+          [(ngModel)]="conatctCtrl" matInput name="mobileNumber" ng2TelInput>
+        <mat-hint class="error-msg"
+          *ngIf="demographicFormGroup.controls['conatctCtrl'].invalid && demographicFormGroup.controls['conatctCtrl'].touched && demographicFormGroup.controls['conatctCtrl'].hasError('required') ">
+          Please provide the telephone number.</mat-hint>
+      </mat-form-field>
+      <div>
+        <button mat-raised-button color="accent"  (click)="savePatientDemographicDetails()">Next</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <!--Second Form Starts-->
+
+  <mat-step [stepControl]="emergencyFormGroup" #emergencyStepper>
+    <form [formGroup]="emergencyFormGroup">
+      <ng-template matStepLabel>Emergency Contact</ng-template>
+      <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput formControlName="emergencyFirstNameCtrl" [(ngModel)]="emergencyFirstNameCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyFirstNameCtrl'].invalid && emergencyFormGroup.controls['emergencyFirstNameCtrl'].touched && emergencyFormGroup.controls['emergencyFirstNameCtrl'].hasError('required') ">
+          First Name cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyFirstNameCtrl'].invalid && emergencyFormGroup.controls['emergencyFirstNameCtrl'].touched && emergencyFormGroup.controls['emergencyFirstNameCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput formControlName="emergencyLastNameCtrl" [(ngModel)]="emergencyLastNameCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyLastNameCtrl'].invalid && emergencyFormGroup.controls['emergencyLastNameCtrl'].touched && emergencyFormGroup.controls['emergencyLastNameCtrl'].hasError('required') ">
+          Last Name cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyLastNameCtrl'].invalid && emergencyFormGroup.controls['emergencyLastNameCtrl'].touched && emergencyFormGroup.controls['emergencyLastNameCtrl'].hasError('pattern') ">
+          Please don’t use abbreviations</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Relationship</mat-label>
+        <mat-select formControlName="emergencyRelationCtrl" (selectionChange)="onRelationshipChange($event)">
+          <mat-option *ngFor="let relation of relationship" [value]="relation.id">
+            {{relation.relation}}
+          </mat-option>
+        </mat-select>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyRelationCtrl'].invalid && emergencyFormGroup.controls['emergencyRelationCtrl'].touched && emergencyFormGroup.controls['emergencyRelationCtrl'].hasError('required') ">
+          Relation cannot be empty</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Email Address</mat-label>
+        <input matInput formControlName="emergencyEmailIdCtrl" [(ngModel)]="emergencyEmailIdCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyEmailIdCtrl'].invalid && emergencyFormGroup.controls['emergencyEmailIdCtrl'].touched && emergencyFormGroup.controls['emergencyEmailIdCtrl'].hasError('required') ">
+          Email Id field cannot be empty</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyEmailIdCtrl'].invalid && emergencyFormGroup.controls['emergencyEmailIdCtrl'].touched && emergencyFormGroup.controls['emergencyEmailIdCtrl'].hasError('email') ">
+          Please enter your email address e.g. exampleusername@xyzdomain,com</mat-hint>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Contact No</mat-label>
+        <input matInput formControlName="emergencyContactNoCtrl" [(ngModel)]="emergencyContactNoCtrl">
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyContactNoCtrl'].invalid && emergencyFormGroup.controls['emergencyContactNoCtrl'].touched && emergencyFormGroup.controls['emergencyContactNoCtrl'].hasError('required') ">
+          Conatct No field cannot be empty</mat-hint>
+      </mat-form-field>
+      <section class="example-section">
+        <mat-checkbox class="example-margin" (change)="onCheckboxChange($event)">Same as patient address</mat-checkbox>
+      </section>
+      <mat-form-field class="example-full-width">
+        <mat-label>Address</mat-label>
+        <textarea matInput formControlName="emergencyAddressCtrl" [(ngModel)]="emergencyAddressCtrl"></textarea>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyAddressCtrl'].invalid && emergencyFormGroup.controls['emergencyAddressCtrl'].touched && emergencyFormGroup.controls['emergencyAddressCtrl'].hasError('required') ">
+          Please provide the postal address</mat-hint>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyAddressCtrl'].invalid && emergencyFormGroup.controls['emergencyAddressCtrl'].touched && emergencyFormGroup.controls['emergencyAddressCtrl'].hasError('pattern') ">
+          Please provide valid postal address</mat-hint>
+      </mat-form-field>
+      <div class="radio-margin">
+        <mat-label>Do you need access to patient portal?</mat-label>&nbsp;
+        <mat-radio-group matRadio aria-label="Portal access" formControlName="emergencyPortalAccessCtrl"
+          [(ngModel)]="emergencyPortalAccessCtrl">
+          <mat-radio-button value="Yes">Yes </mat-radio-button>
+          <mat-radio-button value="No">No </mat-radio-button>
+        </mat-radio-group><br>
+        <mat-hint class="error-msg"
+          *ngIf="emergencyFormGroup.controls['emergencyPortalAccessCtrl'].invalid && emergencyFormGroup.controls['emergencyPortalAccessCtrl'].touched && emergencyFormGroup.controls['emergencyPortalAccessCtrl'].hasError('required') ">
+          Please select portal acess option</mat-hint>
+      </div>
+      <div class="margin-top1">
+        <button mat-raised-button color="accent" matStepperPrevious>Back</button>&nbsp;
+        <button mat-raised-button color="accent" (click)="savePatientEmergencyDetails()">Next</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <!--Third Form Starts-->
+
+  <mat-step [stepControl]="allergyFormGroup" >
+    <form [formGroup]="allergyFormGroup">
+      <ng-template matStepLabel>Allergy</ng-template>
+      <div class="radio-margin">
+        <mat-label>Patient has any known allergies?</mat-label>&nbsp;
+        <mat-radio-group matRadio aria-label="Portal access" formControlName="patientAllergieCtrl"
+          [(ngModel)]="patientAllergieCtrl">
+          <mat-radio-button value="Yes" [checked]="patientAllergieCtrl === 'Yes'">Yes </mat-radio-button>
+          <mat-radio-button value="No" [checked]="patientAllergieCtrl === 'No'">No </mat-radio-button>
+        </mat-radio-group><br>
+        <mat-hint class="error-msg"
+          *ngIf="allergyFormGroup.controls['patientAllergieCtrl'].invalid && allergyFormGroup.controls['patientAllergieCtrl'].touched && allergyFormGroup.controls['patientAllergieCtrl'].hasError('required') ">
+          Please select known allergy option</mat-hint>
+      </div>
+      <div class="conatiner" *ngIf="patientAllergieCtrl === 'Yes'">
+        <div class="row">
+          <div class="col-sm-5">
+            
+
+            <mat-form-field>
+              <mat-label>Allergy Type</mat-label>
+
+              <input type="text" placeholder="Enter Allerge Name" aria-label="Allergy Type" matInput
+                [matAutocomplete]="autoAllergyType" formControlName="emergencyAllergyTypeCtrl">
+
+              <mat-autocomplete #autoAllergyType="matAutocomplete"
+                (optionSelected)='selectAllergyType($event.option.value)'>
+                <mat-option *ngFor="let allergyType of allergyTypeFilterOptions" [value]="allergyType">
+                  {{allergyType}}
+                </mat-option>
+              </mat-autocomplete>
+
+              <mat-hint class="error-msg"
+                *ngIf="allergyFormGroup.controls['emergencyAllergyTypeCtrl'].invalid && allergyFormGroup.controls['emergencyAllergyTypeCtrl'].touched && allergyFormGroup.controls['emergencyAllergyTypeCtrl'].hasError('required') ">
+                Allergy Type cannot be empty</mat-hint>
+
+            </mat-form-field>
+
+            <mat-form-field>
+              <mat-label>Allergy Name</mat-label>
+
+              <input type="text" placeholder="Enter Allerge Name" aria-label="Allergy Name" matInput
+                [matAutocomplete]="autoAllergyName" formControlName="emergencyAllergyNameCtrl">
+
+              <mat-autocomplete #autoAllergyName="matAutocomplete"
+                (optionSelected)='selectAllergyName($event.option.value)'>
+                <mat-option *ngFor="let allergyName of allergyNameFilterOptions" [value]="allergyName">
+                  {{allergyName}}
+                </mat-option>
+              </mat-autocomplete>
+
+              <mat-hint class="error-msg"
+                *ngIf="allergyFormGroup.controls['emergencyAllergyNameCtrl'].invalid && allergyFormGroup.controls['emergencyAllergyNameCtrl'].touched && allergyFormGroup.controls['emergencyAllergyNameCtrl'].hasError('required') ">
+                Allergy Name cannot be empty</mat-hint>
+     
+            </mat-form-field>
+               
+            <mat-form-field>
+              <mat-label>Allergy Code</mat-label>
+
+              <input type="text" placeholder="Enter WHO/IUIS Allergen Nomenclature ID, if known"
+                aria-label="Allergy Code" matInput [matAutocomplete]="autoAllergyId"
+                formControlName="emergencyAllergyIdCtrl">
+
+              <mat-autocomplete #autoAllergyId="matAutocomplete"
+                (optionSelected)='selectAllergyCode($event.option.value)'>
+                <mat-option *ngFor="let allergyCode of allergyCodeFilterOptions" [value]="allergyCode">
+                  {{allergyCode}}
+                </mat-option>
+              </mat-autocomplete>
+
+              <mat-hint class="error-msg"
+                *ngIf="allergyFormGroup.controls['emergencyAllergyIdCtrl'].invalid && allergyFormGroup.controls['emergencyAllergyIdCtrl'].touched && allergyFormGroup.controls['emergencyAllergyIdCtrl'].hasError('required') ">
+                Allergy Id cannot be empty</mat-hint>
+            </mat-form-field>
+     
+            <mat-form-field class="example-full-width">
+              <mat-label>Allergy Description</mat-label>
+              <textarea matInput formControlName="allergyDescriptionCtrl"
+                [(ngModel)]="allergyDescriptionCtrl"></textarea>
+              <mat-hint class="error-msg"
+                *ngIf="allergyFormGroup.controls['allergyDescriptionCtrl'].invalid && allergyFormGroup.controls['allergyDescriptionCtrl'].touched && allergyFormGroup.controls['allergyDescriptionCtrl'].hasError('required') ">
+                Allergy Description cannot be empty</mat-hint>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Allergy Clinical Information</mat-label>
+              <input matInput formControlName="allergyClinicalCtrl" [(ngModel)]="allergyClinicalCtrl">
+              <mat-hint class="error-msg"
+                *ngIf="allergyFormGroup.controls['allergyClinicalCtrl'].invalid && allergyFormGroup.controls['allergyClinicalCtrl'].touched && allergyFormGroup.controls['allergyClinicalCtrl'].hasError('required') ">
+                Allergy clinical be empty</mat-hint>
+            </mat-form-field>
+            <div class="radio-margin">
+              <mat-label>Is allergy fatal?</mat-label>&nbsp;
+              <mat-radio-group matRadio aria-label="Portal access" formControlName="allergyFatelCtrl"
+                [(ngModel)]="allergyFatelCtrl">
+                <mat-radio-button value="Yes">Yes </mat-radio-button>
+                <mat-radio-button value="No" checked="true">No </mat-radio-button>
+              </mat-radio-group><br>
+              <mat-hint class="error-msg"
+                *ngIf="allergyFormGroup.controls['allergyFatelCtrl'].invalid && allergyFormGroup.controls['allergyFatelCtrl'].touched && emergencyFormGroup.controls['allergyFatelCtrl'].hasError('required') ">
+                Please select Allergy fatal option</mat-hint>
+            </div>
+            
+          </div>
+          <div class="col-sm">
+
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+
+             
+              <ng-container matColumnDef="allergyId">
+                <th mat-header-cell *matHeaderCellDef> Allergy Code </th>
+                <td mat-cell *matCellDef="let element"> {{element.allergyCode}} </td>
+              </ng-container>
+
+              
+              <ng-container matColumnDef="allergyName">
+                <th mat-header-cell *matHeaderCellDef> Allergy Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.allergyName}} </td>
+              </ng-container>
+
+              
+              <ng-container matColumnDef="allergyType">
+                <th mat-header-cell *matHeaderCellDef> Allergy Type </th>
+                <td mat-cell *matCellDef="let element"> {{element.allergyType}} </td>
+              </ng-container>
+
+           
+              <ng-container matColumnDef="allergyDesc">
+                <th mat-header-cell *matHeaderCellDef> Allergy Desc</th>
+                <td mat-cell *matCellDef="let element"> {{element.allergyDesc}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="allergyFatalOption">
+                <th mat-header-cell *matHeaderCellDef> Allergy Fatal</th>
+                <td mat-cell *matCellDef="let element"> {{element.allergyFatal}} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="AllergyAction">
+                <th mat-header-cell *matHeaderCellDef> Action </th>
+                <td mat-cell *matCellDef="let element">
+                  <mat-icon aria-hidden="false" aria-label="edit icon" (click)="editAllergy(element.allergyId)">edit</mat-icon>
+                  <mat-icon aria-hidden="false" aria-label="delete icon" (click)="deleteAllergy(element.allergyId)">delete</mat-icon>
+                </td>
+              </ng-container>
+
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+
+          </div>
+        </div>
+        <div class="margin-top1">
+          <button mat-raised-button color="accent" *ngIf="buttonAddUpdate ==true;else updateButton"(click)="addAllergy()">Add</button>
+          <ng-template #updateButton>
+            <button mat-raised-button color="accent" (click)="updateAllergy()">Update</button>
+          </ng-template>   
+        </div>
+      </div>
+      <div class="margin-top1">
+        <button mat-raised-button color="accent" matStepperPrevious>Back</button>&nbsp;
+        <button mat-raised-button color="accent" matStepperNext (click)="showPatientReport()">Next</button>
+      </div>
+    </form>
+  </mat-step>
+
+
+  <mat-step>
+    <ng-template matStepLabel>Done</ng-template>
+    
+    <table class="table table-hover" *ngFor="let tempDetailData of patientDetailReport">
+      <thead class="table-dark">
+         <tr>  
+           <td colspan="2">Patient Demographic Details </td>
+        </tr>
+      </thead>
+      <tbody *ngFor="let tempDemographicData of patientDemographicReport">
+        <tr>
+          <td>First Name:{{tempDetailData.firstName}} </td>
+          <td>Last Name: {{tempDetailData.lastName}}</td>
+        </tr>
+        <tr>
+          <td>DOB: {{tempDemographicData.patient.dateOfBirth | slice:0:10}}</td>
+          <td>Gender: {{tempDemographicData.gender}}</td>
+        </tr>
+        <tr>
+          <td>Race:{{tempDemographicData.race}}</td>
+          <td>Ethnicity: {{tempDemographicData.ethnicity}}</td>
+        </tr>
+        <tr>
+          <td>Address: {{tempDemographicData.address}}</td>
+          <td>Language: {{tempDemographicData.languages}}</td>
+        </tr>
+        <tr>
+          <td>Email: {{tempDetailData.emailId}}</td>
+          <td>Conatct No:  {{tempDetailData.phoneNumber}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="table table-hover">
+      <thead class="table-dark">
+        <tr>  
+          <td colspan="2">Emergency Conatct </td>
+       </tr>
+     </thead>
+     <tbody *ngFor="let tempEmergencyData of patientEmergencyReport">
+      <tr>
+        <td>First Name: {{tempEmergencyData.emergencyFirstName}}</td>
+        <td>Last Name: {{tempEmergencyData.emergencyLastName}}</td>
+      </tr>
+      <tr>
+        <td>Relationship: {{tempEmergencyData.relationShipEntity.relation}}</td>
+        <td>Address: {{tempEmergencyData.emergencyAddress}}</td>
+      </tr>
+      <tr>
+        <td>Email: {{tempEmergencyData.emergencyEmail}}</td>
+        <td>Conatct No: {{tempEmergencyData.emergencyContactNo}}</td>
+      </tr>
+      <tr>
+        <td colspan="2">Portal Access?: {{tempEmergencyData.emergencyAccessToPortal}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-hover">
+    <thead class="table-dark">
+      <tr>  
+        <td colspan="6">Allergy</td>
+     </tr>
+   </thead>
+   <tbody>
+    <tr *ngFor="let tempAllergyData of patientAllergyReport">
+      <td>Allergy Code: {{tempAllergyData.allergyCode}}</td>
+      <td>Allergy Name: {{tempAllergyData.allergyName}}</td>
+      <td>Allergy Type: {{tempAllergyData.allergyType}}</td>
+      <td>Allergy Desc: {{tempAllergyData.allergyDesc}}</td>
+      <td>Allergy Clinic: {{tempAllergyData.allergyClinicInfo}}</td>
+      <td>Is Allergy Fatal?: {{tempAllergyData.allergyFatal}}</td>
+    </tr>
+  </tbody>
+    </table>
+
+    <div>
+      <button mat-raised-button color="accent" matStepperPrevious>Back</button> &nbsp;
+     <!-- <button mat-raised-button color="accent" (click)="stepper.reset()">Reset</button> -->
+     <button mat-raised-button color="accent" (click)="routeToPatientDetails()">Done</button>
+    </div>
+  </mat-step>
+</mat-stepper>
