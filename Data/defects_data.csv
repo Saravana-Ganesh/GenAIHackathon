@@ -1,0 +1,1866 @@
+Sprint,Module,Priority,Status,Root_Cause_Analysis
+Sprint 1,Authentication,Critical,Resolved,Environment Issue
+Sprint 1,Authentication,Critical,Closed,Code Issue
+Sprint 1,Authentication,Critical,Closed,Requirement Gap
+Sprint 1,Authentication,High,Resolved,Environment Issue
+Sprint 1,Authentication,Medium,Open,Environment Issue
+Sprint 1,Billing,High,Closed,Code Issue
+Sprint 1,Billing,Critical,Resolved,Environment Issue
+Sprint 1,Billing,Low,In Progress,Code Issue
+Sprint 1,Billing,High,Open,Requirement Gap
+Sprint 1,Billing,Medium,Open,Code Issue
+Sprint 1,Billing,Critical,In Progress,Requirement Gap
+Sprint 1,Payments,Critical,Resolved,Requirement Gap
+Sprint 1,Payments,Low,Open,Test Coverage Miss
+Sprint 1,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 1,Payments,Critical,Resolved,Test Coverage Miss
+Sprint 1,Payments,Low,Closed,Environment Issue
+Sprint 1,Payments,Medium,In Progress,Code Issue
+Sprint 1,Notifications,High,Resolved,Code Issue
+Sprint 1,Notifications,Medium,Closed,Test Coverage Miss
+Sprint 1,Notifications,Low,Open,Code Issue
+Sprint 1,Notifications,High,In Progress,Code Issue
+Sprint 1,Reports,Medium,In Progress,Requirement Gap
+Sprint 1,Reports,Critical,Closed,Environment Issue
+Sprint 1,Reports,Medium,In Progress,Environment Issue
+Sprint 1,Reports,High,Open,Test Coverage Miss
+Sprint 1,Reports,Critical,Resolved,Environment Issue
+Sprint 1,Reports,Critical,Open,Test Coverage Miss
+Sprint 1,Reports,High,Open,Test Coverage Miss
+Sprint 1,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 1,Reports,Critical,Open,Environment Issue
+Sprint 1,Reports,High,Closed,Test Coverage Miss
+Sprint 1,Dashboard,Critical,Closed,Environment Issue
+Sprint 1,Dashboard,Medium,Closed,Code Issue
+Sprint 1,Dashboard,Medium,Closed,Test Coverage Miss
+Sprint 1,Dashboard,High,In Progress,Requirement Gap
+Sprint 1,Dashboard,High,Open,Code Issue
+Sprint 1,Dashboard,High,Closed,Environment Issue
+Sprint 1,Dashboard,Critical,Closed,Test Coverage Miss
+Sprint 1,Dashboard,Low,Resolved,Environment Issue
+Sprint 1,Dashboard,Low,Open,Code Issue
+Sprint 1,Dashboard,Low,Closed,Environment Issue
+Sprint 2,Authentication,Low,Open,Code Issue
+Sprint 2,Authentication,Medium,Open,Environment Issue
+Sprint 2,Billing,High,Open,Code Issue
+Sprint 2,Billing,Medium,Closed,Environment Issue
+Sprint 2,Billing,Medium,Resolved,Requirement Gap
+Sprint 2,Billing,High,Closed,Test Coverage Miss
+Sprint 2,Payments,Low,Resolved,Code Issue
+Sprint 2,Payments,Critical,Closed,Code Issue
+Sprint 2,Payments,Medium,Resolved,Test Coverage Miss
+Sprint 2,Payments,Critical,Closed,Environment Issue
+Sprint 2,Notifications,Critical,Closed,Environment Issue
+Sprint 2,Notifications,Medium,Closed,Code Issue
+Sprint 2,Reports,Low,Resolved,Code Issue
+Sprint 2,Reports,High,Open,Code Issue
+Sprint 2,Dashboard,High,Resolved,Environment Issue
+Sprint 2,Dashboard,Medium,In Progress,Requirement Gap
+Sprint 2,Dashboard,Medium,In Progress,Environment Issue
+Sprint 2,Dashboard,High,In Progress,Environment Issue
+Sprint 3,Authentication,High,In Progress,Environment Issue
+Sprint 3,Authentication,Medium,Open,Code Issue
+Sprint 3,Authentication,Low,Closed,Environment Issue
+Sprint 3,Authentication,Medium,Closed,Test Coverage Miss
+Sprint 3,Authentication,High,In Progress,Code Issue
+Sprint 3,Billing,Critical,Resolved,Environment Issue
+Sprint 3,Billing,Medium,Closed,Requirement Gap
+Sprint 3,Billing,Medium,Closed,Test Coverage Miss
+Sprint 3,Billing,High,Open,Requirement Gap
+Sprint 3,Billing,High,Resolved,Code Issue
+Sprint 3,Billing,Low,In Progress,Code Issue
+Sprint 3,Billing,Medium,In Progress,Code Issue
+Sprint 3,Payments,Critical,Resolved,Code Issue
+Sprint 3,Payments,Low,Open,Code Issue
+Sprint 3,Payments,Low,Open,Code Issue
+Sprint 3,Payments,Critical,Open,Code Issue
+Sprint 3,Notifications,Critical,Resolved,Test Coverage Miss
+Sprint 3,Notifications,High,Open,Requirement Gap
+Sprint 3,Notifications,Medium,Resolved,Code Issue
+Sprint 3,Notifications,High,Closed,Code Issue
+Sprint 3,Notifications,High,Open,Code Issue
+Sprint 3,Notifications,Critical,Open,Code Issue
+Sprint 3,Notifications,Critical,Closed,Environment Issue
+Sprint 3,Notifications,Medium,In Progress,Test Coverage Miss
+Sprint 3,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 3,Reports,Low,Open,Code Issue
+Sprint 3,Reports,High,Open,Environment Issue
+Sprint 3,Reports,High,Closed,Requirement Gap
+Sprint 3,Reports,Critical,Resolved,Environment Issue
+Sprint 3,Reports,High,In Progress,Requirement Gap
+Sprint 3,Reports,Low,Open,Test Coverage Miss
+Sprint 3,Reports,Critical,Closed,Environment Issue
+Sprint 3,Reports,Low,Open,Code Issue
+Sprint 3,Dashboard,Medium,In Progress,Test Coverage Miss
+Sprint 3,Dashboard,Low,Closed,Environment Issue
+Sprint 3,Dashboard,Critical,In Progress,Environment Issue
+Sprint 3,Dashboard,Critical,Resolved,Test Coverage Miss
+Sprint 3,Dashboard,Low,In Progress,Requirement Gap
+Sprint 3,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 3,Dashboard,Critical,Open,Environment Issue
+Sprint 3,Dashboard,High,Open,Requirement Gap
+Sprint 4,Authentication,High,Closed,Requirement Gap
+Sprint 4,Authentication,High,In Progress,Code Issue
+Sprint 4,Authentication,Medium,Closed,Environment Issue
+Sprint 4,Authentication,High,In Progress,Code Issue
+Sprint 4,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 4,Authentication,Critical,Closed,Environment Issue
+Sprint 4,Authentication,Critical,In Progress,Code Issue
+Sprint 4,Authentication,Critical,Resolved,Test Coverage Miss
+Sprint 4,Authentication,Medium,Closed,Requirement Gap
+Sprint 4,Authentication,High,Open,Requirement Gap
+Sprint 4,Billing,Critical,Resolved,Code Issue
+Sprint 4,Billing,High,Closed,Requirement Gap
+Sprint 4,Billing,Low,Closed,Environment Issue
+Sprint 4,Billing,High,Open,Code Issue
+Sprint 4,Payments,Medium,Resolved,Test Coverage Miss
+Sprint 4,Payments,High,Open,Code Issue
+Sprint 4,Payments,Low,Open,Requirement Gap
+Sprint 4,Payments,Critical,Closed,Code Issue
+Sprint 4,Payments,Critical,In Progress,Requirement Gap
+Sprint 4,Payments,High,Open,Test Coverage Miss
+Sprint 4,Payments,High,Resolved,Code Issue
+Sprint 4,Payments,High,In Progress,Code Issue
+Sprint 4,Notifications,Low,In Progress,Code Issue
+Sprint 4,Notifications,Low,In Progress,Requirement Gap
+Sprint 4,Notifications,Critical,In Progress,Requirement Gap
+Sprint 4,Notifications,Critical,Resolved,Requirement Gap
+Sprint 4,Notifications,Critical,In Progress,Code Issue
+Sprint 4,Notifications,Medium,In Progress,Environment Issue
+Sprint 4,Notifications,Low,Resolved,Environment Issue
+Sprint 4,Notifications,Critical,In Progress,Code Issue
+Sprint 4,Reports,High,Resolved,Requirement Gap
+Sprint 4,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 4,Reports,Low,Open,Environment Issue
+Sprint 4,Reports,Low,In Progress,Code Issue
+Sprint 4,Reports,Critical,Open,Environment Issue
+Sprint 4,Reports,Low,Resolved,Requirement Gap
+Sprint 4,Reports,Low,Closed,Code Issue
+Sprint 4,Reports,Low,In Progress,Test Coverage Miss
+Sprint 4,Reports,Medium,In Progress,Code Issue
+Sprint 4,Dashboard,High,Resolved,Environment Issue
+Sprint 4,Dashboard,Medium,Resolved,Environment Issue
+Sprint 5,Authentication,Critical,Open,Test Coverage Miss
+Sprint 5,Authentication,Medium,Resolved,Code Issue
+Sprint 5,Authentication,Medium,Closed,Environment Issue
+Sprint 5,Authentication,Medium,In Progress,Code Issue
+Sprint 5,Authentication,High,Resolved,Requirement Gap
+Sprint 5,Authentication,High,Resolved,Requirement Gap
+Sprint 5,Authentication,High,Open,Test Coverage Miss
+Sprint 5,Authentication,Low,In Progress,Requirement Gap
+Sprint 5,Authentication,Low,Resolved,Environment Issue
+Sprint 5,Authentication,Critical,Closed,Test Coverage Miss
+Sprint 5,Billing,Medium,Open,Code Issue
+Sprint 5,Billing,Medium,In Progress,Environment Issue
+Sprint 5,Billing,Medium,Closed,Environment Issue
+Sprint 5,Billing,Medium,In Progress,Environment Issue
+Sprint 5,Billing,Critical,Closed,Requirement Gap
+Sprint 5,Billing,Low,Resolved,Environment Issue
+Sprint 5,Payments,High,In Progress,Requirement Gap
+Sprint 5,Payments,High,Open,Requirement Gap
+Sprint 5,Payments,High,Open,Test Coverage Miss
+Sprint 5,Payments,Critical,In Progress,Environment Issue
+Sprint 5,Payments,Critical,In Progress,Environment Issue
+Sprint 5,Payments,Low,Closed,Requirement Gap
+Sprint 5,Payments,Low,Closed,Requirement Gap
+Sprint 5,Payments,Medium,Resolved,Environment Issue
+Sprint 5,Payments,Medium,In Progress,Environment Issue
+Sprint 5,Payments,Medium,Open,Environment Issue
+Sprint 5,Notifications,High,In Progress,Test Coverage Miss
+Sprint 5,Notifications,Critical,Open,Code Issue
+Sprint 5,Notifications,Medium,In Progress,Test Coverage Miss
+Sprint 5,Notifications,High,In Progress,Test Coverage Miss
+Sprint 5,Notifications,Low,Closed,Requirement Gap
+Sprint 5,Notifications,Medium,Open,Environment Issue
+Sprint 5,Notifications,Low,Closed,Environment Issue
+Sprint 5,Notifications,Critical,Closed,Environment Issue
+Sprint 5,Notifications,Medium,Closed,Environment Issue
+Sprint 5,Reports,Low,In Progress,Test Coverage Miss
+Sprint 5,Reports,High,Closed,Code Issue
+Sprint 5,Reports,Low,In Progress,Environment Issue
+Sprint 5,Reports,Low,Closed,Test Coverage Miss
+Sprint 5,Reports,High,Closed,Requirement Gap
+Sprint 5,Reports,Critical,Open,Requirement Gap
+Sprint 5,Reports,Medium,Closed,Code Issue
+Sprint 5,Reports,Critical,Closed,Requirement Gap
+Sprint 5,Reports,Medium,In Progress,Environment Issue
+Sprint 5,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 5,Dashboard,Medium,In Progress,Code Issue
+Sprint 5,Dashboard,Low,Resolved,Requirement Gap
+Sprint 5,Dashboard,Low,In Progress,Code Issue
+Sprint 6,Authentication,Low,Open,Code Issue
+Sprint 6,Authentication,Medium,Open,Test Coverage Miss
+Sprint 6,Authentication,Critical,Open,Environment Issue
+Sprint 6,Billing,Low,In Progress,Code Issue
+Sprint 6,Billing,Medium,In Progress,Environment Issue
+Sprint 6,Billing,High,Open,Code Issue
+Sprint 6,Payments,High,In Progress,Requirement Gap
+Sprint 6,Payments,Medium,Resolved,Requirement Gap
+Sprint 6,Payments,Critical,Open,Test Coverage Miss
+Sprint 6,Payments,Medium,Resolved,Environment Issue
+Sprint 6,Payments,High,Closed,Code Issue
+Sprint 6,Payments,High,Closed,Code Issue
+Sprint 6,Notifications,High,Resolved,Requirement Gap
+Sprint 6,Notifications,Low,Resolved,Code Issue
+Sprint 6,Notifications,Low,Closed,Test Coverage Miss
+Sprint 6,Notifications,Critical,Resolved,Requirement Gap
+Sprint 6,Notifications,Medium,Closed,Code Issue
+Sprint 6,Notifications,Medium,Closed,Environment Issue
+Sprint 6,Notifications,High,Open,Test Coverage Miss
+Sprint 6,Notifications,Medium,Closed,Environment Issue
+Sprint 6,Reports,High,Resolved,Code Issue
+Sprint 6,Reports,Medium,Resolved,Environment Issue
+Sprint 6,Reports,Low,Open,Test Coverage Miss
+Sprint 6,Reports,Low,Closed,Requirement Gap
+Sprint 6,Reports,Critical,Resolved,Environment Issue
+Sprint 6,Reports,Low,Closed,Test Coverage Miss
+Sprint 6,Reports,Medium,In Progress,Environment Issue
+Sprint 6,Reports,Medium,Open,Environment Issue
+Sprint 6,Dashboard,High,Resolved,Environment Issue
+Sprint 6,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 6,Dashboard,Low,In Progress,Code Issue
+Sprint 6,Dashboard,Critical,Closed,Test Coverage Miss
+Sprint 6,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 7,Authentication,Medium,Closed,Test Coverage Miss
+Sprint 7,Authentication,Low,Resolved,Test Coverage Miss
+Sprint 7,Authentication,Medium,Open,Requirement Gap
+Sprint 7,Authentication,Critical,Open,Test Coverage Miss
+Sprint 7,Authentication,High,In Progress,Code Issue
+Sprint 7,Authentication,Medium,Resolved,Requirement Gap
+Sprint 7,Authentication,High,Closed,Test Coverage Miss
+Sprint 7,Authentication,Low,In Progress,Code Issue
+Sprint 7,Authentication,Low,In Progress,Environment Issue
+Sprint 7,Authentication,Critical,Open,Code Issue
+Sprint 7,Billing,Critical,Resolved,Requirement Gap
+Sprint 7,Billing,Low,Closed,Requirement Gap
+Sprint 7,Billing,Low,Closed,Requirement Gap
+Sprint 7,Billing,High,In Progress,Code Issue
+Sprint 7,Billing,Low,Open,Code Issue
+Sprint 7,Billing,Medium,Closed,Test Coverage Miss
+Sprint 7,Billing,Critical,Resolved,Environment Issue
+Sprint 7,Billing,Critical,Closed,Test Coverage Miss
+Sprint 7,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 7,Billing,Medium,In Progress,Environment Issue
+Sprint 7,Payments,High,In Progress,Test Coverage Miss
+Sprint 7,Payments,Medium,Closed,Environment Issue
+Sprint 7,Payments,High,Resolved,Test Coverage Miss
+Sprint 7,Payments,Medium,Resolved,Code Issue
+Sprint 7,Payments,Critical,Resolved,Requirement Gap
+Sprint 7,Payments,High,Closed,Code Issue
+Sprint 7,Payments,Critical,In Progress,Code Issue
+Sprint 7,Notifications,High,In Progress,Requirement Gap
+Sprint 7,Notifications,Medium,Open,Test Coverage Miss
+Sprint 7,Notifications,High,Resolved,Requirement Gap
+Sprint 7,Notifications,Medium,Resolved,Environment Issue
+Sprint 7,Notifications,High,Open,Environment Issue
+Sprint 7,Reports,High,Closed,Test Coverage Miss
+Sprint 7,Reports,High,Open,Code Issue
+Sprint 7,Reports,High,In Progress,Test Coverage Miss
+Sprint 7,Reports,Low,Open,Requirement Gap
+Sprint 7,Dashboard,High,Closed,Test Coverage Miss
+Sprint 7,Dashboard,Critical,Closed,Test Coverage Miss
+Sprint 7,Dashboard,High,Resolved,Environment Issue
+Sprint 7,Dashboard,High,In Progress,Code Issue
+Sprint 7,Dashboard,Low,Open,Environment Issue
+Sprint 7,Dashboard,Critical,Open,Code Issue
+Sprint 7,Dashboard,Low,Resolved,Environment Issue
+Sprint 7,Dashboard,High,Closed,Test Coverage Miss
+Sprint 7,Dashboard,Low,In Progress,Code Issue
+Sprint 7,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 8,Authentication,High,In Progress,Environment Issue
+Sprint 8,Authentication,High,Resolved,Environment Issue
+Sprint 8,Billing,Low,In Progress,Requirement Gap
+Sprint 8,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 8,Billing,Medium,Resolved,Requirement Gap
+Sprint 8,Payments,Medium,Open,Test Coverage Miss
+Sprint 8,Payments,Low,Open,Environment Issue
+Sprint 8,Payments,Medium,Open,Test Coverage Miss
+Sprint 8,Payments,Low,Resolved,Requirement Gap
+Sprint 8,Payments,Critical,In Progress,Requirement Gap
+Sprint 8,Payments,High,In Progress,Requirement Gap
+Sprint 8,Payments,High,Resolved,Code Issue
+Sprint 8,Payments,Medium,Open,Test Coverage Miss
+Sprint 8,Payments,High,Closed,Code Issue
+Sprint 8,Payments,Medium,Resolved,Environment Issue
+Sprint 8,Notifications,Critical,Resolved,Requirement Gap
+Sprint 8,Notifications,Critical,Closed,Requirement Gap
+Sprint 8,Reports,Medium,In Progress,Code Issue
+Sprint 8,Reports,Low,In Progress,Requirement Gap
+Sprint 8,Reports,Low,In Progress,Environment Issue
+Sprint 8,Reports,Critical,Resolved,Test Coverage Miss
+Sprint 8,Reports,Medium,In Progress,Requirement Gap
+Sprint 8,Reports,Medium,Open,Requirement Gap
+Sprint 8,Dashboard,High,Resolved,Code Issue
+Sprint 8,Dashboard,Low,Resolved,Code Issue
+Sprint 8,Dashboard,Critical,In Progress,Test Coverage Miss
+Sprint 8,Dashboard,Critical,Open,Code Issue
+Sprint 8,Dashboard,Medium,Closed,Test Coverage Miss
+Sprint 8,Dashboard,High,In Progress,Requirement Gap
+Sprint 8,Dashboard,Critical,In Progress,Environment Issue
+Sprint 8,Dashboard,High,Closed,Environment Issue
+Sprint 9,Authentication,High,In Progress,Environment Issue
+Sprint 9,Authentication,High,Closed,Requirement Gap
+Sprint 9,Authentication,Medium,Resolved,Code Issue
+Sprint 9,Authentication,High,In Progress,Requirement Gap
+Sprint 9,Authentication,High,In Progress,Code Issue
+Sprint 9,Authentication,Low,In Progress,Test Coverage Miss
+Sprint 9,Authentication,Critical,In Progress,Environment Issue
+Sprint 9,Authentication,Critical,Resolved,Requirement Gap
+Sprint 9,Authentication,Medium,In Progress,Requirement Gap
+Sprint 9,Authentication,Low,Open,Code Issue
+Sprint 9,Billing,Medium,Open,Requirement Gap
+Sprint 9,Billing,High,Open,Environment Issue
+Sprint 9,Billing,Medium,Open,Requirement Gap
+Sprint 9,Billing,Medium,Open,Requirement Gap
+Sprint 9,Billing,Medium,In Progress,Code Issue
+Sprint 9,Billing,High,Resolved,Code Issue
+Sprint 9,Billing,High,In Progress,Code Issue
+Sprint 9,Billing,Critical,Closed,Code Issue
+Sprint 9,Billing,Critical,Resolved,Environment Issue
+Sprint 9,Billing,Medium,Resolved,Code Issue
+Sprint 9,Payments,Critical,In Progress,Requirement Gap
+Sprint 9,Payments,Medium,Resolved,Test Coverage Miss
+Sprint 9,Payments,Critical,Closed,Requirement Gap
+Sprint 9,Payments,Low,Resolved,Code Issue
+Sprint 9,Payments,Medium,Closed,Test Coverage Miss
+Sprint 9,Payments,High,In Progress,Code Issue
+Sprint 9,Payments,Low,Closed,Requirement Gap
+Sprint 9,Payments,Medium,Closed,Test Coverage Miss
+Sprint 9,Payments,Low,In Progress,Environment Issue
+Sprint 9,Notifications,Critical,In Progress,Requirement Gap
+Sprint 9,Notifications,Critical,Resolved,Code Issue
+Sprint 9,Notifications,High,In Progress,Code Issue
+Sprint 9,Notifications,Critical,In Progress,Requirement Gap
+Sprint 9,Reports,High,In Progress,Environment Issue
+Sprint 9,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 9,Dashboard,High,Resolved,Test Coverage Miss
+Sprint 9,Dashboard,Medium,Open,Test Coverage Miss
+Sprint 9,Dashboard,High,Resolved,Environment Issue
+Sprint 9,Dashboard,Medium,Resolved,Environment Issue
+Sprint 9,Dashboard,Low,Resolved,Test Coverage Miss
+Sprint 9,Dashboard,High,In Progress,Environment Issue
+Sprint 9,Dashboard,Low,Open,Requirement Gap
+Sprint 9,Dashboard,Medium,Resolved,Code Issue
+Sprint 9,Dashboard,Low,Closed,Environment Issue
+Sprint 10,Authentication,High,Open,Code Issue
+Sprint 10,Authentication,Critical,Resolved,Test Coverage Miss
+Sprint 10,Authentication,Medium,In Progress,Environment Issue
+Sprint 10,Authentication,High,Open,Requirement Gap
+Sprint 10,Authentication,Medium,Resolved,Environment Issue
+Sprint 10,Authentication,Low,Resolved,Environment Issue
+Sprint 10,Authentication,Critical,Resolved,Environment Issue
+Sprint 10,Authentication,Critical,In Progress,Code Issue
+Sprint 10,Authentication,High,Open,Requirement Gap
+Sprint 10,Billing,Critical,Open,Requirement Gap
+Sprint 10,Billing,Low,Closed,Test Coverage Miss
+Sprint 10,Billing,High,Closed,Code Issue
+Sprint 10,Billing,Medium,Closed,Code Issue
+Sprint 10,Billing,Low,Resolved,Environment Issue
+Sprint 10,Billing,Low,Closed,Code Issue
+Sprint 10,Billing,Critical,In Progress,Requirement Gap
+Sprint 10,Billing,Medium,Open,Code Issue
+Sprint 10,Billing,High,In Progress,Environment Issue
+Sprint 10,Payments,Critical,Open,Requirement Gap
+Sprint 10,Payments,High,In Progress,Requirement Gap
+Sprint 10,Payments,Medium,Open,Code Issue
+Sprint 10,Payments,Medium,Resolved,Requirement Gap
+Sprint 10,Payments,Critical,Closed,Test Coverage Miss
+Sprint 10,Payments,Medium,Open,Code Issue
+Sprint 10,Payments,Medium,Open,Requirement Gap
+Sprint 10,Payments,Medium,Open,Test Coverage Miss
+Sprint 10,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 10,Notifications,Low,Closed,Test Coverage Miss
+Sprint 10,Notifications,High,Closed,Test Coverage Miss
+Sprint 10,Notifications,Critical,Resolved,Test Coverage Miss
+Sprint 10,Notifications,Critical,Resolved,Environment Issue
+Sprint 10,Notifications,High,Closed,Code Issue
+Sprint 10,Notifications,Critical,Open,Environment Issue
+Sprint 10,Notifications,Low,Open,Code Issue
+Sprint 10,Reports,High,Open,Code Issue
+Sprint 10,Reports,High,Closed,Test Coverage Miss
+Sprint 10,Reports,Low,Open,Test Coverage Miss
+Sprint 10,Reports,High,In Progress,Test Coverage Miss
+Sprint 10,Reports,Critical,Resolved,Code Issue
+Sprint 10,Reports,Critical,Open,Code Issue
+Sprint 10,Reports,Low,In Progress,Requirement Gap
+Sprint 10,Reports,Medium,Open,Requirement Gap
+Sprint 10,Reports,Critical,Open,Requirement Gap
+Sprint 10,Dashboard,High,Closed,Requirement Gap
+Sprint 10,Dashboard,High,In Progress,Code Issue
+Sprint 10,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 10,Dashboard,Critical,In Progress,Requirement Gap
+Sprint 10,Dashboard,Low,Open,Environment Issue
+Sprint 11,Authentication,Critical,Resolved,Code Issue
+Sprint 11,Authentication,High,Open,Code Issue
+Sprint 11,Authentication,High,Open,Code Issue
+Sprint 11,Authentication,High,Resolved,Environment Issue
+Sprint 11,Authentication,High,In Progress,Code Issue
+Sprint 11,Authentication,Critical,In Progress,Code Issue
+Sprint 11,Billing,Critical,Resolved,Code Issue
+Sprint 11,Billing,Medium,In Progress,Code Issue
+Sprint 11,Billing,High,Resolved,Environment Issue
+Sprint 11,Billing,Critical,Closed,Environment Issue
+Sprint 11,Billing,Medium,Open,Environment Issue
+Sprint 11,Billing,Critical,In Progress,Environment Issue
+Sprint 11,Billing,Low,Resolved,Test Coverage Miss
+Sprint 11,Payments,Low,Resolved,Code Issue
+Sprint 11,Payments,Medium,Resolved,Requirement Gap
+Sprint 11,Payments,Critical,In Progress,Environment Issue
+Sprint 11,Payments,Medium,In Progress,Code Issue
+Sprint 11,Payments,High,Open,Environment Issue
+Sprint 11,Payments,Critical,Resolved,Code Issue
+Sprint 11,Payments,Low,In Progress,Test Coverage Miss
+Sprint 11,Payments,High,In Progress,Environment Issue
+Sprint 11,Notifications,Low,Open,Code Issue
+Sprint 11,Notifications,Medium,Open,Requirement Gap
+Sprint 11,Notifications,Critical,Closed,Environment Issue
+Sprint 11,Notifications,Critical,Closed,Environment Issue
+Sprint 11,Notifications,Low,Open,Test Coverage Miss
+Sprint 11,Notifications,High,Open,Requirement Gap
+Sprint 11,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 11,Notifications,Critical,In Progress,Code Issue
+Sprint 11,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 11,Reports,High,In Progress,Test Coverage Miss
+Sprint 11,Reports,Critical,Resolved,Environment Issue
+Sprint 11,Reports,Medium,Closed,Code Issue
+Sprint 11,Dashboard,High,Open,Test Coverage Miss
+Sprint 11,Dashboard,Medium,Resolved,Code Issue
+Sprint 11,Dashboard,High,Open,Requirement Gap
+Sprint 11,Dashboard,Critical,Closed,Environment Issue
+Sprint 11,Dashboard,Medium,Resolved,Code Issue
+Sprint 12,Authentication,Low,Closed,Code Issue
+Sprint 12,Authentication,High,Resolved,Environment Issue
+Sprint 12,Authentication,Medium,Resolved,Environment Issue
+Sprint 12,Authentication,Low,In Progress,Code Issue
+Sprint 12,Billing,High,Open,Code Issue
+Sprint 12,Billing,Medium,Open,Requirement Gap
+Sprint 12,Billing,High,Resolved,Test Coverage Miss
+Sprint 12,Billing,High,Closed,Code Issue
+Sprint 12,Billing,Critical,In Progress,Requirement Gap
+Sprint 12,Payments,High,In Progress,Code Issue
+Sprint 12,Payments,High,Open,Test Coverage Miss
+Sprint 12,Payments,Low,Closed,Requirement Gap
+Sprint 12,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 12,Payments,High,In Progress,Requirement Gap
+Sprint 12,Payments,Medium,Open,Requirement Gap
+Sprint 12,Payments,High,Closed,Test Coverage Miss
+Sprint 12,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 12,Payments,Medium,Resolved,Code Issue
+Sprint 12,Notifications,Critical,Closed,Environment Issue
+Sprint 12,Notifications,Critical,Resolved,Requirement Gap
+Sprint 12,Notifications,Low,In Progress,Code Issue
+Sprint 12,Notifications,Low,In Progress,Test Coverage Miss
+Sprint 12,Notifications,Medium,Open,Requirement Gap
+Sprint 12,Notifications,High,Resolved,Code Issue
+Sprint 12,Notifications,Low,Closed,Test Coverage Miss
+Sprint 12,Notifications,Critical,Resolved,Test Coverage Miss
+Sprint 12,Notifications,Low,Open,Requirement Gap
+Sprint 12,Reports,Critical,Closed,Test Coverage Miss
+Sprint 12,Reports,Medium,In Progress,Code Issue
+Sprint 12,Dashboard,Low,Open,Requirement Gap
+Sprint 12,Dashboard,Medium,Open,Code Issue
+Sprint 12,Dashboard,Low,Resolved,Test Coverage Miss
+Sprint 12,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 12,Dashboard,Low,Open,Code Issue
+Sprint 12,Dashboard,Medium,Open,Requirement Gap
+Sprint 12,Dashboard,Low,Resolved,Environment Issue
+Sprint 12,Dashboard,Critical,Closed,Requirement Gap
+Sprint 12,Dashboard,Medium,Resolved,Code Issue
+Sprint 13,Authentication,Critical,In Progress,Code Issue
+Sprint 13,Authentication,Critical,Resolved,Code Issue
+Sprint 13,Authentication,Critical,Open,Requirement Gap
+Sprint 13,Authentication,High,In Progress,Code Issue
+Sprint 13,Authentication,High,Closed,Test Coverage Miss
+Sprint 13,Billing,Critical,Closed,Test Coverage Miss
+Sprint 13,Billing,Medium,Resolved,Requirement Gap
+Sprint 13,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 13,Billing,High,Open,Environment Issue
+Sprint 13,Billing,High,Closed,Code Issue
+Sprint 13,Billing,Medium,In Progress,Environment Issue
+Sprint 13,Billing,Medium,Closed,Requirement Gap
+Sprint 13,Payments,Medium,Open,Environment Issue
+Sprint 13,Payments,Medium,Closed,Code Issue
+Sprint 13,Payments,Critical,In Progress,Test Coverage Miss
+Sprint 13,Payments,High,In Progress,Requirement Gap
+Sprint 13,Payments,High,Open,Code Issue
+Sprint 13,Payments,High,Open,Code Issue
+Sprint 13,Payments,Medium,Resolved,Environment Issue
+Sprint 13,Payments,Low,Closed,Code Issue
+Sprint 13,Payments,High,In Progress,Test Coverage Miss
+Sprint 13,Notifications,Low,Open,Test Coverage Miss
+Sprint 13,Notifications,Medium,In Progress,Code Issue
+Sprint 13,Notifications,Critical,Open,Test Coverage Miss
+Sprint 13,Notifications,High,In Progress,Environment Issue
+Sprint 13,Notifications,Medium,Open,Environment Issue
+Sprint 13,Notifications,Medium,Closed,Code Issue
+Sprint 13,Reports,High,In Progress,Test Coverage Miss
+Sprint 13,Reports,Medium,In Progress,Test Coverage Miss
+Sprint 13,Reports,Medium,Closed,Environment Issue
+Sprint 13,Reports,Critical,In Progress,Requirement Gap
+Sprint 13,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 13,Reports,Medium,Open,Environment Issue
+Sprint 13,Reports,Critical,In Progress,Requirement Gap
+Sprint 13,Reports,Medium,Open,Test Coverage Miss
+Sprint 13,Dashboard,Critical,Resolved,Environment Issue
+Sprint 13,Dashboard,Medium,Open,Test Coverage Miss
+Sprint 13,Dashboard,High,Resolved,Test Coverage Miss
+Sprint 13,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 13,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 13,Dashboard,High,Resolved,Environment Issue
+Sprint 13,Dashboard,Medium,Resolved,Requirement Gap
+Sprint 13,Dashboard,Low,In Progress,Environment Issue
+Sprint 13,Dashboard,Medium,Resolved,Environment Issue
+Sprint 14,Authentication,Low,Closed,Requirement Gap
+Sprint 14,Authentication,Low,Open,Test Coverage Miss
+Sprint 14,Authentication,Medium,Closed,Code Issue
+Sprint 14,Authentication,High,Resolved,Requirement Gap
+Sprint 14,Authentication,Low,In Progress,Test Coverage Miss
+Sprint 14,Authentication,Critical,In Progress,Code Issue
+Sprint 14,Authentication,Low,In Progress,Environment Issue
+Sprint 14,Billing,Medium,Resolved,Environment Issue
+Sprint 14,Billing,Critical,Resolved,Environment Issue
+Sprint 14,Payments,High,Closed,Test Coverage Miss
+Sprint 14,Payments,Medium,Open,Environment Issue
+Sprint 14,Payments,Critical,Open,Code Issue
+Sprint 14,Payments,Medium,Closed,Requirement Gap
+Sprint 14,Payments,Medium,Closed,Code Issue
+Sprint 14,Payments,Critical,Resolved,Test Coverage Miss
+Sprint 14,Payments,Critical,Open,Environment Issue
+Sprint 14,Payments,Critical,Closed,Environment Issue
+Sprint 14,Payments,High,Resolved,Requirement Gap
+Sprint 14,Notifications,Low,Open,Code Issue
+Sprint 14,Notifications,Medium,Resolved,Code Issue
+Sprint 14,Notifications,High,In Progress,Test Coverage Miss
+Sprint 14,Notifications,Critical,Closed,Requirement Gap
+Sprint 14,Notifications,High,Closed,Requirement Gap
+Sprint 14,Reports,Critical,In Progress,Requirement Gap
+Sprint 14,Reports,Medium,In Progress,Environment Issue
+Sprint 14,Dashboard,Medium,Open,Test Coverage Miss
+Sprint 14,Dashboard,High,Closed,Code Issue
+Sprint 14,Dashboard,Low,Open,Code Issue
+Sprint 15,Authentication,High,In Progress,Test Coverage Miss
+Sprint 15,Authentication,High,Open,Code Issue
+Sprint 15,Authentication,High,Resolved,Requirement Gap
+Sprint 15,Authentication,Low,Open,Requirement Gap
+Sprint 15,Authentication,High,Closed,Requirement Gap
+Sprint 15,Authentication,Low,Open,Code Issue
+Sprint 15,Authentication,Low,Resolved,Test Coverage Miss
+Sprint 15,Billing,Low,Open,Requirement Gap
+Sprint 15,Billing,Critical,Closed,Test Coverage Miss
+Sprint 15,Billing,Critical,Open,Test Coverage Miss
+Sprint 15,Billing,Medium,Open,Test Coverage Miss
+Sprint 15,Billing,Low,Closed,Environment Issue
+Sprint 15,Billing,Low,Resolved,Environment Issue
+Sprint 15,Billing,Low,Open,Test Coverage Miss
+Sprint 15,Payments,Low,Resolved,Code Issue
+Sprint 15,Payments,High,Open,Requirement Gap
+Sprint 15,Payments,High,Open,Test Coverage Miss
+Sprint 15,Payments,High,Open,Test Coverage Miss
+Sprint 15,Notifications,High,Open,Code Issue
+Sprint 15,Notifications,High,Resolved,Requirement Gap
+Sprint 15,Notifications,Medium,In Progress,Test Coverage Miss
+Sprint 15,Notifications,Medium,Closed,Code Issue
+Sprint 15,Notifications,High,Resolved,Test Coverage Miss
+Sprint 15,Notifications,Critical,In Progress,Environment Issue
+Sprint 15,Notifications,Low,Closed,Code Issue
+Sprint 15,Reports,Medium,Open,Environment Issue
+Sprint 15,Reports,Medium,Closed,Requirement Gap
+Sprint 15,Reports,Low,Closed,Requirement Gap
+Sprint 15,Reports,Medium,Resolved,Code Issue
+Sprint 15,Reports,Medium,In Progress,Test Coverage Miss
+Sprint 15,Reports,Low,Resolved,Environment Issue
+Sprint 15,Dashboard,Low,Closed,Requirement Gap
+Sprint 15,Dashboard,Low,Closed,Requirement Gap
+Sprint 15,Dashboard,Low,Open,Test Coverage Miss
+Sprint 16,Authentication,Low,Open,Test Coverage Miss
+Sprint 16,Authentication,Low,Resolved,Code Issue
+Sprint 16,Authentication,Critical,Open,Requirement Gap
+Sprint 16,Authentication,Critical,Open,Requirement Gap
+Sprint 16,Billing,Low,Resolved,Requirement Gap
+Sprint 16,Billing,Critical,Open,Environment Issue
+Sprint 16,Billing,Low,In Progress,Test Coverage Miss
+Sprint 16,Billing,High,Resolved,Test Coverage Miss
+Sprint 16,Billing,Low,In Progress,Code Issue
+Sprint 16,Billing,Critical,In Progress,Code Issue
+Sprint 16,Billing,Medium,In Progress,Requirement Gap
+Sprint 16,Billing,High,Resolved,Environment Issue
+Sprint 16,Billing,High,Closed,Requirement Gap
+Sprint 16,Payments,Low,Open,Test Coverage Miss
+Sprint 16,Payments,Critical,Resolved,Test Coverage Miss
+Sprint 16,Payments,High,Resolved,Code Issue
+Sprint 16,Payments,Medium,Open,Code Issue
+Sprint 16,Payments,Low,Open,Test Coverage Miss
+Sprint 16,Payments,High,Resolved,Test Coverage Miss
+Sprint 16,Payments,Critical,Open,Requirement Gap
+Sprint 16,Notifications,Medium,Closed,Code Issue
+Sprint 16,Notifications,Medium,Resolved,Test Coverage Miss
+Sprint 16,Notifications,High,In Progress,Environment Issue
+Sprint 16,Notifications,Low,Resolved,Environment Issue
+Sprint 16,Notifications,High,Closed,Requirement Gap
+Sprint 16,Notifications,High,Resolved,Test Coverage Miss
+Sprint 16,Notifications,High,Open,Code Issue
+Sprint 16,Notifications,Critical,In Progress,Test Coverage Miss
+Sprint 16,Reports,High,In Progress,Code Issue
+Sprint 16,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 16,Reports,Critical,Resolved,Code Issue
+Sprint 16,Reports,Critical,Closed,Environment Issue
+Sprint 16,Reports,Low,Open,Requirement Gap
+Sprint 16,Reports,Low,Closed,Code Issue
+Sprint 16,Reports,Low,Resolved,Code Issue
+Sprint 16,Reports,Critical,In Progress,Environment Issue
+Sprint 16,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 16,Dashboard,Medium,Closed,Requirement Gap
+Sprint 16,Dashboard,Critical,Open,Code Issue
+Sprint 16,Dashboard,Critical,Closed,Code Issue
+Sprint 17,Authentication,Critical,Resolved,Code Issue
+Sprint 17,Authentication,Low,Open,Code Issue
+Sprint 17,Authentication,Critical,In Progress,Environment Issue
+Sprint 17,Authentication,Low,Closed,Code Issue
+Sprint 17,Authentication,Medium,In Progress,Requirement Gap
+Sprint 17,Authentication,Low,In Progress,Requirement Gap
+Sprint 17,Authentication,High,Resolved,Test Coverage Miss
+Sprint 17,Authentication,Low,Open,Environment Issue
+Sprint 17,Authentication,High,Open,Environment Issue
+Sprint 17,Billing,Critical,Resolved,Environment Issue
+Sprint 17,Billing,Critical,Resolved,Test Coverage Miss
+Sprint 17,Billing,Critical,Open,Code Issue
+Sprint 17,Billing,Medium,Closed,Code Issue
+Sprint 17,Billing,High,Closed,Requirement Gap
+Sprint 17,Billing,Low,Closed,Code Issue
+Sprint 17,Billing,Low,Resolved,Environment Issue
+Sprint 17,Billing,Low,In Progress,Test Coverage Miss
+Sprint 17,Payments,Low,In Progress,Code Issue
+Sprint 17,Payments,Critical,Resolved,Test Coverage Miss
+Sprint 17,Notifications,Critical,Closed,Environment Issue
+Sprint 17,Notifications,Low,Closed,Test Coverage Miss
+Sprint 17,Notifications,Medium,Closed,Code Issue
+Sprint 17,Notifications,Medium,Resolved,Requirement Gap
+Sprint 17,Reports,Medium,Open,Environment Issue
+Sprint 17,Reports,Medium,Resolved,Code Issue
+Sprint 17,Reports,High,Resolved,Environment Issue
+Sprint 17,Reports,High,Open,Requirement Gap
+Sprint 17,Reports,Critical,Open,Requirement Gap
+Sprint 17,Reports,Medium,Open,Requirement Gap
+Sprint 17,Dashboard,Low,Closed,Test Coverage Miss
+Sprint 17,Dashboard,Low,Closed,Environment Issue
+Sprint 17,Dashboard,Low,Resolved,Code Issue
+Sprint 18,Authentication,High,Resolved,Requirement Gap
+Sprint 18,Authentication,Low,Closed,Requirement Gap
+Sprint 18,Authentication,Critical,Resolved,Code Issue
+Sprint 18,Authentication,Low,Open,Requirement Gap
+Sprint 18,Billing,High,In Progress,Requirement Gap
+Sprint 18,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 18,Payments,Critical,Resolved,Requirement Gap
+Sprint 18,Payments,High,Resolved,Test Coverage Miss
+Sprint 18,Payments,Critical,Resolved,Requirement Gap
+Sprint 18,Payments,Low,Resolved,Test Coverage Miss
+Sprint 18,Payments,Critical,Resolved,Code Issue
+Sprint 18,Payments,Critical,Open,Requirement Gap
+Sprint 18,Payments,High,In Progress,Requirement Gap
+Sprint 18,Notifications,Medium,Resolved,Requirement Gap
+Sprint 18,Notifications,Critical,Resolved,Requirement Gap
+Sprint 18,Notifications,Low,In Progress,Environment Issue
+Sprint 18,Reports,Critical,Closed,Environment Issue
+Sprint 18,Reports,High,Closed,Test Coverage Miss
+Sprint 18,Reports,Medium,Closed,Test Coverage Miss
+Sprint 18,Reports,Low,Open,Code Issue
+Sprint 18,Reports,Low,Open,Test Coverage Miss
+Sprint 18,Reports,Low,Closed,Test Coverage Miss
+Sprint 18,Dashboard,Medium,Resolved,Code Issue
+Sprint 18,Dashboard,High,Resolved,Requirement Gap
+Sprint 18,Dashboard,Low,In Progress,Code Issue
+Sprint 18,Dashboard,Critical,Closed,Environment Issue
+Sprint 18,Dashboard,Medium,In Progress,Environment Issue
+Sprint 19,Authentication,Medium,Closed,Requirement Gap
+Sprint 19,Authentication,Medium,Closed,Environment Issue
+Sprint 19,Authentication,Low,In Progress,Code Issue
+Sprint 19,Authentication,High,Resolved,Code Issue
+Sprint 19,Billing,Medium,Open,Requirement Gap
+Sprint 19,Billing,Medium,In Progress,Code Issue
+Sprint 19,Billing,High,Open,Test Coverage Miss
+Sprint 19,Billing,High,Resolved,Code Issue
+Sprint 19,Billing,High,Resolved,Environment Issue
+Sprint 19,Billing,Medium,In Progress,Requirement Gap
+Sprint 19,Billing,Critical,In Progress,Requirement Gap
+Sprint 19,Payments,Medium,Closed,Requirement Gap
+Sprint 19,Payments,Medium,Closed,Environment Issue
+Sprint 19,Payments,Critical,Open,Test Coverage Miss
+Sprint 19,Payments,Critical,Closed,Environment Issue
+Sprint 19,Payments,High,Open,Code Issue
+Sprint 19,Payments,Critical,In Progress,Test Coverage Miss
+Sprint 19,Notifications,Medium,In Progress,Test Coverage Miss
+Sprint 19,Notifications,Low,Open,Code Issue
+Sprint 19,Notifications,Low,Resolved,Environment Issue
+Sprint 19,Notifications,Low,Resolved,Requirement Gap
+Sprint 19,Notifications,High,Open,Test Coverage Miss
+Sprint 19,Notifications,Medium,Open,Requirement Gap
+Sprint 19,Reports,Low,In Progress,Test Coverage Miss
+Sprint 19,Reports,Medium,Resolved,Code Issue
+Sprint 19,Reports,Medium,Open,Requirement Gap
+Sprint 19,Reports,Low,Open,Test Coverage Miss
+Sprint 19,Reports,Low,In Progress,Requirement Gap
+Sprint 19,Reports,Low,In Progress,Environment Issue
+Sprint 19,Reports,Critical,Resolved,Code Issue
+Sprint 19,Dashboard,Critical,Closed,Environment Issue
+Sprint 19,Dashboard,Low,Open,Test Coverage Miss
+Sprint 19,Dashboard,High,Closed,Requirement Gap
+Sprint 19,Dashboard,High,In Progress,Requirement Gap
+Sprint 19,Dashboard,Critical,Open,Environment Issue
+Sprint 19,Dashboard,Critical,Open,Environment Issue
+Sprint 20,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 20,Authentication,Low,In Progress,Code Issue
+Sprint 20,Authentication,Medium,Resolved,Requirement Gap
+Sprint 20,Billing,Low,In Progress,Environment Issue
+Sprint 20,Billing,Low,Open,Code Issue
+Sprint 20,Billing,High,Open,Code Issue
+Sprint 20,Billing,High,In Progress,Code Issue
+Sprint 20,Billing,High,Closed,Environment Issue
+Sprint 20,Billing,Low,Open,Environment Issue
+Sprint 20,Billing,High,Closed,Requirement Gap
+Sprint 20,Billing,Low,Open,Requirement Gap
+Sprint 20,Payments,Low,Closed,Test Coverage Miss
+Sprint 20,Payments,High,Open,Environment Issue
+Sprint 20,Payments,Critical,Closed,Environment Issue
+Sprint 20,Notifications,High,Open,Environment Issue
+Sprint 20,Notifications,Critical,Open,Test Coverage Miss
+Sprint 20,Reports,Medium,In Progress,Requirement Gap
+Sprint 20,Reports,Critical,In Progress,Code Issue
+Sprint 20,Reports,Critical,Closed,Environment Issue
+Sprint 20,Reports,Critical,Resolved,Requirement Gap
+Sprint 20,Reports,Medium,Resolved,Environment Issue
+Sprint 20,Dashboard,Critical,Closed,Requirement Gap
+Sprint 20,Dashboard,High,Closed,Requirement Gap
+Sprint 20,Dashboard,Medium,Closed,Code Issue
+Sprint 20,Dashboard,Low,Closed,Requirement Gap
+Sprint 20,Dashboard,Medium,In Progress,Code Issue
+Sprint 21,Authentication,Low,Open,Test Coverage Miss
+Sprint 21,Authentication,Medium,Closed,Environment Issue
+Sprint 21,Authentication,Medium,Closed,Requirement Gap
+Sprint 21,Authentication,Low,Closed,Code Issue
+Sprint 21,Authentication,Medium,Open,Environment Issue
+Sprint 21,Billing,Medium,Open,Code Issue
+Sprint 21,Billing,Medium,In Progress,Test Coverage Miss
+Sprint 21,Billing,Low,Resolved,Test Coverage Miss
+Sprint 21,Billing,High,Closed,Environment Issue
+Sprint 21,Payments,High,In Progress,Code Issue
+Sprint 21,Payments,Low,Resolved,Requirement Gap
+Sprint 21,Payments,Low,Open,Code Issue
+Sprint 21,Payments,Critical,In Progress,Requirement Gap
+Sprint 21,Notifications,Medium,Open,Code Issue
+Sprint 21,Notifications,Medium,Closed,Environment Issue
+Sprint 21,Notifications,Medium,Open,Test Coverage Miss
+Sprint 21,Notifications,Critical,Open,Requirement Gap
+Sprint 21,Notifications,Critical,Closed,Test Coverage Miss
+Sprint 21,Notifications,High,Closed,Test Coverage Miss
+Sprint 21,Notifications,High,Closed,Environment Issue
+Sprint 21,Notifications,High,Closed,Code Issue
+Sprint 21,Notifications,High,In Progress,Environment Issue
+Sprint 21,Reports,Low,Open,Requirement Gap
+Sprint 21,Reports,Low,Open,Requirement Gap
+Sprint 21,Dashboard,Medium,Closed,Code Issue
+Sprint 21,Dashboard,High,Open,Code Issue
+Sprint 21,Dashboard,High,In Progress,Code Issue
+Sprint 21,Dashboard,Critical,In Progress,Test Coverage Miss
+Sprint 21,Dashboard,High,Open,Code Issue
+Sprint 22,Authentication,High,Open,Code Issue
+Sprint 22,Authentication,Medium,In Progress,Requirement Gap
+Sprint 22,Authentication,High,Closed,Environment Issue
+Sprint 22,Authentication,Low,In Progress,Requirement Gap
+Sprint 22,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 22,Billing,Low,Open,Requirement Gap
+Sprint 22,Billing,Medium,In Progress,Requirement Gap
+Sprint 22,Billing,Low,Closed,Test Coverage Miss
+Sprint 22,Payments,Low,In Progress,Test Coverage Miss
+Sprint 22,Payments,Medium,Resolved,Test Coverage Miss
+Sprint 22,Payments,Medium,Closed,Test Coverage Miss
+Sprint 22,Payments,Low,Closed,Requirement Gap
+Sprint 22,Notifications,Medium,Resolved,Requirement Gap
+Sprint 22,Notifications,Low,Closed,Environment Issue
+Sprint 22,Reports,High,Closed,Environment Issue
+Sprint 22,Reports,Medium,Closed,Environment Issue
+Sprint 22,Reports,Medium,Resolved,Environment Issue
+Sprint 22,Reports,Medium,Closed,Code Issue
+Sprint 22,Dashboard,Medium,In Progress,Environment Issue
+Sprint 22,Dashboard,Critical,In Progress,Requirement Gap
+Sprint 22,Dashboard,Low,Resolved,Environment Issue
+Sprint 22,Dashboard,Medium,Resolved,Requirement Gap
+Sprint 22,Dashboard,Critical,Open,Environment Issue
+Sprint 22,Dashboard,Low,Closed,Test Coverage Miss
+Sprint 22,Dashboard,High,Closed,Test Coverage Miss
+Sprint 22,Dashboard,Critical,In Progress,Requirement Gap
+Sprint 23,Authentication,Medium,Closed,Requirement Gap
+Sprint 23,Authentication,High,Open,Environment Issue
+Sprint 23,Authentication,Medium,Closed,Environment Issue
+Sprint 23,Authentication,Medium,Resolved,Environment Issue
+Sprint 23,Authentication,Low,Open,Test Coverage Miss
+Sprint 23,Authentication,Critical,In Progress,Test Coverage Miss
+Sprint 23,Authentication,Low,In Progress,Environment Issue
+Sprint 23,Billing,High,Resolved,Test Coverage Miss
+Sprint 23,Billing,Medium,Open,Requirement Gap
+Sprint 23,Billing,Critical,Open,Requirement Gap
+Sprint 23,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 23,Payments,Medium,Closed,Requirement Gap
+Sprint 23,Payments,Low,Closed,Test Coverage Miss
+Sprint 23,Payments,Critical,Open,Test Coverage Miss
+Sprint 23,Payments,Critical,Resolved,Environment Issue
+Sprint 23,Payments,High,Resolved,Test Coverage Miss
+Sprint 23,Payments,High,Open,Requirement Gap
+Sprint 23,Payments,Medium,Open,Environment Issue
+Sprint 23,Notifications,Critical,In Progress,Test Coverage Miss
+Sprint 23,Notifications,Low,Open,Environment Issue
+Sprint 23,Notifications,Critical,Closed,Code Issue
+Sprint 23,Notifications,High,Closed,Test Coverage Miss
+Sprint 23,Reports,Medium,Closed,Code Issue
+Sprint 23,Reports,High,Closed,Environment Issue
+Sprint 23,Reports,Medium,In Progress,Requirement Gap
+Sprint 23,Reports,Medium,Resolved,Requirement Gap
+Sprint 23,Reports,High,Resolved,Test Coverage Miss
+Sprint 23,Reports,Medium,Closed,Environment Issue
+Sprint 23,Reports,High,Resolved,Test Coverage Miss
+Sprint 23,Dashboard,Critical,Resolved,Code Issue
+Sprint 23,Dashboard,Critical,Resolved,Code Issue
+Sprint 23,Dashboard,Critical,Closed,Requirement Gap
+Sprint 23,Dashboard,Medium,Closed,Test Coverage Miss
+Sprint 24,Authentication,Critical,Open,Requirement Gap
+Sprint 24,Authentication,Critical,Open,Requirement Gap
+Sprint 24,Authentication,High,Closed,Environment Issue
+Sprint 24,Authentication,Medium,In Progress,Test Coverage Miss
+Sprint 24,Authentication,High,Open,Code Issue
+Sprint 24,Authentication,Medium,Open,Code Issue
+Sprint 24,Authentication,Low,Open,Test Coverage Miss
+Sprint 24,Billing,Medium,In Progress,Code Issue
+Sprint 24,Billing,Critical,Open,Code Issue
+Sprint 24,Billing,Medium,Resolved,Code Issue
+Sprint 24,Billing,Low,Closed,Test Coverage Miss
+Sprint 24,Billing,Medium,Closed,Environment Issue
+Sprint 24,Billing,Critical,In Progress,Code Issue
+Sprint 24,Payments,Low,Open,Test Coverage Miss
+Sprint 24,Payments,Low,Resolved,Requirement Gap
+Sprint 24,Payments,High,Closed,Code Issue
+Sprint 24,Payments,Critical,Resolved,Requirement Gap
+Sprint 24,Payments,High,In Progress,Test Coverage Miss
+Sprint 24,Payments,Low,Closed,Environment Issue
+Sprint 24,Payments,Low,In Progress,Test Coverage Miss
+Sprint 24,Notifications,Low,In Progress,Requirement Gap
+Sprint 24,Notifications,Critical,In Progress,Code Issue
+Sprint 24,Notifications,Low,Closed,Code Issue
+Sprint 24,Notifications,Critical,In Progress,Environment Issue
+Sprint 24,Notifications,Low,Closed,Environment Issue
+Sprint 24,Notifications,High,Closed,Environment Issue
+Sprint 24,Notifications,Critical,In Progress,Requirement Gap
+Sprint 24,Notifications,High,Open,Code Issue
+Sprint 24,Reports,Medium,Open,Environment Issue
+Sprint 24,Reports,Low,Resolved,Environment Issue
+Sprint 24,Reports,Medium,Open,Test Coverage Miss
+Sprint 24,Reports,Low,Closed,Environment Issue
+Sprint 24,Reports,Medium,Open,Test Coverage Miss
+Sprint 24,Reports,Critical,Closed,Test Coverage Miss
+Sprint 24,Reports,Medium,Open,Test Coverage Miss
+Sprint 24,Dashboard,High,Closed,Test Coverage Miss
+Sprint 24,Dashboard,High,Resolved,Environment Issue
+Sprint 24,Dashboard,Medium,In Progress,Environment Issue
+Sprint 24,Dashboard,Low,Open,Test Coverage Miss
+Sprint 25,Authentication,Critical,Open,Test Coverage Miss
+Sprint 25,Authentication,Low,Open,Test Coverage Miss
+Sprint 25,Authentication,High,In Progress,Requirement Gap
+Sprint 25,Authentication,Medium,In Progress,Test Coverage Miss
+Sprint 25,Authentication,Critical,Open,Requirement Gap
+Sprint 25,Authentication,Medium,Resolved,Code Issue
+Sprint 25,Authentication,Medium,In Progress,Test Coverage Miss
+Sprint 25,Authentication,Low,Resolved,Requirement Gap
+Sprint 25,Authentication,High,In Progress,Code Issue
+Sprint 25,Authentication,Medium,Closed,Code Issue
+Sprint 25,Billing,Critical,Closed,Code Issue
+Sprint 25,Billing,Critical,Resolved,Requirement Gap
+Sprint 25,Billing,Critical,Open,Environment Issue
+Sprint 25,Billing,High,In Progress,Test Coverage Miss
+Sprint 25,Billing,High,In Progress,Environment Issue
+Sprint 25,Payments,High,In Progress,Requirement Gap
+Sprint 25,Payments,Low,Open,Environment Issue
+Sprint 25,Notifications,Low,In Progress,Environment Issue
+Sprint 25,Notifications,Low,Open,Requirement Gap
+Sprint 25,Notifications,Critical,Open,Code Issue
+Sprint 25,Notifications,Medium,Resolved,Test Coverage Miss
+Sprint 25,Reports,Medium,Open,Requirement Gap
+Sprint 25,Reports,Low,Resolved,Test Coverage Miss
+Sprint 25,Dashboard,Medium,Closed,Test Coverage Miss
+Sprint 25,Dashboard,Low,Closed,Environment Issue
+Sprint 25,Dashboard,Medium,Closed,Test Coverage Miss
+Sprint 25,Dashboard,High,In Progress,Requirement Gap
+Sprint 25,Dashboard,Medium,Open,Test Coverage Miss
+Sprint 25,Dashboard,Medium,In Progress,Requirement Gap
+Sprint 26,Authentication,Low,Resolved,Code Issue
+Sprint 26,Authentication,Low,Resolved,Environment Issue
+Sprint 26,Authentication,High,In Progress,Code Issue
+Sprint 26,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 26,Billing,Critical,Resolved,Environment Issue
+Sprint 26,Billing,Critical,Resolved,Requirement Gap
+Sprint 26,Billing,Medium,Resolved,Requirement Gap
+Sprint 26,Billing,Medium,In Progress,Requirement Gap
+Sprint 26,Billing,Low,Closed,Requirement Gap
+Sprint 26,Billing,Medium,In Progress,Code Issue
+Sprint 26,Billing,Critical,Open,Requirement Gap
+Sprint 26,Billing,High,Resolved,Environment Issue
+Sprint 26,Billing,Critical,Resolved,Code Issue
+Sprint 26,Payments,Low,Closed,Environment Issue
+Sprint 26,Payments,Medium,Resolved,Requirement Gap
+Sprint 26,Payments,High,Resolved,Test Coverage Miss
+Sprint 26,Payments,Low,Closed,Environment Issue
+Sprint 26,Payments,Medium,Closed,Requirement Gap
+Sprint 26,Payments,Medium,Open,Environment Issue
+Sprint 26,Notifications,Critical,Resolved,Environment Issue
+Sprint 26,Notifications,Low,Closed,Code Issue
+Sprint 26,Notifications,Low,Open,Environment Issue
+Sprint 26,Notifications,Medium,Resolved,Test Coverage Miss
+Sprint 26,Notifications,Medium,In Progress,Environment Issue
+Sprint 26,Notifications,Medium,Closed,Environment Issue
+Sprint 26,Reports,Medium,Resolved,Environment Issue
+Sprint 26,Reports,Low,In Progress,Code Issue
+Sprint 26,Reports,Low,Resolved,Environment Issue
+Sprint 26,Reports,Low,Resolved,Test Coverage Miss
+Sprint 26,Reports,Medium,Closed,Test Coverage Miss
+Sprint 26,Reports,Low,Closed,Test Coverage Miss
+Sprint 26,Reports,Medium,In Progress,Environment Issue
+Sprint 26,Reports,Low,In Progress,Code Issue
+Sprint 26,Reports,Critical,In Progress,Code Issue
+Sprint 26,Dashboard,High,Closed,Requirement Gap
+Sprint 26,Dashboard,Low,In Progress,Code Issue
+Sprint 27,Authentication,Critical,Open,Test Coverage Miss
+Sprint 27,Authentication,Critical,In Progress,Requirement Gap
+Sprint 27,Authentication,Low,Closed,Code Issue
+Sprint 27,Authentication,Medium,In Progress,Requirement Gap
+Sprint 27,Authentication,Critical,Closed,Requirement Gap
+Sprint 27,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 27,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 27,Billing,Critical,Open,Environment Issue
+Sprint 27,Billing,High,Closed,Code Issue
+Sprint 27,Billing,Medium,Resolved,Code Issue
+Sprint 27,Billing,Low,Open,Code Issue
+Sprint 27,Billing,High,Resolved,Environment Issue
+Sprint 27,Billing,Critical,Open,Environment Issue
+Sprint 27,Billing,Medium,In Progress,Requirement Gap
+Sprint 27,Billing,Medium,Closed,Test Coverage Miss
+Sprint 27,Payments,Medium,Open,Code Issue
+Sprint 27,Payments,Low,Resolved,Code Issue
+Sprint 27,Payments,High,Open,Requirement Gap
+Sprint 27,Payments,Low,Closed,Environment Issue
+Sprint 27,Payments,High,Open,Environment Issue
+Sprint 27,Payments,Medium,Resolved,Code Issue
+Sprint 27,Notifications,High,Resolved,Environment Issue
+Sprint 27,Notifications,High,Resolved,Code Issue
+Sprint 27,Notifications,Critical,Open,Requirement Gap
+Sprint 27,Notifications,Low,In Progress,Requirement Gap
+Sprint 27,Notifications,Low,Closed,Code Issue
+Sprint 27,Notifications,High,Open,Test Coverage Miss
+Sprint 27,Notifications,Critical,Open,Test Coverage Miss
+Sprint 27,Notifications,Medium,Open,Requirement Gap
+Sprint 27,Notifications,Critical,Open,Code Issue
+Sprint 27,Notifications,Medium,In Progress,Environment Issue
+Sprint 27,Reports,Critical,Closed,Code Issue
+Sprint 27,Reports,High,In Progress,Environment Issue
+Sprint 27,Reports,Low,Closed,Requirement Gap
+Sprint 27,Reports,Critical,Resolved,Test Coverage Miss
+Sprint 27,Reports,Low,Resolved,Test Coverage Miss
+Sprint 27,Reports,Medium,Closed,Requirement Gap
+Sprint 27,Reports,Critical,Resolved,Code Issue
+Sprint 27,Reports,Critical,Open,Environment Issue
+Sprint 27,Reports,Critical,Closed,Test Coverage Miss
+Sprint 27,Reports,Medium,Closed,Test Coverage Miss
+Sprint 27,Dashboard,Medium,Resolved,Code Issue
+Sprint 27,Dashboard,High,Resolved,Environment Issue
+Sprint 27,Dashboard,Critical,Open,Code Issue
+Sprint 27,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 27,Dashboard,High,Closed,Requirement Gap
+Sprint 27,Dashboard,Medium,Resolved,Environment Issue
+Sprint 27,Dashboard,High,In Progress,Environment Issue
+Sprint 27,Dashboard,Medium,In Progress,Code Issue
+Sprint 27,Dashboard,Medium,In Progress,Code Issue
+Sprint 27,Dashboard,Low,Resolved,Code Issue
+Sprint 28,Authentication,Low,Closed,Environment Issue
+Sprint 28,Authentication,Medium,In Progress,Code Issue
+Sprint 28,Authentication,Low,Resolved,Code Issue
+Sprint 28,Billing,High,Resolved,Requirement Gap
+Sprint 28,Billing,Critical,In Progress,Code Issue
+Sprint 28,Billing,Medium,In Progress,Requirement Gap
+Sprint 28,Billing,Critical,Closed,Requirement Gap
+Sprint 28,Billing,High,Resolved,Environment Issue
+Sprint 28,Billing,Critical,Closed,Code Issue
+Sprint 28,Billing,Critical,In Progress,Environment Issue
+Sprint 28,Billing,Medium,In Progress,Requirement Gap
+Sprint 28,Billing,High,Closed,Test Coverage Miss
+Sprint 28,Payments,Critical,Resolved,Test Coverage Miss
+Sprint 28,Payments,Low,Closed,Code Issue
+Sprint 28,Payments,High,Resolved,Code Issue
+Sprint 28,Payments,Medium,Closed,Test Coverage Miss
+Sprint 28,Payments,Critical,Closed,Environment Issue
+Sprint 28,Payments,Medium,Closed,Code Issue
+Sprint 28,Payments,High,Open,Code Issue
+Sprint 28,Payments,High,Closed,Requirement Gap
+Sprint 28,Payments,Medium,In Progress,Code Issue
+Sprint 28,Payments,High,In Progress,Test Coverage Miss
+Sprint 28,Notifications,Critical,Open,Test Coverage Miss
+Sprint 28,Notifications,Low,Closed,Environment Issue
+Sprint 28,Notifications,Medium,Closed,Requirement Gap
+Sprint 28,Notifications,Medium,Resolved,Environment Issue
+Sprint 28,Notifications,Medium,Open,Environment Issue
+Sprint 28,Notifications,Low,Closed,Code Issue
+Sprint 28,Notifications,High,Open,Environment Issue
+Sprint 28,Notifications,Critical,Closed,Environment Issue
+Sprint 28,Notifications,High,In Progress,Requirement Gap
+Sprint 28,Notifications,High,Resolved,Requirement Gap
+Sprint 28,Reports,High,In Progress,Requirement Gap
+Sprint 28,Reports,Low,In Progress,Environment Issue
+Sprint 28,Reports,High,Resolved,Environment Issue
+Sprint 28,Reports,Critical,In Progress,Requirement Gap
+Sprint 28,Reports,Medium,Closed,Test Coverage Miss
+Sprint 28,Reports,High,In Progress,Test Coverage Miss
+Sprint 28,Reports,Low,In Progress,Environment Issue
+Sprint 28,Reports,High,Open,Environment Issue
+Sprint 28,Reports,Critical,Closed,Requirement Gap
+Sprint 28,Dashboard,Medium,Open,Environment Issue
+Sprint 28,Dashboard,High,In Progress,Environment Issue
+Sprint 28,Dashboard,Medium,Open,Requirement Gap
+Sprint 28,Dashboard,High,Open,Code Issue
+Sprint 28,Dashboard,Critical,In Progress,Code Issue
+Sprint 28,Dashboard,High,Open,Test Coverage Miss
+Sprint 28,Dashboard,High,Closed,Requirement Gap
+Sprint 29,Authentication,Medium,Resolved,Environment Issue
+Sprint 29,Authentication,Medium,Resolved,Requirement Gap
+Sprint 29,Authentication,Medium,Resolved,Requirement Gap
+Sprint 29,Authentication,Low,Resolved,Requirement Gap
+Sprint 29,Authentication,High,Resolved,Code Issue
+Sprint 29,Authentication,Medium,Open,Code Issue
+Sprint 29,Authentication,Critical,In Progress,Code Issue
+Sprint 29,Authentication,Medium,Closed,Test Coverage Miss
+Sprint 29,Authentication,Medium,Resolved,Requirement Gap
+Sprint 29,Billing,Medium,Resolved,Environment Issue
+Sprint 29,Billing,Medium,Open,Requirement Gap
+Sprint 29,Billing,Critical,Open,Code Issue
+Sprint 29,Billing,High,Resolved,Code Issue
+Sprint 29,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 29,Billing,High,Open,Requirement Gap
+Sprint 29,Billing,High,Resolved,Code Issue
+Sprint 29,Billing,High,Open,Test Coverage Miss
+Sprint 29,Billing,Critical,Resolved,Environment Issue
+Sprint 29,Payments,High,Open,Test Coverage Miss
+Sprint 29,Payments,Medium,Resolved,Code Issue
+Sprint 29,Payments,High,Resolved,Test Coverage Miss
+Sprint 29,Notifications,Low,Closed,Test Coverage Miss
+Sprint 29,Notifications,High,Open,Code Issue
+Sprint 29,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 29,Notifications,High,Resolved,Environment Issue
+Sprint 29,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 29,Notifications,Medium,In Progress,Code Issue
+Sprint 29,Notifications,Critical,Resolved,Code Issue
+Sprint 29,Notifications,High,Resolved,Code Issue
+Sprint 29,Reports,Medium,Closed,Test Coverage Miss
+Sprint 29,Reports,Low,Closed,Requirement Gap
+Sprint 29,Reports,Low,In Progress,Environment Issue
+Sprint 29,Reports,High,Open,Environment Issue
+Sprint 29,Reports,Critical,Open,Requirement Gap
+Sprint 29,Reports,Critical,Closed,Code Issue
+Sprint 29,Reports,Low,Open,Code Issue
+Sprint 29,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 29,Reports,Critical,In Progress,Code Issue
+Sprint 29,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 29,Dashboard,Medium,Closed,Environment Issue
+Sprint 29,Dashboard,Low,Open,Code Issue
+Sprint 29,Dashboard,High,In Progress,Environment Issue
+Sprint 29,Dashboard,High,Resolved,Test Coverage Miss
+Sprint 29,Dashboard,Medium,Closed,Environment Issue
+Sprint 29,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 29,Dashboard,Low,Closed,Code Issue
+Sprint 29,Dashboard,High,In Progress,Requirement Gap
+Sprint 30,Authentication,High,Resolved,Requirement Gap
+Sprint 30,Authentication,High,Closed,Environment Issue
+Sprint 30,Authentication,Medium,Closed,Requirement Gap
+Sprint 30,Authentication,High,Resolved,Environment Issue
+Sprint 30,Authentication,Medium,In Progress,Environment Issue
+Sprint 30,Authentication,Low,Open,Code Issue
+Sprint 30,Authentication,Medium,Open,Test Coverage Miss
+Sprint 30,Billing,Low,Closed,Test Coverage Miss
+Sprint 30,Billing,Medium,In Progress,Code Issue
+Sprint 30,Billing,High,Closed,Code Issue
+Sprint 30,Billing,High,Open,Test Coverage Miss
+Sprint 30,Billing,Medium,Closed,Requirement Gap
+Sprint 30,Billing,Low,Resolved,Requirement Gap
+Sprint 30,Billing,Medium,Resolved,Code Issue
+Sprint 30,Billing,High,In Progress,Test Coverage Miss
+Sprint 30,Billing,Medium,Resolved,Code Issue
+Sprint 30,Billing,Low,Resolved,Code Issue
+Sprint 30,Payments,Low,Closed,Requirement Gap
+Sprint 30,Payments,High,Open,Environment Issue
+Sprint 30,Payments,Low,In Progress,Code Issue
+Sprint 30,Payments,High,Closed,Test Coverage Miss
+Sprint 30,Payments,High,Open,Code Issue
+Sprint 30,Payments,Low,Open,Code Issue
+Sprint 30,Notifications,Low,Resolved,Environment Issue
+Sprint 30,Notifications,Critical,In Progress,Code Issue
+Sprint 30,Notifications,Critical,In Progress,Environment Issue
+Sprint 30,Notifications,Critical,Resolved,Environment Issue
+Sprint 30,Notifications,Critical,Closed,Test Coverage Miss
+Sprint 30,Notifications,Medium,Resolved,Test Coverage Miss
+Sprint 30,Reports,High,Resolved,Code Issue
+Sprint 30,Reports,Medium,Resolved,Code Issue
+Sprint 30,Reports,Low,In Progress,Environment Issue
+Sprint 30,Reports,Low,Open,Environment Issue
+Sprint 30,Reports,Critical,Closed,Test Coverage Miss
+Sprint 30,Reports,Critical,Open,Code Issue
+Sprint 30,Dashboard,Low,Closed,Code Issue
+Sprint 30,Dashboard,Low,In Progress,Code Issue
+Sprint 30,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 30,Dashboard,Critical,Resolved,Code Issue
+Sprint 30,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 30,Dashboard,Critical,In Progress,Test Coverage Miss
+Sprint 31,Authentication,High,Open,Test Coverage Miss
+Sprint 31,Authentication,Low,Open,Requirement Gap
+Sprint 31,Authentication,Medium,Resolved,Requirement Gap
+Sprint 31,Billing,Critical,In Progress,Environment Issue
+Sprint 31,Billing,Low,In Progress,Environment Issue
+Sprint 31,Billing,Low,Resolved,Environment Issue
+Sprint 31,Billing,Critical,Open,Environment Issue
+Sprint 31,Billing,Medium,Closed,Requirement Gap
+Sprint 31,Billing,Low,Resolved,Code Issue
+Sprint 31,Billing,Medium,In Progress,Code Issue
+Sprint 31,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 31,Billing,Low,Resolved,Environment Issue
+Sprint 31,Payments,Medium,Open,Requirement Gap
+Sprint 31,Payments,High,In Progress,Code Issue
+Sprint 31,Payments,Medium,Closed,Environment Issue
+Sprint 31,Payments,Low,Resolved,Environment Issue
+Sprint 31,Payments,Low,Closed,Requirement Gap
+Sprint 31,Payments,Low,Resolved,Environment Issue
+Sprint 31,Payments,Critical,Open,Requirement Gap
+Sprint 31,Payments,Critical,Closed,Test Coverage Miss
+Sprint 31,Payments,Low,Open,Environment Issue
+Sprint 31,Notifications,High,Resolved,Test Coverage Miss
+Sprint 31,Notifications,High,Resolved,Environment Issue
+Sprint 31,Notifications,Low,Closed,Environment Issue
+Sprint 31,Reports,High,Closed,Code Issue
+Sprint 31,Reports,Medium,In Progress,Code Issue
+Sprint 31,Reports,Critical,Resolved,Environment Issue
+Sprint 31,Reports,Medium,In Progress,Requirement Gap
+Sprint 31,Dashboard,Medium,Closed,Requirement Gap
+Sprint 31,Dashboard,High,In Progress,Code Issue
+Sprint 31,Dashboard,Critical,Resolved,Requirement Gap
+Sprint 31,Dashboard,High,Open,Environment Issue
+Sprint 31,Dashboard,Critical,In Progress,Requirement Gap
+Sprint 31,Dashboard,Critical,Resolved,Test Coverage Miss
+Sprint 32,Authentication,High,Resolved,Test Coverage Miss
+Sprint 32,Authentication,Low,Closed,Requirement Gap
+Sprint 32,Authentication,Critical,Open,Environment Issue
+Sprint 32,Authentication,Low,Open,Environment Issue
+Sprint 32,Authentication,Medium,Closed,Environment Issue
+Sprint 32,Authentication,Low,Open,Environment Issue
+Sprint 32,Authentication,Medium,Closed,Environment Issue
+Sprint 32,Authentication,Critical,In Progress,Test Coverage Miss
+Sprint 32,Authentication,High,Open,Environment Issue
+Sprint 32,Billing,Critical,Closed,Test Coverage Miss
+Sprint 32,Billing,High,Open,Test Coverage Miss
+Sprint 32,Billing,High,Open,Code Issue
+Sprint 32,Billing,High,Closed,Code Issue
+Sprint 32,Billing,Low,In Progress,Code Issue
+Sprint 32,Billing,High,Closed,Code Issue
+Sprint 32,Billing,Critical,In Progress,Requirement Gap
+Sprint 32,Payments,Medium,Closed,Environment Issue
+Sprint 32,Payments,Critical,Closed,Code Issue
+Sprint 32,Payments,Critical,Resolved,Test Coverage Miss
+Sprint 32,Payments,Low,Open,Environment Issue
+Sprint 32,Payments,Critical,Closed,Code Issue
+Sprint 32,Notifications,High,Closed,Code Issue
+Sprint 32,Notifications,Medium,Resolved,Code Issue
+Sprint 32,Notifications,Low,In Progress,Test Coverage Miss
+Sprint 32,Notifications,Medium,In Progress,Code Issue
+Sprint 32,Reports,Critical,Closed,Code Issue
+Sprint 32,Reports,Medium,In Progress,Requirement Gap
+Sprint 32,Reports,High,Open,Environment Issue
+Sprint 32,Dashboard,Critical,Closed,Environment Issue
+Sprint 32,Dashboard,High,Resolved,Requirement Gap
+Sprint 32,Dashboard,Critical,Closed,Test Coverage Miss
+Sprint 32,Dashboard,Critical,Open,Requirement Gap
+Sprint 32,Dashboard,Critical,Resolved,Environment Issue
+Sprint 32,Dashboard,High,Closed,Code Issue
+Sprint 32,Dashboard,Critical,Closed,Requirement Gap
+Sprint 32,Dashboard,Critical,Resolved,Code Issue
+Sprint 32,Dashboard,Low,Resolved,Test Coverage Miss
+Sprint 33,Authentication,High,Resolved,Environment Issue
+Sprint 33,Authentication,Critical,Closed,Environment Issue
+Sprint 33,Authentication,Low,Closed,Environment Issue
+Sprint 33,Authentication,High,In Progress,Test Coverage Miss
+Sprint 33,Authentication,Low,Closed,Test Coverage Miss
+Sprint 33,Authentication,Critical,Open,Requirement Gap
+Sprint 33,Authentication,Medium,Resolved,Environment Issue
+Sprint 33,Authentication,High,Resolved,Code Issue
+Sprint 33,Authentication,High,Closed,Requirement Gap
+Sprint 33,Billing,Medium,Closed,Requirement Gap
+Sprint 33,Billing,Medium,Resolved,Code Issue
+Sprint 33,Billing,Low,Open,Requirement Gap
+Sprint 33,Billing,Critical,Resolved,Environment Issue
+Sprint 33,Billing,Medium,Open,Requirement Gap
+Sprint 33,Billing,Low,Closed,Environment Issue
+Sprint 33,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 33,Billing,Medium,Closed,Requirement Gap
+Sprint 33,Billing,Medium,Closed,Requirement Gap
+Sprint 33,Payments,Critical,In Progress,Requirement Gap
+Sprint 33,Payments,Medium,In Progress,Requirement Gap
+Sprint 33,Payments,Low,In Progress,Requirement Gap
+Sprint 33,Payments,Low,Resolved,Code Issue
+Sprint 33,Payments,High,Resolved,Environment Issue
+Sprint 33,Payments,High,In Progress,Environment Issue
+Sprint 33,Payments,Medium,In Progress,Code Issue
+Sprint 33,Payments,Low,Open,Environment Issue
+Sprint 33,Payments,Medium,Resolved,Environment Issue
+Sprint 33,Notifications,Medium,In Progress,Code Issue
+Sprint 33,Notifications,Low,Resolved,Code Issue
+Sprint 33,Notifications,Medium,In Progress,Code Issue
+Sprint 33,Notifications,Critical,In Progress,Code Issue
+Sprint 33,Notifications,Medium,Closed,Environment Issue
+Sprint 33,Notifications,Medium,Closed,Test Coverage Miss
+Sprint 33,Notifications,Low,Open,Test Coverage Miss
+Sprint 33,Notifications,Medium,Resolved,Requirement Gap
+Sprint 33,Reports,Low,Open,Code Issue
+Sprint 33,Reports,Critical,Resolved,Test Coverage Miss
+Sprint 33,Reports,Critical,In Progress,Code Issue
+Sprint 33,Reports,Critical,In Progress,Code Issue
+Sprint 33,Reports,High,In Progress,Requirement Gap
+Sprint 33,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 33,Reports,Low,Resolved,Environment Issue
+Sprint 33,Dashboard,High,In Progress,Code Issue
+Sprint 33,Dashboard,High,In Progress,Requirement Gap
+Sprint 33,Dashboard,Medium,Resolved,Code Issue
+Sprint 33,Dashboard,Medium,Resolved,Environment Issue
+Sprint 33,Dashboard,High,Closed,Test Coverage Miss
+Sprint 33,Dashboard,High,Resolved,Test Coverage Miss
+Sprint 34,Authentication,Low,Closed,Test Coverage Miss
+Sprint 34,Authentication,Low,In Progress,Code Issue
+Sprint 34,Authentication,High,Open,Test Coverage Miss
+Sprint 34,Authentication,Critical,In Progress,Test Coverage Miss
+Sprint 34,Authentication,Low,In Progress,Code Issue
+Sprint 34,Billing,Low,Closed,Test Coverage Miss
+Sprint 34,Billing,Low,In Progress,Test Coverage Miss
+Sprint 34,Billing,Critical,Open,Code Issue
+Sprint 34,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 34,Payments,Critical,In Progress,Environment Issue
+Sprint 34,Payments,Critical,In Progress,Code Issue
+Sprint 34,Payments,Critical,Open,Environment Issue
+Sprint 34,Payments,Low,Closed,Code Issue
+Sprint 34,Payments,Low,In Progress,Code Issue
+Sprint 34,Notifications,Critical,Closed,Requirement Gap
+Sprint 34,Notifications,Critical,In Progress,Test Coverage Miss
+Sprint 34,Notifications,Low,Open,Requirement Gap
+Sprint 34,Notifications,Low,Open,Environment Issue
+Sprint 34,Notifications,Low,Open,Test Coverage Miss
+Sprint 34,Notifications,Critical,In Progress,Requirement Gap
+Sprint 34,Notifications,High,In Progress,Environment Issue
+Sprint 34,Notifications,High,Closed,Requirement Gap
+Sprint 34,Notifications,Critical,Closed,Code Issue
+Sprint 34,Notifications,Medium,In Progress,Environment Issue
+Sprint 34,Reports,Critical,Open,Code Issue
+Sprint 34,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 34,Reports,Critical,Closed,Code Issue
+Sprint 34,Reports,Critical,Resolved,Code Issue
+Sprint 34,Reports,High,Closed,Requirement Gap
+Sprint 34,Reports,Low,Open,Environment Issue
+Sprint 34,Reports,High,Open,Environment Issue
+Sprint 34,Reports,Medium,Open,Requirement Gap
+Sprint 34,Reports,Medium,In Progress,Code Issue
+Sprint 34,Reports,Critical,Closed,Test Coverage Miss
+Sprint 34,Dashboard,High,In Progress,Requirement Gap
+Sprint 34,Dashboard,Low,Resolved,Requirement Gap
+Sprint 34,Dashboard,Low,In Progress,Code Issue
+Sprint 34,Dashboard,Medium,Resolved,Requirement Gap
+Sprint 34,Dashboard,Low,Open,Requirement Gap
+Sprint 34,Dashboard,Low,Open,Requirement Gap
+Sprint 34,Dashboard,Medium,In Progress,Environment Issue
+Sprint 34,Dashboard,Critical,In Progress,Requirement Gap
+Sprint 34,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 35,Authentication,Medium,Closed,Environment Issue
+Sprint 35,Authentication,Medium,Closed,Environment Issue
+Sprint 35,Authentication,Medium,Resolved,Requirement Gap
+Sprint 35,Authentication,High,Open,Code Issue
+Sprint 35,Authentication,Medium,Closed,Test Coverage Miss
+Sprint 35,Authentication,High,In Progress,Code Issue
+Sprint 35,Authentication,Low,Closed,Requirement Gap
+Sprint 35,Billing,Medium,In Progress,Code Issue
+Sprint 35,Billing,Low,Open,Code Issue
+Sprint 35,Billing,Medium,Open,Code Issue
+Sprint 35,Billing,Critical,In Progress,Environment Issue
+Sprint 35,Billing,Critical,Open,Environment Issue
+Sprint 35,Billing,Low,Resolved,Test Coverage Miss
+Sprint 35,Billing,Low,Resolved,Code Issue
+Sprint 35,Billing,Medium,Open,Environment Issue
+Sprint 35,Billing,High,Open,Requirement Gap
+Sprint 35,Billing,Low,Closed,Code Issue
+Sprint 35,Payments,High,Resolved,Code Issue
+Sprint 35,Payments,Medium,Closed,Code Issue
+Sprint 35,Payments,High,Closed,Requirement Gap
+Sprint 35,Payments,Critical,Resolved,Code Issue
+Sprint 35,Payments,Critical,Closed,Environment Issue
+Sprint 35,Payments,Medium,In Progress,Environment Issue
+Sprint 35,Payments,Critical,Open,Environment Issue
+Sprint 35,Payments,High,Closed,Test Coverage Miss
+Sprint 35,Payments,High,In Progress,Requirement Gap
+Sprint 35,Payments,Critical,Open,Test Coverage Miss
+Sprint 35,Notifications,Low,In Progress,Requirement Gap
+Sprint 35,Notifications,Low,Closed,Requirement Gap
+Sprint 35,Notifications,High,Open,Requirement Gap
+Sprint 35,Notifications,Low,Resolved,Code Issue
+Sprint 35,Notifications,Medium,In Progress,Code Issue
+Sprint 35,Notifications,High,Resolved,Code Issue
+Sprint 35,Notifications,High,Open,Test Coverage Miss
+Sprint 35,Notifications,High,Resolved,Test Coverage Miss
+Sprint 35,Notifications,Low,Open,Environment Issue
+Sprint 35,Notifications,Medium,Closed,Requirement Gap
+Sprint 35,Reports,Medium,Closed,Environment Issue
+Sprint 35,Reports,Low,Open,Code Issue
+Sprint 35,Dashboard,Medium,Closed,Code Issue
+Sprint 35,Dashboard,Critical,Resolved,Test Coverage Miss
+Sprint 35,Dashboard,Critical,Resolved,Requirement Gap
+Sprint 35,Dashboard,Low,Open,Requirement Gap
+Sprint 36,Authentication,Low,Open,Test Coverage Miss
+Sprint 36,Authentication,Low,In Progress,Requirement Gap
+Sprint 36,Billing,Medium,Resolved,Environment Issue
+Sprint 36,Billing,Critical,In Progress,Environment Issue
+Sprint 36,Billing,High,Resolved,Code Issue
+Sprint 36,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 36,Billing,High,In Progress,Requirement Gap
+Sprint 36,Billing,High,Resolved,Code Issue
+Sprint 36,Billing,High,Closed,Code Issue
+Sprint 36,Billing,Low,Resolved,Requirement Gap
+Sprint 36,Payments,Critical,Open,Requirement Gap
+Sprint 36,Payments,High,Resolved,Requirement Gap
+Sprint 36,Payments,High,Resolved,Code Issue
+Sprint 36,Payments,High,In Progress,Test Coverage Miss
+Sprint 36,Payments,Medium,Closed,Test Coverage Miss
+Sprint 36,Payments,Medium,Open,Test Coverage Miss
+Sprint 36,Payments,Low,In Progress,Code Issue
+Sprint 36,Payments,Critical,Closed,Requirement Gap
+Sprint 36,Notifications,Medium,Open,Code Issue
+Sprint 36,Notifications,Low,In Progress,Test Coverage Miss
+Sprint 36,Notifications,High,In Progress,Requirement Gap
+Sprint 36,Reports,Critical,Open,Test Coverage Miss
+Sprint 36,Reports,High,In Progress,Requirement Gap
+Sprint 36,Reports,High,Closed,Code Issue
+Sprint 36,Reports,High,Resolved,Environment Issue
+Sprint 36,Reports,High,Resolved,Test Coverage Miss
+Sprint 36,Reports,Medium,Closed,Code Issue
+Sprint 36,Reports,Critical,Resolved,Requirement Gap
+Sprint 36,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 36,Reports,Critical,In Progress,Requirement Gap
+Sprint 36,Reports,Medium,In Progress,Test Coverage Miss
+Sprint 36,Dashboard,High,Open,Code Issue
+Sprint 36,Dashboard,Low,Open,Test Coverage Miss
+Sprint 36,Dashboard,Critical,Resolved,Requirement Gap
+Sprint 36,Dashboard,Medium,Resolved,Requirement Gap
+Sprint 36,Dashboard,Low,Closed,Code Issue
+Sprint 36,Dashboard,Medium,Resolved,Environment Issue
+Sprint 37,Authentication,Low,In Progress,Requirement Gap
+Sprint 37,Authentication,Low,Open,Environment Issue
+Sprint 37,Authentication,Low,Open,Environment Issue
+Sprint 37,Authentication,Critical,Closed,Test Coverage Miss
+Sprint 37,Authentication,Low,Resolved,Test Coverage Miss
+Sprint 37,Authentication,High,Resolved,Environment Issue
+Sprint 37,Authentication,Low,Open,Requirement Gap
+Sprint 37,Authentication,Low,Open,Environment Issue
+Sprint 37,Billing,Low,Open,Test Coverage Miss
+Sprint 37,Billing,High,Resolved,Test Coverage Miss
+Sprint 37,Billing,Low,In Progress,Code Issue
+Sprint 37,Billing,Critical,In Progress,Environment Issue
+Sprint 37,Billing,Critical,Resolved,Code Issue
+Sprint 37,Payments,Medium,Resolved,Test Coverage Miss
+Sprint 37,Payments,High,In Progress,Code Issue
+Sprint 37,Payments,Low,Open,Test Coverage Miss
+Sprint 37,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 37,Notifications,Medium,Open,Code Issue
+Sprint 37,Notifications,Medium,Resolved,Requirement Gap
+Sprint 37,Notifications,High,Closed,Code Issue
+Sprint 37,Notifications,Critical,Resolved,Test Coverage Miss
+Sprint 37,Notifications,Critical,Closed,Requirement Gap
+Sprint 37,Notifications,Low,Closed,Environment Issue
+Sprint 37,Notifications,Medium,Resolved,Code Issue
+Sprint 37,Notifications,High,Resolved,Environment Issue
+Sprint 37,Notifications,Critical,Open,Test Coverage Miss
+Sprint 37,Reports,Critical,Closed,Test Coverage Miss
+Sprint 37,Reports,Critical,Closed,Requirement Gap
+Sprint 37,Reports,Critical,Resolved,Environment Issue
+Sprint 37,Reports,Critical,Resolved,Requirement Gap
+Sprint 37,Reports,Low,In Progress,Environment Issue
+Sprint 37,Reports,High,Resolved,Requirement Gap
+Sprint 37,Reports,Critical,Closed,Requirement Gap
+Sprint 37,Reports,High,Open,Requirement Gap
+Sprint 37,Reports,Medium,In Progress,Test Coverage Miss
+Sprint 37,Reports,High,Resolved,Test Coverage Miss
+Sprint 37,Dashboard,Critical,Open,Requirement Gap
+Sprint 37,Dashboard,Low,Open,Requirement Gap
+Sprint 37,Dashboard,Medium,Resolved,Environment Issue
+Sprint 37,Dashboard,Low,Closed,Environment Issue
+Sprint 37,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 38,Authentication,High,In Progress,Code Issue
+Sprint 38,Authentication,Critical,In Progress,Requirement Gap
+Sprint 38,Authentication,Low,In Progress,Requirement Gap
+Sprint 38,Authentication,Medium,Open,Requirement Gap
+Sprint 38,Authentication,Critical,Resolved,Code Issue
+Sprint 38,Authentication,Critical,In Progress,Code Issue
+Sprint 38,Authentication,High,Open,Requirement Gap
+Sprint 38,Authentication,Low,Resolved,Test Coverage Miss
+Sprint 38,Authentication,Low,In Progress,Environment Issue
+Sprint 38,Authentication,Medium,Closed,Requirement Gap
+Sprint 38,Billing,Medium,In Progress,Test Coverage Miss
+Sprint 38,Billing,High,Closed,Code Issue
+Sprint 38,Billing,High,Resolved,Environment Issue
+Sprint 38,Billing,Medium,In Progress,Requirement Gap
+Sprint 38,Billing,Critical,In Progress,Requirement Gap
+Sprint 38,Billing,Medium,Resolved,Environment Issue
+Sprint 38,Billing,Medium,Closed,Code Issue
+Sprint 38,Billing,Medium,Closed,Requirement Gap
+Sprint 38,Billing,Low,In Progress,Test Coverage Miss
+Sprint 38,Payments,High,Closed,Test Coverage Miss
+Sprint 38,Payments,High,Open,Requirement Gap
+Sprint 38,Payments,High,In Progress,Code Issue
+Sprint 38,Payments,Medium,Closed,Test Coverage Miss
+Sprint 38,Notifications,High,Resolved,Requirement Gap
+Sprint 38,Notifications,Low,Open,Code Issue
+Sprint 38,Reports,High,Closed,Test Coverage Miss
+Sprint 38,Reports,Critical,Closed,Code Issue
+Sprint 38,Reports,High,Open,Environment Issue
+Sprint 38,Reports,High,Open,Test Coverage Miss
+Sprint 38,Reports,High,Resolved,Code Issue
+Sprint 38,Reports,Medium,Resolved,Environment Issue
+Sprint 38,Reports,Medium,Resolved,Requirement Gap
+Sprint 38,Reports,Critical,Open,Code Issue
+Sprint 38,Reports,Critical,Resolved,Environment Issue
+Sprint 38,Reports,Critical,In Progress,Test Coverage Miss
+Sprint 38,Dashboard,Medium,In Progress,Code Issue
+Sprint 38,Dashboard,Medium,In Progress,Environment Issue
+Sprint 38,Dashboard,Critical,In Progress,Code Issue
+Sprint 38,Dashboard,High,Open,Requirement Gap
+Sprint 38,Dashboard,Low,Resolved,Code Issue
+Sprint 38,Dashboard,High,Closed,Test Coverage Miss
+Sprint 38,Dashboard,Critical,Resolved,Code Issue
+Sprint 38,Dashboard,Medium,Open,Environment Issue
+Sprint 38,Dashboard,Medium,Resolved,Test Coverage Miss
+Sprint 38,Dashboard,Low,In Progress,Requirement Gap
+Sprint 39,Authentication,Low,In Progress,Environment Issue
+Sprint 39,Authentication,Critical,Open,Requirement Gap
+Sprint 39,Authentication,Critical,Closed,Test Coverage Miss
+Sprint 39,Authentication,Low,Closed,Code Issue
+Sprint 39,Billing,High,Open,Environment Issue
+Sprint 39,Billing,Medium,Resolved,Code Issue
+Sprint 39,Billing,High,Resolved,Test Coverage Miss
+Sprint 39,Billing,High,Resolved,Code Issue
+Sprint 39,Billing,Critical,Open,Code Issue
+Sprint 39,Billing,Low,In Progress,Code Issue
+Sprint 39,Billing,Critical,Resolved,Code Issue
+Sprint 39,Billing,Medium,Open,Test Coverage Miss
+Sprint 39,Billing,High,In Progress,Requirement Gap
+Sprint 39,Billing,Medium,Closed,Environment Issue
+Sprint 39,Payments,Low,Resolved,Test Coverage Miss
+Sprint 39,Payments,Low,Resolved,Code Issue
+Sprint 39,Payments,Low,In Progress,Requirement Gap
+Sprint 39,Payments,High,Resolved,Requirement Gap
+Sprint 39,Notifications,High,Open,Code Issue
+Sprint 39,Notifications,Low,Open,Test Coverage Miss
+Sprint 39,Notifications,High,Resolved,Environment Issue
+Sprint 39,Notifications,High,Open,Environment Issue
+Sprint 39,Notifications,High,In Progress,Code Issue
+Sprint 39,Notifications,Critical,Resolved,Test Coverage Miss
+Sprint 39,Notifications,High,Open,Requirement Gap
+Sprint 39,Reports,High,Open,Code Issue
+Sprint 39,Reports,Critical,In Progress,Environment Issue
+Sprint 39,Reports,High,Closed,Environment Issue
+Sprint 39,Reports,High,Open,Test Coverage Miss
+Sprint 39,Reports,Low,Closed,Environment Issue
+Sprint 39,Reports,Low,Closed,Code Issue
+Sprint 39,Reports,Medium,In Progress,Requirement Gap
+Sprint 39,Reports,High,In Progress,Requirement Gap
+Sprint 39,Dashboard,Critical,Closed,Environment Issue
+Sprint 39,Dashboard,High,Resolved,Code Issue
+Sprint 39,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 40,Authentication,Medium,Open,Requirement Gap
+Sprint 40,Authentication,Medium,In Progress,Test Coverage Miss
+Sprint 40,Authentication,High,Resolved,Test Coverage Miss
+Sprint 40,Authentication,Critical,Resolved,Code Issue
+Sprint 40,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 40,Authentication,Low,Closed,Environment Issue
+Sprint 40,Billing,High,Closed,Environment Issue
+Sprint 40,Billing,Low,Open,Environment Issue
+Sprint 40,Billing,Critical,In Progress,Requirement Gap
+Sprint 40,Billing,High,In Progress,Code Issue
+Sprint 40,Billing,Medium,Open,Requirement Gap
+Sprint 40,Billing,Medium,Resolved,Code Issue
+Sprint 40,Billing,Low,In Progress,Test Coverage Miss
+Sprint 40,Billing,Medium,In Progress,Test Coverage Miss
+Sprint 40,Billing,High,Resolved,Code Issue
+Sprint 40,Payments,Low,Closed,Test Coverage Miss
+Sprint 40,Payments,Critical,In Progress,Test Coverage Miss
+Sprint 40,Payments,High,Open,Code Issue
+Sprint 40,Payments,High,Resolved,Code Issue
+Sprint 40,Payments,Medium,Resolved,Environment Issue
+Sprint 40,Payments,Critical,Closed,Test Coverage Miss
+Sprint 40,Payments,Medium,Closed,Environment Issue
+Sprint 40,Payments,High,Closed,Environment Issue
+Sprint 40,Payments,Medium,Closed,Requirement Gap
+Sprint 40,Payments,Medium,Resolved,Requirement Gap
+Sprint 40,Notifications,Critical,In Progress,Test Coverage Miss
+Sprint 40,Notifications,Low,Open,Requirement Gap
+Sprint 40,Notifications,Critical,Open,Requirement Gap
+Sprint 40,Notifications,Low,In Progress,Environment Issue
+Sprint 40,Notifications,Critical,In Progress,Code Issue
+Sprint 40,Notifications,Medium,Open,Requirement Gap
+Sprint 40,Notifications,High,In Progress,Test Coverage Miss
+Sprint 40,Notifications,High,In Progress,Environment Issue
+Sprint 40,Notifications,Critical,Open,Test Coverage Miss
+Sprint 40,Notifications,Medium,In Progress,Requirement Gap
+Sprint 40,Reports,Medium,Closed,Environment Issue
+Sprint 40,Reports,High,Closed,Test Coverage Miss
+Sprint 40,Reports,Critical,Closed,Environment Issue
+Sprint 40,Reports,Low,Resolved,Code Issue
+Sprint 40,Reports,Medium,Open,Environment Issue
+Sprint 40,Reports,Medium,Closed,Environment Issue
+Sprint 40,Reports,Medium,Resolved,Code Issue
+Sprint 40,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 40,Dashboard,Medium,In Progress,Environment Issue
+Sprint 40,Dashboard,Medium,Open,Requirement Gap
+Sprint 40,Dashboard,Medium,In Progress,Code Issue
+Sprint 40,Dashboard,Critical,Resolved,Requirement Gap
+Sprint 40,Dashboard,High,Resolved,Code Issue
+Sprint 41,Authentication,Medium,Open,Requirement Gap
+Sprint 41,Authentication,High,Resolved,Test Coverage Miss
+Sprint 41,Authentication,Critical,Open,Test Coverage Miss
+Sprint 41,Authentication,Medium,In Progress,Requirement Gap
+Sprint 41,Authentication,Critical,Resolved,Code Issue
+Sprint 41,Authentication,Low,Resolved,Test Coverage Miss
+Sprint 41,Authentication,High,Resolved,Test Coverage Miss
+Sprint 41,Authentication,Low,Closed,Environment Issue
+Sprint 41,Billing,Low,In Progress,Environment Issue
+Sprint 41,Billing,Critical,Resolved,Code Issue
+Sprint 41,Billing,Critical,Open,Code Issue
+Sprint 41,Billing,Low,Closed,Test Coverage Miss
+Sprint 41,Billing,Low,Resolved,Requirement Gap
+Sprint 41,Billing,High,Closed,Test Coverage Miss
+Sprint 41,Payments,High,Open,Environment Issue
+Sprint 41,Payments,High,Resolved,Environment Issue
+Sprint 41,Payments,High,Closed,Code Issue
+Sprint 41,Notifications,High,Open,Environment Issue
+Sprint 41,Notifications,Critical,In Progress,Environment Issue
+Sprint 41,Notifications,Critical,Closed,Environment Issue
+Sprint 41,Notifications,Low,Resolved,Requirement Gap
+Sprint 41,Notifications,Critical,Open,Code Issue
+Sprint 41,Notifications,Critical,Closed,Test Coverage Miss
+Sprint 41,Notifications,Critical,Closed,Requirement Gap
+Sprint 41,Reports,High,Open,Code Issue
+Sprint 41,Reports,High,Resolved,Requirement Gap
+Sprint 41,Reports,Medium,Open,Code Issue
+Sprint 41,Reports,High,In Progress,Environment Issue
+Sprint 41,Dashboard,Critical,In Progress,Code Issue
+Sprint 41,Dashboard,High,Resolved,Requirement Gap
+Sprint 41,Dashboard,Low,Resolved,Code Issue
+Sprint 41,Dashboard,Critical,Closed,Requirement Gap
+Sprint 41,Dashboard,Medium,Closed,Environment Issue
+Sprint 41,Dashboard,Low,In Progress,Environment Issue
+Sprint 41,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 41,Dashboard,Low,Resolved,Environment Issue
+Sprint 41,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 42,Authentication,Critical,Closed,Environment Issue
+Sprint 42,Authentication,Critical,Open,Test Coverage Miss
+Sprint 42,Authentication,High,In Progress,Test Coverage Miss
+Sprint 42,Authentication,Critical,Open,Code Issue
+Sprint 42,Authentication,Critical,Resolved,Requirement Gap
+Sprint 42,Billing,High,Closed,Test Coverage Miss
+Sprint 42,Billing,Low,Open,Test Coverage Miss
+Sprint 42,Billing,Medium,Open,Test Coverage Miss
+Sprint 42,Billing,High,In Progress,Test Coverage Miss
+Sprint 42,Billing,Critical,In Progress,Requirement Gap
+Sprint 42,Billing,Critical,Resolved,Test Coverage Miss
+Sprint 42,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 42,Billing,Low,Open,Environment Issue
+Sprint 42,Billing,Low,Open,Code Issue
+Sprint 42,Payments,High,Closed,Code Issue
+Sprint 42,Payments,High,Resolved,Requirement Gap
+Sprint 42,Notifications,High,In Progress,Test Coverage Miss
+Sprint 42,Notifications,Critical,In Progress,Code Issue
+Sprint 42,Notifications,Critical,Open,Code Issue
+Sprint 42,Notifications,High,In Progress,Environment Issue
+Sprint 42,Notifications,Critical,Closed,Test Coverage Miss
+Sprint 42,Reports,High,In Progress,Test Coverage Miss
+Sprint 42,Reports,High,In Progress,Requirement Gap
+Sprint 42,Reports,High,Closed,Requirement Gap
+Sprint 42,Reports,Low,In Progress,Code Issue
+Sprint 42,Reports,High,Resolved,Code Issue
+Sprint 42,Reports,High,Open,Requirement Gap
+Sprint 42,Reports,Low,Closed,Requirement Gap
+Sprint 42,Reports,Low,Closed,Code Issue
+Sprint 42,Reports,Low,Open,Code Issue
+Sprint 42,Reports,High,Resolved,Test Coverage Miss
+Sprint 42,Dashboard,Low,Open,Code Issue
+Sprint 42,Dashboard,Critical,Open,Test Coverage Miss
+Sprint 42,Dashboard,Critical,Resolved,Requirement Gap
+Sprint 42,Dashboard,High,Resolved,Test Coverage Miss
+Sprint 42,Dashboard,High,In Progress,Code Issue
+Sprint 42,Dashboard,High,Resolved,Requirement Gap
+Sprint 42,Dashboard,Critical,Closed,Test Coverage Miss
+Sprint 42,Dashboard,Critical,Open,Code Issue
+Sprint 43,Authentication,Medium,Closed,Code Issue
+Sprint 43,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 43,Authentication,Low,Closed,Environment Issue
+Sprint 43,Authentication,Critical,In Progress,Requirement Gap
+Sprint 43,Billing,Medium,Open,Test Coverage Miss
+Sprint 43,Billing,Critical,Open,Environment Issue
+Sprint 43,Billing,Medium,Closed,Requirement Gap
+Sprint 43,Billing,Low,In Progress,Test Coverage Miss
+Sprint 43,Billing,Critical,In Progress,Requirement Gap
+Sprint 43,Billing,High,Closed,Requirement Gap
+Sprint 43,Billing,Critical,Resolved,Environment Issue
+Sprint 43,Payments,Low,Open,Test Coverage Miss
+Sprint 43,Payments,Medium,In Progress,Environment Issue
+Sprint 43,Payments,Critical,Closed,Environment Issue
+Sprint 43,Payments,Critical,Resolved,Environment Issue
+Sprint 43,Payments,High,Resolved,Test Coverage Miss
+Sprint 43,Payments,Medium,Closed,Requirement Gap
+Sprint 43,Payments,High,Open,Requirement Gap
+Sprint 43,Payments,Low,In Progress,Environment Issue
+Sprint 43,Payments,High,Closed,Environment Issue
+Sprint 43,Notifications,Critical,Resolved,Code Issue
+Sprint 43,Notifications,Medium,Resolved,Code Issue
+Sprint 43,Notifications,Low,Open,Requirement Gap
+Sprint 43,Reports,Medium,In Progress,Requirement Gap
+Sprint 43,Reports,Medium,Closed,Environment Issue
+Sprint 43,Reports,Medium,Resolved,Environment Issue
+Sprint 43,Reports,High,In Progress,Test Coverage Miss
+Sprint 43,Reports,Low,In Progress,Code Issue
+Sprint 43,Reports,High,Open,Test Coverage Miss
+Sprint 43,Reports,High,Closed,Requirement Gap
+Sprint 43,Reports,Critical,Open,Test Coverage Miss
+Sprint 43,Dashboard,Medium,Resolved,Requirement Gap
+Sprint 43,Dashboard,Low,Closed,Environment Issue
+Sprint 43,Dashboard,Critical,Open,Environment Issue
+Sprint 43,Dashboard,Critical,Closed,Environment Issue
+Sprint 43,Dashboard,Low,Resolved,Code Issue
+Sprint 43,Dashboard,High,In Progress,Test Coverage Miss
+Sprint 43,Dashboard,Low,Closed,Code Issue
+Sprint 43,Dashboard,Low,Open,Requirement Gap
+Sprint 43,Dashboard,High,Resolved,Environment Issue
+Sprint 43,Dashboard,Low,Resolved,Code Issue
+Sprint 44,Authentication,Critical,Resolved,Requirement Gap
+Sprint 44,Authentication,High,In Progress,Test Coverage Miss
+Sprint 44,Authentication,Medium,Resolved,Environment Issue
+Sprint 44,Authentication,Critical,Closed,Environment Issue
+Sprint 44,Authentication,High,Open,Requirement Gap
+Sprint 44,Billing,Low,In Progress,Code Issue
+Sprint 44,Billing,Critical,In Progress,Environment Issue
+Sprint 44,Billing,Medium,Resolved,Requirement Gap
+Sprint 44,Billing,Medium,Resolved,Test Coverage Miss
+Sprint 44,Billing,High,Resolved,Requirement Gap
+Sprint 44,Billing,Low,In Progress,Requirement Gap
+Sprint 44,Billing,High,Resolved,Requirement Gap
+Sprint 44,Payments,Medium,Closed,Requirement Gap
+Sprint 44,Payments,Low,Resolved,Code Issue
+Sprint 44,Payments,Critical,In Progress,Code Issue
+Sprint 44,Payments,Critical,Open,Requirement Gap
+Sprint 44,Payments,Low,Open,Test Coverage Miss
+Sprint 44,Payments,High,Closed,Requirement Gap
+Sprint 44,Payments,Medium,Open,Requirement Gap
+Sprint 44,Payments,Medium,Resolved,Requirement Gap
+Sprint 44,Payments,High,In Progress,Test Coverage Miss
+Sprint 44,Payments,Medium,In Progress,Environment Issue
+Sprint 44,Notifications,High,Open,Test Coverage Miss
+Sprint 44,Notifications,High,In Progress,Environment Issue
+Sprint 44,Reports,Low,Open,Environment Issue
+Sprint 44,Reports,Low,Resolved,Test Coverage Miss
+Sprint 44,Dashboard,Low,Open,Code Issue
+Sprint 44,Dashboard,High,Closed,Environment Issue
+Sprint 44,Dashboard,Critical,Open,Code Issue
+Sprint 44,Dashboard,Critical,In Progress,Test Coverage Miss
+Sprint 45,Authentication,Low,Open,Environment Issue
+Sprint 45,Authentication,High,Closed,Test Coverage Miss
+Sprint 45,Authentication,Low,Resolved,Test Coverage Miss
+Sprint 45,Billing,Low,Open,Code Issue
+Sprint 45,Billing,High,In Progress,Environment Issue
+Sprint 45,Billing,High,In Progress,Requirement Gap
+Sprint 45,Billing,High,Open,Code Issue
+Sprint 45,Billing,Critical,Open,Test Coverage Miss
+Sprint 45,Billing,High,Open,Requirement Gap
+Sprint 45,Billing,Low,Resolved,Test Coverage Miss
+Sprint 45,Billing,High,Open,Code Issue
+Sprint 45,Billing,Critical,Open,Code Issue
+Sprint 45,Billing,Medium,In Progress,Test Coverage Miss
+Sprint 45,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 45,Payments,High,Open,Requirement Gap
+Sprint 45,Notifications,High,In Progress,Requirement Gap
+Sprint 45,Notifications,Medium,Closed,Requirement Gap
+Sprint 45,Notifications,Medium,In Progress,Environment Issue
+Sprint 45,Notifications,High,Closed,Code Issue
+Sprint 45,Notifications,Critical,In Progress,Requirement Gap
+Sprint 45,Reports,High,Closed,Requirement Gap
+Sprint 45,Reports,Critical,Open,Environment Issue
+Sprint 45,Reports,Medium,Closed,Test Coverage Miss
+Sprint 45,Reports,Medium,In Progress,Requirement Gap
+Sprint 45,Reports,Low,In Progress,Environment Issue
+Sprint 45,Reports,High,Closed,Test Coverage Miss
+Sprint 45,Dashboard,Low,Open,Environment Issue
+Sprint 45,Dashboard,Medium,Closed,Requirement Gap
+Sprint 45,Dashboard,Critical,Resolved,Code Issue
+Sprint 45,Dashboard,Low,Resolved,Code Issue
+Sprint 46,Authentication,Low,Open,Requirement Gap
+Sprint 46,Authentication,Low,Closed,Test Coverage Miss
+Sprint 46,Authentication,Medium,Open,Requirement Gap
+Sprint 46,Authentication,Medium,Closed,Requirement Gap
+Sprint 46,Authentication,Medium,Closed,Test Coverage Miss
+Sprint 46,Authentication,High,Resolved,Test Coverage Miss
+Sprint 46,Billing,Medium,Open,Code Issue
+Sprint 46,Billing,Low,Closed,Test Coverage Miss
+Sprint 46,Billing,Low,Resolved,Requirement Gap
+Sprint 46,Billing,Low,Open,Test Coverage Miss
+Sprint 46,Billing,Medium,In Progress,Environment Issue
+Sprint 46,Billing,High,Closed,Test Coverage Miss
+Sprint 46,Billing,Low,Open,Environment Issue
+Sprint 46,Billing,Critical,Resolved,Requirement Gap
+Sprint 46,Billing,Critical,Closed,Environment Issue
+Sprint 46,Billing,Medium,Open,Test Coverage Miss
+Sprint 46,Payments,Low,Resolved,Requirement Gap
+Sprint 46,Payments,Critical,Closed,Environment Issue
+Sprint 46,Notifications,Critical,In Progress,Code Issue
+Sprint 46,Notifications,Critical,Closed,Code Issue
+Sprint 46,Notifications,Medium,In Progress,Environment Issue
+Sprint 46,Notifications,Low,Open,Code Issue
+Sprint 46,Notifications,Medium,In Progress,Test Coverage Miss
+Sprint 46,Notifications,Medium,Resolved,Code Issue
+Sprint 46,Notifications,Medium,Resolved,Test Coverage Miss
+Sprint 46,Notifications,Low,Closed,Requirement Gap
+Sprint 46,Notifications,Low,Closed,Environment Issue
+Sprint 46,Reports,High,Resolved,Test Coverage Miss
+Sprint 46,Reports,Medium,Resolved,Test Coverage Miss
+Sprint 46,Reports,Critical,Closed,Environment Issue
+Sprint 46,Reports,Critical,Open,Test Coverage Miss
+Sprint 46,Reports,High,In Progress,Requirement Gap
+Sprint 46,Reports,Low,Closed,Code Issue
+Sprint 46,Reports,Medium,Open,Requirement Gap
+Sprint 46,Reports,Critical,In Progress,Environment Issue
+Sprint 46,Dashboard,Critical,Open,Environment Issue
+Sprint 46,Dashboard,Medium,Resolved,Code Issue
+Sprint 47,Authentication,Low,In Progress,Environment Issue
+Sprint 47,Authentication,Low,Open,Environment Issue
+Sprint 47,Authentication,High,Resolved,Test Coverage Miss
+Sprint 47,Authentication,Critical,Open,Code Issue
+Sprint 47,Authentication,Medium,In Progress,Code Issue
+Sprint 47,Authentication,Critical,Resolved,Test Coverage Miss
+Sprint 47,Billing,Critical,Resolved,Code Issue
+Sprint 47,Billing,Low,Closed,Test Coverage Miss
+Sprint 47,Payments,Medium,In Progress,Environment Issue
+Sprint 47,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 47,Payments,High,Closed,Code Issue
+Sprint 47,Payments,Medium,Open,Environment Issue
+Sprint 47,Payments,Medium,In Progress,Test Coverage Miss
+Sprint 47,Payments,High,Open,Environment Issue
+Sprint 47,Payments,Low,In Progress,Test Coverage Miss
+Sprint 47,Payments,Critical,Closed,Test Coverage Miss
+Sprint 47,Notifications,Low,Closed,Code Issue
+Sprint 47,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 47,Notifications,Low,In Progress,Test Coverage Miss
+Sprint 47,Notifications,Low,Open,Environment Issue
+Sprint 47,Reports,Low,In Progress,Environment Issue
+Sprint 47,Reports,Critical,Closed,Test Coverage Miss
+Sprint 47,Reports,Critical,In Progress,Requirement Gap
+Sprint 47,Reports,Critical,In Progress,Code Issue
+Sprint 47,Reports,High,Resolved,Code Issue
+Sprint 47,Reports,High,In Progress,Environment Issue
+Sprint 47,Dashboard,Medium,In Progress,Environment Issue
+Sprint 47,Dashboard,Low,In Progress,Test Coverage Miss
+Sprint 48,Authentication,Critical,Resolved,Environment Issue
+Sprint 48,Authentication,High,Closed,Test Coverage Miss
+Sprint 48,Authentication,Medium,Open,Code Issue
+Sprint 48,Billing,Medium,Closed,Test Coverage Miss
+Sprint 48,Billing,Low,Open,Requirement Gap
+Sprint 48,Billing,Low,Open,Requirement Gap
+Sprint 48,Billing,Medium,Closed,Test Coverage Miss
+Sprint 48,Billing,Critical,Resolved,Test Coverage Miss
+Sprint 48,Payments,Medium,Closed,Requirement Gap
+Sprint 48,Payments,Critical,Resolved,Environment Issue
+Sprint 48,Payments,High,In Progress,Test Coverage Miss
+Sprint 48,Notifications,Critical,In Progress,Code Issue
+Sprint 48,Notifications,Medium,In Progress,Requirement Gap
+Sprint 48,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 48,Notifications,Low,Closed,Environment Issue
+Sprint 48,Notifications,Low,In Progress,Requirement Gap
+Sprint 48,Notifications,Medium,Closed,Requirement Gap
+Sprint 48,Notifications,Critical,Resolved,Requirement Gap
+Sprint 48,Notifications,High,In Progress,Test Coverage Miss
+Sprint 48,Notifications,Critical,Resolved,Requirement Gap
+Sprint 48,Reports,Low,Open,Code Issue
+Sprint 48,Reports,Medium,Resolved,Requirement Gap
+Sprint 48,Dashboard,High,Resolved,Requirement Gap
+Sprint 48,Dashboard,Medium,Closed,Requirement Gap
+Sprint 49,Authentication,High,Resolved,Requirement Gap
+Sprint 49,Authentication,Medium,In Progress,Environment Issue
+Sprint 49,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 49,Authentication,Low,Open,Test Coverage Miss
+Sprint 49,Authentication,Medium,Closed,Code Issue
+Sprint 49,Authentication,Critical,Resolved,Code Issue
+Sprint 49,Authentication,Low,In Progress,Test Coverage Miss
+Sprint 49,Authentication,Low,Closed,Environment Issue
+Sprint 49,Billing,Critical,Closed,Requirement Gap
+Sprint 49,Billing,Low,Closed,Requirement Gap
+Sprint 49,Billing,High,In Progress,Environment Issue
+Sprint 49,Billing,High,Resolved,Test Coverage Miss
+Sprint 49,Billing,Medium,In Progress,Environment Issue
+Sprint 49,Payments,Low,In Progress,Code Issue
+Sprint 49,Payments,Critical,Closed,Code Issue
+Sprint 49,Payments,Low,In Progress,Code Issue
+Sprint 49,Payments,Critical,Resolved,Environment Issue
+Sprint 49,Payments,Low,In Progress,Requirement Gap
+Sprint 49,Payments,High,Resolved,Requirement Gap
+Sprint 49,Payments,Low,Open,Requirement Gap
+Sprint 49,Notifications,Critical,Closed,Environment Issue
+Sprint 49,Notifications,Low,Open,Requirement Gap
+Sprint 49,Notifications,Critical,Open,Environment Issue
+Sprint 49,Notifications,Low,Resolved,Test Coverage Miss
+Sprint 49,Notifications,Critical,In Progress,Test Coverage Miss
+Sprint 49,Notifications,Low,Closed,Environment Issue
+Sprint 49,Notifications,Low,Open,Requirement Gap
+Sprint 49,Notifications,Critical,In Progress,Environment Issue
+Sprint 49,Reports,Low,In Progress,Requirement Gap
+Sprint 49,Reports,Medium,Closed,Code Issue
+Sprint 49,Reports,Critical,Closed,Environment Issue
+Sprint 49,Reports,Medium,In Progress,Requirement Gap
+Sprint 49,Reports,High,Open,Test Coverage Miss
+Sprint 49,Reports,Critical,In Progress,Environment Issue
+Sprint 49,Reports,High,Closed,Environment Issue
+Sprint 49,Reports,High,Open,Environment Issue
+Sprint 49,Dashboard,Low,Open,Test Coverage Miss
+Sprint 49,Dashboard,Critical,Closed,Requirement Gap
+Sprint 49,Dashboard,High,Resolved,Test Coverage Miss
+Sprint 49,Dashboard,Low,Open,Environment Issue
+Sprint 50,Authentication,Critical,In Progress,Requirement Gap
+Sprint 50,Authentication,Medium,Open,Test Coverage Miss
+Sprint 50,Authentication,Medium,Open,Code Issue
+Sprint 50,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 50,Authentication,Medium,Resolved,Test Coverage Miss
+Sprint 50,Authentication,Low,Resolved,Code Issue
+Sprint 50,Authentication,Medium,In Progress,Test Coverage Miss
+Sprint 50,Authentication,High,Open,Test Coverage Miss
+Sprint 50,Authentication,Critical,Closed,Test Coverage Miss
+Sprint 50,Billing,Medium,Resolved,Code Issue
+Sprint 50,Billing,Low,Resolved,Code Issue
+Sprint 50,Billing,Critical,Open,Environment Issue
+Sprint 50,Billing,Low,Open,Code Issue
+Sprint 50,Billing,Critical,In Progress,Test Coverage Miss
+Sprint 50,Payments,Critical,Open,Environment Issue
+Sprint 50,Payments,Critical,Closed,Code Issue
+Sprint 50,Payments,Critical,Resolved,Code Issue
+Sprint 50,Payments,Low,Resolved,Requirement Gap
+Sprint 50,Notifications,Critical,Open,Requirement Gap
+Sprint 50,Notifications,Critical,Open,Environment Issue
+Sprint 50,Notifications,Low,Closed,Code Issue
+Sprint 50,Notifications,Low,Closed,Test Coverage Miss
+Sprint 50,Notifications,Low,In Progress,Environment Issue
+Sprint 50,Notifications,Low,Open,Test Coverage Miss
+Sprint 50,Notifications,Medium,In Progress,Test Coverage Miss
+Sprint 50,Notifications,Medium,Closed,Environment Issue
+Sprint 50,Notifications,Low,Closed,Code Issue
+Sprint 50,Reports,Critical,In Progress,Requirement Gap
+Sprint 50,Reports,Critical,Resolved,Test Coverage Miss
+Sprint 50,Reports,Critical,Resolved,Requirement Gap
+Sprint 50,Reports,Low,Closed,Requirement Gap
+Sprint 50,Reports,High,Resolved,Test Coverage Miss
+Sprint 50,Dashboard,Low,Resolved,Test Coverage Miss
+Sprint 50,Dashboard,Medium,Open,Test Coverage Miss

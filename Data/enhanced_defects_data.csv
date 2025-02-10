@@ -1,0 +1,1821 @@
+Sprint,Module,Developer,QA,Priority,Status,Root_Cause_Analysis,Defect_Age_Days,Reopened,Fix_Time_Days
+Sprint 1,Authentication,Eve,QA5,High,Open,Requirement Gap,9,False,5
+Sprint 1,Authentication,Eve,QA5,Critical,Resolved,Code Issue,19,False,2
+Sprint 1,Authentication,Eve,QA5,Medium,In Progress,Test Coverage Miss,23,True,6
+Sprint 1,Authentication,Eve,QA5,Medium,Open,Requirement Gap,3,False,3
+Sprint 1,Authentication,Eve,QA5,Critical,Closed,Requirement Gap,17,False,7
+Sprint 1,Authentication,Eve,QA5,High,In Progress,Code Issue,20,True,5
+Sprint 1,Authentication,Eve,QA5,Low,Open,Requirement Gap,8,False,4
+Sprint 1,Authentication,Eve,QA5,Medium,Resolved,Environment Issue,24,True,2
+Sprint 1,Authentication,Eve,QA5,Low,Open,Test Coverage Miss,9,True,8
+Sprint 1,Authentication,Eve,QA5,High,Open,Environment Issue,13,False,7
+Sprint 1,Billing,Eve,QA3,Low,In Progress,Code Issue,14,False,2
+Sprint 1,Billing,Eve,QA3,Low,Resolved,Test Coverage Miss,25,True,8
+Sprint 1,Billing,Eve,QA3,High,Closed,Environment Issue,10,False,7
+Sprint 1,Billing,Eve,QA3,Critical,Resolved,Code Issue,6,False,9
+Sprint 1,Billing,Eve,QA3,Medium,In Progress,Environment Issue,16,False,8
+Sprint 1,Billing,Eve,QA3,High,Closed,Code Issue,1,False,6
+Sprint 1,Billing,Eve,QA3,High,Open,Environment Issue,22,True,1
+Sprint 1,Payments,Alice,QA4,Low,Closed,Requirement Gap,5,False,7
+Sprint 1,Payments,Alice,QA4,High,Closed,Requirement Gap,2,False,6
+Sprint 1,Payments,Alice,QA4,Critical,Open,Environment Issue,27,False,6
+Sprint 1,Payments,Alice,QA4,Low,Closed,Requirement Gap,3,True,1
+Sprint 1,Payments,Alice,QA4,High,Closed,Environment Issue,16,True,7
+Sprint 1,Payments,Alice,QA4,Medium,Closed,Environment Issue,7,True,7
+Sprint 1,Payments,Alice,QA4,High,In Progress,Requirement Gap,10,False,5
+Sprint 1,Payments,Alice,QA4,Critical,Open,Environment Issue,10,False,9
+Sprint 1,Payments,Alice,QA4,Medium,In Progress,Test Coverage Miss,11,True,6
+Sprint 1,Notifications,David,QA2,High,Resolved,Requirement Gap,22,True,1
+Sprint 1,Notifications,David,QA2,Critical,Open,Requirement Gap,4,False,2
+Sprint 1,Notifications,David,QA2,Low,Resolved,Requirement Gap,15,False,3
+Sprint 1,Notifications,David,QA2,High,Resolved,Code Issue,19,False,4
+Sprint 1,Reports,Bob,QA5,Medium,Resolved,Requirement Gap,10,False,9
+Sprint 1,Reports,Bob,QA5,Medium,Resolved,Test Coverage Miss,29,False,6
+Sprint 1,Reports,Bob,QA5,Medium,In Progress,Requirement Gap,6,False,7
+Sprint 1,Dashboard,Eve,QA4,Low,Open,Test Coverage Miss,6,False,3
+Sprint 1,Dashboard,Eve,QA4,Critical,Resolved,Code Issue,20,True,8
+Sprint 1,Dashboard,Eve,QA4,Critical,Resolved,Test Coverage Miss,8,False,7
+Sprint 1,Dashboard,Eve,QA4,High,In Progress,Test Coverage Miss,6,False,7
+Sprint 1,Dashboard,Eve,QA4,Low,Open,Code Issue,2,True,1
+Sprint 1,Dashboard,Eve,QA4,Low,Closed,Code Issue,19,True,10
+Sprint 2,Authentication,Eve,QA5,Low,Resolved,Test Coverage Miss,19,False,3
+Sprint 2,Authentication,Eve,QA5,Medium,Resolved,Environment Issue,8,False,8
+Sprint 2,Authentication,Eve,QA5,Critical,Open,Code Issue,22,False,8
+Sprint 2,Authentication,Eve,QA5,High,Open,Code Issue,15,False,1
+Sprint 2,Authentication,Eve,QA5,Low,Open,Environment Issue,11,True,7
+Sprint 2,Billing,Bob,QA4,Low,Closed,Environment Issue,29,False,1
+Sprint 2,Billing,Bob,QA4,Low,Closed,Environment Issue,8,True,8
+Sprint 2,Billing,Bob,QA4,High,In Progress,Environment Issue,9,True,4
+Sprint 2,Billing,Bob,QA4,High,Resolved,Test Coverage Miss,5,True,7
+Sprint 2,Billing,Bob,QA4,Low,Resolved,Code Issue,28,True,10
+Sprint 2,Payments,Frank,QA3,High,In Progress,Requirement Gap,5,False,4
+Sprint 2,Payments,Frank,QA3,Critical,In Progress,Test Coverage Miss,28,False,5
+Sprint 2,Payments,Frank,QA3,Critical,Closed,Code Issue,9,False,4
+Sprint 2,Payments,Frank,QA3,Medium,Resolved,Test Coverage Miss,21,True,9
+Sprint 2,Payments,Frank,QA3,High,Resolved,Code Issue,30,False,6
+Sprint 2,Payments,Frank,QA3,Medium,In Progress,Test Coverage Miss,11,False,4
+Sprint 2,Payments,Frank,QA3,Low,Open,Test Coverage Miss,3,False,8
+Sprint 2,Notifications,Charlie,QA2,Medium,Closed,Environment Issue,9,False,6
+Sprint 2,Notifications,Charlie,QA2,Low,In Progress,Requirement Gap,5,False,1
+Sprint 2,Notifications,Charlie,QA2,High,Resolved,Environment Issue,18,False,7
+Sprint 2,Notifications,Charlie,QA2,High,Closed,Code Issue,9,True,9
+Sprint 2,Notifications,Charlie,QA2,Low,Closed,Environment Issue,29,True,1
+Sprint 2,Notifications,Charlie,QA2,Critical,Resolved,Requirement Gap,28,False,3
+Sprint 2,Notifications,Charlie,QA2,Medium,Resolved,Environment Issue,6,False,5
+Sprint 2,Notifications,Charlie,QA2,Low,Resolved,Code Issue,13,True,6
+Sprint 2,Reports,Bob,QA5,Critical,Closed,Test Coverage Miss,5,True,7
+Sprint 2,Reports,Bob,QA5,High,Closed,Environment Issue,13,True,4
+Sprint 2,Reports,Bob,QA5,Medium,Open,Test Coverage Miss,28,True,10
+Sprint 2,Reports,Bob,QA5,High,In Progress,Environment Issue,10,False,2
+Sprint 2,Reports,Bob,QA5,Critical,Resolved,Code Issue,17,False,8
+Sprint 2,Reports,Bob,QA5,High,Closed,Requirement Gap,27,True,8
+Sprint 2,Reports,Bob,QA5,High,Resolved,Requirement Gap,18,False,3
+Sprint 2,Reports,Bob,QA5,Low,Closed,Requirement Gap,28,True,5
+Sprint 2,Reports,Bob,QA5,High,In Progress,Requirement Gap,5,False,2
+Sprint 2,Reports,Bob,QA5,Low,Closed,Test Coverage Miss,5,False,5
+Sprint 2,Dashboard,Bob,QA2,High,Closed,Test Coverage Miss,7,False,10
+Sprint 2,Dashboard,Bob,QA2,Low,Open,Environment Issue,2,False,5
+Sprint 2,Dashboard,Bob,QA2,Medium,Open,Code Issue,13,True,5
+Sprint 2,Dashboard,Bob,QA2,Medium,Open,Test Coverage Miss,25,True,8
+Sprint 2,Dashboard,Bob,QA2,High,Closed,Requirement Gap,2,True,6
+Sprint 2,Dashboard,Bob,QA2,Medium,Resolved,Test Coverage Miss,17,True,3
+Sprint 2,Dashboard,Bob,QA2,High,Open,Test Coverage Miss,20,False,5
+Sprint 2,Dashboard,Bob,QA2,High,Resolved,Test Coverage Miss,9,False,6
+Sprint 2,Dashboard,Bob,QA2,Low,Resolved,Code Issue,13,False,8
+Sprint 3,Authentication,Frank,QA2,Critical,Open,Test Coverage Miss,15,True,9
+Sprint 3,Authentication,Frank,QA2,Medium,Resolved,Environment Issue,17,True,4
+Sprint 3,Billing,Bob,QA5,Critical,Open,Code Issue,4,False,7
+Sprint 3,Billing,Bob,QA5,High,Closed,Environment Issue,3,True,1
+Sprint 3,Billing,Bob,QA5,Medium,Closed,Code Issue,11,True,10
+Sprint 3,Billing,Bob,QA5,High,Open,Requirement Gap,24,False,7
+Sprint 3,Billing,Bob,QA5,Medium,Closed,Test Coverage Miss,29,False,2
+Sprint 3,Billing,Bob,QA5,Medium,Resolved,Environment Issue,18,False,10
+Sprint 3,Billing,Bob,QA5,Medium,Open,Code Issue,16,True,4
+Sprint 3,Billing,Bob,QA5,High,In Progress,Code Issue,30,False,9
+Sprint 3,Billing,Bob,QA5,High,In Progress,Requirement Gap,24,True,4
+Sprint 3,Payments,Eve,QA2,High,Resolved,Environment Issue,15,True,1
+Sprint 3,Payments,Eve,QA2,Low,Open,Code Issue,20,True,8
+Sprint 3,Payments,Eve,QA2,Critical,Resolved,Requirement Gap,2,True,5
+Sprint 3,Payments,Eve,QA2,Medium,Closed,Environment Issue,12,False,2
+Sprint 3,Payments,Eve,QA2,Low,In Progress,Code Issue,17,False,8
+Sprint 3,Notifications,Alice,QA2,Medium,In Progress,Environment Issue,19,True,2
+Sprint 3,Notifications,Alice,QA2,Low,Closed,Test Coverage Miss,24,True,5
+Sprint 3,Notifications,Alice,QA2,Low,Open,Code Issue,5,False,3
+Sprint 3,Reports,Alice,QA3,Critical,Resolved,Environment Issue,27,True,6
+Sprint 3,Reports,Alice,QA3,High,In Progress,Test Coverage Miss,9,True,8
+Sprint 3,Reports,Alice,QA3,High,Closed,Environment Issue,3,True,3
+Sprint 3,Reports,Alice,QA3,Critical,Resolved,Code Issue,4,True,3
+Sprint 3,Reports,Alice,QA3,High,Closed,Requirement Gap,16,False,5
+Sprint 3,Reports,Alice,QA3,High,Resolved,Test Coverage Miss,4,False,3
+Sprint 3,Dashboard,David,QA4,Low,Resolved,Environment Issue,27,False,4
+Sprint 3,Dashboard,David,QA4,High,In Progress,Code Issue,2,True,1
+Sprint 3,Dashboard,David,QA4,Medium,In Progress,Requirement Gap,12,True,7
+Sprint 3,Dashboard,David,QA4,Critical,In Progress,Environment Issue,17,True,6
+Sprint 3,Dashboard,David,QA4,High,Open,Environment Issue,28,True,2
+Sprint 3,Dashboard,David,QA4,Medium,Closed,Code Issue,12,False,2
+Sprint 3,Dashboard,David,QA4,Medium,Closed,Environment Issue,20,False,3
+Sprint 4,Authentication,Frank,QA2,Low,Resolved,Code Issue,30,False,9
+Sprint 4,Authentication,Frank,QA2,Critical,Closed,Requirement Gap,24,False,1
+Sprint 4,Authentication,Frank,QA2,High,Resolved,Environment Issue,27,False,7
+Sprint 4,Authentication,Frank,QA2,Critical,Open,Environment Issue,13,True,9
+Sprint 4,Authentication,Frank,QA2,Medium,Open,Test Coverage Miss,4,False,4
+Sprint 4,Billing,Frank,QA4,Medium,Closed,Test Coverage Miss,13,False,6
+Sprint 4,Billing,Frank,QA4,Medium,Resolved,Environment Issue,16,False,9
+Sprint 4,Billing,Frank,QA4,Low,Closed,Requirement Gap,16,True,2
+Sprint 4,Billing,Frank,QA4,Critical,Closed,Requirement Gap,30,True,4
+Sprint 4,Billing,Frank,QA4,Low,In Progress,Environment Issue,10,True,2
+Sprint 4,Billing,Frank,QA4,Critical,Resolved,Requirement Gap,24,True,7
+Sprint 4,Billing,Frank,QA4,High,Closed,Requirement Gap,25,True,3
+Sprint 4,Payments,David,QA2,Low,In Progress,Test Coverage Miss,14,False,6
+Sprint 4,Payments,David,QA2,High,Closed,Environment Issue,21,True,1
+Sprint 4,Payments,David,QA2,Low,Closed,Environment Issue,19,False,5
+Sprint 4,Payments,David,QA2,Critical,Resolved,Environment Issue,5,True,8
+Sprint 4,Notifications,Charlie,QA1,High,Resolved,Environment Issue,30,True,7
+Sprint 4,Notifications,Charlie,QA1,Medium,Open,Code Issue,7,False,4
+Sprint 4,Notifications,Charlie,QA1,Low,Open,Code Issue,2,False,5
+Sprint 4,Notifications,Charlie,QA1,Medium,Resolved,Environment Issue,3,False,3
+Sprint 4,Notifications,Charlie,QA1,Critical,Open,Environment Issue,24,False,7
+Sprint 4,Notifications,Charlie,QA1,Low,Resolved,Environment Issue,15,True,9
+Sprint 4,Reports,Charlie,QA2,Low,Closed,Environment Issue,12,True,3
+Sprint 4,Reports,Charlie,QA2,Medium,Resolved,Code Issue,5,False,2
+Sprint 4,Reports,Charlie,QA2,High,Open,Requirement Gap,3,True,8
+Sprint 4,Reports,Charlie,QA2,Medium,Open,Requirement Gap,3,False,8
+Sprint 4,Reports,Charlie,QA2,Low,In Progress,Requirement Gap,29,True,1
+Sprint 4,Reports,Charlie,QA2,Medium,Open,Requirement Gap,17,False,5
+Sprint 4,Dashboard,Alice,QA3,High,Closed,Code Issue,22,True,6
+Sprint 4,Dashboard,Alice,QA3,Medium,In Progress,Environment Issue,7,True,6
+Sprint 4,Dashboard,Alice,QA3,Medium,In Progress,Code Issue,3,False,2
+Sprint 4,Dashboard,Alice,QA3,High,Closed,Test Coverage Miss,18,True,8
+Sprint 4,Dashboard,Alice,QA3,Medium,Open,Test Coverage Miss,7,True,5
+Sprint 4,Dashboard,Alice,QA3,Low,In Progress,Requirement Gap,13,False,3
+Sprint 4,Dashboard,Alice,QA3,Low,Closed,Requirement Gap,21,True,5
+Sprint 5,Authentication,Alice,QA5,Medium,In Progress,Code Issue,21,False,3
+Sprint 5,Authentication,Alice,QA5,Medium,In Progress,Test Coverage Miss,29,True,3
+Sprint 5,Authentication,Alice,QA5,High,Closed,Requirement Gap,18,False,5
+Sprint 5,Authentication,Alice,QA5,Critical,Resolved,Test Coverage Miss,19,False,7
+Sprint 5,Billing,Eve,QA2,Low,Open,Requirement Gap,11,False,8
+Sprint 5,Billing,Eve,QA2,High,Resolved,Environment Issue,19,False,5
+Sprint 5,Billing,Eve,QA2,High,Resolved,Code Issue,20,True,10
+Sprint 5,Billing,Eve,QA2,High,Closed,Requirement Gap,27,False,9
+Sprint 5,Billing,Eve,QA2,Medium,Resolved,Requirement Gap,22,False,4
+Sprint 5,Billing,Eve,QA2,Critical,Closed,Code Issue,17,True,2
+Sprint 5,Billing,Eve,QA2,High,In Progress,Test Coverage Miss,25,True,10
+Sprint 5,Billing,Eve,QA2,Critical,Open,Environment Issue,15,True,4
+Sprint 5,Payments,Eve,QA2,Low,Resolved,Requirement Gap,14,False,5
+Sprint 5,Payments,Eve,QA2,Medium,In Progress,Environment Issue,18,True,2
+Sprint 5,Payments,Eve,QA2,High,Closed,Environment Issue,5,True,8
+Sprint 5,Payments,Eve,QA2,Critical,Resolved,Test Coverage Miss,12,True,8
+Sprint 5,Payments,Eve,QA2,Medium,Closed,Environment Issue,29,False,1
+Sprint 5,Payments,Eve,QA2,Critical,In Progress,Test Coverage Miss,27,False,2
+Sprint 5,Payments,Eve,QA2,High,Closed,Test Coverage Miss,8,False,1
+Sprint 5,Payments,Eve,QA2,High,Resolved,Code Issue,13,False,6
+Sprint 5,Payments,Eve,QA2,Low,Open,Test Coverage Miss,21,False,3
+Sprint 5,Notifications,Bob,QA4,Low,Open,Code Issue,13,False,4
+Sprint 5,Notifications,Bob,QA4,Medium,Closed,Environment Issue,27,True,5
+Sprint 5,Notifications,Bob,QA4,Medium,In Progress,Code Issue,30,True,5
+Sprint 5,Reports,Alice,QA5,Medium,Open,Environment Issue,11,False,6
+Sprint 5,Reports,Alice,QA5,Medium,Resolved,Environment Issue,16,True,2
+Sprint 5,Reports,Alice,QA5,Critical,Open,Environment Issue,12,False,5
+Sprint 5,Reports,Alice,QA5,Medium,In Progress,Code Issue,21,False,1
+Sprint 5,Reports,Alice,QA5,Critical,Open,Environment Issue,27,False,6
+Sprint 5,Reports,Alice,QA5,High,Open,Test Coverage Miss,16,True,10
+Sprint 5,Reports,Alice,QA5,High,Resolved,Test Coverage Miss,18,False,2
+Sprint 5,Dashboard,Frank,QA4,Medium,In Progress,Test Coverage Miss,13,True,3
+Sprint 5,Dashboard,Frank,QA4,High,Closed,Code Issue,23,True,7
+Sprint 5,Dashboard,Frank,QA4,Medium,In Progress,Code Issue,23,True,2
+Sprint 5,Dashboard,Frank,QA4,Critical,In Progress,Test Coverage Miss,2,False,9
+Sprint 6,Authentication,Frank,QA1,Critical,Closed,Requirement Gap,6,False,6
+Sprint 6,Authentication,Frank,QA1,High,Closed,Test Coverage Miss,20,True,5
+Sprint 6,Billing,Frank,QA2,High,Open,Test Coverage Miss,22,True,2
+Sprint 6,Billing,Frank,QA2,Critical,Closed,Requirement Gap,12,False,7
+Sprint 6,Billing,Frank,QA2,High,Closed,Requirement Gap,4,False,5
+Sprint 6,Billing,Frank,QA2,High,Closed,Requirement Gap,24,False,4
+Sprint 6,Billing,Frank,QA2,Critical,Resolved,Environment Issue,19,False,5
+Sprint 6,Billing,Frank,QA2,Critical,Resolved,Code Issue,6,True,5
+Sprint 6,Billing,Frank,QA2,Low,Open,Requirement Gap,27,False,1
+Sprint 6,Billing,Frank,QA2,Low,In Progress,Test Coverage Miss,24,True,10
+Sprint 6,Billing,Frank,QA2,High,In Progress,Test Coverage Miss,3,True,2
+Sprint 6,Billing,Frank,QA2,Medium,Resolved,Code Issue,9,False,7
+Sprint 6,Payments,Bob,QA5,Critical,In Progress,Requirement Gap,27,False,4
+Sprint 6,Payments,Bob,QA5,Medium,Resolved,Test Coverage Miss,16,True,6
+Sprint 6,Payments,Bob,QA5,Medium,In Progress,Code Issue,8,False,7
+Sprint 6,Payments,Bob,QA5,Low,In Progress,Requirement Gap,15,False,10
+Sprint 6,Payments,Bob,QA5,Low,Resolved,Test Coverage Miss,20,True,4
+Sprint 6,Payments,Bob,QA5,Critical,In Progress,Test Coverage Miss,19,True,8
+Sprint 6,Payments,Bob,QA5,Low,Open,Code Issue,27,True,6
+Sprint 6,Payments,Bob,QA5,High,Resolved,Environment Issue,6,False,4
+Sprint 6,Payments,Bob,QA5,High,Closed,Test Coverage Miss,28,True,1
+Sprint 6,Notifications,Frank,QA1,Critical,Resolved,Requirement Gap,21,True,2
+Sprint 6,Notifications,Frank,QA1,Critical,Closed,Test Coverage Miss,9,True,3
+Sprint 6,Notifications,Frank,QA1,High,In Progress,Requirement Gap,7,True,5
+Sprint 6,Notifications,Frank,QA1,Medium,Closed,Environment Issue,16,False,9
+Sprint 6,Notifications,Frank,QA1,High,Resolved,Requirement Gap,27,False,7
+Sprint 6,Notifications,Frank,QA1,Critical,Closed,Requirement Gap,14,True,4
+Sprint 6,Notifications,Frank,QA1,Low,Closed,Environment Issue,4,True,7
+Sprint 6,Notifications,Frank,QA1,Critical,In Progress,Requirement Gap,26,False,4
+Sprint 6,Reports,Bob,QA4,High,Resolved,Requirement Gap,1,True,1
+Sprint 6,Reports,Bob,QA4,High,Closed,Code Issue,29,True,2
+Sprint 6,Reports,Bob,QA4,Low,Closed,Requirement Gap,16,True,1
+Sprint 6,Reports,Bob,QA4,Critical,Closed,Test Coverage Miss,29,False,5
+Sprint 6,Reports,Bob,QA4,Critical,Open,Environment Issue,1,True,6
+Sprint 6,Reports,Bob,QA4,Low,Resolved,Code Issue,15,True,1
+Sprint 6,Dashboard,Frank,QA5,Low,Closed,Environment Issue,2,False,3
+Sprint 6,Dashboard,Frank,QA5,High,Resolved,Code Issue,1,False,1
+Sprint 6,Dashboard,Frank,QA5,Medium,Open,Requirement Gap,30,False,2
+Sprint 6,Dashboard,Frank,QA5,Medium,Open,Requirement Gap,12,False,4
+Sprint 6,Dashboard,Frank,QA5,Medium,Open,Requirement Gap,30,True,4
+Sprint 6,Dashboard,Frank,QA5,Medium,Open,Environment Issue,20,False,9
+Sprint 7,Authentication,Alice,QA4,Critical,Resolved,Code Issue,28,True,8
+Sprint 7,Authentication,Alice,QA4,Medium,Open,Code Issue,29,False,6
+Sprint 7,Authentication,Alice,QA4,Low,In Progress,Test Coverage Miss,13,False,1
+Sprint 7,Authentication,Alice,QA4,Medium,In Progress,Requirement Gap,20,True,2
+Sprint 7,Authentication,Alice,QA4,Critical,Open,Requirement Gap,6,False,3
+Sprint 7,Authentication,Alice,QA4,Low,Closed,Requirement Gap,15,True,7
+Sprint 7,Authentication,Alice,QA4,High,Open,Requirement Gap,26,True,5
+Sprint 7,Billing,Frank,QA3,Critical,In Progress,Code Issue,24,True,5
+Sprint 7,Billing,Frank,QA3,Medium,Open,Test Coverage Miss,3,True,1
+Sprint 7,Billing,Frank,QA3,Critical,Resolved,Test Coverage Miss,20,False,3
+Sprint 7,Payments,Frank,QA2,Low,Open,Test Coverage Miss,26,True,10
+Sprint 7,Payments,Frank,QA2,High,Closed,Requirement Gap,22,True,10
+Sprint 7,Payments,Frank,QA2,Low,Closed,Environment Issue,14,False,7
+Sprint 7,Payments,Frank,QA2,Low,In Progress,Test Coverage Miss,25,False,5
+Sprint 7,Payments,Frank,QA2,Medium,Closed,Code Issue,17,True,4
+Sprint 7,Payments,Frank,QA2,Medium,Closed,Code Issue,23,False,6
+Sprint 7,Notifications,Alice,QA1,Low,In Progress,Test Coverage Miss,24,True,3
+Sprint 7,Notifications,Alice,QA1,High,In Progress,Test Coverage Miss,4,False,2
+Sprint 7,Notifications,Alice,QA1,Low,Closed,Environment Issue,8,True,7
+Sprint 7,Notifications,Alice,QA1,High,Resolved,Environment Issue,15,False,9
+Sprint 7,Notifications,Alice,QA1,Critical,Closed,Requirement Gap,17,False,4
+Sprint 7,Notifications,Alice,QA1,Low,In Progress,Test Coverage Miss,22,True,10
+Sprint 7,Reports,Alice,QA2,Low,Open,Code Issue,19,False,2
+Sprint 7,Reports,Alice,QA2,Critical,In Progress,Test Coverage Miss,1,False,9
+Sprint 7,Reports,Alice,QA2,Medium,Open,Test Coverage Miss,4,False,6
+Sprint 7,Reports,Alice,QA2,Medium,Closed,Code Issue,27,False,10
+Sprint 7,Dashboard,Bob,QA4,Critical,In Progress,Requirement Gap,2,False,7
+Sprint 7,Dashboard,Bob,QA4,Medium,Open,Test Coverage Miss,18,False,10
+Sprint 7,Dashboard,Bob,QA4,Low,Closed,Requirement Gap,19,True,10
+Sprint 7,Dashboard,Bob,QA4,Critical,Closed,Environment Issue,22,False,4
+Sprint 7,Dashboard,Bob,QA4,High,In Progress,Code Issue,28,True,4
+Sprint 7,Dashboard,Bob,QA4,High,In Progress,Requirement Gap,9,False,1
+Sprint 7,Dashboard,Bob,QA4,Low,Closed,Environment Issue,7,False,9
+Sprint 7,Dashboard,Bob,QA4,Medium,Closed,Code Issue,17,True,1
+Sprint 7,Dashboard,Bob,QA4,Low,In Progress,Code Issue,15,True,3
+Sprint 7,Dashboard,Bob,QA4,Medium,Closed,Requirement Gap,2,True,1
+Sprint 8,Authentication,Frank,QA1,Medium,Open,Environment Issue,16,True,7
+Sprint 8,Authentication,Frank,QA1,Medium,Resolved,Code Issue,21,True,3
+Sprint 8,Authentication,Frank,QA1,Critical,Open,Requirement Gap,19,False,4
+Sprint 8,Billing,Eve,QA1,Low,In Progress,Code Issue,26,True,6
+Sprint 8,Billing,Eve,QA1,Medium,In Progress,Code Issue,19,False,2
+Sprint 8,Billing,Eve,QA1,High,Open,Environment Issue,22,False,5
+Sprint 8,Billing,Eve,QA1,Low,In Progress,Code Issue,12,False,1
+Sprint 8,Billing,Eve,QA1,Medium,Resolved,Test Coverage Miss,1,True,10
+Sprint 8,Billing,Eve,QA1,Low,Open,Test Coverage Miss,1,False,3
+Sprint 8,Billing,Eve,QA1,High,Closed,Test Coverage Miss,28,False,6
+Sprint 8,Payments,David,QA1,Critical,Resolved,Environment Issue,19,False,4
+Sprint 8,Payments,David,QA1,Medium,Closed,Environment Issue,27,True,4
+Sprint 8,Payments,David,QA1,High,Open,Requirement Gap,12,False,6
+Sprint 8,Payments,David,QA1,Low,In Progress,Test Coverage Miss,14,False,7
+Sprint 8,Payments,David,QA1,High,In Progress,Test Coverage Miss,23,True,2
+Sprint 8,Payments,David,QA1,Critical,In Progress,Test Coverage Miss,8,True,5
+Sprint 8,Payments,David,QA1,High,Resolved,Environment Issue,7,False,7
+Sprint 8,Payments,David,QA1,Low,Closed,Code Issue,5,False,1
+Sprint 8,Payments,David,QA1,Critical,Resolved,Environment Issue,9,True,1
+Sprint 8,Notifications,Charlie,QA1,High,Closed,Code Issue,30,False,1
+Sprint 8,Notifications,Charlie,QA1,Critical,In Progress,Requirement Gap,17,True,4
+Sprint 8,Notifications,Charlie,QA1,High,Open,Code Issue,7,False,9
+Sprint 8,Notifications,Charlie,QA1,Critical,Closed,Environment Issue,14,False,8
+Sprint 8,Notifications,Charlie,QA1,High,Closed,Environment Issue,18,True,4
+Sprint 8,Notifications,Charlie,QA1,Low,In Progress,Test Coverage Miss,14,True,9
+Sprint 8,Reports,Eve,QA4,Low,Open,Code Issue,2,True,10
+Sprint 8,Reports,Eve,QA4,Medium,Open,Test Coverage Miss,22,True,8
+Sprint 8,Reports,Eve,QA4,Critical,In Progress,Requirement Gap,23,True,2
+Sprint 8,Reports,Eve,QA4,High,Resolved,Code Issue,19,False,10
+Sprint 8,Reports,Eve,QA4,Critical,Resolved,Test Coverage Miss,7,False,4
+Sprint 8,Reports,Eve,QA4,High,Closed,Requirement Gap,6,False,1
+Sprint 8,Reports,Eve,QA4,Medium,Resolved,Code Issue,7,False,8
+Sprint 8,Dashboard,Frank,QA5,High,In Progress,Requirement Gap,15,False,9
+Sprint 8,Dashboard,Frank,QA5,High,Open,Environment Issue,25,False,3
+Sprint 8,Dashboard,Frank,QA5,Low,Resolved,Requirement Gap,13,False,4
+Sprint 8,Dashboard,Frank,QA5,Low,Open,Requirement Gap,24,False,6
+Sprint 8,Dashboard,Frank,QA5,Low,Open,Code Issue,15,False,9
+Sprint 8,Dashboard,Frank,QA5,Critical,Open,Environment Issue,10,False,10
+Sprint 8,Dashboard,Frank,QA5,Critical,Resolved,Requirement Gap,28,False,4
+Sprint 8,Dashboard,Frank,QA5,Low,Open,Environment Issue,19,True,6
+Sprint 9,Authentication,Alice,QA2,High,Open,Requirement Gap,14,False,2
+Sprint 9,Authentication,Alice,QA2,Medium,Closed,Code Issue,27,False,1
+Sprint 9,Billing,Bob,QA5,Medium,Closed,Test Coverage Miss,13,True,4
+Sprint 9,Billing,Bob,QA5,Low,Closed,Environment Issue,13,True,8
+Sprint 9,Billing,Bob,QA5,Medium,In Progress,Requirement Gap,2,False,3
+Sprint 9,Billing,Bob,QA5,Low,In Progress,Environment Issue,13,True,9
+Sprint 9,Billing,Bob,QA5,Low,Resolved,Requirement Gap,3,True,10
+Sprint 9,Billing,Bob,QA5,High,In Progress,Code Issue,6,True,8
+Sprint 9,Billing,Bob,QA5,Critical,Resolved,Test Coverage Miss,16,True,4
+Sprint 9,Billing,Bob,QA5,Critical,Resolved,Test Coverage Miss,22,False,5
+Sprint 9,Payments,Eve,QA4,Low,Closed,Environment Issue,7,True,3
+Sprint 9,Payments,Eve,QA4,Critical,Closed,Test Coverage Miss,18,False,2
+Sprint 9,Notifications,David,QA1,High,Open,Code Issue,18,True,1
+Sprint 9,Notifications,David,QA1,Medium,Closed,Requirement Gap,26,False,9
+Sprint 9,Notifications,David,QA1,Low,Open,Requirement Gap,28,True,7
+Sprint 9,Notifications,David,QA1,Low,In Progress,Requirement Gap,22,True,7
+Sprint 9,Notifications,David,QA1,Medium,In Progress,Requirement Gap,11,False,4
+Sprint 9,Notifications,David,QA1,Medium,In Progress,Test Coverage Miss,10,False,5
+Sprint 9,Notifications,David,QA1,Low,In Progress,Environment Issue,30,True,4
+Sprint 9,Reports,Charlie,QA5,Medium,Open,Environment Issue,16,True,7
+Sprint 9,Reports,Charlie,QA5,Medium,Closed,Environment Issue,15,False,3
+Sprint 9,Reports,Charlie,QA5,Medium,In Progress,Test Coverage Miss,19,False,5
+Sprint 9,Reports,Charlie,QA5,Low,In Progress,Test Coverage Miss,29,True,4
+Sprint 9,Reports,Charlie,QA5,High,Open,Environment Issue,6,True,8
+Sprint 9,Dashboard,Charlie,QA5,Critical,Open,Environment Issue,29,False,5
+Sprint 9,Dashboard,Charlie,QA5,Low,Open,Requirement Gap,21,False,6
+Sprint 9,Dashboard,Charlie,QA5,High,Resolved,Code Issue,26,True,8
+Sprint 9,Dashboard,Charlie,QA5,Low,Closed,Environment Issue,18,False,10
+Sprint 9,Dashboard,Charlie,QA5,Critical,Open,Requirement Gap,16,False,2
+Sprint 9,Dashboard,Charlie,QA5,Medium,Resolved,Environment Issue,15,True,7
+Sprint 9,Dashboard,Charlie,QA5,Low,In Progress,Test Coverage Miss,8,False,5
+Sprint 10,Authentication,Bob,QA5,High,Closed,Environment Issue,22,True,6
+Sprint 10,Authentication,Bob,QA5,High,In Progress,Code Issue,14,True,9
+Sprint 10,Authentication,Bob,QA5,Medium,Resolved,Test Coverage Miss,9,False,6
+Sprint 10,Billing,Eve,QA4,Critical,In Progress,Test Coverage Miss,6,False,10
+Sprint 10,Billing,Eve,QA4,Medium,Resolved,Environment Issue,15,False,8
+Sprint 10,Billing,Eve,QA4,Low,Open,Code Issue,23,True,4
+Sprint 10,Billing,Eve,QA4,Critical,Resolved,Code Issue,13,False,9
+Sprint 10,Billing,Eve,QA4,Low,Resolved,Requirement Gap,16,False,7
+Sprint 10,Billing,Eve,QA4,High,Closed,Requirement Gap,15,True,5
+Sprint 10,Billing,Eve,QA4,Medium,In Progress,Code Issue,24,False,8
+Sprint 10,Billing,Eve,QA4,High,Open,Environment Issue,7,False,6
+Sprint 10,Payments,Frank,QA4,Low,Resolved,Test Coverage Miss,6,False,5
+Sprint 10,Payments,Frank,QA4,High,In Progress,Code Issue,17,False,4
+Sprint 10,Payments,Frank,QA4,Critical,Closed,Environment Issue,1,False,6
+Sprint 10,Payments,Frank,QA4,Low,Closed,Code Issue,13,False,6
+Sprint 10,Payments,Frank,QA4,Low,Resolved,Test Coverage Miss,3,True,10
+Sprint 10,Notifications,Frank,QA5,Low,Resolved,Requirement Gap,22,True,7
+Sprint 10,Notifications,Frank,QA5,Medium,Resolved,Environment Issue,28,False,3
+Sprint 10,Notifications,Frank,QA5,Critical,Resolved,Code Issue,29,True,6
+Sprint 10,Notifications,Frank,QA5,Critical,In Progress,Environment Issue,21,True,6
+Sprint 10,Notifications,Frank,QA5,Medium,Resolved,Code Issue,29,False,3
+Sprint 10,Reports,Frank,QA5,High,Open,Code Issue,8,True,2
+Sprint 10,Reports,Frank,QA5,Medium,In Progress,Code Issue,30,False,8
+Sprint 10,Reports,Frank,QA5,Medium,Resolved,Requirement Gap,9,True,1
+Sprint 10,Reports,Frank,QA5,Medium,Resolved,Test Coverage Miss,27,False,9
+Sprint 10,Reports,Frank,QA5,Medium,In Progress,Requirement Gap,20,False,10
+Sprint 10,Reports,Frank,QA5,High,Open,Test Coverage Miss,18,True,7
+Sprint 10,Dashboard,Frank,QA2,High,In Progress,Test Coverage Miss,8,False,1
+Sprint 10,Dashboard,Frank,QA2,Critical,Open,Environment Issue,29,False,8
+Sprint 10,Dashboard,Frank,QA2,High,Resolved,Environment Issue,14,True,10
+Sprint 10,Dashboard,Frank,QA2,Low,Resolved,Code Issue,3,False,4
+Sprint 10,Dashboard,Frank,QA2,Critical,Closed,Requirement Gap,15,True,6
+Sprint 10,Dashboard,Frank,QA2,Low,In Progress,Code Issue,26,False,6
+Sprint 10,Dashboard,Frank,QA2,High,Resolved,Requirement Gap,14,True,9
+Sprint 11,Authentication,Frank,QA2,Medium,In Progress,Requirement Gap,2,True,2
+Sprint 11,Authentication,Frank,QA2,Low,Resolved,Test Coverage Miss,16,False,3
+Sprint 11,Authentication,Frank,QA2,Low,Closed,Environment Issue,12,False,6
+Sprint 11,Authentication,Frank,QA2,High,Closed,Code Issue,9,False,8
+Sprint 11,Authentication,Frank,QA2,Low,Resolved,Code Issue,1,False,4
+Sprint 11,Authentication,Frank,QA2,Low,Resolved,Environment Issue,24,False,1
+Sprint 11,Authentication,Frank,QA2,Low,Closed,Environment Issue,2,True,6
+Sprint 11,Authentication,Frank,QA2,Medium,Closed,Code Issue,8,True,8
+Sprint 11,Authentication,Frank,QA2,Medium,In Progress,Environment Issue,25,False,6
+Sprint 11,Authentication,Frank,QA2,High,In Progress,Environment Issue,28,False,1
+Sprint 11,Billing,Bob,QA3,High,Closed,Test Coverage Miss,9,False,8
+Sprint 11,Billing,Bob,QA3,High,In Progress,Requirement Gap,3,True,4
+Sprint 11,Billing,Bob,QA3,Low,In Progress,Test Coverage Miss,5,False,8
+Sprint 11,Billing,Bob,QA3,Critical,Closed,Environment Issue,20,True,2
+Sprint 11,Billing,Bob,QA3,Critical,Open,Environment Issue,18,False,4
+Sprint 11,Billing,Bob,QA3,High,Resolved,Environment Issue,2,True,6
+Sprint 11,Payments,Eve,QA4,Low,Closed,Test Coverage Miss,6,False,3
+Sprint 11,Payments,Eve,QA4,Critical,Open,Code Issue,6,True,3
+Sprint 11,Payments,Eve,QA4,Critical,In Progress,Requirement Gap,15,False,1
+Sprint 11,Payments,Eve,QA4,Medium,Resolved,Environment Issue,19,False,10
+Sprint 11,Payments,Eve,QA4,Critical,In Progress,Test Coverage Miss,15,False,7
+Sprint 11,Payments,Eve,QA4,Medium,Closed,Test Coverage Miss,30,True,2
+Sprint 11,Payments,Eve,QA4,Medium,Closed,Requirement Gap,13,False,3
+Sprint 11,Payments,Eve,QA4,High,In Progress,Code Issue,14,True,2
+Sprint 11,Payments,Eve,QA4,Critical,Open,Environment Issue,17,False,8
+Sprint 11,Payments,Eve,QA4,High,Closed,Requirement Gap,27,True,2
+Sprint 11,Notifications,Eve,QA3,High,In Progress,Test Coverage Miss,19,False,8
+Sprint 11,Notifications,Eve,QA3,Critical,Closed,Environment Issue,3,True,8
+Sprint 11,Notifications,Eve,QA3,Medium,Closed,Test Coverage Miss,26,True,6
+Sprint 11,Notifications,Eve,QA3,Low,Open,Code Issue,27,True,8
+Sprint 11,Notifications,Eve,QA3,Medium,In Progress,Environment Issue,23,False,1
+Sprint 11,Notifications,Eve,QA3,Critical,In Progress,Test Coverage Miss,15,False,2
+Sprint 11,Reports,Charlie,QA3,Critical,Open,Code Issue,18,True,1
+Sprint 11,Reports,Charlie,QA3,High,Closed,Code Issue,24,False,9
+Sprint 11,Dashboard,Frank,QA4,Medium,Resolved,Environment Issue,7,False,3
+Sprint 11,Dashboard,Frank,QA4,Low,In Progress,Test Coverage Miss,3,True,8
+Sprint 11,Dashboard,Frank,QA4,High,Closed,Code Issue,13,False,10
+Sprint 11,Dashboard,Frank,QA4,Low,In Progress,Test Coverage Miss,17,True,1
+Sprint 11,Dashboard,Frank,QA4,Low,Closed,Environment Issue,20,False,8
+Sprint 11,Dashboard,Frank,QA4,Low,Resolved,Requirement Gap,15,True,7
+Sprint 11,Dashboard,Frank,QA4,Critical,Open,Test Coverage Miss,27,False,8
+Sprint 11,Dashboard,Frank,QA4,Critical,Resolved,Code Issue,24,False,10
+Sprint 11,Dashboard,Frank,QA4,Low,Open,Test Coverage Miss,8,True,2
+Sprint 12,Authentication,David,QA3,High,In Progress,Code Issue,11,False,6
+Sprint 12,Authentication,David,QA3,Critical,Resolved,Environment Issue,2,True,5
+Sprint 12,Authentication,David,QA3,Medium,Open,Environment Issue,2,True,10
+Sprint 12,Authentication,David,QA3,Critical,Resolved,Code Issue,10,True,7
+Sprint 12,Authentication,David,QA3,Medium,Resolved,Test Coverage Miss,22,False,5
+Sprint 12,Authentication,David,QA3,Medium,Closed,Requirement Gap,8,False,3
+Sprint 12,Authentication,David,QA3,High,Open,Code Issue,8,True,10
+Sprint 12,Billing,Charlie,QA3,Critical,Resolved,Test Coverage Miss,25,True,1
+Sprint 12,Billing,Charlie,QA3,Low,Open,Requirement Gap,4,False,4
+Sprint 12,Billing,Charlie,QA3,Critical,In Progress,Environment Issue,14,True,8
+Sprint 12,Billing,Charlie,QA3,Medium,Open,Test Coverage Miss,7,False,5
+Sprint 12,Billing,Charlie,QA3,Medium,Resolved,Test Coverage Miss,10,False,10
+Sprint 12,Billing,Charlie,QA3,Critical,Resolved,Code Issue,21,True,1
+Sprint 12,Billing,Charlie,QA3,Critical,Open,Requirement Gap,26,False,7
+Sprint 12,Billing,Charlie,QA3,Critical,Closed,Test Coverage Miss,12,False,1
+Sprint 12,Billing,Charlie,QA3,Medium,Resolved,Requirement Gap,11,True,10
+Sprint 12,Billing,Charlie,QA3,Low,Open,Test Coverage Miss,14,True,6
+Sprint 12,Payments,Bob,QA5,Medium,In Progress,Code Issue,6,True,1
+Sprint 12,Payments,Bob,QA5,Low,Closed,Test Coverage Miss,12,True,6
+Sprint 12,Payments,Bob,QA5,High,Resolved,Code Issue,4,False,2
+Sprint 12,Notifications,Eve,QA3,Low,Resolved,Requirement Gap,1,False,8
+Sprint 12,Notifications,Eve,QA3,Low,Closed,Code Issue,9,False,8
+Sprint 12,Notifications,Eve,QA3,Critical,Resolved,Test Coverage Miss,7,False,9
+Sprint 12,Notifications,Eve,QA3,High,Resolved,Test Coverage Miss,26,False,3
+Sprint 12,Reports,Alice,QA4,Critical,Resolved,Environment Issue,14,False,6
+Sprint 12,Reports,Alice,QA4,Medium,Resolved,Code Issue,9,True,3
+Sprint 12,Reports,Alice,QA4,High,Resolved,Environment Issue,22,False,10
+Sprint 12,Reports,Alice,QA4,Low,Resolved,Environment Issue,20,True,6
+Sprint 12,Dashboard,Frank,QA5,Low,Closed,Code Issue,10,False,4
+Sprint 12,Dashboard,Frank,QA5,High,In Progress,Environment Issue,12,True,6
+Sprint 12,Dashboard,Frank,QA5,High,Open,Environment Issue,15,False,9
+Sprint 12,Dashboard,Frank,QA5,High,Open,Code Issue,19,False,10
+Sprint 12,Dashboard,Frank,QA5,High,In Progress,Code Issue,22,True,8
+Sprint 12,Dashboard,Frank,QA5,Medium,Open,Environment Issue,14,True,10
+Sprint 12,Dashboard,Frank,QA5,Critical,In Progress,Environment Issue,18,False,6
+Sprint 12,Dashboard,Frank,QA5,Medium,Open,Environment Issue,29,True,6
+Sprint 12,Dashboard,Frank,QA5,Low,In Progress,Environment Issue,22,True,6
+Sprint 13,Authentication,Alice,QA2,High,Resolved,Environment Issue,21,False,2
+Sprint 13,Authentication,Alice,QA2,Medium,Open,Environment Issue,2,False,2
+Sprint 13,Authentication,Alice,QA2,Low,Closed,Environment Issue,25,False,4
+Sprint 13,Authentication,Alice,QA2,High,Closed,Code Issue,18,False,5
+Sprint 13,Authentication,Alice,QA2,Critical,In Progress,Code Issue,8,False,10
+Sprint 13,Authentication,Alice,QA2,Critical,Resolved,Requirement Gap,29,True,5
+Sprint 13,Authentication,Alice,QA2,Low,Resolved,Test Coverage Miss,6,True,4
+Sprint 13,Authentication,Alice,QA2,High,Resolved,Requirement Gap,7,True,4
+Sprint 13,Authentication,Alice,QA2,Critical,In Progress,Code Issue,22,False,9
+Sprint 13,Authentication,Alice,QA2,Low,Closed,Test Coverage Miss,25,True,7
+Sprint 13,Billing,Eve,QA4,Low,In Progress,Code Issue,2,True,1
+Sprint 13,Billing,Eve,QA4,Low,Open,Code Issue,23,True,9
+Sprint 13,Billing,Eve,QA4,Critical,Resolved,Environment Issue,26,True,9
+Sprint 13,Billing,Eve,QA4,Medium,Closed,Code Issue,1,False,4
+Sprint 13,Billing,Eve,QA4,Critical,Open,Requirement Gap,5,True,5
+Sprint 13,Billing,Eve,QA4,Low,Resolved,Environment Issue,24,False,2
+Sprint 13,Payments,Eve,QA4,Critical,In Progress,Code Issue,13,False,1
+Sprint 13,Payments,Eve,QA4,Critical,Resolved,Requirement Gap,21,False,5
+Sprint 13,Payments,Eve,QA4,Medium,Resolved,Environment Issue,24,False,6
+Sprint 13,Payments,Eve,QA4,Medium,In Progress,Code Issue,14,True,9
+Sprint 13,Payments,Eve,QA4,Medium,Resolved,Requirement Gap,2,False,1
+Sprint 13,Payments,Eve,QA4,Critical,Closed,Code Issue,6,True,10
+Sprint 13,Notifications,Bob,QA4,Low,Closed,Environment Issue,1,False,1
+Sprint 13,Notifications,Bob,QA4,Low,In Progress,Requirement Gap,24,False,2
+Sprint 13,Notifications,Bob,QA4,Medium,Closed,Code Issue,25,True,7
+Sprint 13,Notifications,Bob,QA4,High,In Progress,Code Issue,15,False,3
+Sprint 13,Notifications,Bob,QA4,Low,Closed,Test Coverage Miss,27,False,2
+Sprint 13,Notifications,Bob,QA4,Low,Resolved,Requirement Gap,14,True,9
+Sprint 13,Notifications,Bob,QA4,Medium,Resolved,Environment Issue,24,False,9
+Sprint 13,Notifications,Bob,QA4,High,Resolved,Environment Issue,25,False,5
+Sprint 13,Reports,Alice,QA5,High,Resolved,Requirement Gap,20,True,1
+Sprint 13,Reports,Alice,QA5,High,Resolved,Requirement Gap,7,True,2
+Sprint 13,Reports,Alice,QA5,Medium,In Progress,Environment Issue,8,True,6
+Sprint 13,Reports,Alice,QA5,Low,Open,Environment Issue,3,True,3
+Sprint 13,Dashboard,Frank,QA4,High,In Progress,Test Coverage Miss,4,True,1
+Sprint 13,Dashboard,Frank,QA4,Critical,Resolved,Code Issue,9,True,1
+Sprint 13,Dashboard,Frank,QA4,Low,Resolved,Code Issue,7,True,2
+Sprint 13,Dashboard,Frank,QA4,High,In Progress,Test Coverage Miss,14,False,6
+Sprint 13,Dashboard,Frank,QA4,Low,Resolved,Test Coverage Miss,1,False,9
+Sprint 13,Dashboard,Frank,QA4,Low,In Progress,Environment Issue,19,False,5
+Sprint 13,Dashboard,Frank,QA4,Critical,In Progress,Code Issue,24,False,7
+Sprint 13,Dashboard,Frank,QA4,High,In Progress,Test Coverage Miss,20,False,2
+Sprint 14,Authentication,Frank,QA5,Low,Open,Requirement Gap,12,True,6
+Sprint 14,Authentication,Frank,QA5,Critical,Resolved,Test Coverage Miss,5,True,6
+Sprint 14,Authentication,Frank,QA5,High,In Progress,Requirement Gap,7,False,6
+Sprint 14,Authentication,Frank,QA5,Critical,Closed,Code Issue,10,False,6
+Sprint 14,Authentication,Frank,QA5,Critical,Resolved,Requirement Gap,29,True,5
+Sprint 14,Billing,Bob,QA4,Critical,In Progress,Code Issue,13,False,5
+Sprint 14,Billing,Bob,QA4,Medium,Open,Environment Issue,28,True,7
+Sprint 14,Billing,Bob,QA4,High,Closed,Requirement Gap,5,False,2
+Sprint 14,Billing,Bob,QA4,Low,Open,Code Issue,28,False,9
+Sprint 14,Billing,Bob,QA4,Critical,Closed,Requirement Gap,10,False,8
+Sprint 14,Billing,Bob,QA4,Critical,Open,Test Coverage Miss,8,False,4
+Sprint 14,Billing,Bob,QA4,High,In Progress,Environment Issue,22,True,9
+Sprint 14,Billing,Bob,QA4,Low,Resolved,Environment Issue,1,False,6
+Sprint 14,Payments,Frank,QA3,Medium,Open,Test Coverage Miss,23,True,3
+Sprint 14,Payments,Frank,QA3,Low,Closed,Requirement Gap,28,False,3
+Sprint 14,Payments,Frank,QA3,Critical,Closed,Code Issue,23,False,7
+Sprint 14,Payments,Frank,QA3,Low,In Progress,Test Coverage Miss,13,False,10
+Sprint 14,Payments,Frank,QA3,High,Resolved,Code Issue,8,False,2
+Sprint 14,Payments,Frank,QA3,Critical,Closed,Code Issue,12,False,7
+Sprint 14,Notifications,Frank,QA2,Low,Closed,Test Coverage Miss,24,True,5
+Sprint 14,Notifications,Frank,QA2,High,Closed,Test Coverage Miss,24,False,3
+Sprint 14,Notifications,Frank,QA2,Low,Resolved,Requirement Gap,10,True,10
+Sprint 14,Reports,Frank,QA1,Low,Resolved,Environment Issue,12,True,7
+Sprint 14,Reports,Frank,QA1,Medium,In Progress,Test Coverage Miss,23,False,9
+Sprint 14,Reports,Frank,QA1,Medium,Resolved,Environment Issue,18,False,5
+Sprint 14,Reports,Frank,QA1,Critical,Resolved,Test Coverage Miss,20,True,6
+Sprint 14,Dashboard,Alice,QA3,Critical,Resolved,Code Issue,24,False,1
+Sprint 14,Dashboard,Alice,QA3,Critical,Resolved,Requirement Gap,10,True,7
+Sprint 14,Dashboard,Alice,QA3,High,In Progress,Code Issue,12,False,8
+Sprint 15,Authentication,Bob,QA4,Critical,Closed,Requirement Gap,5,False,8
+Sprint 15,Authentication,Bob,QA4,High,Open,Code Issue,6,False,3
+Sprint 15,Authentication,Bob,QA4,Low,Open,Environment Issue,27,True,10
+Sprint 15,Authentication,Bob,QA4,High,Open,Code Issue,18,True,9
+Sprint 15,Authentication,Bob,QA4,Medium,In Progress,Environment Issue,21,True,3
+Sprint 15,Authentication,Bob,QA4,Critical,Open,Code Issue,21,False,5
+Sprint 15,Billing,Frank,QA1,Medium,Resolved,Requirement Gap,2,False,6
+Sprint 15,Billing,Frank,QA1,High,Closed,Test Coverage Miss,2,True,8
+Sprint 15,Billing,Frank,QA1,Critical,Open,Code Issue,7,False,2
+Sprint 15,Billing,Frank,QA1,Medium,Resolved,Requirement Gap,16,True,9
+Sprint 15,Billing,Frank,QA1,High,Resolved,Test Coverage Miss,28,True,9
+Sprint 15,Payments,Eve,QA1,High,Resolved,Code Issue,30,True,4
+Sprint 15,Payments,Eve,QA1,Critical,Closed,Environment Issue,4,False,4
+Sprint 15,Payments,Eve,QA1,Medium,Closed,Code Issue,5,False,8
+Sprint 15,Payments,Eve,QA1,High,Closed,Test Coverage Miss,27,True,2
+Sprint 15,Payments,Eve,QA1,High,Closed,Code Issue,8,False,4
+Sprint 15,Payments,Eve,QA1,Medium,Resolved,Environment Issue,20,False,3
+Sprint 15,Notifications,David,QA3,High,Closed,Requirement Gap,17,True,6
+Sprint 15,Notifications,David,QA3,Low,Open,Requirement Gap,18,True,6
+Sprint 15,Notifications,David,QA3,High,In Progress,Environment Issue,30,True,3
+Sprint 15,Notifications,David,QA3,Medium,Open,Code Issue,26,True,2
+Sprint 15,Notifications,David,QA3,Low,Open,Code Issue,12,True,6
+Sprint 15,Notifications,David,QA3,High,Closed,Requirement Gap,8,True,5
+Sprint 15,Notifications,David,QA3,High,Resolved,Environment Issue,30,True,10
+Sprint 15,Reports,David,QA1,Low,Open,Test Coverage Miss,28,True,4
+Sprint 15,Reports,David,QA1,Low,Resolved,Test Coverage Miss,7,False,2
+Sprint 15,Reports,David,QA1,High,Closed,Requirement Gap,23,False,10
+Sprint 15,Reports,David,QA1,Critical,In Progress,Requirement Gap,24,True,2
+Sprint 15,Reports,David,QA1,Critical,Closed,Test Coverage Miss,7,False,9
+Sprint 15,Reports,David,QA1,High,In Progress,Requirement Gap,2,True,5
+Sprint 15,Reports,David,QA1,High,In Progress,Code Issue,5,True,8
+Sprint 15,Reports,David,QA1,Critical,Open,Code Issue,13,True,8
+Sprint 15,Dashboard,Frank,QA2,Critical,In Progress,Environment Issue,14,False,1
+Sprint 15,Dashboard,Frank,QA2,Medium,In Progress,Test Coverage Miss,28,True,2
+Sprint 15,Dashboard,Frank,QA2,Medium,Open,Test Coverage Miss,30,True,7
+Sprint 15,Dashboard,Frank,QA2,High,Closed,Test Coverage Miss,27,False,3
+Sprint 15,Dashboard,Frank,QA2,Critical,Open,Requirement Gap,17,True,10
+Sprint 15,Dashboard,Frank,QA2,Low,Resolved,Code Issue,1,False,9
+Sprint 15,Dashboard,Frank,QA2,Critical,Closed,Code Issue,13,True,9
+Sprint 15,Dashboard,Frank,QA2,High,Open,Environment Issue,2,True,5
+Sprint 16,Authentication,Eve,QA5,Critical,In Progress,Test Coverage Miss,7,False,4
+Sprint 16,Authentication,Eve,QA5,High,In Progress,Code Issue,10,True,8
+Sprint 16,Authentication,Eve,QA5,Medium,Resolved,Requirement Gap,1,False,2
+Sprint 16,Authentication,Eve,QA5,Medium,Resolved,Test Coverage Miss,6,False,10
+Sprint 16,Authentication,Eve,QA5,Low,Open,Requirement Gap,5,False,3
+Sprint 16,Authentication,Eve,QA5,Low,Open,Environment Issue,26,False,7
+Sprint 16,Billing,Bob,QA3,Medium,Closed,Requirement Gap,20,True,10
+Sprint 16,Billing,Bob,QA3,Critical,In Progress,Environment Issue,8,False,3
+Sprint 16,Billing,Bob,QA3,Medium,Closed,Environment Issue,4,False,2
+Sprint 16,Billing,Bob,QA3,Low,Closed,Test Coverage Miss,6,False,6
+Sprint 16,Payments,Charlie,QA4,Critical,Open,Requirement Gap,16,True,8
+Sprint 16,Payments,Charlie,QA4,Critical,In Progress,Code Issue,16,False,2
+Sprint 16,Payments,Charlie,QA4,Medium,In Progress,Code Issue,22,True,7
+Sprint 16,Payments,Charlie,QA4,Low,In Progress,Test Coverage Miss,18,True,9
+Sprint 16,Payments,Charlie,QA4,Low,In Progress,Requirement Gap,4,True,1
+Sprint 16,Payments,Charlie,QA4,Medium,Closed,Requirement Gap,8,False,5
+Sprint 16,Payments,Charlie,QA4,Critical,Resolved,Test Coverage Miss,8,True,1
+Sprint 16,Notifications,Alice,QA5,High,Closed,Test Coverage Miss,8,False,8
+Sprint 16,Notifications,Alice,QA5,Medium,Closed,Code Issue,22,True,9
+Sprint 16,Notifications,Alice,QA5,Low,Closed,Code Issue,7,True,3
+Sprint 16,Notifications,Alice,QA5,Critical,Resolved,Requirement Gap,8,True,10
+Sprint 16,Notifications,Alice,QA5,Low,In Progress,Environment Issue,30,True,7
+Sprint 16,Notifications,Alice,QA5,High,Resolved,Test Coverage Miss,30,False,6
+Sprint 16,Notifications,Alice,QA5,Low,In Progress,Test Coverage Miss,3,False,8
+Sprint 16,Notifications,Alice,QA5,Critical,Open,Test Coverage Miss,17,True,2
+Sprint 16,Notifications,Alice,QA5,Critical,Closed,Code Issue,20,True,2
+Sprint 16,Notifications,Alice,QA5,Critical,Closed,Requirement Gap,20,True,6
+Sprint 16,Reports,Frank,QA3,Low,In Progress,Test Coverage Miss,15,False,9
+Sprint 16,Reports,Frank,QA3,Medium,Closed,Test Coverage Miss,30,True,8
+Sprint 16,Reports,Frank,QA3,High,In Progress,Code Issue,9,False,2
+Sprint 16,Reports,Frank,QA3,Low,Closed,Code Issue,6,False,7
+Sprint 16,Reports,Frank,QA3,Low,Open,Code Issue,30,False,7
+Sprint 16,Dashboard,Bob,QA3,Critical,Open,Requirement Gap,29,True,1
+Sprint 16,Dashboard,Bob,QA3,Medium,Closed,Environment Issue,30,True,5
+Sprint 16,Dashboard,Bob,QA3,Medium,Open,Test Coverage Miss,4,False,8
+Sprint 17,Authentication,Eve,QA3,High,Resolved,Code Issue,8,False,6
+Sprint 17,Authentication,Eve,QA3,High,Closed,Environment Issue,9,False,8
+Sprint 17,Authentication,Eve,QA3,Low,Open,Code Issue,28,True,6
+Sprint 17,Authentication,Eve,QA3,Low,Closed,Code Issue,1,False,4
+Sprint 17,Authentication,Eve,QA3,Low,In Progress,Requirement Gap,30,False,2
+Sprint 17,Authentication,Eve,QA3,Medium,Resolved,Test Coverage Miss,1,True,7
+Sprint 17,Billing,David,QA4,High,Closed,Code Issue,19,False,5
+Sprint 17,Billing,David,QA4,Medium,Open,Code Issue,15,True,4
+Sprint 17,Billing,David,QA4,Critical,Open,Environment Issue,3,True,4
+Sprint 17,Billing,David,QA4,Medium,Open,Code Issue,22,False,7
+Sprint 17,Billing,David,QA4,Low,In Progress,Environment Issue,9,True,1
+Sprint 17,Billing,David,QA4,Low,In Progress,Test Coverage Miss,15,False,3
+Sprint 17,Payments,Alice,QA4,Medium,Open,Requirement Gap,19,True,9
+Sprint 17,Payments,Alice,QA4,High,In Progress,Requirement Gap,23,True,7
+Sprint 17,Payments,Alice,QA4,Medium,In Progress,Code Issue,10,False,2
+Sprint 17,Payments,Alice,QA4,High,Resolved,Code Issue,27,True,6
+Sprint 17,Payments,Alice,QA4,High,Resolved,Test Coverage Miss,16,False,1
+Sprint 17,Payments,Alice,QA4,High,In Progress,Code Issue,5,False,2
+Sprint 17,Payments,Alice,QA4,Low,In Progress,Environment Issue,16,False,1
+Sprint 17,Payments,Alice,QA4,High,Closed,Requirement Gap,3,True,2
+Sprint 17,Notifications,Charlie,QA3,High,Open,Environment Issue,5,True,6
+Sprint 17,Notifications,Charlie,QA3,Low,Open,Test Coverage Miss,27,False,3
+Sprint 17,Notifications,Charlie,QA3,High,In Progress,Test Coverage Miss,26,False,3
+Sprint 17,Notifications,Charlie,QA3,Low,Resolved,Test Coverage Miss,25,True,9
+Sprint 17,Notifications,Charlie,QA3,High,Closed,Code Issue,22,False,8
+Sprint 17,Notifications,Charlie,QA3,Critical,Open,Environment Issue,17,False,8
+Sprint 17,Reports,Alice,QA2,Medium,Closed,Requirement Gap,30,True,9
+Sprint 17,Reports,Alice,QA2,Critical,Closed,Requirement Gap,2,False,7
+Sprint 17,Reports,Alice,QA2,High,Open,Code Issue,7,False,4
+Sprint 17,Reports,Alice,QA2,Medium,Closed,Code Issue,26,True,7
+Sprint 17,Reports,Alice,QA2,Low,Closed,Requirement Gap,15,True,7
+Sprint 17,Reports,Alice,QA2,Critical,In Progress,Requirement Gap,3,True,2
+Sprint 17,Reports,Alice,QA2,Critical,In Progress,Requirement Gap,4,True,10
+Sprint 17,Reports,Alice,QA2,High,Resolved,Code Issue,6,True,8
+Sprint 17,Dashboard,David,QA2,Medium,Open,Code Issue,7,True,8
+Sprint 17,Dashboard,David,QA2,High,Resolved,Requirement Gap,13,True,2
+Sprint 17,Dashboard,David,QA2,Low,In Progress,Code Issue,3,True,4
+Sprint 18,Authentication,Charlie,QA2,Critical,Closed,Test Coverage Miss,16,True,8
+Sprint 18,Authentication,Charlie,QA2,Critical,Resolved,Test Coverage Miss,3,True,10
+Sprint 18,Authentication,Charlie,QA2,High,Open,Requirement Gap,6,False,2
+Sprint 18,Billing,Eve,QA4,Medium,Open,Test Coverage Miss,27,True,8
+Sprint 18,Billing,Eve,QA4,Low,Closed,Requirement Gap,8,False,7
+Sprint 18,Billing,Eve,QA4,High,In Progress,Requirement Gap,20,True,3
+Sprint 18,Billing,Eve,QA4,Low,In Progress,Requirement Gap,6,False,7
+Sprint 18,Billing,Eve,QA4,Medium,In Progress,Requirement Gap,23,True,8
+Sprint 18,Billing,Eve,QA4,Medium,Resolved,Test Coverage Miss,10,False,9
+Sprint 18,Billing,Eve,QA4,Low,Resolved,Code Issue,10,True,4
+Sprint 18,Payments,Frank,QA1,Low,Closed,Environment Issue,2,False,9
+Sprint 18,Payments,Frank,QA1,Critical,Resolved,Test Coverage Miss,27,True,6
+Sprint 18,Payments,Frank,QA1,Critical,In Progress,Requirement Gap,23,False,6
+Sprint 18,Payments,Frank,QA1,Low,Closed,Code Issue,27,True,8
+Sprint 18,Payments,Frank,QA1,Critical,In Progress,Code Issue,30,False,8
+Sprint 18,Payments,Frank,QA1,Medium,Open,Environment Issue,22,True,9
+Sprint 18,Payments,Frank,QA1,Medium,Resolved,Requirement Gap,9,False,7
+Sprint 18,Notifications,Bob,QA2,Critical,Closed,Test Coverage Miss,19,False,6
+Sprint 18,Notifications,Bob,QA2,Critical,Resolved,Environment Issue,10,True,10
+Sprint 18,Notifications,Bob,QA2,Low,Closed,Code Issue,12,False,1
+Sprint 18,Notifications,Bob,QA2,Low,In Progress,Environment Issue,5,True,3
+Sprint 18,Notifications,Bob,QA2,Medium,Resolved,Environment Issue,2,False,8
+Sprint 18,Notifications,Bob,QA2,High,Closed,Test Coverage Miss,19,False,1
+Sprint 18,Reports,Bob,QA3,Critical,Open,Environment Issue,10,True,4
+Sprint 18,Reports,Bob,QA3,Medium,In Progress,Test Coverage Miss,20,True,2
+Sprint 18,Reports,Bob,QA3,Medium,Closed,Test Coverage Miss,8,False,10
+Sprint 18,Reports,Bob,QA3,Low,Resolved,Environment Issue,5,True,5
+Sprint 18,Reports,Bob,QA3,Low,Resolved,Test Coverage Miss,17,True,7
+Sprint 18,Reports,Bob,QA3,Medium,Closed,Test Coverage Miss,25,False,9
+Sprint 18,Dashboard,David,QA3,Medium,Resolved,Requirement Gap,4,True,6
+Sprint 18,Dashboard,David,QA3,High,Open,Requirement Gap,16,False,1
+Sprint 19,Authentication,Eve,QA2,Medium,In Progress,Test Coverage Miss,5,True,9
+Sprint 19,Authentication,Eve,QA2,High,Resolved,Requirement Gap,18,True,1
+Sprint 19,Authentication,Eve,QA2,Critical,In Progress,Code Issue,5,True,9
+Sprint 19,Authentication,Eve,QA2,Medium,Open,Environment Issue,23,True,10
+Sprint 19,Authentication,Eve,QA2,Low,Open,Requirement Gap,20,True,7
+Sprint 19,Billing,David,QA2,Low,Resolved,Environment Issue,9,True,6
+Sprint 19,Billing,David,QA2,Low,In Progress,Test Coverage Miss,9,False,2
+Sprint 19,Billing,David,QA2,Medium,Closed,Code Issue,14,True,10
+Sprint 19,Payments,David,QA3,Low,Open,Code Issue,19,False,2
+Sprint 19,Payments,David,QA3,Medium,Closed,Requirement Gap,30,False,2
+Sprint 19,Payments,David,QA3,High,In Progress,Test Coverage Miss,6,True,10
+Sprint 19,Payments,David,QA3,Medium,Open,Code Issue,23,False,9
+Sprint 19,Payments,David,QA3,High,Resolved,Environment Issue,24,False,9
+Sprint 19,Payments,David,QA3,Low,In Progress,Requirement Gap,18,False,4
+Sprint 19,Payments,David,QA3,Critical,Closed,Test Coverage Miss,20,True,3
+Sprint 19,Payments,David,QA3,Critical,Resolved,Environment Issue,6,True,10
+Sprint 19,Payments,David,QA3,High,In Progress,Requirement Gap,25,True,8
+Sprint 19,Payments,David,QA3,Critical,Closed,Code Issue,20,False,3
+Sprint 19,Notifications,Charlie,QA1,Low,Resolved,Environment Issue,5,True,8
+Sprint 19,Notifications,Charlie,QA1,High,Closed,Requirement Gap,13,False,3
+Sprint 19,Reports,David,QA4,Low,Open,Code Issue,10,True,5
+Sprint 19,Reports,David,QA4,High,Open,Code Issue,3,False,9
+Sprint 19,Reports,David,QA4,Medium,Open,Environment Issue,10,True,8
+Sprint 19,Reports,David,QA4,Critical,Resolved,Environment Issue,29,False,2
+Sprint 19,Reports,David,QA4,Critical,Closed,Test Coverage Miss,3,False,4
+Sprint 19,Dashboard,David,QA2,High,Closed,Code Issue,11,True,10
+Sprint 19,Dashboard,David,QA2,Medium,Resolved,Environment Issue,16,False,7
+Sprint 19,Dashboard,David,QA2,Medium,Open,Test Coverage Miss,3,True,7
+Sprint 19,Dashboard,David,QA2,Low,Closed,Environment Issue,7,False,9
+Sprint 19,Dashboard,David,QA2,High,Resolved,Environment Issue,19,True,8
+Sprint 19,Dashboard,David,QA2,High,Closed,Test Coverage Miss,12,False,8
+Sprint 19,Dashboard,David,QA2,Critical,Closed,Environment Issue,6,True,4
+Sprint 19,Dashboard,David,QA2,Critical,Closed,Requirement Gap,29,False,9
+Sprint 19,Dashboard,David,QA2,High,Resolved,Environment Issue,21,True,4
+Sprint 19,Dashboard,David,QA2,High,Closed,Requirement Gap,13,True,8
+Sprint 20,Authentication,Alice,QA5,Low,In Progress,Environment Issue,25,True,10
+Sprint 20,Authentication,Alice,QA5,Low,In Progress,Test Coverage Miss,15,True,10
+Sprint 20,Authentication,Alice,QA5,High,In Progress,Requirement Gap,25,True,7
+Sprint 20,Authentication,Alice,QA5,Critical,Resolved,Test Coverage Miss,2,False,2
+Sprint 20,Authentication,Alice,QA5,Medium,In Progress,Test Coverage Miss,29,False,3
+Sprint 20,Billing,David,QA1,Critical,In Progress,Code Issue,8,False,10
+Sprint 20,Billing,David,QA1,Low,In Progress,Requirement Gap,21,False,10
+Sprint 20,Billing,David,QA1,Critical,Resolved,Code Issue,12,False,9
+Sprint 20,Billing,David,QA1,High,Closed,Test Coverage Miss,20,True,4
+Sprint 20,Billing,David,QA1,High,In Progress,Environment Issue,20,False,9
+Sprint 20,Billing,David,QA1,High,Open,Code Issue,1,True,3
+Sprint 20,Billing,David,QA1,Low,In Progress,Requirement Gap,20,False,4
+Sprint 20,Billing,David,QA1,Low,Resolved,Test Coverage Miss,5,False,8
+Sprint 20,Payments,Charlie,QA5,Low,Resolved,Code Issue,29,True,7
+Sprint 20,Payments,Charlie,QA5,Critical,Open,Requirement Gap,12,False,5
+Sprint 20,Payments,Charlie,QA5,High,In Progress,Environment Issue,7,True,1
+Sprint 20,Notifications,Eve,QA4,High,Resolved,Test Coverage Miss,1,False,8
+Sprint 20,Notifications,Eve,QA4,Medium,Open,Environment Issue,8,True,5
+Sprint 20,Reports,Eve,QA1,Critical,In Progress,Requirement Gap,30,True,10
+Sprint 20,Reports,Eve,QA1,High,In Progress,Code Issue,28,False,3
+Sprint 20,Reports,Eve,QA1,Critical,Open,Requirement Gap,21,True,9
+Sprint 20,Reports,Eve,QA1,Medium,Resolved,Code Issue,7,False,6
+Sprint 20,Reports,Eve,QA1,High,Resolved,Environment Issue,21,True,6
+Sprint 20,Dashboard,Bob,QA2,High,In Progress,Code Issue,3,False,4
+Sprint 20,Dashboard,Bob,QA2,High,Resolved,Test Coverage Miss,16,False,1
+Sprint 20,Dashboard,Bob,QA2,Critical,In Progress,Environment Issue,30,False,10
+Sprint 20,Dashboard,Bob,QA2,Medium,Open,Test Coverage Miss,23,False,8
+Sprint 20,Dashboard,Bob,QA2,Critical,In Progress,Environment Issue,11,False,6
+Sprint 21,Authentication,David,QA5,Medium,Closed,Environment Issue,18,True,6
+Sprint 21,Authentication,David,QA5,Critical,In Progress,Requirement Gap,7,True,10
+Sprint 21,Authentication,David,QA5,High,Resolved,Test Coverage Miss,22,True,4
+Sprint 21,Authentication,David,QA5,High,Resolved,Code Issue,11,True,3
+Sprint 21,Authentication,David,QA5,High,Closed,Environment Issue,26,True,3
+Sprint 21,Authentication,David,QA5,Medium,Open,Environment Issue,5,True,6
+Sprint 21,Authentication,David,QA5,Low,Open,Requirement Gap,26,True,3
+Sprint 21,Authentication,David,QA5,Critical,Resolved,Code Issue,2,True,10
+Sprint 21,Authentication,David,QA5,Critical,Open,Environment Issue,27,False,9
+Sprint 21,Billing,Charlie,QA1,Critical,Open,Code Issue,4,False,5
+Sprint 21,Billing,Charlie,QA1,High,In Progress,Requirement Gap,29,True,9
+Sprint 21,Billing,Charlie,QA1,Low,Open,Test Coverage Miss,12,False,10
+Sprint 21,Billing,Charlie,QA1,Medium,Closed,Environment Issue,1,False,6
+Sprint 21,Billing,Charlie,QA1,Critical,In Progress,Requirement Gap,5,False,7
+Sprint 21,Billing,Charlie,QA1,Medium,In Progress,Environment Issue,18,False,1
+Sprint 21,Billing,Charlie,QA1,Critical,In Progress,Environment Issue,29,False,1
+Sprint 21,Billing,Charlie,QA1,Low,In Progress,Test Coverage Miss,25,False,8
+Sprint 21,Payments,David,QA2,Critical,Open,Requirement Gap,22,True,3
+Sprint 21,Payments,David,QA2,Low,Open,Environment Issue,20,False,3
+Sprint 21,Notifications,David,QA2,Low,Resolved,Code Issue,4,True,10
+Sprint 21,Notifications,David,QA2,High,Resolved,Test Coverage Miss,7,False,2
+Sprint 21,Notifications,David,QA2,High,Open,Test Coverage Miss,10,True,4
+Sprint 21,Reports,Alice,QA1,Medium,Open,Test Coverage Miss,20,True,10
+Sprint 21,Reports,Alice,QA1,Critical,In Progress,Test Coverage Miss,15,False,6
+Sprint 21,Reports,Alice,QA1,Medium,Closed,Requirement Gap,21,True,6
+Sprint 21,Reports,Alice,QA1,Low,Open,Code Issue,19,True,6
+Sprint 21,Dashboard,David,QA1,High,Open,Environment Issue,4,False,10
+Sprint 21,Dashboard,David,QA1,Medium,Resolved,Requirement Gap,13,False,4
+Sprint 21,Dashboard,David,QA1,Medium,In Progress,Code Issue,18,True,7
+Sprint 21,Dashboard,David,QA1,High,Open,Test Coverage Miss,16,True,9
+Sprint 21,Dashboard,David,QA1,Medium,Closed,Environment Issue,17,False,5
+Sprint 21,Dashboard,David,QA1,Low,Resolved,Requirement Gap,10,False,10
+Sprint 21,Dashboard,David,QA1,Medium,Resolved,Environment Issue,13,True,9
+Sprint 22,Authentication,David,QA5,Critical,Closed,Code Issue,22,False,3
+Sprint 22,Authentication,David,QA5,Low,Resolved,Code Issue,8,True,7
+Sprint 22,Authentication,David,QA5,Low,Resolved,Requirement Gap,8,True,1
+Sprint 22,Authentication,David,QA5,Low,Open,Code Issue,12,True,4
+Sprint 22,Authentication,David,QA5,Low,Closed,Test Coverage Miss,7,True,7
+Sprint 22,Authentication,David,QA5,Critical,Closed,Code Issue,6,False,7
+Sprint 22,Billing,Bob,QA1,Low,In Progress,Code Issue,23,False,9
+Sprint 22,Billing,Bob,QA1,Low,Open,Test Coverage Miss,1,True,5
+Sprint 22,Billing,Bob,QA1,High,Open,Test Coverage Miss,2,False,9
+Sprint 22,Billing,Bob,QA1,High,Closed,Test Coverage Miss,5,True,3
+Sprint 22,Billing,Bob,QA1,Critical,Open,Environment Issue,11,False,2
+Sprint 22,Billing,Bob,QA1,Critical,Resolved,Code Issue,21,True,5
+Sprint 22,Billing,Bob,QA1,Medium,Closed,Environment Issue,7,True,4
+Sprint 22,Payments,Charlie,QA4,Medium,Closed,Requirement Gap,22,True,2
+Sprint 22,Payments,Charlie,QA4,Medium,Resolved,Test Coverage Miss,7,False,9
+Sprint 22,Payments,Charlie,QA4,Low,Resolved,Environment Issue,25,True,10
+Sprint 22,Payments,Charlie,QA4,Critical,Closed,Environment Issue,26,False,8
+Sprint 22,Payments,Charlie,QA4,Low,Closed,Requirement Gap,21,False,9
+Sprint 22,Payments,Charlie,QA4,Low,In Progress,Test Coverage Miss,23,True,9
+Sprint 22,Payments,Charlie,QA4,Low,Resolved,Code Issue,2,False,6
+Sprint 22,Payments,Charlie,QA4,Medium,Open,Environment Issue,23,True,3
+Sprint 22,Notifications,Bob,QA1,High,Resolved,Test Coverage Miss,21,True,9
+Sprint 22,Notifications,Bob,QA1,High,Open,Environment Issue,23,False,1
+Sprint 22,Notifications,Bob,QA1,High,Closed,Code Issue,10,False,1
+Sprint 22,Notifications,Bob,QA1,High,Closed,Environment Issue,14,True,6
+Sprint 22,Notifications,Bob,QA1,Low,In Progress,Environment Issue,8,True,4
+Sprint 22,Notifications,Bob,QA1,Low,Open,Code Issue,15,False,1
+Sprint 22,Reports,Alice,QA5,High,Resolved,Code Issue,14,False,10
+Sprint 22,Reports,Alice,QA5,Critical,Resolved,Code Issue,10,True,1
+Sprint 22,Reports,Alice,QA5,Low,Resolved,Code Issue,9,True,1
+Sprint 22,Reports,Alice,QA5,Low,Resolved,Requirement Gap,6,True,9
+Sprint 22,Reports,Alice,QA5,Low,Closed,Test Coverage Miss,21,True,10
+Sprint 22,Reports,Alice,QA5,Medium,In Progress,Code Issue,7,False,4
+Sprint 22,Reports,Alice,QA5,High,In Progress,Environment Issue,5,False,5
+Sprint 22,Reports,Alice,QA5,High,In Progress,Environment Issue,17,False,5
+Sprint 22,Reports,Alice,QA5,Low,Open,Test Coverage Miss,20,True,3
+Sprint 22,Dashboard,Charlie,QA2,Low,Closed,Environment Issue,15,True,5
+Sprint 22,Dashboard,Charlie,QA2,High,In Progress,Code Issue,9,True,3
+Sprint 22,Dashboard,Charlie,QA2,High,In Progress,Requirement Gap,29,False,10
+Sprint 23,Authentication,Bob,QA4,Medium,Open,Environment Issue,21,True,1
+Sprint 23,Authentication,Bob,QA4,Low,Resolved,Code Issue,28,False,1
+Sprint 23,Authentication,Bob,QA4,Medium,Resolved,Environment Issue,8,True,6
+Sprint 23,Authentication,Bob,QA4,Medium,Open,Code Issue,2,False,5
+Sprint 23,Authentication,Bob,QA4,Low,Open,Code Issue,9,True,3
+Sprint 23,Authentication,Bob,QA4,Medium,In Progress,Requirement Gap,7,False,3
+Sprint 23,Authentication,Bob,QA4,Medium,In Progress,Requirement Gap,7,True,9
+Sprint 23,Billing,David,QA3,Critical,Closed,Test Coverage Miss,22,False,9
+Sprint 23,Billing,David,QA3,High,Open,Requirement Gap,22,False,2
+Sprint 23,Billing,David,QA3,Low,In Progress,Code Issue,27,False,7
+Sprint 23,Billing,David,QA3,Medium,Closed,Requirement Gap,13,False,3
+Sprint 23,Payments,David,QA2,Low,In Progress,Requirement Gap,17,True,2
+Sprint 23,Payments,David,QA2,Critical,Closed,Code Issue,4,False,7
+Sprint 23,Payments,David,QA2,Critical,Closed,Requirement Gap,23,False,8
+Sprint 23,Payments,David,QA2,Low,Open,Environment Issue,20,True,10
+Sprint 23,Payments,David,QA2,High,Resolved,Requirement Gap,16,False,10
+Sprint 23,Notifications,Charlie,QA1,Medium,Open,Environment Issue,1,True,6
+Sprint 23,Notifications,Charlie,QA1,Low,Closed,Test Coverage Miss,1,True,3
+Sprint 23,Notifications,Charlie,QA1,Medium,Closed,Test Coverage Miss,26,False,2
+Sprint 23,Notifications,Charlie,QA1,Medium,In Progress,Test Coverage Miss,23,False,7
+Sprint 23,Notifications,Charlie,QA1,Critical,Resolved,Code Issue,23,False,8
+Sprint 23,Notifications,Charlie,QA1,High,In Progress,Environment Issue,6,False,6
+Sprint 23,Notifications,Charlie,QA1,Low,Closed,Test Coverage Miss,28,False,6
+Sprint 23,Notifications,Charlie,QA1,High,Closed,Requirement Gap,24,True,6
+Sprint 23,Notifications,Charlie,QA1,High,Open,Environment Issue,28,True,5
+Sprint 23,Notifications,Charlie,QA1,Critical,Resolved,Code Issue,21,True,4
+Sprint 23,Reports,Bob,QA5,High,Closed,Requirement Gap,3,True,1
+Sprint 23,Reports,Bob,QA5,Low,In Progress,Requirement Gap,22,True,10
+Sprint 23,Reports,Bob,QA5,Low,Open,Environment Issue,28,True,3
+Sprint 23,Reports,Bob,QA5,Low,Resolved,Environment Issue,14,False,2
+Sprint 23,Reports,Bob,QA5,Critical,In Progress,Test Coverage Miss,29,True,7
+Sprint 23,Reports,Bob,QA5,High,Closed,Requirement Gap,2,True,6
+Sprint 23,Reports,Bob,QA5,Critical,Closed,Environment Issue,15,False,8
+Sprint 23,Reports,Bob,QA5,Critical,Open,Requirement Gap,13,True,10
+Sprint 23,Reports,Bob,QA5,Low,Open,Test Coverage Miss,23,False,8
+Sprint 23,Dashboard,Frank,QA5,Medium,In Progress,Test Coverage Miss,7,False,9
+Sprint 23,Dashboard,Frank,QA5,Critical,In Progress,Environment Issue,7,True,4
+Sprint 23,Dashboard,Frank,QA5,Low,Resolved,Test Coverage Miss,16,False,10
+Sprint 23,Dashboard,Frank,QA5,Low,Open,Test Coverage Miss,27,True,2
+Sprint 23,Dashboard,Frank,QA5,Critical,Closed,Test Coverage Miss,18,True,7
+Sprint 23,Dashboard,Frank,QA5,Medium,Open,Test Coverage Miss,30,True,8
+Sprint 24,Authentication,David,QA2,High,In Progress,Code Issue,24,True,2
+Sprint 24,Authentication,David,QA2,Critical,Open,Environment Issue,11,True,8
+Sprint 24,Authentication,David,QA2,High,Resolved,Requirement Gap,11,True,6
+Sprint 24,Authentication,David,QA2,Medium,Open,Environment Issue,21,True,6
+Sprint 24,Authentication,David,QA2,Low,Resolved,Requirement Gap,10,False,3
+Sprint 24,Authentication,David,QA2,Low,Closed,Environment Issue,12,True,7
+Sprint 24,Authentication,David,QA2,Medium,Closed,Test Coverage Miss,26,False,1
+Sprint 24,Billing,David,QA5,Critical,Closed,Test Coverage Miss,25,False,8
+Sprint 24,Billing,David,QA5,Critical,Resolved,Test Coverage Miss,22,False,2
+Sprint 24,Billing,David,QA5,Low,In Progress,Environment Issue,18,True,2
+Sprint 24,Billing,David,QA5,Critical,Resolved,Environment Issue,10,False,7
+Sprint 24,Billing,David,QA5,High,Closed,Test Coverage Miss,20,True,5
+Sprint 24,Billing,David,QA5,Low,In Progress,Environment Issue,27,False,5
+Sprint 24,Billing,David,QA5,Low,Closed,Test Coverage Miss,20,False,2
+Sprint 24,Billing,David,QA5,Critical,Open,Environment Issue,17,False,8
+Sprint 24,Billing,David,QA5,Critical,In Progress,Test Coverage Miss,11,False,9
+Sprint 24,Billing,David,QA5,Medium,Open,Environment Issue,4,True,10
+Sprint 24,Payments,Bob,QA1,High,Resolved,Environment Issue,12,False,3
+Sprint 24,Payments,Bob,QA1,Critical,Closed,Code Issue,13,False,1
+Sprint 24,Payments,Bob,QA1,Low,Resolved,Code Issue,28,False,1
+Sprint 24,Payments,Bob,QA1,Medium,In Progress,Test Coverage Miss,17,True,1
+Sprint 24,Payments,Bob,QA1,High,Open,Test Coverage Miss,6,True,5
+Sprint 24,Payments,Bob,QA1,Critical,Closed,Environment Issue,23,True,6
+Sprint 24,Payments,Bob,QA1,Medium,Resolved,Requirement Gap,18,False,6
+Sprint 24,Notifications,Eve,QA1,High,In Progress,Requirement Gap,5,True,2
+Sprint 24,Notifications,Eve,QA1,High,In Progress,Test Coverage Miss,10,True,4
+Sprint 24,Reports,Eve,QA3,Critical,Open,Environment Issue,20,False,1
+Sprint 24,Reports,Eve,QA3,Critical,Closed,Environment Issue,25,True,4
+Sprint 24,Reports,Eve,QA3,High,In Progress,Environment Issue,26,True,2
+Sprint 24,Reports,Eve,QA3,Critical,Closed,Test Coverage Miss,11,True,5
+Sprint 24,Reports,Eve,QA3,Low,Open,Requirement Gap,26,True,1
+Sprint 24,Reports,Eve,QA3,Critical,In Progress,Environment Issue,12,True,10
+Sprint 24,Reports,Eve,QA3,Low,Resolved,Code Issue,12,True,3
+Sprint 24,Reports,Eve,QA3,Medium,Open,Requirement Gap,2,True,3
+Sprint 24,Reports,Eve,QA3,High,Open,Environment Issue,4,True,3
+Sprint 24,Dashboard,Bob,QA4,Medium,In Progress,Code Issue,16,False,5
+Sprint 24,Dashboard,Bob,QA4,Critical,Open,Requirement Gap,7,False,1
+Sprint 24,Dashboard,Bob,QA4,Critical,Open,Code Issue,16,True,4
+Sprint 24,Dashboard,Bob,QA4,Low,Resolved,Requirement Gap,22,False,3
+Sprint 25,Authentication,Bob,QA4,Low,Closed,Environment Issue,11,False,7
+Sprint 25,Authentication,Bob,QA4,Critical,Resolved,Requirement Gap,10,False,8
+Sprint 25,Authentication,Bob,QA4,Low,Open,Environment Issue,14,True,4
+Sprint 25,Billing,David,QA3,Low,Closed,Environment Issue,11,True,9
+Sprint 25,Billing,David,QA3,Critical,In Progress,Code Issue,6,True,2
+Sprint 25,Billing,David,QA3,Critical,In Progress,Environment Issue,9,False,3
+Sprint 25,Billing,David,QA3,High,Closed,Code Issue,20,True,10
+Sprint 25,Payments,Bob,QA2,High,Open,Test Coverage Miss,25,False,3
+Sprint 25,Payments,Bob,QA2,Critical,Open,Environment Issue,21,False,10
+Sprint 25,Payments,Bob,QA2,Critical,Closed,Test Coverage Miss,6,False,9
+Sprint 25,Payments,Bob,QA2,Critical,In Progress,Test Coverage Miss,9,False,4
+Sprint 25,Payments,Bob,QA2,Medium,Open,Code Issue,5,False,3
+Sprint 25,Payments,Bob,QA2,Medium,Closed,Code Issue,13,False,10
+Sprint 25,Notifications,Charlie,QA4,Low,Closed,Environment Issue,9,False,4
+Sprint 25,Notifications,Charlie,QA4,Low,Open,Test Coverage Miss,17,False,3
+Sprint 25,Notifications,Charlie,QA4,High,In Progress,Test Coverage Miss,17,True,9
+Sprint 25,Notifications,Charlie,QA4,Medium,Open,Code Issue,17,True,8
+Sprint 25,Reports,Bob,QA3,High,In Progress,Code Issue,25,True,9
+Sprint 25,Reports,Bob,QA3,Medium,Resolved,Environment Issue,21,False,4
+Sprint 25,Dashboard,Alice,QA5,Medium,Open,Test Coverage Miss,1,True,4
+Sprint 25,Dashboard,Alice,QA5,High,Resolved,Environment Issue,14,False,4
+Sprint 25,Dashboard,Alice,QA5,High,Resolved,Requirement Gap,22,True,10
+Sprint 25,Dashboard,Alice,QA5,Critical,Open,Test Coverage Miss,6,False,1
+Sprint 25,Dashboard,Alice,QA5,High,Open,Requirement Gap,20,False,8
+Sprint 26,Authentication,David,QA4,High,Open,Test Coverage Miss,15,True,6
+Sprint 26,Authentication,David,QA4,High,In Progress,Test Coverage Miss,9,True,9
+Sprint 26,Authentication,David,QA4,High,Open,Code Issue,27,True,7
+Sprint 26,Authentication,David,QA4,Medium,Open,Environment Issue,13,False,9
+Sprint 26,Authentication,David,QA4,Critical,Resolved,Code Issue,17,False,6
+Sprint 26,Billing,David,QA2,High,Closed,Code Issue,24,True,9
+Sprint 26,Billing,David,QA2,High,Resolved,Environment Issue,28,True,3
+Sprint 26,Billing,David,QA2,Low,Closed,Environment Issue,7,False,3
+Sprint 26,Billing,David,QA2,High,In Progress,Test Coverage Miss,22,True,4
+Sprint 26,Payments,Bob,QA1,Medium,In Progress,Code Issue,23,True,3
+Sprint 26,Payments,Bob,QA1,Low,Open,Requirement Gap,20,False,6
+Sprint 26,Payments,Bob,QA1,High,Open,Code Issue,14,True,7
+Sprint 26,Payments,Bob,QA1,Critical,Resolved,Environment Issue,11,True,3
+Sprint 26,Payments,Bob,QA1,Low,Open,Environment Issue,14,False,3
+Sprint 26,Payments,Bob,QA1,Low,Resolved,Test Coverage Miss,8,True,7
+Sprint 26,Payments,Bob,QA1,Critical,Resolved,Environment Issue,12,True,6
+Sprint 26,Notifications,Eve,QA2,Low,Closed,Requirement Gap,28,True,5
+Sprint 26,Notifications,Eve,QA2,Critical,Closed,Test Coverage Miss,8,True,6
+Sprint 26,Notifications,Eve,QA2,Critical,Open,Environment Issue,25,True,2
+Sprint 26,Notifications,Eve,QA2,High,Resolved,Code Issue,28,True,4
+Sprint 26,Reports,Bob,QA5,Low,Open,Requirement Gap,21,True,2
+Sprint 26,Reports,Bob,QA5,High,Resolved,Test Coverage Miss,1,True,4
+Sprint 26,Reports,Bob,QA5,Low,In Progress,Requirement Gap,5,False,2
+Sprint 26,Dashboard,David,QA3,Medium,In Progress,Requirement Gap,14,True,10
+Sprint 26,Dashboard,David,QA3,Low,Open,Code Issue,27,False,10
+Sprint 26,Dashboard,David,QA3,Critical,Resolved,Code Issue,4,False,8
+Sprint 26,Dashboard,David,QA3,Low,Open,Environment Issue,18,False,9
+Sprint 26,Dashboard,David,QA3,Medium,Resolved,Requirement Gap,10,True,5
+Sprint 26,Dashboard,David,QA3,Medium,Open,Requirement Gap,16,True,10
+Sprint 26,Dashboard,David,QA3,Low,Closed,Environment Issue,3,True,8
+Sprint 26,Dashboard,David,QA3,Critical,Closed,Requirement Gap,9,True,3
+Sprint 27,Authentication,David,QA5,Critical,In Progress,Code Issue,8,True,4
+Sprint 27,Authentication,David,QA5,High,Open,Test Coverage Miss,9,True,3
+Sprint 27,Authentication,David,QA5,High,Resolved,Test Coverage Miss,2,False,1
+Sprint 27,Authentication,David,QA5,Critical,Resolved,Test Coverage Miss,2,False,4
+Sprint 27,Billing,Alice,QA3,Critical,Open,Requirement Gap,22,False,7
+Sprint 27,Billing,Alice,QA3,Medium,In Progress,Environment Issue,27,True,5
+Sprint 27,Billing,Alice,QA3,High,Resolved,Requirement Gap,29,False,5
+Sprint 27,Billing,Alice,QA3,High,Resolved,Test Coverage Miss,25,False,2
+Sprint 27,Billing,Alice,QA3,Low,Resolved,Environment Issue,9,False,3
+Sprint 27,Billing,Alice,QA3,Medium,Resolved,Requirement Gap,28,True,1
+Sprint 27,Billing,Alice,QA3,Medium,Resolved,Requirement Gap,3,True,5
+Sprint 27,Billing,Alice,QA3,High,Resolved,Requirement Gap,12,False,1
+Sprint 27,Billing,Alice,QA3,Critical,In Progress,Environment Issue,14,False,8
+Sprint 27,Payments,Eve,QA4,High,Open,Requirement Gap,14,True,1
+Sprint 27,Payments,Eve,QA4,Low,Resolved,Code Issue,7,True,6
+Sprint 27,Payments,Eve,QA4,High,Resolved,Test Coverage Miss,19,False,7
+Sprint 27,Payments,Eve,QA4,Critical,Closed,Code Issue,16,False,7
+Sprint 27,Payments,Eve,QA4,Medium,Resolved,Test Coverage Miss,10,False,8
+Sprint 27,Payments,Eve,QA4,High,Closed,Code Issue,21,True,5
+Sprint 27,Payments,Eve,QA4,Low,In Progress,Test Coverage Miss,21,False,8
+Sprint 27,Payments,Eve,QA4,High,In Progress,Requirement Gap,12,False,10
+Sprint 27,Payments,Eve,QA4,High,Open,Environment Issue,11,True,2
+Sprint 27,Payments,Eve,QA4,Low,Closed,Requirement Gap,8,True,10
+Sprint 27,Notifications,David,QA1,Medium,Resolved,Test Coverage Miss,5,True,9
+Sprint 27,Notifications,David,QA1,Medium,Closed,Environment Issue,7,True,10
+Sprint 27,Notifications,David,QA1,Medium,Resolved,Test Coverage Miss,7,True,9
+Sprint 27,Notifications,David,QA1,Critical,Closed,Environment Issue,10,True,9
+Sprint 27,Reports,Frank,QA2,Critical,Closed,Test Coverage Miss,27,False,8
+Sprint 27,Reports,Frank,QA2,Low,Closed,Code Issue,15,False,9
+Sprint 27,Reports,Frank,QA2,Critical,Resolved,Code Issue,6,False,4
+Sprint 27,Dashboard,Frank,QA3,Critical,Resolved,Test Coverage Miss,6,True,10
+Sprint 27,Dashboard,Frank,QA3,High,Resolved,Environment Issue,21,False,5
+Sprint 27,Dashboard,Frank,QA3,High,Open,Test Coverage Miss,29,True,5
+Sprint 27,Dashboard,Frank,QA3,High,Resolved,Code Issue,11,True,8
+Sprint 27,Dashboard,Frank,QA3,Critical,Resolved,Test Coverage Miss,19,True,3
+Sprint 28,Authentication,Frank,QA1,Critical,Open,Test Coverage Miss,30,False,4
+Sprint 28,Authentication,Frank,QA1,Critical,Open,Requirement Gap,24,False,9
+Sprint 28,Authentication,Frank,QA1,High,Closed,Test Coverage Miss,7,False,4
+Sprint 28,Authentication,Frank,QA1,High,Open,Environment Issue,12,True,1
+Sprint 28,Authentication,Frank,QA1,Medium,Resolved,Requirement Gap,12,True,5
+Sprint 28,Authentication,Frank,QA1,Low,Open,Code Issue,12,False,10
+Sprint 28,Authentication,Frank,QA1,Low,Resolved,Code Issue,18,True,3
+Sprint 28,Billing,Alice,QA1,Low,In Progress,Requirement Gap,24,False,2
+Sprint 28,Billing,Alice,QA1,High,Open,Requirement Gap,25,False,9
+Sprint 28,Billing,Alice,QA1,Critical,Closed,Requirement Gap,23,True,6
+Sprint 28,Billing,Alice,QA1,Critical,Closed,Code Issue,15,True,6
+Sprint 28,Billing,Alice,QA1,Medium,Closed,Code Issue,23,False,10
+Sprint 28,Payments,Charlie,QA3,Low,Resolved,Code Issue,6,True,5
+Sprint 28,Payments,Charlie,QA3,Medium,Open,Code Issue,13,False,10
+Sprint 28,Payments,Charlie,QA3,Critical,In Progress,Test Coverage Miss,25,False,1
+Sprint 28,Payments,Charlie,QA3,Low,Open,Test Coverage Miss,26,True,8
+Sprint 28,Payments,Charlie,QA3,Medium,Resolved,Test Coverage Miss,17,False,7
+Sprint 28,Payments,Charlie,QA3,Medium,Open,Requirement Gap,2,False,9
+Sprint 28,Notifications,David,QA1,Medium,Open,Code Issue,5,True,6
+Sprint 28,Notifications,David,QA1,Low,Resolved,Test Coverage Miss,9,False,6
+Sprint 28,Notifications,David,QA1,Critical,Open,Code Issue,14,True,7
+Sprint 28,Notifications,David,QA1,Low,In Progress,Requirement Gap,20,False,1
+Sprint 28,Notifications,David,QA1,Critical,Resolved,Requirement Gap,23,False,3
+Sprint 28,Notifications,David,QA1,Critical,In Progress,Environment Issue,1,True,4
+Sprint 28,Notifications,David,QA1,High,Resolved,Requirement Gap,8,False,2
+Sprint 28,Notifications,David,QA1,Critical,In Progress,Code Issue,13,False,1
+Sprint 28,Notifications,David,QA1,High,Resolved,Requirement Gap,9,False,4
+Sprint 28,Reports,Frank,QA3,Critical,In Progress,Code Issue,12,True,4
+Sprint 28,Reports,Frank,QA3,Medium,Open,Code Issue,15,True,5
+Sprint 28,Reports,Frank,QA3,High,In Progress,Environment Issue,6,False,5
+Sprint 28,Reports,Frank,QA3,High,Open,Test Coverage Miss,4,True,8
+Sprint 28,Reports,Frank,QA3,Critical,Resolved,Requirement Gap,11,True,1
+Sprint 28,Reports,Frank,QA3,High,In Progress,Requirement Gap,20,True,3
+Sprint 28,Reports,Frank,QA3,Medium,Open,Environment Issue,4,False,6
+Sprint 28,Dashboard,Frank,QA4,Critical,Open,Requirement Gap,22,False,2
+Sprint 28,Dashboard,Frank,QA4,High,In Progress,Code Issue,1,False,3
+Sprint 28,Dashboard,Frank,QA4,High,Resolved,Code Issue,9,True,6
+Sprint 28,Dashboard,Frank,QA4,Medium,In Progress,Test Coverage Miss,6,True,7
+Sprint 29,Authentication,Charlie,QA2,Critical,In Progress,Test Coverage Miss,11,True,8
+Sprint 29,Authentication,Charlie,QA2,Medium,Open,Requirement Gap,30,False,10
+Sprint 29,Authentication,Charlie,QA2,Low,Closed,Environment Issue,29,False,6
+Sprint 29,Authentication,Charlie,QA2,Critical,Closed,Test Coverage Miss,26,False,9
+Sprint 29,Authentication,Charlie,QA2,Medium,In Progress,Requirement Gap,22,True,9
+Sprint 29,Authentication,Charlie,QA2,Medium,In Progress,Environment Issue,6,False,1
+Sprint 29,Authentication,Charlie,QA2,High,Open,Environment Issue,21,False,10
+Sprint 29,Authentication,Charlie,QA2,Low,Resolved,Code Issue,22,False,3
+Sprint 29,Authentication,Charlie,QA2,Medium,In Progress,Code Issue,23,False,10
+Sprint 29,Authentication,Charlie,QA2,High,Resolved,Environment Issue,4,False,1
+Sprint 29,Billing,Charlie,QA5,High,Closed,Environment Issue,12,False,8
+Sprint 29,Billing,Charlie,QA5,Critical,In Progress,Test Coverage Miss,19,True,4
+Sprint 29,Billing,Charlie,QA5,Medium,In Progress,Environment Issue,27,True,7
+Sprint 29,Billing,Charlie,QA5,High,In Progress,Requirement Gap,3,False,2
+Sprint 29,Billing,Charlie,QA5,High,Open,Code Issue,20,False,6
+Sprint 29,Billing,Charlie,QA5,Critical,In Progress,Code Issue,20,True,5
+Sprint 29,Billing,Charlie,QA5,Critical,Resolved,Environment Issue,23,False,9
+Sprint 29,Payments,David,QA3,High,In Progress,Environment Issue,13,True,2
+Sprint 29,Payments,David,QA3,Medium,In Progress,Requirement Gap,15,True,6
+Sprint 29,Payments,David,QA3,Medium,In Progress,Test Coverage Miss,4,True,9
+Sprint 29,Payments,David,QA3,High,In Progress,Test Coverage Miss,21,False,9
+Sprint 29,Payments,David,QA3,Medium,Closed,Environment Issue,14,False,3
+Sprint 29,Payments,David,QA3,Low,Closed,Requirement Gap,26,True,4
+Sprint 29,Payments,David,QA3,Critical,Resolved,Code Issue,24,True,5
+Sprint 29,Notifications,Frank,QA5,Medium,Open,Environment Issue,9,True,6
+Sprint 29,Notifications,Frank,QA5,High,Open,Test Coverage Miss,27,False,10
+Sprint 29,Reports,David,QA5,Critical,Resolved,Test Coverage Miss,22,False,1
+Sprint 29,Reports,David,QA5,Critical,Open,Environment Issue,14,True,1
+Sprint 29,Reports,David,QA5,Low,Resolved,Environment Issue,6,True,6
+Sprint 29,Reports,David,QA5,Low,Closed,Code Issue,30,True,7
+Sprint 29,Reports,David,QA5,Low,Resolved,Test Coverage Miss,6,True,5
+Sprint 29,Reports,David,QA5,Critical,In Progress,Test Coverage Miss,2,True,10
+Sprint 29,Reports,David,QA5,Medium,Closed,Code Issue,26,True,7
+Sprint 29,Reports,David,QA5,High,Closed,Environment Issue,12,False,4
+Sprint 29,Dashboard,Frank,QA4,Critical,Closed,Environment Issue,11,True,2
+Sprint 29,Dashboard,Frank,QA4,Critical,Resolved,Test Coverage Miss,8,True,4
+Sprint 29,Dashboard,Frank,QA4,High,Closed,Test Coverage Miss,30,False,8
+Sprint 29,Dashboard,Frank,QA4,Low,Open,Environment Issue,26,False,2
+Sprint 29,Dashboard,Frank,QA4,Low,In Progress,Code Issue,1,False,8
+Sprint 29,Dashboard,Frank,QA4,Critical,Closed,Code Issue,26,False,4
+Sprint 30,Authentication,Eve,QA2,High,Open,Code Issue,25,True,1
+Sprint 30,Authentication,Eve,QA2,Low,Open,Test Coverage Miss,9,False,3
+Sprint 30,Authentication,Eve,QA2,Medium,In Progress,Environment Issue,20,False,4
+Sprint 30,Authentication,Eve,QA2,High,Resolved,Requirement Gap,21,True,2
+Sprint 30,Authentication,Eve,QA2,Critical,In Progress,Test Coverage Miss,20,False,4
+Sprint 30,Authentication,Eve,QA2,Low,Closed,Environment Issue,21,True,3
+Sprint 30,Authentication,Eve,QA2,High,Closed,Environment Issue,7,False,2
+Sprint 30,Authentication,Eve,QA2,High,Closed,Code Issue,23,True,6
+Sprint 30,Authentication,Eve,QA2,Medium,Closed,Environment Issue,15,False,10
+Sprint 30,Authentication,Eve,QA2,Low,Resolved,Code Issue,30,False,2
+Sprint 30,Billing,Eve,QA5,Low,Closed,Code Issue,26,False,4
+Sprint 30,Billing,Eve,QA5,Critical,Closed,Requirement Gap,1,True,9
+Sprint 30,Billing,Eve,QA5,Medium,In Progress,Test Coverage Miss,19,True,3
+Sprint 30,Billing,Eve,QA5,Critical,Closed,Code Issue,7,False,9
+Sprint 30,Billing,Eve,QA5,Critical,In Progress,Test Coverage Miss,9,True,3
+Sprint 30,Billing,Eve,QA5,Medium,Resolved,Test Coverage Miss,25,False,8
+Sprint 30,Billing,Eve,QA5,Low,Closed,Requirement Gap,29,True,10
+Sprint 30,Payments,Charlie,QA4,High,Open,Code Issue,6,True,8
+Sprint 30,Payments,Charlie,QA4,Medium,In Progress,Code Issue,27,False,1
+Sprint 30,Payments,Charlie,QA4,Critical,Resolved,Environment Issue,27,False,2
+Sprint 30,Payments,Charlie,QA4,High,Resolved,Environment Issue,20,False,1
+Sprint 30,Notifications,Eve,QA5,Medium,Closed,Code Issue,19,True,2
+Sprint 30,Notifications,Eve,QA5,Medium,Resolved,Environment Issue,18,False,10
+Sprint 30,Notifications,Eve,QA5,Low,Closed,Environment Issue,16,True,4
+Sprint 30,Notifications,Eve,QA5,Critical,Resolved,Test Coverage Miss,23,False,1
+Sprint 30,Notifications,Eve,QA5,Low,In Progress,Test Coverage Miss,30,True,2
+Sprint 30,Notifications,Eve,QA5,Low,Resolved,Code Issue,27,True,6
+Sprint 30,Notifications,Eve,QA5,Low,Closed,Environment Issue,22,False,4
+Sprint 30,Notifications,Eve,QA5,High,Resolved,Environment Issue,16,False,7
+Sprint 30,Reports,Charlie,QA2,High,Open,Test Coverage Miss,26,False,7
+Sprint 30,Reports,Charlie,QA2,Low,Resolved,Environment Issue,23,False,2
+Sprint 30,Reports,Charlie,QA2,Medium,Resolved,Code Issue,25,False,5
+Sprint 30,Reports,Charlie,QA2,Medium,Closed,Requirement Gap,2,False,3
+Sprint 30,Reports,Charlie,QA2,Medium,Closed,Requirement Gap,18,False,7
+Sprint 30,Reports,Charlie,QA2,Critical,Resolved,Environment Issue,4,False,10
+Sprint 30,Reports,Charlie,QA2,Low,Open,Environment Issue,5,False,9
+Sprint 30,Reports,Charlie,QA2,Low,Open,Environment Issue,29,False,4
+Sprint 30,Reports,Charlie,QA2,Medium,In Progress,Environment Issue,24,True,4
+Sprint 30,Dashboard,Bob,QA2,Low,Open,Requirement Gap,20,False,9
+Sprint 30,Dashboard,Bob,QA2,Critical,Open,Requirement Gap,14,True,8
+Sprint 30,Dashboard,Bob,QA2,Medium,Open,Environment Issue,19,True,9
+Sprint 30,Dashboard,Bob,QA2,High,In Progress,Requirement Gap,3,True,6
+Sprint 30,Dashboard,Bob,QA2,Medium,Closed,Test Coverage Miss,10,False,6
+Sprint 30,Dashboard,Bob,QA2,High,Closed,Requirement Gap,12,True,10
+Sprint 30,Dashboard,Bob,QA2,Critical,Closed,Environment Issue,13,True,3
+Sprint 30,Dashboard,Bob,QA2,Low,In Progress,Code Issue,10,False,8
+Sprint 30,Dashboard,Bob,QA2,Low,In Progress,Requirement Gap,25,True,4
+Sprint 31,Authentication,Bob,QA3,High,Closed,Code Issue,22,True,7
+Sprint 31,Authentication,Bob,QA3,High,Open,Test Coverage Miss,12,True,5
+Sprint 31,Authentication,Bob,QA3,Medium,Resolved,Environment Issue,19,True,7
+Sprint 31,Authentication,Bob,QA3,High,In Progress,Code Issue,10,False,3
+Sprint 31,Billing,Alice,QA1,Critical,Closed,Environment Issue,17,True,10
+Sprint 31,Billing,Alice,QA1,Medium,In Progress,Requirement Gap,15,True,3
+Sprint 31,Billing,Alice,QA1,High,Resolved,Code Issue,2,False,4
+Sprint 31,Payments,Bob,QA5,Low,Closed,Code Issue,6,False,8
+Sprint 31,Payments,Bob,QA5,Medium,In Progress,Test Coverage Miss,13,False,4
+Sprint 31,Payments,Bob,QA5,High,Resolved,Environment Issue,24,True,1
+Sprint 31,Payments,Bob,QA5,High,Open,Code Issue,27,True,8
+Sprint 31,Payments,Bob,QA5,Medium,Open,Test Coverage Miss,29,False,2
+Sprint 31,Notifications,Bob,QA1,Low,In Progress,Test Coverage Miss,13,False,9
+Sprint 31,Notifications,Bob,QA1,High,In Progress,Code Issue,26,True,4
+Sprint 31,Notifications,Bob,QA1,Low,Resolved,Code Issue,16,True,8
+Sprint 31,Notifications,Bob,QA1,Critical,Resolved,Test Coverage Miss,20,True,6
+Sprint 31,Reports,Eve,QA4,Critical,Open,Requirement Gap,13,False,3
+Sprint 31,Reports,Eve,QA4,Low,In Progress,Environment Issue,7,False,4
+Sprint 31,Reports,Eve,QA4,High,Closed,Test Coverage Miss,6,True,6
+Sprint 31,Reports,Eve,QA4,Low,In Progress,Environment Issue,8,False,1
+Sprint 31,Reports,Eve,QA4,Critical,In Progress,Code Issue,28,True,6
+Sprint 31,Reports,Eve,QA4,Critical,In Progress,Code Issue,2,False,3
+Sprint 31,Reports,Eve,QA4,Medium,Closed,Test Coverage Miss,21,False,2
+Sprint 31,Reports,Eve,QA4,Low,Closed,Requirement Gap,20,False,9
+Sprint 31,Reports,Eve,QA4,Critical,Closed,Requirement Gap,20,False,6
+Sprint 31,Dashboard,Frank,QA3,Medium,Open,Code Issue,10,False,6
+Sprint 31,Dashboard,Frank,QA3,Medium,Open,Requirement Gap,9,True,7
+Sprint 31,Dashboard,Frank,QA3,Medium,Resolved,Environment Issue,22,True,3
+Sprint 31,Dashboard,Frank,QA3,Medium,In Progress,Environment Issue,29,True,4
+Sprint 31,Dashboard,Frank,QA3,Medium,In Progress,Environment Issue,17,False,7
+Sprint 31,Dashboard,Frank,QA3,Medium,In Progress,Code Issue,8,False,2
+Sprint 31,Dashboard,Frank,QA3,Medium,Closed,Requirement Gap,26,False,1
+Sprint 31,Dashboard,Frank,QA3,Medium,Closed,Requirement Gap,27,False,5
+Sprint 31,Dashboard,Frank,QA3,Medium,Closed,Requirement Gap,23,True,10
+Sprint 32,Authentication,Eve,QA5,Low,In Progress,Environment Issue,10,False,9
+Sprint 32,Authentication,Eve,QA5,Low,Resolved,Environment Issue,16,False,4
+Sprint 32,Authentication,Eve,QA5,Critical,Open,Environment Issue,24,True,6
+Sprint 32,Authentication,Eve,QA5,Medium,Resolved,Requirement Gap,25,True,5
+Sprint 32,Authentication,Eve,QA5,High,Open,Code Issue,25,False,6
+Sprint 32,Authentication,Eve,QA5,High,Open,Code Issue,17,False,2
+Sprint 32,Authentication,Eve,QA5,Critical,In Progress,Requirement Gap,1,True,10
+Sprint 32,Billing,Eve,QA5,High,Resolved,Test Coverage Miss,17,False,1
+Sprint 32,Billing,Eve,QA5,Medium,Open,Requirement Gap,3,False,2
+Sprint 32,Billing,Eve,QA5,Medium,Open,Environment Issue,10,True,4
+Sprint 32,Billing,Eve,QA5,Low,Closed,Environment Issue,24,True,6
+Sprint 32,Billing,Eve,QA5,Critical,Resolved,Requirement Gap,18,True,8
+Sprint 32,Billing,Eve,QA5,High,In Progress,Code Issue,29,True,6
+Sprint 32,Billing,Eve,QA5,Medium,In Progress,Test Coverage Miss,29,True,7
+Sprint 32,Billing,Eve,QA5,Critical,Resolved,Requirement Gap,20,True,3
+Sprint 32,Billing,Eve,QA5,Medium,In Progress,Requirement Gap,24,True,9
+Sprint 32,Billing,Eve,QA5,Low,In Progress,Code Issue,18,True,10
+Sprint 32,Payments,Alice,QA4,Low,Resolved,Test Coverage Miss,13,True,1
+Sprint 32,Payments,Alice,QA4,Medium,In Progress,Test Coverage Miss,10,True,3
+Sprint 32,Notifications,Eve,QA3,Low,Resolved,Test Coverage Miss,24,False,2
+Sprint 32,Notifications,Eve,QA3,Critical,Open,Environment Issue,14,False,4
+Sprint 32,Notifications,Eve,QA3,Critical,In Progress,Test Coverage Miss,25,True,9
+Sprint 32,Notifications,Eve,QA3,Critical,Open,Environment Issue,21,True,8
+Sprint 32,Notifications,Eve,QA3,Low,Resolved,Code Issue,12,False,9
+Sprint 32,Notifications,Eve,QA3,Medium,In Progress,Environment Issue,2,False,10
+Sprint 32,Notifications,Eve,QA3,High,In Progress,Environment Issue,29,False,5
+Sprint 32,Notifications,Eve,QA3,Critical,Closed,Environment Issue,20,False,5
+Sprint 32,Notifications,Eve,QA3,Medium,Closed,Environment Issue,14,False,2
+Sprint 32,Reports,Eve,QA2,Medium,In Progress,Environment Issue,6,True,8
+Sprint 32,Reports,Eve,QA2,Critical,Open,Code Issue,4,False,6
+Sprint 32,Reports,Eve,QA2,Medium,In Progress,Environment Issue,29,True,7
+Sprint 32,Reports,Eve,QA2,Low,Open,Test Coverage Miss,27,True,5
+Sprint 32,Reports,Eve,QA2,High,Resolved,Test Coverage Miss,12,False,4
+Sprint 32,Reports,Eve,QA2,High,Resolved,Requirement Gap,1,True,1
+Sprint 32,Reports,Eve,QA2,Medium,Open,Requirement Gap,9,False,10
+Sprint 32,Reports,Eve,QA2,Low,Closed,Code Issue,16,False,4
+Sprint 32,Dashboard,Bob,QA5,Low,Resolved,Test Coverage Miss,30,True,2
+Sprint 32,Dashboard,Bob,QA5,Critical,In Progress,Test Coverage Miss,18,False,9
+Sprint 32,Dashboard,Bob,QA5,Low,In Progress,Test Coverage Miss,4,True,9
+Sprint 32,Dashboard,Bob,QA5,Critical,In Progress,Environment Issue,28,False,1
+Sprint 32,Dashboard,Bob,QA5,Low,Open,Test Coverage Miss,14,False,10
+Sprint 32,Dashboard,Bob,QA5,Medium,In Progress,Requirement Gap,1,True,2
+Sprint 32,Dashboard,Bob,QA5,Medium,Resolved,Test Coverage Miss,16,True,4
+Sprint 32,Dashboard,Bob,QA5,High,Open,Test Coverage Miss,26,True,10
+Sprint 32,Dashboard,Bob,QA5,Low,Closed,Test Coverage Miss,27,True,4
+Sprint 32,Dashboard,Bob,QA5,Low,Closed,Test Coverage Miss,4,False,8
+Sprint 33,Authentication,David,QA5,Critical,Open,Requirement Gap,15,False,8
+Sprint 33,Authentication,David,QA5,Medium,Closed,Test Coverage Miss,14,True,6
+Sprint 33,Authentication,David,QA5,High,Resolved,Requirement Gap,30,True,2
+Sprint 33,Billing,Alice,QA5,Low,Open,Test Coverage Miss,24,False,5
+Sprint 33,Billing,Alice,QA5,Medium,Resolved,Environment Issue,10,False,6
+Sprint 33,Billing,Alice,QA5,Low,Open,Requirement Gap,17,False,1
+Sprint 33,Billing,Alice,QA5,Critical,Closed,Test Coverage Miss,14,True,3
+Sprint 33,Billing,Alice,QA5,Medium,In Progress,Code Issue,5,False,8
+Sprint 33,Billing,Alice,QA5,Critical,Resolved,Test Coverage Miss,12,True,6
+Sprint 33,Billing,Alice,QA5,Low,Closed,Code Issue,6,False,5
+Sprint 33,Billing,Alice,QA5,Critical,Open,Requirement Gap,2,True,1
+Sprint 33,Billing,Alice,QA5,Medium,Resolved,Test Coverage Miss,19,False,9
+Sprint 33,Payments,Charlie,QA4,Medium,In Progress,Requirement Gap,27,False,3
+Sprint 33,Payments,Charlie,QA4,Medium,Resolved,Test Coverage Miss,9,False,6
+Sprint 33,Payments,Charlie,QA4,Low,Closed,Requirement Gap,19,False,8
+Sprint 33,Payments,Charlie,QA4,Critical,Closed,Environment Issue,2,True,3
+Sprint 33,Payments,Charlie,QA4,High,Resolved,Environment Issue,9,True,1
+Sprint 33,Payments,Charlie,QA4,Critical,Resolved,Test Coverage Miss,4,True,6
+Sprint 33,Payments,Charlie,QA4,Low,Open,Environment Issue,12,False,4
+Sprint 33,Payments,Charlie,QA4,Critical,Closed,Code Issue,8,True,4
+Sprint 33,Payments,Charlie,QA4,Critical,Resolved,Environment Issue,3,True,10
+Sprint 33,Notifications,Eve,QA3,High,Open,Requirement Gap,8,True,9
+Sprint 33,Notifications,Eve,QA3,High,Open,Test Coverage Miss,19,False,5
+Sprint 33,Notifications,Eve,QA3,High,In Progress,Code Issue,6,True,3
+Sprint 33,Notifications,Eve,QA3,Critical,Open,Environment Issue,11,False,10
+Sprint 33,Reports,David,QA1,Critical,Closed,Test Coverage Miss,14,True,5
+Sprint 33,Reports,David,QA1,Critical,Open,Code Issue,6,True,3
+Sprint 33,Reports,David,QA1,Medium,In Progress,Requirement Gap,14,True,6
+Sprint 33,Reports,David,QA1,Low,In Progress,Requirement Gap,1,True,5
+Sprint 33,Reports,David,QA1,High,In Progress,Environment Issue,26,False,2
+Sprint 33,Reports,David,QA1,High,Closed,Test Coverage Miss,6,False,7
+Sprint 33,Reports,David,QA1,High,In Progress,Requirement Gap,18,True,1
+Sprint 33,Reports,David,QA1,High,In Progress,Code Issue,30,False,7
+Sprint 33,Reports,David,QA1,High,Resolved,Code Issue,5,False,4
+Sprint 33,Reports,David,QA1,High,Closed,Test Coverage Miss,16,False,3
+Sprint 33,Dashboard,Frank,QA5,Low,Closed,Code Issue,8,False,3
+Sprint 33,Dashboard,Frank,QA5,Critical,Resolved,Code Issue,8,True,9
+Sprint 33,Dashboard,Frank,QA5,High,In Progress,Requirement Gap,5,True,8
+Sprint 33,Dashboard,Frank,QA5,Critical,In Progress,Code Issue,21,True,3
+Sprint 34,Authentication,Frank,QA2,High,Resolved,Code Issue,23,False,2
+Sprint 34,Authentication,Frank,QA2,Low,Closed,Test Coverage Miss,10,True,1
+Sprint 34,Authentication,Frank,QA2,Medium,Closed,Environment Issue,3,False,10
+Sprint 34,Authentication,Frank,QA2,High,Open,Test Coverage Miss,27,False,2
+Sprint 34,Authentication,Frank,QA2,High,Closed,Test Coverage Miss,23,False,4
+Sprint 34,Billing,Eve,QA4,Medium,Resolved,Environment Issue,1,True,4
+Sprint 34,Billing,Eve,QA4,Critical,In Progress,Requirement Gap,10,False,3
+Sprint 34,Billing,Eve,QA4,High,Open,Environment Issue,8,True,5
+Sprint 34,Billing,Eve,QA4,Critical,Resolved,Code Issue,7,True,8
+Sprint 34,Billing,Eve,QA4,Critical,Closed,Environment Issue,5,False,7
+Sprint 34,Billing,Eve,QA4,High,Closed,Requirement Gap,4,False,10
+Sprint 34,Billing,Eve,QA4,Low,Open,Requirement Gap,16,True,1
+Sprint 34,Billing,Eve,QA4,Critical,Closed,Test Coverage Miss,27,True,8
+Sprint 34,Billing,Eve,QA4,Critical,Closed,Requirement Gap,17,True,4
+Sprint 34,Billing,Eve,QA4,Low,Open,Code Issue,22,True,3
+Sprint 34,Payments,Charlie,QA1,Low,Open,Environment Issue,1,True,4
+Sprint 34,Payments,Charlie,QA1,High,Open,Environment Issue,5,True,8
+Sprint 34,Payments,Charlie,QA1,High,Resolved,Test Coverage Miss,30,False,7
+Sprint 34,Payments,Charlie,QA1,Medium,Open,Test Coverage Miss,15,False,2
+Sprint 34,Payments,Charlie,QA1,Low,Closed,Requirement Gap,4,False,10
+Sprint 34,Payments,Charlie,QA1,High,In Progress,Requirement Gap,23,True,8
+Sprint 34,Payments,Charlie,QA1,High,In Progress,Environment Issue,8,False,2
+Sprint 34,Payments,Charlie,QA1,Low,Closed,Test Coverage Miss,28,True,8
+Sprint 34,Payments,Charlie,QA1,Critical,Resolved,Requirement Gap,5,False,4
+Sprint 34,Payments,Charlie,QA1,Critical,Resolved,Code Issue,7,False,4
+Sprint 34,Notifications,Bob,QA1,Medium,Closed,Requirement Gap,27,False,5
+Sprint 34,Notifications,Bob,QA1,Critical,Open,Code Issue,16,False,10
+Sprint 34,Notifications,Bob,QA1,High,Closed,Code Issue,24,True,4
+Sprint 34,Notifications,Bob,QA1,Critical,Closed,Test Coverage Miss,13,True,8
+Sprint 34,Notifications,Bob,QA1,High,Open,Environment Issue,6,True,5
+Sprint 34,Reports,Eve,QA4,High,In Progress,Test Coverage Miss,29,True,5
+Sprint 34,Reports,Eve,QA4,Low,Closed,Test Coverage Miss,27,False,2
+Sprint 34,Reports,Eve,QA4,Medium,In Progress,Code Issue,10,False,10
+Sprint 34,Dashboard,Frank,QA4,Low,Open,Environment Issue,5,True,9
+Sprint 34,Dashboard,Frank,QA4,High,Open,Test Coverage Miss,21,True,5
+Sprint 35,Authentication,Alice,QA5,Low,Resolved,Test Coverage Miss,3,True,10
+Sprint 35,Authentication,Alice,QA5,Medium,Resolved,Code Issue,21,True,1
+Sprint 35,Authentication,Alice,QA5,Critical,In Progress,Requirement Gap,24,False,8
+Sprint 35,Authentication,Alice,QA5,Low,Closed,Code Issue,11,False,7
+Sprint 35,Billing,David,QA1,Medium,Resolved,Requirement Gap,8,True,8
+Sprint 35,Billing,David,QA1,Critical,Resolved,Test Coverage Miss,1,True,2
+Sprint 35,Billing,David,QA1,Critical,In Progress,Code Issue,6,True,6
+Sprint 35,Billing,David,QA1,Medium,Open,Requirement Gap,21,True,5
+Sprint 35,Payments,Alice,QA1,Medium,Closed,Test Coverage Miss,14,False,3
+Sprint 35,Payments,Alice,QA1,Medium,Open,Requirement Gap,4,True,3
+Sprint 35,Payments,Alice,QA1,High,Resolved,Environment Issue,29,False,8
+Sprint 35,Payments,Alice,QA1,Medium,In Progress,Environment Issue,7,True,1
+Sprint 35,Payments,Alice,QA1,Critical,Closed,Requirement Gap,19,True,10
+Sprint 35,Payments,Alice,QA1,Low,Open,Environment Issue,11,False,4
+Sprint 35,Payments,Alice,QA1,High,Resolved,Environment Issue,5,True,7
+Sprint 35,Notifications,Alice,QA5,High,In Progress,Environment Issue,16,False,1
+Sprint 35,Notifications,Alice,QA5,High,Closed,Environment Issue,8,True,8
+Sprint 35,Notifications,Alice,QA5,High,Resolved,Requirement Gap,16,True,3
+Sprint 35,Notifications,Alice,QA5,Critical,Open,Environment Issue,13,True,10
+Sprint 35,Notifications,Alice,QA5,Low,Open,Requirement Gap,27,True,1
+Sprint 35,Reports,David,QA5,Low,In Progress,Code Issue,21,False,7
+Sprint 35,Reports,David,QA5,Low,In Progress,Test Coverage Miss,27,False,5
+Sprint 35,Reports,David,QA5,Low,Closed,Test Coverage Miss,22,False,6
+Sprint 35,Reports,David,QA5,Critical,Open,Code Issue,20,False,4
+Sprint 35,Reports,David,QA5,Medium,Resolved,Environment Issue,9,True,10
+Sprint 35,Reports,David,QA5,High,Open,Test Coverage Miss,26,True,4
+Sprint 35,Reports,David,QA5,Critical,Resolved,Environment Issue,10,False,1
+Sprint 35,Dashboard,Frank,QA5,Medium,In Progress,Code Issue,5,False,6
+Sprint 35,Dashboard,Frank,QA5,Low,Resolved,Test Coverage Miss,20,False,10
+Sprint 35,Dashboard,Frank,QA5,Low,Resolved,Environment Issue,4,True,10
+Sprint 35,Dashboard,Frank,QA5,Low,Closed,Requirement Gap,6,False,6
+Sprint 35,Dashboard,Frank,QA5,Medium,Resolved,Test Coverage Miss,2,True,1
+Sprint 35,Dashboard,Frank,QA5,Low,Open,Code Issue,19,True,2
+Sprint 35,Dashboard,Frank,QA5,Critical,In Progress,Requirement Gap,23,True,10
+Sprint 35,Dashboard,Frank,QA5,Critical,Closed,Test Coverage Miss,5,True,6
+Sprint 36,Authentication,David,QA4,Medium,Closed,Environment Issue,21,True,3
+Sprint 36,Authentication,David,QA4,Critical,In Progress,Code Issue,30,False,4
+Sprint 36,Authentication,David,QA4,Critical,In Progress,Code Issue,21,True,2
+Sprint 36,Authentication,David,QA4,High,Closed,Test Coverage Miss,17,True,8
+Sprint 36,Authentication,David,QA4,High,Closed,Requirement Gap,16,False,2
+Sprint 36,Authentication,David,QA4,Medium,Open,Code Issue,9,False,4
+Sprint 36,Authentication,David,QA4,Low,Open,Requirement Gap,30,True,7
+Sprint 36,Authentication,David,QA4,Critical,Resolved,Code Issue,29,True,10
+Sprint 36,Authentication,David,QA4,Low,Closed,Test Coverage Miss,2,True,8
+Sprint 36,Billing,David,QA1,High,In Progress,Code Issue,15,True,4
+Sprint 36,Billing,David,QA1,Medium,Open,Requirement Gap,12,True,4
+Sprint 36,Billing,David,QA1,Medium,Open,Environment Issue,24,False,9
+Sprint 36,Billing,David,QA1,Medium,In Progress,Requirement Gap,21,False,5
+Sprint 36,Payments,Bob,QA3,Medium,Resolved,Requirement Gap,3,True,4
+Sprint 36,Payments,Bob,QA3,Low,Resolved,Requirement Gap,4,False,3
+Sprint 36,Payments,Bob,QA3,Critical,Closed,Test Coverage Miss,28,True,3
+Sprint 36,Payments,Bob,QA3,Critical,Closed,Environment Issue,3,False,10
+Sprint 36,Notifications,Alice,QA3,Low,Open,Environment Issue,12,True,8
+Sprint 36,Notifications,Alice,QA3,Critical,Resolved,Test Coverage Miss,7,False,2
+Sprint 36,Notifications,Alice,QA3,Medium,Resolved,Environment Issue,19,True,7
+Sprint 36,Notifications,Alice,QA3,Low,Closed,Environment Issue,12,False,10
+Sprint 36,Notifications,Alice,QA3,Medium,Closed,Test Coverage Miss,23,False,10
+Sprint 36,Notifications,Alice,QA3,Medium,Closed,Code Issue,21,False,8
+Sprint 36,Notifications,Alice,QA3,High,Resolved,Code Issue,30,False,7
+Sprint 36,Reports,Bob,QA1,Low,Closed,Requirement Gap,28,True,1
+Sprint 36,Reports,Bob,QA1,Medium,In Progress,Test Coverage Miss,13,True,8
+Sprint 36,Reports,Bob,QA1,High,Open,Code Issue,3,False,3
+Sprint 36,Reports,Bob,QA1,Low,Resolved,Test Coverage Miss,14,False,3
+Sprint 36,Reports,Bob,QA1,Low,In Progress,Code Issue,18,True,6
+Sprint 36,Reports,Bob,QA1,Critical,Closed,Test Coverage Miss,8,False,4
+Sprint 36,Reports,Bob,QA1,Low,In Progress,Test Coverage Miss,19,False,1
+Sprint 36,Reports,Bob,QA1,Medium,Open,Requirement Gap,1,True,4
+Sprint 36,Dashboard,David,QA2,Critical,In Progress,Test Coverage Miss,9,True,8
+Sprint 36,Dashboard,David,QA2,Medium,In Progress,Environment Issue,26,False,5
+Sprint 36,Dashboard,David,QA2,Critical,Resolved,Requirement Gap,22,True,10
+Sprint 36,Dashboard,David,QA2,Low,In Progress,Environment Issue,15,False,1
+Sprint 36,Dashboard,David,QA2,High,Closed,Test Coverage Miss,2,True,9
+Sprint 36,Dashboard,David,QA2,Critical,In Progress,Requirement Gap,18,False,3
+Sprint 36,Dashboard,David,QA2,High,In Progress,Environment Issue,18,True,4
+Sprint 36,Dashboard,David,QA2,High,In Progress,Environment Issue,24,True,5
+Sprint 36,Dashboard,David,QA2,Critical,In Progress,Requirement Gap,22,False,6
+Sprint 37,Authentication,Frank,QA5,Low,Open,Requirement Gap,2,False,2
+Sprint 37,Authentication,Frank,QA5,Critical,Resolved,Test Coverage Miss,10,True,4
+Sprint 37,Authentication,Frank,QA5,Medium,Open,Test Coverage Miss,7,False,6
+Sprint 37,Authentication,Frank,QA5,Low,Closed,Test Coverage Miss,16,False,5
+Sprint 37,Authentication,Frank,QA5,High,Closed,Environment Issue,1,False,2
+Sprint 37,Authentication,Frank,QA5,High,In Progress,Code Issue,4,True,2
+Sprint 37,Authentication,Frank,QA5,Critical,Closed,Code Issue,24,False,5
+Sprint 37,Billing,Frank,QA5,High,In Progress,Environment Issue,25,False,1
+Sprint 37,Billing,Frank,QA5,High,Closed,Requirement Gap,3,True,2
+Sprint 37,Billing,Frank,QA5,Critical,In Progress,Requirement Gap,1,True,9
+Sprint 37,Billing,Frank,QA5,High,Open,Environment Issue,6,True,7
+Sprint 37,Billing,Frank,QA5,Low,Closed,Test Coverage Miss,30,True,6
+Sprint 37,Billing,Frank,QA5,Medium,Closed,Requirement Gap,15,False,8
+Sprint 37,Billing,Frank,QA5,Low,Open,Requirement Gap,15,True,4
+Sprint 37,Billing,Frank,QA5,Critical,Closed,Requirement Gap,28,False,8
+Sprint 37,Billing,Frank,QA5,High,In Progress,Environment Issue,17,True,3
+Sprint 37,Billing,Frank,QA5,Critical,Resolved,Environment Issue,29,False,5
+Sprint 37,Payments,David,QA1,Low,In Progress,Test Coverage Miss,28,False,10
+Sprint 37,Payments,David,QA1,Critical,Closed,Environment Issue,25,False,4
+Sprint 37,Payments,David,QA1,Medium,Open,Test Coverage Miss,10,False,5
+Sprint 37,Payments,David,QA1,Low,Open,Environment Issue,20,False,7
+Sprint 37,Payments,David,QA1,Medium,In Progress,Requirement Gap,16,True,7
+Sprint 37,Payments,David,QA1,Critical,In Progress,Environment Issue,21,False,9
+Sprint 37,Payments,David,QA1,Medium,In Progress,Test Coverage Miss,15,True,4
+Sprint 37,Payments,David,QA1,High,In Progress,Requirement Gap,16,False,6
+Sprint 37,Payments,David,QA1,High,Closed,Code Issue,23,False,3
+Sprint 37,Payments,David,QA1,Critical,In Progress,Code Issue,20,False,4
+Sprint 37,Notifications,David,QA3,Critical,Closed,Requirement Gap,3,False,9
+Sprint 37,Notifications,David,QA3,Critical,Closed,Test Coverage Miss,13,False,6
+Sprint 37,Notifications,David,QA3,Low,In Progress,Test Coverage Miss,3,True,10
+Sprint 37,Notifications,David,QA3,Medium,In Progress,Test Coverage Miss,11,False,6
+Sprint 37,Notifications,David,QA3,Medium,Open,Environment Issue,15,False,1
+Sprint 37,Notifications,David,QA3,High,Closed,Test Coverage Miss,5,True,7
+Sprint 37,Notifications,David,QA3,High,Resolved,Requirement Gap,17,False,4
+Sprint 37,Reports,Charlie,QA2,Low,In Progress,Requirement Gap,16,False,3
+Sprint 37,Reports,Charlie,QA2,High,In Progress,Environment Issue,17,True,5
+Sprint 37,Reports,Charlie,QA2,Medium,Closed,Test Coverage Miss,1,False,5
+Sprint 37,Reports,Charlie,QA2,High,In Progress,Requirement Gap,26,False,6
+Sprint 37,Reports,Charlie,QA2,Critical,Resolved,Test Coverage Miss,8,False,4
+Sprint 37,Reports,Charlie,QA2,Low,Closed,Requirement Gap,15,False,10
+Sprint 37,Reports,Charlie,QA2,Medium,Resolved,Environment Issue,25,False,3
+Sprint 37,Dashboard,Frank,QA3,High,In Progress,Environment Issue,10,False,5
+Sprint 37,Dashboard,Frank,QA3,High,Closed,Code Issue,14,False,5
+Sprint 37,Dashboard,Frank,QA3,Medium,Closed,Environment Issue,10,False,8
+Sprint 37,Dashboard,Frank,QA3,High,Closed,Test Coverage Miss,10,True,4
+Sprint 37,Dashboard,Frank,QA3,Low,Resolved,Environment Issue,18,True,9
+Sprint 37,Dashboard,Frank,QA3,Low,Open,Environment Issue,27,True,2
+Sprint 38,Authentication,Frank,QA5,Medium,Closed,Test Coverage Miss,27,False,6
+Sprint 38,Authentication,Frank,QA5,Medium,Closed,Requirement Gap,19,True,8
+Sprint 38,Billing,Bob,QA1,Low,In Progress,Requirement Gap,21,True,4
+Sprint 38,Billing,Bob,QA1,Critical,Resolved,Environment Issue,14,False,2
+Sprint 38,Billing,Bob,QA1,Critical,Open,Code Issue,20,False,8
+Sprint 38,Billing,Bob,QA1,Medium,Open,Test Coverage Miss,9,True,2
+Sprint 38,Payments,Alice,QA5,Low,Closed,Test Coverage Miss,10,False,7
+Sprint 38,Payments,Alice,QA5,Medium,Open,Requirement Gap,20,False,3
+Sprint 38,Payments,Alice,QA5,Low,In Progress,Code Issue,14,False,7
+Sprint 38,Notifications,Eve,QA2,High,Closed,Test Coverage Miss,22,True,9
+Sprint 38,Notifications,Eve,QA2,Critical,Closed,Requirement Gap,6,True,3
+Sprint 38,Notifications,Eve,QA2,Low,In Progress,Code Issue,23,False,9
+Sprint 38,Reports,Charlie,QA3,Low,Resolved,Test Coverage Miss,16,True,1
+Sprint 38,Reports,Charlie,QA3,Medium,In Progress,Environment Issue,13,False,6
+Sprint 38,Reports,Charlie,QA3,Critical,Closed,Test Coverage Miss,9,True,9
+Sprint 38,Reports,Charlie,QA3,High,In Progress,Code Issue,9,True,5
+Sprint 38,Dashboard,Eve,QA1,Critical,Open,Code Issue,17,True,6
+Sprint 38,Dashboard,Eve,QA1,Critical,Resolved,Code Issue,21,True,4
+Sprint 38,Dashboard,Eve,QA1,High,Open,Environment Issue,15,False,10
+Sprint 39,Authentication,Charlie,QA1,Low,Resolved,Test Coverage Miss,20,False,9
+Sprint 39,Authentication,Charlie,QA1,Low,Open,Environment Issue,10,True,4
+Sprint 39,Billing,Alice,QA1,Medium,Resolved,Requirement Gap,1,True,1
+Sprint 39,Billing,Alice,QA1,Medium,Closed,Environment Issue,27,True,7
+Sprint 39,Billing,Alice,QA1,Low,In Progress,Environment Issue,11,False,5
+Sprint 39,Billing,Alice,QA1,Medium,Closed,Test Coverage Miss,28,True,10
+Sprint 39,Billing,Alice,QA1,High,Open,Requirement Gap,20,True,2
+Sprint 39,Billing,Alice,QA1,Medium,Resolved,Environment Issue,4,True,1
+Sprint 39,Billing,Alice,QA1,Medium,Open,Code Issue,1,False,8
+Sprint 39,Billing,Alice,QA1,High,In Progress,Requirement Gap,3,False,8
+Sprint 39,Billing,Alice,QA1,Critical,Closed,Environment Issue,11,False,2
+Sprint 39,Billing,Alice,QA1,Medium,Open,Requirement Gap,6,True,2
+Sprint 39,Payments,Eve,QA5,Critical,Closed,Requirement Gap,25,False,9
+Sprint 39,Payments,Eve,QA5,High,In Progress,Code Issue,12,True,7
+Sprint 39,Payments,Eve,QA5,High,Closed,Requirement Gap,26,True,9
+Sprint 39,Payments,Eve,QA5,Medium,Closed,Test Coverage Miss,26,False,4
+Sprint 39,Notifications,Frank,QA4,Critical,In Progress,Requirement Gap,18,False,5
+Sprint 39,Notifications,Frank,QA4,Medium,Resolved,Code Issue,29,False,4
+Sprint 39,Notifications,Frank,QA4,Medium,In Progress,Requirement Gap,17,True,6
+Sprint 39,Notifications,Frank,QA4,Low,Open,Code Issue,20,True,10
+Sprint 39,Notifications,Frank,QA4,High,In Progress,Code Issue,11,False,3
+Sprint 39,Notifications,Frank,QA4,High,In Progress,Code Issue,29,True,9
+Sprint 39,Notifications,Frank,QA4,High,Closed,Test Coverage Miss,17,False,8
+Sprint 39,Notifications,Frank,QA4,Critical,Closed,Test Coverage Miss,8,True,3
+Sprint 39,Notifications,Frank,QA4,Critical,Resolved,Test Coverage Miss,16,True,6
+Sprint 39,Notifications,Frank,QA4,Medium,In Progress,Test Coverage Miss,19,True,10
+Sprint 39,Reports,Charlie,QA2,Medium,Resolved,Code Issue,6,True,1
+Sprint 39,Reports,Charlie,QA2,High,In Progress,Test Coverage Miss,16,True,9
+Sprint 39,Reports,Charlie,QA2,Medium,Closed,Test Coverage Miss,15,False,2
+Sprint 39,Reports,Charlie,QA2,High,In Progress,Requirement Gap,23,True,2
+Sprint 39,Reports,Charlie,QA2,Low,Open,Test Coverage Miss,21,False,1
+Sprint 39,Reports,Charlie,QA2,Medium,In Progress,Test Coverage Miss,15,False,1
+Sprint 39,Dashboard,Frank,QA3,Medium,Resolved,Requirement Gap,3,True,4
+Sprint 39,Dashboard,Frank,QA3,Medium,In Progress,Environment Issue,12,True,9
+Sprint 39,Dashboard,Frank,QA3,Low,In Progress,Test Coverage Miss,28,False,3
+Sprint 39,Dashboard,Frank,QA3,Medium,In Progress,Code Issue,13,True,6
+Sprint 39,Dashboard,Frank,QA3,Low,Closed,Code Issue,25,True,8
+Sprint 40,Authentication,Eve,QA4,High,Resolved,Requirement Gap,24,False,5
+Sprint 40,Authentication,Eve,QA4,Medium,In Progress,Environment Issue,20,False,7
+Sprint 40,Billing,Alice,QA3,Low,Closed,Environment Issue,6,False,8
+Sprint 40,Billing,Alice,QA3,Medium,Open,Requirement Gap,24,False,6
+Sprint 40,Billing,Alice,QA3,High,Open,Environment Issue,1,False,6
+Sprint 40,Billing,Alice,QA3,Critical,Resolved,Environment Issue,19,True,3
+Sprint 40,Billing,Alice,QA3,High,Closed,Environment Issue,19,False,1
+Sprint 40,Payments,Bob,QA4,Low,Closed,Test Coverage Miss,10,True,1
+Sprint 40,Payments,Bob,QA4,Critical,Closed,Test Coverage Miss,30,True,4
+Sprint 40,Payments,Bob,QA4,Medium,Closed,Requirement Gap,28,False,6
+Sprint 40,Payments,Bob,QA4,High,In Progress,Test Coverage Miss,6,True,8
+Sprint 40,Payments,Bob,QA4,High,Resolved,Environment Issue,10,True,1
+Sprint 40,Payments,Bob,QA4,Low,Closed,Environment Issue,16,False,8
+Sprint 40,Notifications,Frank,QA1,Critical,Resolved,Requirement Gap,22,False,6
+Sprint 40,Notifications,Frank,QA1,High,Open,Code Issue,27,True,6
+Sprint 40,Reports,Charlie,QA2,Low,In Progress,Requirement Gap,22,False,9
+Sprint 40,Reports,Charlie,QA2,High,Resolved,Requirement Gap,20,False,2
+Sprint 40,Reports,Charlie,QA2,Medium,Closed,Code Issue,29,False,8
+Sprint 40,Reports,Charlie,QA2,High,Closed,Requirement Gap,5,False,1
+Sprint 40,Reports,Charlie,QA2,Critical,In Progress,Requirement Gap,23,False,9
+Sprint 40,Reports,Charlie,QA2,Critical,Open,Requirement Gap,23,False,4
+Sprint 40,Dashboard,David,QA5,Medium,Resolved,Environment Issue,9,False,1
+Sprint 40,Dashboard,David,QA5,High,Open,Requirement Gap,9,True,6
+Sprint 40,Dashboard,David,QA5,High,In Progress,Requirement Gap,26,False,10
+Sprint 40,Dashboard,David,QA5,Critical,Resolved,Code Issue,6,False,5
+Sprint 40,Dashboard,David,QA5,Low,In Progress,Test Coverage Miss,1,True,1
+Sprint 40,Dashboard,David,QA5,Low,Open,Code Issue,12,True,2
+Sprint 40,Dashboard,David,QA5,Low,In Progress,Requirement Gap,16,False,5
+Sprint 41,Authentication,Eve,QA5,Low,Closed,Code Issue,15,True,2
+Sprint 41,Authentication,Eve,QA5,Low,Open,Test Coverage Miss,15,True,2
+Sprint 41,Authentication,Eve,QA5,Medium,In Progress,Test Coverage Miss,14,False,6
+Sprint 41,Authentication,Eve,QA5,High,Resolved,Test Coverage Miss,5,False,10
+Sprint 41,Authentication,Eve,QA5,High,Resolved,Environment Issue,25,True,2
+Sprint 41,Billing,Charlie,QA5,Medium,In Progress,Requirement Gap,12,False,3
+Sprint 41,Billing,Charlie,QA5,Critical,Closed,Code Issue,5,True,6
+Sprint 41,Billing,Charlie,QA5,High,Resolved,Code Issue,15,False,7
+Sprint 41,Billing,Charlie,QA5,Low,Open,Requirement Gap,19,False,1
+Sprint 41,Billing,Charlie,QA5,Medium,Resolved,Environment Issue,7,True,4
+Sprint 41,Billing,Charlie,QA5,Medium,Open,Code Issue,25,True,5
+Sprint 41,Billing,Charlie,QA5,Critical,Closed,Environment Issue,3,False,1
+Sprint 41,Billing,Charlie,QA5,Low,Resolved,Environment Issue,23,False,7
+Sprint 41,Billing,Charlie,QA5,High,Resolved,Test Coverage Miss,15,True,1
+Sprint 41,Payments,David,QA1,Medium,Resolved,Requirement Gap,11,False,3
+Sprint 41,Payments,David,QA1,Critical,In Progress,Test Coverage Miss,28,True,5
+Sprint 41,Payments,David,QA1,High,Closed,Requirement Gap,28,True,2
+Sprint 41,Notifications,David,QA4,Critical,Open,Test Coverage Miss,20,False,8
+Sprint 41,Notifications,David,QA4,High,Closed,Code Issue,8,False,6
+Sprint 41,Reports,David,QA5,Medium,In Progress,Code Issue,18,True,6
+Sprint 41,Reports,David,QA5,Critical,Open,Environment Issue,21,True,5
+Sprint 41,Reports,David,QA5,Low,In Progress,Environment Issue,16,False,9
+Sprint 41,Reports,David,QA5,Medium,In Progress,Requirement Gap,27,True,7
+Sprint 41,Reports,David,QA5,Critical,Open,Code Issue,11,False,4
+Sprint 41,Reports,David,QA5,High,Resolved,Test Coverage Miss,11,False,3
+Sprint 41,Reports,David,QA5,Medium,Open,Environment Issue,14,True,5
+Sprint 41,Reports,David,QA5,High,In Progress,Test Coverage Miss,4,True,9
+Sprint 41,Dashboard,Eve,QA2,High,Open,Environment Issue,18,True,3
+Sprint 41,Dashboard,Eve,QA2,Medium,In Progress,Requirement Gap,5,True,4
+Sprint 41,Dashboard,Eve,QA2,Critical,Resolved,Code Issue,19,True,5
+Sprint 41,Dashboard,Eve,QA2,High,Open,Test Coverage Miss,3,False,5
+Sprint 41,Dashboard,Eve,QA2,Critical,Resolved,Code Issue,21,False,9
+Sprint 41,Dashboard,Eve,QA2,High,Resolved,Requirement Gap,5,True,1
+Sprint 41,Dashboard,Eve,QA2,Critical,Resolved,Code Issue,20,False,7
+Sprint 42,Authentication,Alice,QA1,High,In Progress,Test Coverage Miss,29,True,8
+Sprint 42,Authentication,Alice,QA1,Critical,Closed,Test Coverage Miss,9,False,5
+Sprint 42,Authentication,Alice,QA1,High,Open,Environment Issue,24,False,6
+Sprint 42,Authentication,Alice,QA1,Medium,Resolved,Environment Issue,30,True,8
+Sprint 42,Authentication,Alice,QA1,Medium,Closed,Test Coverage Miss,11,True,3
+Sprint 42,Authentication,Alice,QA1,Critical,Closed,Environment Issue,30,False,6
+Sprint 42,Authentication,Alice,QA1,Critical,Open,Environment Issue,7,True,5
+Sprint 42,Authentication,Alice,QA1,High,Resolved,Environment Issue,25,False,7
+Sprint 42,Authentication,Alice,QA1,Critical,Resolved,Requirement Gap,26,False,2
+Sprint 42,Billing,Eve,QA3,Low,Resolved,Code Issue,16,False,7
+Sprint 42,Billing,Eve,QA3,High,Closed,Environment Issue,16,True,5
+Sprint 42,Billing,Eve,QA3,Low,In Progress,Test Coverage Miss,30,False,3
+Sprint 42,Billing,Eve,QA3,Medium,Closed,Test Coverage Miss,10,True,1
+Sprint 42,Billing,Eve,QA3,Medium,Closed,Environment Issue,16,False,1
+Sprint 42,Billing,Eve,QA3,Low,Resolved,Test Coverage Miss,15,False,6
+Sprint 42,Billing,Eve,QA3,Low,In Progress,Requirement Gap,16,False,2
+Sprint 42,Payments,Bob,QA2,Medium,Closed,Code Issue,16,False,3
+Sprint 42,Payments,Bob,QA2,Critical,Open,Test Coverage Miss,17,False,8
+Sprint 42,Notifications,David,QA5,High,Open,Code Issue,3,True,9
+Sprint 42,Notifications,David,QA5,Critical,Closed,Test Coverage Miss,10,False,8
+Sprint 42,Notifications,David,QA5,Medium,Closed,Requirement Gap,24,True,9
+Sprint 42,Notifications,David,QA5,Medium,In Progress,Test Coverage Miss,10,False,8
+Sprint 42,Notifications,David,QA5,Low,Resolved,Code Issue,12,False,3
+Sprint 42,Notifications,David,QA5,Critical,Resolved,Code Issue,21,False,6
+Sprint 42,Notifications,David,QA5,Medium,Closed,Test Coverage Miss,27,False,3
+Sprint 42,Notifications,David,QA5,Low,In Progress,Code Issue,20,True,5
+Sprint 42,Notifications,David,QA5,High,Resolved,Test Coverage Miss,17,False,9
+Sprint 42,Reports,Alice,QA5,Medium,In Progress,Code Issue,11,True,8
+Sprint 42,Reports,Alice,QA5,Low,Closed,Environment Issue,6,False,7
+Sprint 42,Reports,Alice,QA5,Medium,Resolved,Code Issue,14,False,4
+Sprint 42,Reports,Alice,QA5,Medium,Open,Requirement Gap,6,False,6
+Sprint 42,Reports,Alice,QA5,Critical,Closed,Test Coverage Miss,4,False,8
+Sprint 42,Dashboard,Eve,QA1,High,Closed,Requirement Gap,20,False,2
+Sprint 42,Dashboard,Eve,QA1,High,Resolved,Code Issue,17,True,10
+Sprint 42,Dashboard,Eve,QA1,Medium,In Progress,Requirement Gap,10,True,2
+Sprint 42,Dashboard,Eve,QA1,Critical,Open,Code Issue,3,False,9
+Sprint 42,Dashboard,Eve,QA1,High,Open,Requirement Gap,9,True,4
+Sprint 42,Dashboard,Eve,QA1,High,Open,Test Coverage Miss,5,False,9
+Sprint 43,Authentication,Alice,QA3,Critical,In Progress,Requirement Gap,6,False,6
+Sprint 43,Authentication,Alice,QA3,Low,In Progress,Test Coverage Miss,7,False,1
+Sprint 43,Authentication,Alice,QA3,Medium,Open,Environment Issue,1,False,2
+Sprint 43,Authentication,Alice,QA3,Medium,Closed,Environment Issue,27,True,2
+Sprint 43,Authentication,Alice,QA3,High,Resolved,Environment Issue,13,True,6
+Sprint 43,Authentication,Alice,QA3,Low,In Progress,Requirement Gap,9,False,5
+Sprint 43,Authentication,Alice,QA3,Medium,Resolved,Test Coverage Miss,4,False,7
+Sprint 43,Authentication,Alice,QA3,Medium,In Progress,Environment Issue,21,True,7
+Sprint 43,Billing,Charlie,QA4,Medium,Closed,Test Coverage Miss,26,True,3
+Sprint 43,Billing,Charlie,QA4,High,Open,Code Issue,25,False,10
+Sprint 43,Billing,Charlie,QA4,Low,In Progress,Requirement Gap,3,False,6
+Sprint 43,Billing,Charlie,QA4,Medium,Closed,Test Coverage Miss,5,True,7
+Sprint 43,Billing,Charlie,QA4,High,Closed,Code Issue,17,False,6
+Sprint 43,Billing,Charlie,QA4,Low,In Progress,Test Coverage Miss,23,False,10
+Sprint 43,Billing,Charlie,QA4,Critical,Open,Requirement Gap,20,False,6
+Sprint 43,Billing,Charlie,QA4,Low,Closed,Requirement Gap,6,True,10
+Sprint 43,Billing,Charlie,QA4,Medium,Open,Code Issue,10,False,4
+Sprint 43,Billing,Charlie,QA4,Critical,Closed,Test Coverage Miss,22,False,4
+Sprint 43,Payments,Eve,QA1,High,Closed,Environment Issue,20,False,8
+Sprint 43,Payments,Eve,QA1,High,Closed,Code Issue,13,False,5
+Sprint 43,Payments,Eve,QA1,High,Closed,Code Issue,18,True,6
+Sprint 43,Payments,Eve,QA1,High,Closed,Code Issue,8,True,1
+Sprint 43,Payments,Eve,QA1,Critical,Open,Test Coverage Miss,24,False,5
+Sprint 43,Payments,Eve,QA1,Medium,Open,Requirement Gap,3,False,10
+Sprint 43,Payments,Eve,QA1,Medium,Closed,Environment Issue,1,False,3
+Sprint 43,Payments,Eve,QA1,Low,In Progress,Code Issue,7,False,3
+Sprint 43,Notifications,Frank,QA1,Critical,Open,Requirement Gap,30,False,2
+Sprint 43,Notifications,Frank,QA1,Low,Closed,Code Issue,18,True,10
+Sprint 43,Notifications,Frank,QA1,Medium,In Progress,Environment Issue,20,False,6
+Sprint 43,Notifications,Frank,QA1,High,Closed,Test Coverage Miss,27,True,6
+Sprint 43,Notifications,Frank,QA1,Critical,In Progress,Environment Issue,19,False,1
+Sprint 43,Reports,Frank,QA5,Medium,Closed,Code Issue,5,False,5
+Sprint 43,Reports,Frank,QA5,Medium,Closed,Test Coverage Miss,15,False,7
+Sprint 43,Reports,Frank,QA5,Low,Resolved,Code Issue,8,False,9
+Sprint 43,Reports,Frank,QA5,Medium,Closed,Requirement Gap,1,True,8
+Sprint 43,Reports,Frank,QA5,Critical,Open,Requirement Gap,15,True,2
+Sprint 43,Reports,Frank,QA5,Medium,In Progress,Test Coverage Miss,24,True,8
+Sprint 43,Reports,Frank,QA5,Medium,Resolved,Requirement Gap,28,False,4
+Sprint 43,Dashboard,Alice,QA3,Low,Closed,Requirement Gap,5,False,3
+Sprint 43,Dashboard,Alice,QA3,Low,Closed,Requirement Gap,16,True,7
+Sprint 43,Dashboard,Alice,QA3,Medium,Open,Test Coverage Miss,23,True,5
+Sprint 43,Dashboard,Alice,QA3,High,Closed,Test Coverage Miss,6,False,10
+Sprint 43,Dashboard,Alice,QA3,Low,Resolved,Environment Issue,5,True,9
+Sprint 43,Dashboard,Alice,QA3,Medium,Closed,Environment Issue,9,True,8
+Sprint 43,Dashboard,Alice,QA3,High,Closed,Test Coverage Miss,29,True,9
+Sprint 43,Dashboard,Alice,QA3,Low,In Progress,Code Issue,4,False,5
+Sprint 44,Authentication,David,QA3,Critical,In Progress,Code Issue,11,False,2
+Sprint 44,Authentication,David,QA3,Low,Closed,Requirement Gap,13,False,9
+Sprint 44,Authentication,David,QA3,High,In Progress,Code Issue,21,False,8
+Sprint 44,Authentication,David,QA3,Low,Open,Code Issue,3,False,5
+Sprint 44,Authentication,David,QA3,Medium,Closed,Code Issue,3,False,6
+Sprint 44,Authentication,David,QA3,Critical,Resolved,Requirement Gap,26,True,10
+Sprint 44,Authentication,David,QA3,Critical,Resolved,Environment Issue,25,True,5
+Sprint 44,Authentication,David,QA3,Critical,In Progress,Code Issue,1,False,5
+Sprint 44,Billing,Frank,QA3,High,Resolved,Environment Issue,18,False,10
+Sprint 44,Billing,Frank,QA3,Medium,Closed,Code Issue,1,True,1
+Sprint 44,Billing,Frank,QA3,Critical,Open,Requirement Gap,18,True,4
+Sprint 44,Billing,Frank,QA3,Medium,Closed,Environment Issue,16,False,7
+Sprint 44,Billing,Frank,QA3,Critical,Resolved,Test Coverage Miss,25,True,10
+Sprint 44,Billing,Frank,QA3,High,Closed,Code Issue,26,True,3
+Sprint 44,Billing,Frank,QA3,Medium,Open,Code Issue,26,True,10
+Sprint 44,Billing,Frank,QA3,High,In Progress,Requirement Gap,15,True,10
+Sprint 44,Billing,Frank,QA3,High,In Progress,Requirement Gap,5,False,9
+Sprint 44,Payments,Bob,QA4,High,Closed,Code Issue,29,True,10
+Sprint 44,Payments,Bob,QA4,High,Resolved,Environment Issue,30,True,3
+Sprint 44,Payments,Bob,QA4,Critical,Open,Code Issue,6,False,8
+Sprint 44,Payments,Bob,QA4,Low,Closed,Code Issue,16,False,4
+Sprint 44,Payments,Bob,QA4,Critical,Open,Requirement Gap,2,False,5
+Sprint 44,Payments,Bob,QA4,High,Closed,Test Coverage Miss,9,False,8
+Sprint 44,Notifications,Charlie,QA2,High,Open,Test Coverage Miss,14,True,6
+Sprint 44,Notifications,Charlie,QA2,Critical,Resolved,Requirement Gap,30,True,9
+Sprint 44,Notifications,Charlie,QA2,Medium,Closed,Code Issue,19,False,2
+Sprint 44,Notifications,Charlie,QA2,Critical,Closed,Environment Issue,28,True,10
+Sprint 44,Notifications,Charlie,QA2,Low,Closed,Code Issue,20,True,10
+Sprint 44,Reports,Eve,QA5,High,Resolved,Code Issue,22,True,3
+Sprint 44,Reports,Eve,QA5,Critical,Resolved,Environment Issue,1,False,1
+Sprint 44,Reports,Eve,QA5,Critical,Open,Code Issue,5,False,4
+Sprint 44,Dashboard,Bob,QA5,High,Open,Requirement Gap,27,True,3
+Sprint 44,Dashboard,Bob,QA5,Critical,Closed,Requirement Gap,3,True,9
+Sprint 44,Dashboard,Bob,QA5,Medium,Closed,Requirement Gap,1,False,1
+Sprint 44,Dashboard,Bob,QA5,Medium,In Progress,Environment Issue,7,True,7
+Sprint 44,Dashboard,Bob,QA5,Low,Open,Environment Issue,11,True,10
+Sprint 44,Dashboard,Bob,QA5,Low,Closed,Code Issue,15,True,1
+Sprint 45,Authentication,Charlie,QA5,High,Resolved,Environment Issue,4,True,10
+Sprint 45,Authentication,Charlie,QA5,High,In Progress,Test Coverage Miss,5,False,4
+Sprint 45,Authentication,Charlie,QA5,Low,Closed,Environment Issue,21,False,10
+Sprint 45,Authentication,Charlie,QA5,High,Closed,Requirement Gap,30,False,5
+Sprint 45,Authentication,Charlie,QA5,High,Resolved,Code Issue,2,False,1
+Sprint 45,Authentication,Charlie,QA5,Medium,In Progress,Test Coverage Miss,1,True,6
+Sprint 45,Authentication,Charlie,QA5,Medium,Closed,Environment Issue,1,True,8
+Sprint 45,Authentication,Charlie,QA5,Low,Resolved,Test Coverage Miss,11,True,10
+Sprint 45,Authentication,Charlie,QA5,Critical,In Progress,Test Coverage Miss,17,True,6
+Sprint 45,Billing,Eve,QA2,Low,In Progress,Test Coverage Miss,16,False,6
+Sprint 45,Billing,Eve,QA2,Critical,In Progress,Environment Issue,5,True,3
+Sprint 45,Billing,Eve,QA2,Critical,In Progress,Environment Issue,13,False,1
+Sprint 45,Billing,Eve,QA2,Low,Resolved,Requirement Gap,4,False,10
+Sprint 45,Billing,Eve,QA2,Critical,In Progress,Code Issue,18,False,6
+Sprint 45,Billing,Eve,QA2,High,Open,Environment Issue,26,False,8
+Sprint 45,Billing,Eve,QA2,Medium,In Progress,Environment Issue,2,True,9
+Sprint 45,Payments,Alice,QA4,Medium,Resolved,Requirement Gap,1,False,6
+Sprint 45,Payments,Alice,QA4,Critical,In Progress,Environment Issue,20,False,5
+Sprint 45,Payments,Alice,QA4,Low,Resolved,Code Issue,2,True,5
+Sprint 45,Payments,Alice,QA4,Low,Closed,Requirement Gap,3,True,10
+Sprint 45,Payments,Alice,QA4,Low,Closed,Test Coverage Miss,25,True,1
+Sprint 45,Payments,Alice,QA4,Medium,Closed,Test Coverage Miss,4,True,2
+Sprint 45,Notifications,David,QA5,High,Open,Requirement Gap,29,False,2
+Sprint 45,Notifications,David,QA5,High,Resolved,Test Coverage Miss,7,True,5
+Sprint 45,Reports,Charlie,QA2,High,Closed,Code Issue,8,True,6
+Sprint 45,Reports,Charlie,QA2,Critical,Open,Code Issue,21,False,6
+Sprint 45,Reports,Charlie,QA2,Critical,Resolved,Code Issue,10,False,4
+Sprint 45,Dashboard,Alice,QA4,Critical,Resolved,Code Issue,7,False,3
+Sprint 45,Dashboard,Alice,QA4,Medium,Resolved,Requirement Gap,10,True,9
+Sprint 46,Authentication,Charlie,QA1,Medium,Open,Code Issue,18,True,2
+Sprint 46,Authentication,Charlie,QA1,Medium,Resolved,Environment Issue,26,False,3
+Sprint 46,Authentication,Charlie,QA1,Critical,Open,Requirement Gap,26,True,1
+Sprint 46,Authentication,Charlie,QA1,High,In Progress,Environment Issue,22,False,6
+Sprint 46,Billing,Alice,QA1,High,In Progress,Code Issue,7,True,3
+Sprint 46,Billing,Alice,QA1,High,In Progress,Environment Issue,30,True,7
+Sprint 46,Payments,Charlie,QA2,Low,Open,Test Coverage Miss,20,False,1
+Sprint 46,Payments,Charlie,QA2,High,Resolved,Code Issue,24,False,7
+Sprint 46,Payments,Charlie,QA2,High,Open,Requirement Gap,13,False,10
+Sprint 46,Notifications,Bob,QA1,High,Resolved,Test Coverage Miss,14,True,9
+Sprint 46,Notifications,Bob,QA1,Low,In Progress,Environment Issue,29,False,5
+Sprint 46,Notifications,Bob,QA1,Critical,In Progress,Requirement Gap,14,False,8
+Sprint 46,Notifications,Bob,QA1,Low,In Progress,Environment Issue,29,True,2
+Sprint 46,Notifications,Bob,QA1,Critical,Resolved,Code Issue,11,True,1
+Sprint 46,Notifications,Bob,QA1,Medium,In Progress,Code Issue,5,False,5
+Sprint 46,Notifications,Bob,QA1,Critical,Closed,Code Issue,28,True,9
+Sprint 46,Reports,David,QA2,Medium,In Progress,Environment Issue,16,True,3
+Sprint 46,Reports,David,QA2,Critical,Closed,Test Coverage Miss,21,False,1
+Sprint 46,Reports,David,QA2,Medium,Closed,Environment Issue,6,False,10
+Sprint 46,Reports,David,QA2,Medium,Closed,Requirement Gap,28,True,6
+Sprint 46,Dashboard,Charlie,QA3,Low,Resolved,Test Coverage Miss,21,False,2
+Sprint 46,Dashboard,Charlie,QA3,High,Resolved,Requirement Gap,19,True,8
+Sprint 46,Dashboard,Charlie,QA3,Medium,Open,Code Issue,29,False,4
+Sprint 46,Dashboard,Charlie,QA3,Critical,Closed,Test Coverage Miss,12,True,7
+Sprint 46,Dashboard,Charlie,QA3,Low,In Progress,Environment Issue,3,True,8
+Sprint 46,Dashboard,Charlie,QA3,High,In Progress,Requirement Gap,9,False,9
+Sprint 46,Dashboard,Charlie,QA3,High,In Progress,Environment Issue,9,True,7
+Sprint 46,Dashboard,Charlie,QA3,High,Closed,Environment Issue,29,True,9
+Sprint 47,Authentication,Alice,QA3,Critical,Resolved,Test Coverage Miss,2,True,3
+Sprint 47,Authentication,Alice,QA3,Low,Resolved,Requirement Gap,9,False,8
+Sprint 47,Billing,Frank,QA1,Low,In Progress,Test Coverage Miss,22,True,4
+Sprint 47,Billing,Frank,QA1,High,Closed,Test Coverage Miss,27,False,4
+Sprint 47,Billing,Frank,QA1,Critical,Resolved,Requirement Gap,16,True,3
+Sprint 47,Billing,Frank,QA1,Medium,Open,Code Issue,10,False,2
+Sprint 47,Billing,Frank,QA1,Low,Resolved,Test Coverage Miss,23,False,7
+Sprint 47,Payments,Frank,QA5,High,Resolved,Environment Issue,27,True,8
+Sprint 47,Payments,Frank,QA5,Medium,Open,Requirement Gap,17,False,9
+Sprint 47,Payments,Frank,QA5,Low,In Progress,Test Coverage Miss,23,False,2
+Sprint 47,Payments,Frank,QA5,High,In Progress,Code Issue,25,True,8
+Sprint 47,Payments,Frank,QA5,Medium,Closed,Code Issue,26,False,3
+Sprint 47,Payments,Frank,QA5,Critical,Closed,Code Issue,10,True,7
+Sprint 47,Notifications,Frank,QA2,Low,Open,Test Coverage Miss,11,False,10
+Sprint 47,Notifications,Frank,QA2,Low,Open,Requirement Gap,28,True,1
+Sprint 47,Notifications,Frank,QA2,Medium,In Progress,Test Coverage Miss,19,False,10
+Sprint 47,Notifications,Frank,QA2,Critical,Open,Code Issue,9,True,7
+Sprint 47,Notifications,Frank,QA2,Critical,Closed,Code Issue,7,True,8
+Sprint 47,Notifications,Frank,QA2,Medium,Closed,Environment Issue,23,True,6
+Sprint 47,Notifications,Frank,QA2,High,In Progress,Code Issue,4,False,6
+Sprint 47,Notifications,Frank,QA2,Critical,Resolved,Code Issue,29,False,8
+Sprint 47,Notifications,Frank,QA2,Critical,Resolved,Requirement Gap,3,True,9
+Sprint 47,Notifications,Frank,QA2,Medium,Open,Test Coverage Miss,12,False,10
+Sprint 47,Reports,Frank,QA2,High,In Progress,Environment Issue,8,True,1
+Sprint 47,Reports,Frank,QA2,Low,Open,Test Coverage Miss,2,True,8
+Sprint 47,Reports,Frank,QA2,Low,Closed,Environment Issue,9,True,7
+Sprint 47,Reports,Frank,QA2,Critical,Resolved,Test Coverage Miss,11,False,7
+Sprint 47,Reports,Frank,QA2,High,Resolved,Environment Issue,19,False,4
+Sprint 47,Reports,Frank,QA2,High,In Progress,Code Issue,21,True,8
+Sprint 47,Reports,Frank,QA2,Low,Open,Requirement Gap,9,True,1
+Sprint 47,Reports,Frank,QA2,High,Open,Requirement Gap,27,False,5
+Sprint 47,Reports,Frank,QA2,Medium,Resolved,Requirement Gap,10,False,5
+Sprint 47,Dashboard,Charlie,QA1,Critical,Resolved,Test Coverage Miss,14,True,4
+Sprint 47,Dashboard,Charlie,QA1,Low,Closed,Requirement Gap,7,True,5
+Sprint 47,Dashboard,Charlie,QA1,Medium,Resolved,Requirement Gap,20,True,10
+Sprint 47,Dashboard,Charlie,QA1,High,Closed,Environment Issue,2,True,3
+Sprint 47,Dashboard,Charlie,QA1,Critical,Closed,Requirement Gap,25,False,4
+Sprint 47,Dashboard,Charlie,QA1,High,Resolved,Code Issue,18,True,10
+Sprint 47,Dashboard,Charlie,QA1,Critical,Resolved,Environment Issue,17,True,5
+Sprint 47,Dashboard,Charlie,QA1,High,Open,Code Issue,6,True,7
+Sprint 47,Dashboard,Charlie,QA1,Medium,In Progress,Environment Issue,17,False,6
+Sprint 48,Authentication,Bob,QA2,Low,Resolved,Test Coverage Miss,2,True,4
+Sprint 48,Authentication,Bob,QA2,High,Resolved,Environment Issue,16,True,6
+Sprint 48,Authentication,Bob,QA2,Medium,Closed,Requirement Gap,6,False,2
+Sprint 48,Authentication,Bob,QA2,Medium,Open,Code Issue,27,False,7
+Sprint 48,Authentication,Bob,QA2,Low,In Progress,Requirement Gap,26,False,1
+Sprint 48,Authentication,Bob,QA2,Low,Resolved,Requirement Gap,23,True,3
+Sprint 48,Authentication,Bob,QA2,High,Open,Environment Issue,19,False,1
+Sprint 48,Authentication,Bob,QA2,Critical,Open,Environment Issue,17,True,9
+Sprint 48,Billing,Bob,QA4,Critical,In Progress,Environment Issue,21,True,8
+Sprint 48,Billing,Bob,QA4,Critical,Closed,Code Issue,8,False,1
+Sprint 48,Payments,David,QA5,High,Resolved,Environment Issue,9,False,10
+Sprint 48,Payments,David,QA5,Medium,In Progress,Test Coverage Miss,4,False,2
+Sprint 48,Payments,David,QA5,High,Resolved,Environment Issue,24,False,10
+Sprint 48,Payments,David,QA5,Critical,In Progress,Test Coverage Miss,24,False,7
+Sprint 48,Payments,David,QA5,Low,Open,Test Coverage Miss,2,False,6
+Sprint 48,Notifications,Charlie,QA1,Low,Resolved,Requirement Gap,28,False,6
+Sprint 48,Notifications,Charlie,QA1,High,In Progress,Code Issue,27,True,9
+Sprint 48,Notifications,Charlie,QA1,Low,Resolved,Environment Issue,1,False,10
+Sprint 48,Notifications,Charlie,QA1,Critical,Open,Environment Issue,17,True,1
+Sprint 48,Notifications,Charlie,QA1,Critical,Closed,Code Issue,1,False,6
+Sprint 48,Notifications,Charlie,QA1,Critical,Open,Test Coverage Miss,12,True,8
+Sprint 48,Notifications,Charlie,QA1,Critical,Open,Code Issue,27,False,8
+Sprint 48,Reports,Alice,QA3,High,Closed,Code Issue,1,True,2
+Sprint 48,Reports,Alice,QA3,Low,Resolved,Code Issue,3,False,1
+Sprint 48,Reports,Alice,QA3,Medium,Open,Requirement Gap,10,False,4
+Sprint 48,Reports,Alice,QA3,Medium,Open,Requirement Gap,2,False,7
+Sprint 48,Reports,Alice,QA3,Critical,Resolved,Environment Issue,2,True,4
+Sprint 48,Dashboard,David,QA2,Medium,In Progress,Requirement Gap,12,False,8
+Sprint 48,Dashboard,David,QA2,High,Resolved,Requirement Gap,15,False,9
+Sprint 48,Dashboard,David,QA2,Medium,In Progress,Requirement Gap,15,True,5
+Sprint 48,Dashboard,David,QA2,High,Open,Environment Issue,1,False,7
+Sprint 48,Dashboard,David,QA2,Medium,In Progress,Environment Issue,7,False,7
+Sprint 48,Dashboard,David,QA2,Low,Open,Test Coverage Miss,28,False,2
+Sprint 48,Dashboard,David,QA2,High,Open,Requirement Gap,28,False,9
+Sprint 48,Dashboard,David,QA2,High,Open,Environment Issue,9,True,6
+Sprint 48,Dashboard,David,QA2,High,In Progress,Environment Issue,21,False,3
+Sprint 48,Dashboard,David,QA2,Low,Resolved,Requirement Gap,10,True,6
+Sprint 49,Authentication,Eve,QA1,Low,Resolved,Environment Issue,29,True,10
+Sprint 49,Authentication,Eve,QA1,Critical,Resolved,Requirement Gap,1,True,6
+Sprint 49,Authentication,Eve,QA1,Low,Resolved,Environment Issue,30,False,9
+Sprint 49,Authentication,Eve,QA1,Critical,Open,Test Coverage Miss,8,False,10
+Sprint 49,Authentication,Eve,QA1,Medium,Closed,Requirement Gap,12,False,9
+Sprint 49,Billing,Frank,QA2,Low,Open,Environment Issue,21,False,1
+Sprint 49,Billing,Frank,QA2,High,Closed,Requirement Gap,4,False,6
+Sprint 49,Billing,Frank,QA2,High,Closed,Environment Issue,23,False,6
+Sprint 49,Payments,Eve,QA3,High,Resolved,Code Issue,2,False,1
+Sprint 49,Payments,Eve,QA3,Medium,Closed,Environment Issue,15,False,6
+Sprint 49,Payments,Eve,QA3,High,Closed,Requirement Gap,24,True,2
+Sprint 49,Payments,Eve,QA3,Low,Resolved,Code Issue,3,False,5
+Sprint 49,Notifications,Alice,QA4,Low,Resolved,Test Coverage Miss,12,False,6
+Sprint 49,Notifications,Alice,QA4,High,In Progress,Test Coverage Miss,15,True,4
+Sprint 49,Notifications,Alice,QA4,Low,In Progress,Environment Issue,23,False,2
+Sprint 49,Notifications,Alice,QA4,High,Resolved,Test Coverage Miss,7,False,5
+Sprint 49,Notifications,Alice,QA4,Critical,Open,Environment Issue,15,True,3
+Sprint 49,Notifications,Alice,QA4,High,In Progress,Test Coverage Miss,2,False,5
+Sprint 49,Notifications,Alice,QA4,Low,Closed,Test Coverage Miss,9,True,9
+Sprint 49,Notifications,Alice,QA4,Critical,In Progress,Requirement Gap,1,False,4
+Sprint 49,Notifications,Alice,QA4,Medium,In Progress,Test Coverage Miss,9,False,7
+Sprint 49,Reports,Frank,QA5,Low,Open,Environment Issue,1,True,9
+Sprint 49,Reports,Frank,QA5,Critical,In Progress,Environment Issue,18,False,10
+Sprint 49,Reports,Frank,QA5,Low,Closed,Environment Issue,16,True,7
+Sprint 49,Reports,Frank,QA5,Critical,In Progress,Environment Issue,4,True,2
+Sprint 49,Reports,Frank,QA5,Medium,Open,Environment Issue,10,False,7
+Sprint 49,Reports,Frank,QA5,Low,In Progress,Environment Issue,17,False,1
+Sprint 49,Reports,Frank,QA5,Medium,Resolved,Test Coverage Miss,18,True,2
+Sprint 49,Reports,Frank,QA5,Low,Resolved,Code Issue,19,False,4
+Sprint 49,Reports,Frank,QA5,Low,In Progress,Test Coverage Miss,28,False,9
+Sprint 49,Dashboard,Bob,QA4,High,Resolved,Code Issue,16,False,4
+Sprint 49,Dashboard,Bob,QA4,Medium,Resolved,Test Coverage Miss,18,False,4
+Sprint 49,Dashboard,Bob,QA4,Critical,Closed,Test Coverage Miss,15,True,2
+Sprint 49,Dashboard,Bob,QA4,Medium,Closed,Environment Issue,15,True,1
+Sprint 49,Dashboard,Bob,QA4,High,Closed,Test Coverage Miss,14,False,2
+Sprint 49,Dashboard,Bob,QA4,Medium,In Progress,Test Coverage Miss,21,True,9
+Sprint 49,Dashboard,Bob,QA4,Medium,Open,Environment Issue,29,True,5
+Sprint 50,Authentication,Eve,QA5,Medium,Resolved,Code Issue,1,True,2
+Sprint 50,Authentication,Eve,QA5,Low,In Progress,Requirement Gap,1,False,8
+Sprint 50,Authentication,Eve,QA5,Critical,Closed,Test Coverage Miss,29,False,4
+Sprint 50,Billing,Alice,QA4,Medium,In Progress,Environment Issue,10,False,3
+Sprint 50,Billing,Alice,QA4,Critical,Resolved,Code Issue,24,True,10
+Sprint 50,Billing,Alice,QA4,Critical,Resolved,Environment Issue,11,True,10
+Sprint 50,Billing,Alice,QA4,Medium,Resolved,Test Coverage Miss,20,False,10
+Sprint 50,Billing,Alice,QA4,Medium,In Progress,Environment Issue,20,False,1
+Sprint 50,Billing,Alice,QA4,Low,Open,Environment Issue,12,False,5
+Sprint 50,Billing,Alice,QA4,Low,Resolved,Code Issue,16,False,5
+Sprint 50,Billing,Alice,QA4,Low,Resolved,Environment Issue,12,True,2
+Sprint 50,Billing,Alice,QA4,High,Closed,Test Coverage Miss,12,True,6
+Sprint 50,Payments,David,QA2,Medium,Resolved,Requirement Gap,15,True,3
+Sprint 50,Payments,David,QA2,High,Resolved,Code Issue,9,False,9
+Sprint 50,Payments,David,QA2,Critical,Closed,Environment Issue,12,False,9
+Sprint 50,Payments,David,QA2,Low,Resolved,Test Coverage Miss,18,True,4
+Sprint 50,Payments,David,QA2,Critical,Resolved,Requirement Gap,9,False,3
+Sprint 50,Payments,David,QA2,Critical,Closed,Test Coverage Miss,11,True,4
+Sprint 50,Payments,David,QA2,High,Open,Requirement Gap,10,False,2
+Sprint 50,Notifications,Alice,QA2,Critical,Resolved,Requirement Gap,29,True,1
+Sprint 50,Notifications,Alice,QA2,High,Closed,Test Coverage Miss,19,True,7
+Sprint 50,Notifications,Alice,QA2,High,Closed,Test Coverage Miss,1,False,2
+Sprint 50,Notifications,Alice,QA2,Low,Closed,Environment Issue,10,False,6
+Sprint 50,Notifications,Alice,QA2,Medium,Closed,Environment Issue,4,True,5
+Sprint 50,Notifications,Alice,QA2,Low,In Progress,Requirement Gap,1,False,3
+Sprint 50,Notifications,Alice,QA2,Critical,Open,Test Coverage Miss,9,True,5
+Sprint 50,Notifications,Alice,QA2,Medium,In Progress,Test Coverage Miss,11,True,6
+Sprint 50,Notifications,Alice,QA2,Medium,Closed,Environment Issue,26,True,6
+Sprint 50,Notifications,Alice,QA2,Critical,Closed,Requirement Gap,15,True,6
+Sprint 50,Reports,Eve,QA4,High,Resolved,Code Issue,25,True,6
+Sprint 50,Reports,Eve,QA4,Medium,In Progress,Environment Issue,10,False,1
+Sprint 50,Reports,Eve,QA4,Critical,Resolved,Requirement Gap,3,True,10
+Sprint 50,Dashboard,Charlie,QA1,Low,Closed,Requirement Gap,27,True,3
+Sprint 50,Dashboard,Charlie,QA1,Medium,Resolved,Environment Issue,4,True,6
+Sprint 50,Dashboard,Charlie,QA1,High,Open,Requirement Gap,12,True,2
+Sprint 50,Dashboard,Charlie,QA1,Low,Closed,Test Coverage Miss,24,True,3
+Sprint 50,Dashboard,Charlie,QA1,Critical,Resolved,Test Coverage Miss,3,False,5
+Sprint 50,Dashboard,Charlie,QA1,High,Open,Code Issue,14,True,8
+Sprint 50,Dashboard,Charlie,QA1,Low,Open,Test Coverage Miss,19,False,10
+Sprint 50,Dashboard,Charlie,QA1,Medium,Closed,Requirement Gap,15,False,4
+Sprint 50,Dashboard,Charlie,QA1,High,Closed,Environment Issue,28,True,1

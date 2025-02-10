@@ -1,0 +1,351 @@
+Sprint,Module,Developer,BA,QA,Actual_Story_Points,Completed_Story_Points
+Sprint 1,Authentication,Eve,BA3,QA1,36,17
+Sprint 1,Billing,Charlie,BA3,QA3,39,14
+Sprint 1,Payments,David,BA3,QA3,24,19
+Sprint 1,Notifications,Frank,BA3,QA4,47,39
+Sprint 1,Reports,Charlie,BA3,QA5,22,18
+Sprint 1,Dashboard,Frank,BA3,QA3,27,26
+Sprint 1,Overall Team Velocity,N/A,N/A,N/A,N/A,133
+Sprint 2,Authentication,Charlie,BA3,QA4,15,13
+Sprint 2,Billing,Alice,BA3,QA3,38,35
+Sprint 2,Payments,Frank,BA1,QA4,19,18
+Sprint 2,Notifications,David,BA2,QA5,51,22
+Sprint 2,Reports,Alice,BA3,QA3,59,55
+Sprint 2,Dashboard,Charlie,BA1,QA4,31,31
+Sprint 2,Overall Team Velocity,N/A,N/A,N/A,N/A,174
+Sprint 3,Authentication,David,BA1,QA4,37,28
+Sprint 3,Billing,Charlie,BA3,QA4,53,27
+Sprint 3,Payments,David,BA1,QA2,45,39
+Sprint 3,Notifications,David,BA2,QA4,31,30
+Sprint 3,Reports,Alice,BA2,QA2,49,33
+Sprint 3,Dashboard,Eve,BA1,QA1,54,48
+Sprint 3,Overall Team Velocity,N/A,N/A,N/A,N/A,205
+Sprint 4,Authentication,Eve,BA3,QA5,30,10
+Sprint 4,Billing,Bob,BA3,QA2,29,25
+Sprint 4,Payments,Charlie,BA3,QA5,21,19
+Sprint 4,Notifications,Eve,BA3,QA1,41,28
+Sprint 4,Reports,Frank,BA3,QA1,54,20
+Sprint 4,Dashboard,Eve,BA1,QA2,49,36
+Sprint 4,Overall Team Velocity,N/A,N/A,N/A,N/A,138
+Sprint 5,Authentication,Charlie,BA3,QA1,19,11
+Sprint 5,Billing,Alice,BA1,QA3,15,13
+Sprint 5,Payments,Eve,BA3,QA3,43,14
+Sprint 5,Notifications,Frank,BA3,QA2,45,22
+Sprint 5,Reports,Bob,BA1,QA1,15,15
+Sprint 5,Dashboard,Eve,BA1,QA1,38,30
+Sprint 5,Overall Team Velocity,N/A,N/A,N/A,N/A,105
+Sprint 6,Authentication,Frank,BA1,QA2,60,56
+Sprint 6,Billing,Bob,BA1,QA2,60,48
+Sprint 6,Payments,Charlie,BA1,QA3,58,54
+Sprint 6,Notifications,Charlie,BA3,QA5,57,49
+Sprint 6,Reports,Frank,BA1,QA1,51,27
+Sprint 6,Dashboard,Alice,BA1,QA4,35,28
+Sprint 6,Overall Team Velocity,N/A,N/A,N/A,N/A,262
+Sprint 7,Authentication,Alice,BA1,QA2,53,29
+Sprint 7,Billing,Frank,BA3,QA2,54,40
+Sprint 7,Payments,Bob,BA1,QA2,52,11
+Sprint 7,Notifications,Bob,BA3,QA3,44,13
+Sprint 7,Reports,Bob,BA3,QA3,35,16
+Sprint 7,Dashboard,Charlie,BA2,QA5,47,39
+Sprint 7,Overall Team Velocity,N/A,N/A,N/A,N/A,148
+Sprint 8,Authentication,David,BA2,QA5,46,24
+Sprint 8,Billing,David,BA3,QA2,27,11
+Sprint 8,Payments,Bob,BA2,QA4,18,10
+Sprint 8,Notifications,Charlie,BA1,QA2,36,34
+Sprint 8,Reports,Frank,BA3,QA3,18,10
+Sprint 8,Dashboard,David,BA1,QA5,16,12
+Sprint 8,Overall Team Velocity,N/A,N/A,N/A,N/A,101
+Sprint 9,Authentication,David,BA1,QA5,37,23
+Sprint 9,Billing,Eve,BA1,QA5,36,18
+Sprint 9,Payments,Charlie,BA3,QA5,57,30
+Sprint 9,Notifications,Alice,BA1,QA1,56,23
+Sprint 9,Reports,Frank,BA1,QA2,52,22
+Sprint 9,Dashboard,Bob,BA1,QA4,39,39
+Sprint 9,Overall Team Velocity,N/A,N/A,N/A,N/A,155
+Sprint 10,Authentication,Alice,BA1,QA1,32,20
+Sprint 10,Billing,Alice,BA2,QA3,33,17
+Sprint 10,Payments,Eve,BA2,QA2,57,37
+Sprint 10,Notifications,Eve,BA3,QA3,36,16
+Sprint 10,Reports,Bob,BA1,QA4,23,12
+Sprint 10,Dashboard,Charlie,BA1,QA3,15,10
+Sprint 10,Overall Team Velocity,N/A,N/A,N/A,N/A,112
+Sprint 11,Authentication,Alice,BA2,QA4,56,10
+Sprint 11,Billing,Alice,BA1,QA1,17,12
+Sprint 11,Payments,Alice,BA3,QA2,19,11
+Sprint 11,Notifications,Frank,BA3,QA2,27,24
+Sprint 11,Reports,Eve,BA1,QA4,38,10
+Sprint 11,Dashboard,Alice,BA2,QA5,55,45
+Sprint 11,Overall Team Velocity,N/A,N/A,N/A,N/A,112
+Sprint 12,Authentication,Frank,BA2,QA5,23,18
+Sprint 12,Billing,Eve,BA1,QA1,58,24
+Sprint 12,Payments,Frank,BA3,QA5,47,47
+Sprint 12,Notifications,Alice,BA1,QA5,47,30
+Sprint 12,Reports,Eve,BA1,QA3,51,45
+Sprint 12,Dashboard,Bob,BA2,QA4,17,12
+Sprint 12,Overall Team Velocity,N/A,N/A,N/A,N/A,176
+Sprint 13,Authentication,Eve,BA3,QA2,33,11
+Sprint 13,Billing,Alice,BA1,QA3,15,14
+Sprint 13,Payments,Alice,BA2,QA1,59,44
+Sprint 13,Notifications,Alice,BA3,QA5,15,10
+Sprint 13,Reports,Eve,BA3,QA1,44,15
+Sprint 13,Dashboard,Alice,BA3,QA4,26,12
+Sprint 13,Overall Team Velocity,N/A,N/A,N/A,N/A,106
+Sprint 14,Authentication,Charlie,BA2,QA4,53,48
+Sprint 14,Billing,Frank,BA1,QA1,23,13
+Sprint 14,Payments,Bob,BA2,QA3,50,42
+Sprint 14,Notifications,Eve,BA3,QA3,19,10
+Sprint 14,Reports,Alice,BA1,QA5,52,44
+Sprint 14,Dashboard,Eve,BA3,QA5,52,35
+Sprint 14,Overall Team Velocity,N/A,N/A,N/A,N/A,192
+Sprint 15,Authentication,Bob,BA1,QA1,38,36
+Sprint 15,Billing,Eve,BA1,QA3,17,12
+Sprint 15,Payments,David,BA1,QA5,48,22
+Sprint 15,Notifications,Charlie,BA1,QA3,39,30
+Sprint 15,Reports,Charlie,BA3,QA1,45,39
+Sprint 15,Dashboard,Alice,BA2,QA2,39,22
+Sprint 15,Overall Team Velocity,N/A,N/A,N/A,N/A,161
+Sprint 16,Authentication,Eve,BA1,QA4,30,17
+Sprint 16,Billing,Alice,BA1,QA3,17,16
+Sprint 16,Payments,Frank,BA3,QA4,58,24
+Sprint 16,Notifications,David,BA3,QA2,53,18
+Sprint 16,Reports,Bob,BA1,QA1,49,24
+Sprint 16,Dashboard,Bob,BA3,QA4,36,27
+Sprint 16,Overall Team Velocity,N/A,N/A,N/A,N/A,126
+Sprint 17,Authentication,Alice,BA2,QA1,39,23
+Sprint 17,Billing,David,BA2,QA5,47,41
+Sprint 17,Payments,Frank,BA3,QA2,17,15
+Sprint 17,Notifications,David,BA1,QA2,36,31
+Sprint 17,Reports,Frank,BA3,QA2,34,34
+Sprint 17,Dashboard,Charlie,BA1,QA1,45,37
+Sprint 17,Overall Team Velocity,N/A,N/A,N/A,N/A,181
+Sprint 18,Authentication,Charlie,BA3,QA3,28,28
+Sprint 18,Billing,Frank,BA2,QA1,28,26
+Sprint 18,Payments,Alice,BA2,QA3,50,35
+Sprint 18,Notifications,Bob,BA3,QA4,41,16
+Sprint 18,Reports,Frank,BA3,QA3,30,21
+Sprint 18,Dashboard,David,BA1,QA1,56,38
+Sprint 18,Overall Team Velocity,N/A,N/A,N/A,N/A,164
+Sprint 19,Authentication,Frank,BA1,QA1,27,14
+Sprint 19,Billing,David,BA2,QA4,41,35
+Sprint 19,Payments,David,BA1,QA3,53,25
+Sprint 19,Notifications,Charlie,BA2,QA5,32,29
+Sprint 19,Reports,Alice,BA2,QA3,29,25
+Sprint 19,Dashboard,Bob,BA2,QA2,18,18
+Sprint 19,Overall Team Velocity,N/A,N/A,N/A,N/A,146
+Sprint 20,Authentication,Charlie,BA2,QA1,33,30
+Sprint 20,Billing,Bob,BA2,QA1,16,10
+Sprint 20,Payments,Frank,BA3,QA1,35,10
+Sprint 20,Notifications,Frank,BA1,QA1,35,27
+Sprint 20,Reports,Frank,BA1,QA2,38,24
+Sprint 20,Dashboard,Eve,BA3,QA3,55,32
+Sprint 20,Overall Team Velocity,N/A,N/A,N/A,N/A,133
+Sprint 21,Authentication,Bob,BA3,QA3,57,43
+Sprint 21,Billing,David,BA2,QA5,24,21
+Sprint 21,Payments,Eve,BA3,QA1,37,30
+Sprint 21,Notifications,Eve,BA3,QA3,57,41
+Sprint 21,Reports,Bob,BA3,QA2,39,10
+Sprint 21,Dashboard,Frank,BA3,QA4,40,22
+Sprint 21,Overall Team Velocity,N/A,N/A,N/A,N/A,167
+Sprint 22,Authentication,Eve,BA3,QA4,57,28
+Sprint 22,Billing,Eve,BA3,QA5,34,31
+Sprint 22,Payments,Bob,BA3,QA1,51,16
+Sprint 22,Notifications,Charlie,BA1,QA2,18,18
+Sprint 22,Reports,Alice,BA2,QA1,51,27
+Sprint 22,Dashboard,David,BA3,QA1,53,53
+Sprint 22,Overall Team Velocity,N/A,N/A,N/A,N/A,173
+Sprint 23,Authentication,Charlie,BA2,QA3,19,12
+Sprint 23,Billing,Frank,BA3,QA3,47,31
+Sprint 23,Payments,Frank,BA2,QA3,31,14
+Sprint 23,Notifications,Eve,BA3,QA2,16,12
+Sprint 23,Reports,David,BA2,QA2,54,37
+Sprint 23,Dashboard,Bob,BA1,QA5,49,37
+Sprint 23,Overall Team Velocity,N/A,N/A,N/A,N/A,143
+Sprint 24,Authentication,Bob,BA1,QA2,32,23
+Sprint 24,Billing,Frank,BA3,QA1,47,16
+Sprint 24,Payments,Eve,BA3,QA1,43,32
+Sprint 24,Notifications,David,BA3,QA1,59,37
+Sprint 24,Reports,Charlie,BA3,QA3,31,28
+Sprint 24,Dashboard,Eve,BA3,QA3,49,44
+Sprint 24,Overall Team Velocity,N/A,N/A,N/A,N/A,180
+Sprint 25,Authentication,Frank,BA2,QA1,43,40
+Sprint 25,Billing,David,BA2,QA3,20,19
+Sprint 25,Payments,David,BA1,QA2,26,21
+Sprint 25,Notifications,Frank,BA1,QA5,54,44
+Sprint 25,Reports,Eve,BA2,QA2,55,12
+Sprint 25,Dashboard,Frank,BA3,QA1,59,26
+Sprint 25,Overall Team Velocity,N/A,N/A,N/A,N/A,162
+Sprint 26,Authentication,Eve,BA2,QA1,28,25
+Sprint 26,Billing,Frank,BA2,QA2,49,29
+Sprint 26,Payments,Eve,BA1,QA3,28,21
+Sprint 26,Notifications,Frank,BA3,QA4,15,10
+Sprint 26,Reports,Eve,BA2,QA5,45,31
+Sprint 26,Dashboard,Alice,BA3,QA3,23,15
+Sprint 26,Overall Team Velocity,N/A,N/A,N/A,N/A,131
+Sprint 27,Authentication,Bob,BA1,QA5,17,11
+Sprint 27,Billing,Frank,BA1,QA5,52,37
+Sprint 27,Payments,Alice,BA3,QA1,57,15
+Sprint 27,Notifications,David,BA2,QA3,39,39
+Sprint 27,Reports,Alice,BA2,QA5,48,14
+Sprint 27,Dashboard,Eve,BA3,QA5,45,39
+Sprint 27,Overall Team Velocity,N/A,N/A,N/A,N/A,155
+Sprint 28,Authentication,David,BA2,QA5,54,48
+Sprint 28,Billing,David,BA3,QA1,27,23
+Sprint 28,Payments,Bob,BA2,QA2,60,54
+Sprint 28,Notifications,Frank,BA1,QA4,42,12
+Sprint 28,Reports,Charlie,BA3,QA1,33,24
+Sprint 28,Dashboard,Charlie,BA2,QA1,44,32
+Sprint 28,Overall Team Velocity,N/A,N/A,N/A,N/A,193
+Sprint 29,Authentication,Alice,BA2,QA3,48,29
+Sprint 29,Billing,Charlie,BA1,QA3,30,15
+Sprint 29,Payments,Eve,BA3,QA5,27,24
+Sprint 29,Notifications,Frank,BA1,QA3,31,23
+Sprint 29,Reports,Eve,BA1,QA5,41,26
+Sprint 29,Dashboard,Frank,BA1,QA4,39,26
+Sprint 29,Overall Team Velocity,N/A,N/A,N/A,N/A,143
+Sprint 30,Authentication,Alice,BA1,QA2,24,19
+Sprint 30,Billing,David,BA2,QA1,34,29
+Sprint 30,Payments,Alice,BA2,QA1,59,57
+Sprint 30,Notifications,David,BA3,QA3,40,37
+Sprint 30,Reports,Bob,BA3,QA4,53,50
+Sprint 30,Dashboard,David,BA2,QA2,21,12
+Sprint 30,Overall Team Velocity,N/A,N/A,N/A,N/A,204
+Sprint 31,Authentication,Frank,BA2,QA2,35,35
+Sprint 31,Billing,Frank,BA2,QA1,46,32
+Sprint 31,Payments,Charlie,BA3,QA1,52,29
+Sprint 31,Notifications,Charlie,BA1,QA2,52,36
+Sprint 31,Reports,Charlie,BA1,QA2,48,42
+Sprint 31,Dashboard,Eve,BA3,QA2,53,11
+Sprint 31,Overall Team Velocity,N/A,N/A,N/A,N/A,185
+Sprint 32,Authentication,Eve,BA2,QA5,21,21
+Sprint 32,Billing,Charlie,BA3,QA3,18,12
+Sprint 32,Payments,Alice,BA3,QA1,59,26
+Sprint 32,Notifications,David,BA1,QA5,58,18
+Sprint 32,Reports,Eve,BA3,QA5,16,13
+Sprint 32,Dashboard,Bob,BA3,QA4,35,32
+Sprint 32,Overall Team Velocity,N/A,N/A,N/A,N/A,122
+Sprint 33,Authentication,Alice,BA3,QA2,42,15
+Sprint 33,Billing,Eve,BA2,QA2,16,10
+Sprint 33,Payments,Alice,BA2,QA2,49,49
+Sprint 33,Notifications,Alice,BA3,QA1,26,23
+Sprint 33,Reports,Alice,BA1,QA1,15,11
+Sprint 33,Dashboard,David,BA2,QA3,27,24
+Sprint 33,Overall Team Velocity,N/A,N/A,N/A,N/A,132
+Sprint 34,Authentication,Eve,BA2,QA5,60,48
+Sprint 34,Billing,Alice,BA1,QA5,27,19
+Sprint 34,Payments,Frank,BA3,QA5,53,18
+Sprint 34,Notifications,Frank,BA3,QA4,40,39
+Sprint 34,Reports,Eve,BA3,QA4,22,11
+Sprint 34,Dashboard,Alice,BA2,QA2,51,21
+Sprint 34,Overall Team Velocity,N/A,N/A,N/A,N/A,156
+Sprint 35,Authentication,Alice,BA3,QA3,43,18
+Sprint 35,Billing,David,BA2,QA1,47,40
+Sprint 35,Payments,David,BA2,QA1,44,29
+Sprint 35,Notifications,Eve,BA3,QA2,22,16
+Sprint 35,Reports,Frank,BA3,QA3,37,14
+Sprint 35,Dashboard,Alice,BA1,QA4,60,37
+Sprint 35,Overall Team Velocity,N/A,N/A,N/A,N/A,154
+Sprint 36,Authentication,David,BA1,QA1,42,22
+Sprint 36,Billing,Bob,BA3,QA5,53,33
+Sprint 36,Payments,Charlie,BA2,QA4,19,12
+Sprint 36,Notifications,Eve,BA2,QA3,60,24
+Sprint 36,Reports,Bob,BA3,QA1,18,14
+Sprint 36,Dashboard,Alice,BA3,QA1,59,51
+Sprint 36,Overall Team Velocity,N/A,N/A,N/A,N/A,156
+Sprint 37,Authentication,Eve,BA3,QA4,47,21
+Sprint 37,Billing,Alice,BA2,QA3,39,12
+Sprint 37,Payments,Charlie,BA3,QA5,44,21
+Sprint 37,Notifications,Bob,BA2,QA5,31,12
+Sprint 37,Reports,Frank,BA3,QA3,19,11
+Sprint 37,Dashboard,Frank,BA3,QA1,25,21
+Sprint 37,Overall Team Velocity,N/A,N/A,N/A,N/A,98
+Sprint 38,Authentication,Charlie,BA2,QA2,36,33
+Sprint 38,Billing,Frank,BA3,QA4,40,11
+Sprint 38,Payments,Charlie,BA3,QA4,57,37
+Sprint 38,Notifications,Charlie,BA2,QA5,27,26
+Sprint 38,Reports,Bob,BA3,QA1,45,28
+Sprint 38,Dashboard,Charlie,BA3,QA4,42,20
+Sprint 38,Overall Team Velocity,N/A,N/A,N/A,N/A,155
+Sprint 39,Authentication,Charlie,BA3,QA1,46,11
+Sprint 39,Billing,Alice,BA2,QA5,59,18
+Sprint 39,Payments,Frank,BA3,QA2,32,22
+Sprint 39,Notifications,Frank,BA3,QA2,34,26
+Sprint 39,Reports,Frank,BA2,QA2,36,21
+Sprint 39,Dashboard,Charlie,BA1,QA4,45,16
+Sprint 39,Overall Team Velocity,N/A,N/A,N/A,N/A,114
+Sprint 40,Authentication,Eve,BA3,QA1,55,10
+Sprint 40,Billing,Charlie,BA1,QA4,25,25
+Sprint 40,Payments,David,BA1,QA2,34,22
+Sprint 40,Notifications,David,BA3,QA2,49,44
+Sprint 40,Reports,Alice,BA1,QA2,42,32
+Sprint 40,Dashboard,Eve,BA2,QA4,48,42
+Sprint 40,Overall Team Velocity,N/A,N/A,N/A,N/A,175
+Sprint 41,Authentication,Bob,BA1,QA5,57,17
+Sprint 41,Billing,Alice,BA2,QA5,41,22
+Sprint 41,Payments,Frank,BA1,QA5,58,45
+Sprint 41,Notifications,Eve,BA3,QA5,28,14
+Sprint 41,Reports,Bob,BA1,QA5,40,16
+Sprint 41,Dashboard,David,BA1,QA2,42,36
+Sprint 41,Overall Team Velocity,N/A,N/A,N/A,N/A,150
+Sprint 42,Authentication,Frank,BA3,QA5,33,30
+Sprint 42,Billing,Bob,BA2,QA2,40,21
+Sprint 42,Payments,Alice,BA2,QA5,37,34
+Sprint 42,Notifications,Frank,BA1,QA1,39,27
+Sprint 42,Reports,David,BA1,QA4,19,18
+Sprint 42,Dashboard,Frank,BA3,QA3,45,10
+Sprint 42,Overall Team Velocity,N/A,N/A,N/A,N/A,140
+Sprint 43,Authentication,Bob,BA3,QA2,38,26
+Sprint 43,Billing,Frank,BA1,QA5,15,10
+Sprint 43,Payments,Alice,BA2,QA1,44,36
+Sprint 43,Notifications,Alice,BA2,QA1,24,17
+Sprint 43,Reports,Bob,BA1,QA1,15,15
+Sprint 43,Dashboard,Bob,BA3,QA3,59,25
+Sprint 43,Overall Team Velocity,N/A,N/A,N/A,N/A,129
+Sprint 44,Authentication,Frank,BA3,QA3,39,26
+Sprint 44,Billing,Frank,BA2,QA4,56,19
+Sprint 44,Payments,Charlie,BA1,QA4,21,10
+Sprint 44,Notifications,Frank,BA3,QA3,28,28
+Sprint 44,Reports,Alice,BA3,QA5,55,40
+Sprint 44,Dashboard,Bob,BA3,QA5,37,34
+Sprint 44,Overall Team Velocity,N/A,N/A,N/A,N/A,157
+Sprint 45,Authentication,Frank,BA2,QA2,50,11
+Sprint 45,Billing,David,BA1,QA1,17,17
+Sprint 45,Payments,Frank,BA3,QA2,17,17
+Sprint 45,Notifications,Alice,BA3,QA4,47,33
+Sprint 45,Reports,Alice,BA2,QA5,59,28
+Sprint 45,Dashboard,Alice,BA1,QA3,42,11
+Sprint 45,Overall Team Velocity,N/A,N/A,N/A,N/A,117
+Sprint 46,Authentication,Eve,BA3,QA3,49,13
+Sprint 46,Billing,Bob,BA1,QA1,16,16
+Sprint 46,Payments,Bob,BA3,QA2,43,39
+Sprint 46,Notifications,Bob,BA3,QA2,29,28
+Sprint 46,Reports,Bob,BA2,QA5,20,11
+Sprint 46,Dashboard,David,BA2,QA4,16,12
+Sprint 46,Overall Team Velocity,N/A,N/A,N/A,N/A,119
+Sprint 47,Authentication,Bob,BA1,QA3,57,43
+Sprint 47,Billing,Bob,BA2,QA4,28,24
+Sprint 47,Payments,Charlie,BA1,QA1,44,26
+Sprint 47,Notifications,Charlie,BA3,QA1,31,23
+Sprint 47,Reports,Bob,BA2,QA5,31,27
+Sprint 47,Dashboard,David,BA3,QA4,32,30
+Sprint 47,Overall Team Velocity,N/A,N/A,N/A,N/A,173
+Sprint 48,Authentication,Eve,BA1,QA3,57,28
+Sprint 48,Billing,Alice,BA2,QA5,48,46
+Sprint 48,Payments,Bob,BA3,QA2,29,27
+Sprint 48,Notifications,Charlie,BA2,QA4,39,17
+Sprint 48,Reports,Bob,BA3,QA5,20,12
+Sprint 48,Dashboard,Alice,BA3,QA5,34,24
+Sprint 48,Overall Team Velocity,N/A,N/A,N/A,N/A,154
+Sprint 49,Authentication,Frank,BA2,QA4,55,33
+Sprint 49,Billing,Frank,BA2,QA5,47,43
+Sprint 49,Payments,Bob,BA3,QA1,40,23
+Sprint 49,Notifications,Frank,BA1,QA2,42,23
+Sprint 49,Reports,Charlie,BA2,QA1,54,22
+Sprint 49,Dashboard,Alice,BA3,QA2,26,15
+Sprint 49,Overall Team Velocity,N/A,N/A,N/A,N/A,159
+Sprint 50,Authentication,Alice,BA1,QA2,23,22
+Sprint 50,Billing,Eve,BA1,QA1,24,21
+Sprint 50,Payments,Alice,BA1,QA2,53,47
+Sprint 50,Notifications,Alice,BA1,QA1,47,37
+Sprint 50,Reports,Eve,BA2,QA5,41,17
+Sprint 50,Dashboard,Bob,BA1,QA3,18,11
+Sprint 50,Overall Team Velocity,N/A,N/A,N/A,N/A,155
